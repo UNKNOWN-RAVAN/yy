@@ -13,6 +13,12 @@
       "description": "CW Login API"
     },
     {
+      "name": "kgs2",
+      "api": "https://kgs-dusky.vercel.app/batches",
+      "url": "allow_all",
+      "description": "CW Login API"
+    },
+    {
       "name": "RWA2",
       "api": "https://spidyuniverserwa.vercel.app/api",
       "url": "allow_all",
@@ -65,6 +71,6 @@
     "updatedAt": "2024-01-15T10:00:00.000Z",
     "updatedBy": "ravan_admin",
     "version": "1.0",
-    "totalAPIs": 10
+    "totalAPIs": 11
   }
 }
