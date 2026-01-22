@@ -16,7 +16,7 @@
       "name": "kgs2",
       "api": "https://kgs-dusky.vercel.app/batches",
       "url": "allow_all",
-      "description": "CW Login API"
+      "description": "KGS 2"
     },
     {
       "name": "RWA2",
