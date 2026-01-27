@@ -1,0 +1,295 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAVAN - Batches</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-dark: #1a237e;
+      --primary-light: #3f51b5;
+      --accent: #ffb300;
+      --bg1: #f8faff;
+      --bg2: #fff8e1;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --text-color: #222;
+      --shadow-light: rgba(0, 0, 0, 0.05);
+      --shadow-strong: rgba(0, 0, 0, 0.2);
+      --radius: 16px;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(180deg, var(--bg1), var(--bg2), #ffeb99, #fdd835);
+      background-size: 100% 400%;
+      animation: gradientFlow 8s ease-in-out infinite alternate;
+      color: var(--text-color);
+    }
+
+    @keyframes gradientFlow {
+      0% { background-position: 0% 0%; }
+      100% { background-position: 0% 100%; }
+    }
+
+    /* HEADER */
+    .common-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      background: linear-gradient(90deg, var(--primary-dark), var(--primary-light));
+      color: #fff;
+      box-shadow: 0 4px 15px var(--shadow-strong);
+    }
+
+    .back-button {
+      position: absolute;
+      left: 1rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .back-button:hover {
+      background: #fbc02d;
+      transform: translateY(-2px);
+    }
+
+    .header-title {
+      font-size: 1.7rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #fff, #ffd54f, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.5px;
+    }
+
+    /* SEARCH */
+    .controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5rem auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 22px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      transition: 0.3s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      box-shadow: 0 4px 20px var(--accent);
+      transform: scale(1.02);
+    }
+
+    /* GRID */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    /* CARD */
+    .card {
+      position: relative;
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(8px);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 12px 30px rgba(255, 183, 77, 0.5);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 3px solid #ffd54f;
+    }
+
+    .card-content {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 130px;
+    }
+
+    .card-content h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1a237e;
+      margin-bottom: 6px;
+    }
+
+    .card-content p {
+      font-size: 0.9rem;
+      color: #444;
+    }
+
+    .btn-fav {
+      align-self: flex-start;
+      margin-top: 12px;
+      padding: 8px 16px;
+      border: 2px solid var(--primary-dark);
+      background: transparent;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-fav.active {
+      background: linear-gradient(90deg, #ffd54f, #ffb300);
+      color: #1a237e;
+      border: none;
+      box-shadow: 0 0 12px rgba(255, 204, 0, 0.6);
+      font-weight: 600;
+    }
+
+    .btn-fav:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .header-title { font-size: 1.3rem; }
+      .card img { height: 160px; }
+    }
+  </style>
+<style type="text/css">* {user-select: auto !important; -webkit-user-select: auto !important;}</style><input type="hidden" id="inject_idm_text_selection"><style></style></head>
+
+<body>
+  <header class="common-header">
+    <button class="back-button" onclick="location.href='/home'">
+      <span class="material-icons">arrow_back</span>
+      Back
+    </button>
+    <h1 class="header-title">RAVAN</h1>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="search" class="search-input" placeholder="🔍 Search batches..." oninput="filterBatches()">
+  </div>
+
+  <div class="grid-container" id="batchesGrid"><p style="text-align:center;">Loading batches...</p></div>
+
+  <script>
+    let allBatches = [];
+
+    async function loadBatches() {
+      const grid = document.getElementById('batchesGrid');
+      grid.innerHTML = '<p style="text-align:center;">Loading batches...</p>';
+      try {
+        const res = await fetch('https://sunnyji7256.github.io/kgs_batch_list/New_Sunny.json');
+        allBatches = await res.json();
+        renderBatches(allBatches);
+      } catch (e) {
+        grid.innerHTML = '<p>Error loading batches.</p>';
+      }
+    }
+
+    function isFav(id) {
+      const favs = JSON.parse(localStorage.getItem('favouriteCourses') || '[]');
+      return favs.some(f => String(f.id) === String(id));
+    }
+
+    function toggleFav(batch) {
+      let favs = JSON.parse(localStorage.getItem('favouriteCourses') || '[]');
+      const exists = favs.some(f => String(f.id) === String(batch.id));
+      if (exists) {
+        favs = favs.filter(f => String(f.id) !== String(batch.id));
+      } else {
+        favs.push(batch);
+      }
+      localStorage.setItem('favouriteCourses', JSON.stringify(favs));
+      filterBatches();
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return 'N/A';
+      const date = new Date(dateStr);
+      const options = { day: '2-digit', month: 'short', year: 'numeric' };
+      return date.toLocaleDateString('en-GB', options).replace(/ /g, ' ');
+    }
+
+    function renderBatches(list) {
+      const grid = document.getElementById('batchesGrid');
+      grid.innerHTML = '';
+      if (list.length === 0) {
+        grid.innerHTML = '<p style="text-align:center;">No batches found.</p>';
+        return;
+      }
+
+      list.forEach(b => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.addEventListener('click', () => window.location = '/batch/' + b.id);
+
+        const img = document.createElement('img');
+        img.src = b.image_large || '';
+        card.appendChild(img);
+
+        const content = document.createElement('div');
+        content.className = 'card-content';
+
+        const h3 = document.createElement('h3');
+        h3.textContent = b.title || '';
+
+        const p = document.createElement('p');
+        p.textContent = 'Start: ' + formatDate(b.start_at);
+
+        const btn = document.createElement('button');
+        btn.className = 'btn-fav' + (isFav(b.id) ? ' active' : '');
+        btn.textContent = isFav(b.id) ? '★ Favorited' : '☆ Add to Favorites';
+        btn.addEventListener('click', ev => { ev.stopPropagation(); toggleFav(b); });
+
+        content.appendChild(h3);
+        content.appendChild(p);
+        content.appendChild(btn);
+        card.appendChild(content);
+        grid.appendChild(card);
+      });
+    }
+
+    function filterBatches() {
+      const q = document.getElementById('search').value.toLowerCase();
+      renderBatches(allBatches.filter(b => b.title.toLowerCase().includes(q)));
+    }
+
+    window.addEventListener('DOMContentLoaded', loadBatches);
+  </script>
+
+</body></html>
