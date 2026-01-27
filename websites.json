@@ -1,0 +1,24 @@
+{
+  "websites": [
+    {
+      "url": "https://mystudyhub.shop/",
+      "name": "ALL",
+      "rav": "STUDY_HUB"
+    },
+    {
+      "url": "https://scammer-cw-web.netlify.app/",
+      "name": "CW",
+      "rav": "CAREERWILL"
+    },
+    {
+      "url": "https://spidyutkarsh.vercel.app/",
+      "name": "UTK",
+      "rav": "UTKARSH"
+    },
+    {
+      "url": "https://spidyuniverserwa.vercel.app/",
+      "name": "Rwa",
+      "rav": "RWA"
+    }
+  ]
+}
