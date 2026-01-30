@@ -1,0 +1,12 @@
+{
+  "players": [
+    {
+      "name": "PLAYER",
+      "url": "https://spidyuniverserwa.vercel.app/player?url=${encoded_link}&Title&App_name"
+    },
+    {
+      "name": "OLD",
+      "url": "https://stream.mystudyhub.shop/proxy?url=${encoded_link}&Title&App_name"
+    }
+  ]
+}
