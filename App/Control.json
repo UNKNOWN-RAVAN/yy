@@ -1,7 +1,7 @@
 {
   "app": {
-    "version": "2.5.0",
-    "force_update": true,
+    "version": "2.4.0",
+    "force_update": false,
     "update_link": "https://play.google.com/store/apps/details?id=com.example.app",
     "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
     "title": "App Update Available",
