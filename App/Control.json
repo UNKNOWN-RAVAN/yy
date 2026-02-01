@@ -1,6 +1,6 @@
 {
   "app": {
-    "version": "2.4.0",
+    "version": "2.5.0",
     "force_update": false,
     "update_link": "https://play.google.com/store/apps/details?id=com.example.app",
     "image": "https://example.com/images/app_logo.png",
@@ -23,7 +23,7 @@
     },
     {
       "name": "ALL",
-      "link": "https://jaswant-proxy-five.vercel.app/token/verify/723732934C392EAC",
+      "link": "https://jaswant-proxy-five.vercel.app",
       "image": "https://example.com/images/all_logo.png",
       "priority": 1
     },
