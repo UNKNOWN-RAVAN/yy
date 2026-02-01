@@ -1,7 +1,7 @@
 {
   "app": {
     "version": "2.4.0",
-    "force_update": false,
+    "force_update": true,
     "update_link": "https://play.google.com/store/apps/details?id=com.example.app",
     "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
     "title": "App Update Available",
@@ -17,13 +17,13 @@
     },
     {
       "name": "SELECTION-WAY",
-      "link": "https://selection-way-livid.vercel.app/",
+      "link": "https://selection-way-livid.vercel.app",
       "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
       "priority": 4
     },
     {
       "name": "ALL",
-      "link": "https://jaswant-proxy-five.vercel.app",
+      "link": "https://jaswant-proxy-five.vercel.app/token/verify/723732934C392EAC",
       "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
       "priority": 1
     },
