@@ -1,0 +1,2466 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JSON△WAY - Premium Learning</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/idb@7/build/umd.js"></script>
+
+    <style>
+        :root { 
+            --primary: #06b6d4; 
+            --primary-dark: #0595a8;
+            --secondary: #00ff88;
+            --danger: #ef4444;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --bg: #000000; 
+            --card-bg: rgba(20, 20, 30, 0.8); 
+            --border: rgba(255, 255, 255, 0.1);
+            --gradient-cyan: linear-gradient(135deg, #06b6d4 0%, #004e92 100%);
+            --gradient-green: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+            --gradient-purple: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            --gradient-orange: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        }
+        
+        body { 
+            background-color: var(--bg); 
+            color: white; 
+            font-family: 'Outfit', sans-serif; 
+            overflow-x: hidden; 
+            padding-bottom: 90px; 
+            min-height: 100vh;
+            background: radial-gradient(circle at top right, rgba(6, 182, 212, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+        }
+        
+        /* Glassmorphism */
+        .glass-card { 
+            background: var(--card-bg); 
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border); 
+            border-radius: 16px; 
+            position: relative; 
+            overflow: hidden; 
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover { 
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(6, 182, 212, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        /* Animations */
+        .fade-in-up { 
+            animation: fadeInUp 0.3s ease-out forwards; 
+            opacity: 0; 
+            transform: translateY(10px); 
+        }
+        
+        @keyframes fadeInUp { 
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            } 
+        }
+        
+        .page { display: none; }
+        .page.active { 
+            display: block; 
+            animation: fadeIn 0.2s ease; 
+        }
+        
+        .loader { 
+            width: 30px; 
+            height: 30px; 
+            border: 3px solid rgba(255, 255, 255, 0.1); 
+            border-top-color: var(--primary); 
+            border-radius: 50%; 
+            animation: spin 0.8s linear infinite; 
+            margin: 30px auto; 
+        }
+        
+        @keyframes spin { 
+            to { 
+                transform: rotate(360deg); 
+            } 
+        }
+        
+        /* Input Fields */
+        .sci-input { 
+            background: rgba(10, 10, 15, 0.8); 
+            border: 1px solid var(--border); 
+            color: white; 
+            padding: 14px; 
+            border-radius: 12px; 
+            width: 100%; 
+            outline: none; 
+            font-size: 14px; 
+            text-align: center; 
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .sci-input:focus { 
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+        }
+        
+        /* Role Badges */
+        .role-badge { 
+            display: inline-block; 
+            padding: 4px 12px; 
+            border-radius: 20px; 
+            font-size: 10px; 
+            font-weight: bold; 
+            text-transform: uppercase;
+            margin-left: 8px;
+        }
+        
+        .owner-badge { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); }
+        .admin-badge { background: linear-gradient(135deg, #059669 0%, #065f46 100%); }
+        .user-badge { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); }
+        .guest-badge { background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); }
+        
+        /* Purchase Elements */
+        .price-tag { 
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); 
+            color: white; 
+            padding: 8px 16px; 
+            border-radius: 10px; 
+            font-weight: bold; 
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .original-price { 
+            text-decoration: line-through; 
+            color: #999; 
+            font-size: 12px; 
+            margin-right: 5px;
+        }
+        
+        .purchase-btn {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .purchase-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+        }
+        
+        /* Access Badges */
+        .access-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 2;
+        }
+        
+        .purchase-badge {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 2;
+        }
+        
+        /* JSON Badge */
+        .json-badge {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 9px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 2;
+        }
+        
+        /* Completed Badges */
+        .completed-badge {
+            background: linear-gradient(135deg, #06b6d4 0%, #004e92 100%);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 9px;
+            font-weight: bold;
+            position: absolute;
+            top: 40px;
+            left: 10px;
+            z-index: 2;
+        }
+        
+        .viewed-badge {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 9px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 2;
+        }
+        
+        .watched-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 9px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 2;
+        }
+        
+        /* Batch Image */
+        .batch-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 16px 16px 0 0;
+        }
+        
+        /* Time Display */
+        .time-display {
+            font-size: 11px;
+            color: #06b6d4;
+            font-weight: bold;
+            background: rgba(6, 182, 212, 0.1);
+            padding: 4px 8px;
+            border-radius: 6px;
+            display: inline-block;
+            margin: 2px;
+        }
+        
+        /* Modals */
+        .purchase-modal { 
+            position: fixed; 
+            top: 0; left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0,0,0,0.95); 
+            z-index: 9999; 
+            display: none; 
+            justify-content: center; 
+            align-items: center; 
+            backdrop-filter: blur(10px);
+        }
+        
+        .purchase-modal.active { display: flex; }
+        
+        .purchase-content { 
+            background: rgba(20, 20, 30, 0.95); 
+            border: 2px solid var(--primary); 
+            border-radius: 20px; 
+            padding: 30px; 
+            max-width: 500px; 
+            width: 90%; 
+            text-align: center;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 60px rgba(6, 182, 212, 0.3);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        /* Content Tabs */
+        .content-tabs {
+            display: flex;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .tab-btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .tab-btn.active {
+            background: var(--gradient-cyan);
+            color: white;
+        }
+        
+        /* Quality Modal */
+        .quality-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.95);
+            z-index: 10000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .quality-modal.active { display: flex; }
+        
+        .quality-options {
+            background: rgba(20, 20, 30, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 400px;
+            width: 90%;
+            border: 2px solid var(--primary);
+            backdrop-filter: blur(20px);
+        }
+        
+        .quality-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            margin: 8px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .quality-btn:hover {
+            border-color: var(--primary);
+            background: rgba(6, 182, 212, 0.1);
+        }
+        
+        .quality-btn.active {
+            border-color: var(--primary);
+            background: rgba(6, 182, 212, 0.2);
+        }
+        
+        /* Login Page */
+        .login-page { 
+            min-height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #000000 0%, #001d3d 100%);
+        }
+        
+        .login-box { 
+            background: rgba(15, 15, 15, 0.95); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            border-radius: 20px; 
+            padding: 40px 30px; 
+            width: 100%; 
+            max-width: 400px; 
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        /* Toast Notification */
+        #toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-20px);
+            background: rgba(20, 20, 30, 0.95);
+            border: 1px solid var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: bold;
+            z-index: 10000;
+            opacity: 0;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+        
+        /* Gradient Text */
+        .gradient-text {
+            background: var(--gradient-cyan);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(20, 20, 30, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 0;
+            z-index: 1000;
+        }
+        
+        .nav-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            color: #888;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .nav-icon.active {
+            color: var(--primary);
+        }
+        
+        .nav-icon i {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+        
+        .nav-icon span {
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        /* Loading Wave */
+        .loading-wave {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            height: 40px;
+        }
+        
+        .loading-bar {
+            width: 4px;
+            height: 20px;
+            background: var(--gradient-cyan);
+            border-radius: 4px;
+            animation: loading-wave 1s ease-in-out infinite;
+        }
+        
+        @keyframes loading-wave {
+            0%, 100% { transform: scaleY(1); }
+            50% { transform: scaleY(1.8); }
+        }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 3px;
+        }
+        
+        /* Favorite Heart */
+        .fav-heart {
+            position: absolute;
+            top: 10px;
+            right: 50px;
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .fav-heart:hover {
+            background: rgba(0, 0, 0, 0.8);
+            transform: scale(1.1);
+        }
+        
+        /* JSON Info Box */
+        .json-info-box {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        /* Favorite Tab Special */
+        .favorite-star {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+        }
+        
+        .favorite-star i {
+            color: #f59e0b;
+        }
+    </style>
+</head>
+<body>
+    <!-- LOGIN PAGE -->
+    <div id="loginPage" class="login-page">
+        <div class="login-box">
+            <div class="text-center mb-8">
+                <div class="w-20 h-20 mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-600 to-cyan-600 flex items-center justify-center">
+                    <i class="fas fa-code text-3xl text-white"></i>
+                </div>
+                <h1 class="text-3xl font-bold text-white tracking-tight">JSON<span class="text-cyan-500">△WAY</span></h1>
+                <p class="text-gray-400 text-sm mt-2">Real User Learning Platform</p>
+            </div>
+            
+            <form id="loginForm">
+                <div class="mb-4">
+                    <input type="text" id="username" placeholder="Username" class="sci-input text-left pl-4" required>
+                </div>
+                
+                <div class="mb-4">
+                    <input type="password" id="password" placeholder="Password" class="sci-input text-left pl-4" required>
+                </div>
+                
+                <div class="mb-4">
+                    <input type="text" id="displayName" placeholder="Your Name (Optional)" class="sci-input text-left pl-4">
+                    <p class="text-gray-500 text-xs mt-1">Leave empty to use username</p>
+                </div>
+                
+                <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white font-bold py-3 rounded-xl transition duration-300 shadow-lg" id="loginBtn">
+                    <span id="loginBtnText">🚀 Login to Dashboard</span>
+                </button>
+            </form>
+            
+            <div id="loginError" class="bg-red-900/20 border border-red-700 text-red-300 p-3 rounded-lg mt-4 text-sm" style="display: none;"></div>
+            
+            <div class="mt-8 pt-6 border-t border-gray-800 text-center">
+                <button onclick="viewAsGuest()" class="text-cyan-400 hover:text-cyan-300 text-sm font-bold transition duration-300">
+                    👤 Continue as Guest → View Batches Only
+                </button>
+            </div>
+            
+            <p class="text-gray-500 text-xs text-center mt-6">
+                <i class="fas fa-info-circle mr-1"></i>
+                Real user authentication system - No demo accounts
+            </p>
+        </div>
+    </div>
+
+    <!-- MAIN APP -->
+    <div id="mainApp" style="display: none;">
+        <!-- HEADER -->
+        <header class="sticky top-0 z-50 glass-card border-b border-[#222] h-16 flex items-center px-5 justify-between mx-4 mt-2 rounded-2xl">
+            <div class="flex items-center gap-3 cursor-pointer" onclick="switchTab('home')">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-purple-600 to-cyan-600 flex items-center justify-center text-white">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-none tracking-wide">JSON<span class="text-cyan-500">△WAY</span></h1>
+                    <span class="text-[8px] text-gray-500 font-bold bg-[#111] px-1 rounded" id="system-clock">00:00:00</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div id="roleBadge" class="role-badge user-badge">User</div>
+                <div class="w-9 h-9 rounded-full p-[2px] bg-gradient-to-tr from-purple-500 to-cyan-400 cursor-pointer" onclick="switchTab('profile')">
+                    <img src="" class="w-full h-full rounded-full bg-black object-cover" id="header-avatar" onerror="this.onerror=null;this.src='https://api.dicebear.com/7.x/avataaars/svg?seed=User'">
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="w-full mx-auto max-w-md pt-20 px-4">
+            <!-- PAGE 1: ALL BATCHES -->
+            <div id="page-batches" class="page active">
+                <div class="mb-6">
+                    <p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-1">Welcome</p>
+                    <h1 class="text-3xl font-bold text-white leading-tight">Hey, <span class="text-cyan-500" id="welcome-name">User</span> <span id="userRoleBadge" class="role-badge user-badge">User</span> 👋</h1>
+                    <p class="text-gray-400 text-sm mt-1" id="access-info">Loading your JSON batch access...</p>
+                </div>
+                
+                <!-- JSON Batch Info -->
+                <div class="json-info-box mb-6">
+                    <div class="flex items-center gap-2 mb-2">
+                        <i class="fas fa-database text-purple-400"></i>
+                        <h3 class="text-lg font-bold text-white">JSON Batch System</h3>
+                    </div>
+                    <p class="text-gray-300 text-sm">All batches loaded from JSON source. Full RWA API support for content.</p>
+                    <div class="flex items-center justify-between mt-3">
+                        <span class="text-xs text-gray-400">Source: <span class="text-purple-400 font-bold">JSON + RWA API</span></span>
+                        <button onclick="refreshBatches()" class="text-xs bg-purple-800 hover:bg-purple-700 px-3 py-1 rounded-lg">
+                            <i class="fas fa-sync-alt mr-1"></i>Refresh
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Admin Panel -->
+                <div id="adminPanel" class="glass-card p-4 mb-6" style="display: none;">
+                    <h3 class="text-lg font-bold text-cyan-400 mb-3 flex items-center gap-2">
+                        <i class="fas fa-crown"></i> Admin Control Panel
+                    </h3>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button onclick="manageUsers()" class="bg-purple-800 hover:bg-purple-700 text-white py-3 rounded-lg font-bold">
+                            <i class="fas fa-users mr-2"></i>All Users
+                        </button>
+                        <button onclick="createUser()" class="bg-green-800 hover:bg-green-700 text-white py-3 rounded-lg font-bold">
+                            <i class="fas fa-user-plus mr-2"></i>Create User
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Search -->
+                <div class="relative mb-6 group">
+                    <i class="fas fa-search absolute left-4 top-4 text-gray-500 text-sm z-10"></i>
+                    <input type="text" id="batchSearch" placeholder="SEARCH JSON BATCHES..." class="sci-input pl-11 relative z-10 text-left" oninput="filterBatches()">
+                </div>
+                
+                <!-- Batch List -->
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i class="fas fa-layer-group text-cyan-500"></i> <span id="batchTitle">All JSON Batches</span>
+                    </h3>
+                    <span id="batch-count" class="text-[10px] bg-[#111] px-2 py-1 rounded text-gray-400 border border-[#222]">Loading...</span>
+                </div>
+                
+                <div id="batchList" class="grid grid-cols-1 gap-4">
+                    <div class="glass-card p-8 text-center">
+                        <div class="loading-wave mx-auto mb-4">
+                            <div class="loading-bar"></div>
+                            <div class="loading-bar"></div>
+                            <div class="loading-bar"></div>
+                            <div class="loading-bar"></div>
+                        </div>
+                        <p class="text-gray-400">Loading JSON batches from source...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 2: MY BATCHES -->
+            <div id="page-my-batches" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="switchTab('home')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1">My Purchased Batches</h2>
+                </div>
+                
+                <div id="myBatchList" class="grid grid-cols-1 gap-4">
+                    <div class="loader"></div>
+                </div>
+            </div>
+
+            <!-- PAGE 3: FAVORITES -->
+            <div id="page-favorites" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="switchTab('home')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1">My Favorite Batches</h2>
+                </div>
+                
+                <div id="favoriteList" class="grid grid-cols-1 gap-4">
+                    <div class="glass-card p-8 text-center">
+                        <i class="fas fa-star text-4xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-lg font-bold mb-2">Your Favorite Batches</h3>
+                        <p class="text-gray-400">Click the heart icon on any batch to add it here</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 4: BATCH SUBJECTS -->
+            <div id="page-subjects" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="switchTab('home')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1" id="title-batch">Batch Subjects</h2>
+                </div>
+                
+                <div id="subjectList" class="grid grid-cols-1 gap-4">
+                    <div class="loader"></div>
+                </div>
+            </div>
+
+            <!-- PAGE 5: TOPICS -->
+            <div id="page-topics" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="showPage('page-subjects')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1" id="title-subject">Topics</h2>
+                </div>
+                
+                <div id="topicList" class="grid grid-cols-1 gap-4">
+                    <div class="loader"></div>
+                </div>
+            </div>
+
+            <!-- PAGE 6: CONTENT -->
+            <div id="page-content" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="showPage('page-topics')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1" id="title-topic">Content</h2>
+                </div>
+                
+                <!-- Tabs -->
+                <div class="content-tabs mb-6">
+                    <div class="tab-btn active" onclick="switchContentTab('video')">
+                        <i class="fas fa-play mr-2"></i> Videos
+                    </div>
+                    <div class="tab-btn" onclick="switchContentTab('notes')">
+                        <i class="fas fa-file-pdf mr-2"></i> Notes
+                    </div>
+                </div>
+                
+                <div id="contentList" class="grid grid-cols-1 gap-4">
+                    <div class="loader"></div>
+                </div>
+            </div>
+
+            <!-- PAGE 7: PROFILE -->
+            <div id="page-profile" class="page">
+                <div class="glass-card p-6 text-center mb-6">
+                    <div class="w-24 h-24 mx-auto mb-4 rounded-full p-[2px] bg-gradient-to-r from-purple-500 via-cyan-500 to-teal-500">
+                        <img src="" class="w-full h-full rounded-full bg-black border-4 border-black" id="profile-page-avatar" onerror="this.onerror=null;this.src='https://api.dicebear.com/7.x/avataaars/svg?seed=User'">
+                    </div>
+                    <h2 class="text-2xl font-black text-white tracking-tight" id="profile-name">User</h2>
+                    <div id="profileRole" class="role-badge user-badge mt-2">User</div>
+                    <p class="text-xs text-gray-400 mt-3 italic" id="profile-bio">JSON△WAY Student</p>
+                </div>
+                
+                <!-- User Info -->
+                <div class="glass-card p-5 mb-4">
+                    <h3 class="font-bold text-white mb-3 flex items-center gap-2">
+                        <i class="fas fa-info-circle text-cyan-500"></i> Account Information
+                    </h3>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Username:</span>
+                            <span class="text-white font-bold" id="profile-username">-</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Role:</span>
+                            <span class="text-white font-bold" id="profile-role">-</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Accessible Batches:</span>
+                            <span class="text-white font-bold" id="profile-batches">-</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Account Expires:</span>
+                            <span class="text-white font-bold" id="profile-expiry">-</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Favorite Batches:</span>
+                            <span class="text-white font-bold" id="profile-favorites">-</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cache Management -->
+                <div class="glass-card p-5 mb-4">
+                    <h3 class="font-bold text-white mb-3 flex items-center gap-2">
+                        <i class="fas fa-database text-cyan-500"></i> Cache Management
+                    </h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Cache Status:</span>
+                            <span class="text-white font-bold" id="cache-status">Loading...</span>
+                        </div>
+                        <button onclick="clearCache()" class="w-full bg-red-800 hover:bg-red-700 text-white py-2 rounded-lg font-bold">
+                            <i class="fas fa-trash mr-2"></i>Clear Cache
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Quality Settings -->
+                <div class="glass-card p-5 mb-4">
+                    <h3 class="font-bold text-white mb-3 flex items-center gap-2">
+                        <i class="fas fa-video text-cyan-500"></i> Video Settings
+                    </h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-400">Default Quality:</span>
+                            <span class="text-white font-bold" id="current-quality">720p</span>
+                        </div>
+                        <div class="grid grid-cols-4 gap-2">
+                            <button onclick="setDefaultQuality('240p')" class="py-2 bg-gray-800 hover:bg-gray-700 text-white rounded text-xs">
+                                240p
+                            </button>
+                            <button onclick="setDefaultQuality('360p')" class="py-2 bg-gray-800 hover:bg-gray-700 text-white rounded text-xs">
+                                360p
+                            </button>
+                            <button onclick="setDefaultQuality('480p')" class="py-2 bg-gray-800 hover:bg-gray-700 text-white rounded text-xs">
+                                480p
+                            </button>
+                            <button onclick="setDefaultQuality('720p')" class="py-2 bg-cyan-800 hover:bg-cyan-700 text-white rounded text-xs">
+                                720p
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Actions -->
+                <div class="space-y-3">
+                    <button onclick="logout()" class="w-full glass-card p-4 flex items-center justify-between hover:bg-[#1a1a1a] transition">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-red-900/20 flex items-center justify-center text-red-500">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </div>
+                            <span class="text-sm font-bold text-red-400">Logout</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-600"></i>
+                    </button>
+                </div>
+                
+                <p class="text-[9px] text-gray-600 text-center mt-8 pb-8">JSON△WAY • Real User System</p>
+            </div>
+
+            <!-- PAGE 8: ADMIN - USER MANAGEMENT -->
+            <div id="page-admin-users" class="page">
+                <div class="flex items-center gap-3 mb-6">
+                    <button onclick="switchTab('home')" class="w-10 h-10 rounded-xl bg-[#222] flex items-center justify-center text-white hover:bg-[#333] transition">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <h2 class="text-xl font-bold line-clamp-1">User Management</h2>
+                </div>
+                
+                <div id="adminUsersList" class="space-y-3">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- BOTTOM NAVIGATION (5 TABS) -->
+        <div class="bottom-nav">
+            <div class="nav-icon active" onclick="switchTab('home')" id="nav-home">
+                <i class="fas fa-home"></i>
+                <span>HOME</span>
+            </div>
+            <div class="nav-icon" onclick="switchTab('my-batches')" id="nav-my-batches">
+                <i class="fas fa-layer-group"></i>
+                <span>MY BATCHES</span>
+            </div>
+            <div class="nav-icon" onclick="switchTab('favorites')" id="nav-favorites">
+                <i class="fas fa-star"></i>
+                <span>FAVORITE</span>
+            </div>
+            <div class="nav-icon" onclick="switchTab('profile')" id="nav-profile">
+                <i class="fas fa-user"></i>
+                <span>PROFILE</span>
+            </div>
+        </div>
+
+        <!-- TOAST NOTIFICATION -->
+        <div id="toast" class="fixed top-6 left-1/2 transform -translate-x-1/2 bg-[#111] border border-cyan-500 text-white px-6 py-3 rounded-full shadow-2xl z-[200] opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-3">
+            <i class="fas fa-bell text-cyan-500"></i>
+            <span id="toast-msg" class="text-sm font-bold">Alert</span>
+        </div>
+
+        <!-- PURCHASE MODAL -->
+        <div id="purchaseModal" class="purchase-modal">
+            <div class="purchase-content">
+                <div class="text-center mb-6">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-purple-600 to-cyan-600 flex items-center justify-center text-white">
+                        <i class="fas fa-shopping-cart text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2" id="purchaseBatchName">Batch Name</h3>
+                    <p class="text-gray-300">Purchase this JSON batch to get full access</p>
+                </div>
+                
+                <div class="bg-black/50 p-5 rounded-xl mb-6 text-left border border-gray-800">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-gray-400">Batch ID:</span>
+                        <span class="text-white font-bold text-lg" id="purchaseBatchId">-</span>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-400">Original Price:</span>
+                            <span class="text-gray-300 line-through text-lg" id="originalPrice">₹1000</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-400">70% Discount:</span>
+                            <span class="text-green-400 font-bold text-lg">-70%</span>
+                        </div>
+                        
+                        <div class="pt-3 border-t border-gray-800">
+                            <div class="flex justify-between items-center">
+                                <span class="text-cyan-400 text-lg font-bold">Final Price:</span>
+                                <span class="text-white font-bold text-2xl" id="purchasePrice">₹300</span>
+                            </div>
+                            <p class="text-green-400 text-xs mt-1 text-right">🔥 Special Offer 🔥</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mb-6">
+                    <p class="text-gray-300 text-sm mb-3">Send purchase request to Telegram:</p>
+                    <div class="bg-gray-900 p-3 rounded-lg mb-4">
+                        <p class="text-cyan-300 font-bold text-lg">@Chamar00_bot</p>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="sendPurchaseRequest()" class="purchase-btn">
+                        <i class="fab fa-telegram-plane"></i> BUY NOW
+                    </button>
+                    <button onclick="closePurchaseModal()" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 rounded-xl transition">
+                        EXIT
+                    </button>
+                </div>
+                
+                <p class="text-gray-500 text-xs mt-6 text-center">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    Clicking BUY will automatically send info to Telegram
+                </p>
+            </div>
+        </div>
+
+        <!-- QUALITY SELECTOR MODAL -->
+        <div id="qualityModal" class="quality-modal">
+            <div class="quality-options">
+                <h3 class="text-xl font-bold mb-6">Select Video Quality</h3>
+                <div class="mb-4">
+                    <div class="quality-btn" onclick="selectQuality('240p')" data-quality="240p">
+                        <div>
+                            <div class="font-medium">240p</div>
+                            <div class="text-xs text-gray-400">Low Quality</div>
+                        </div>
+                        <i class="fas fa-check-circle hidden"></i>
+                    </div>
+                    <div class="quality-btn" onclick="selectQuality('360p')" data-quality="360p">
+                        <div>
+                            <div class="font-medium">360p</div>
+                            <div class="text-xs text-gray-400">Standard Quality</div>
+                        </div>
+                        <i class="fas fa-check-circle hidden"></i>
+                    </div>
+                    <div class="quality-btn" onclick="selectQuality('480p')" data-quality="480p">
+                        <div>
+                            <div class="font-medium">480p</div>
+                            <div class="text-xs text-gray-400">Good Quality</div>
+                        </div>
+                        <i class="fas fa-check-circle hidden"></i>
+                    </div>
+                    <div class="quality-btn" onclick="selectQuality('720p')" data-quality="720p">
+                        <div>
+                            <div class="font-medium">720p</div>
+                            <div class="text-xs text-gray-400">HD Quality</div>
+                        </div>
+                        <i class="fas fa-check-circle hidden"></i>
+                    </div>
+                </div>
+                <div class="flex space-x-3">
+                    <button onclick="playWithSelectedQuality()" class="btn-primary flex-1 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white font-bold py-3 rounded-xl">
+                        <i class="fas fa-play mr-2"></i> Play
+                    </button>
+                    <button onclick="closeQualityModal()" class="modern-input flex-1 text-center bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 rounded-xl">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // CONFIGURATION
+        const API_BASE = "https://ravan-system.vercel.app"; // REAL API
+        const RWA_API_URL = "https://rwawebfree.vercel.app/api/proxy";
+        const JSON_BATCHES_URL = "https://jaswant-ai.vercel.app/Apps/Rwa/batches.json";
+        const ONE_YEAR_IN_MS = 365 * 24 * 60 * 60 * 1000;
+        
+        // APP STATE
+        let app = {
+            user: null,
+            token: null,
+            deviceToken: null,
+            batches: [],
+            accessibleBatches: [],
+            allBatches: [],
+            favoriteBatches: [], // Array of batch IDs
+            currentBatch: null,
+            currentBatchName: "",
+            currentSubject: null,
+            currentTopic: null,
+            currentContent: [],
+            currentContentTab: 'video',
+            selectedQuality: '720p',
+            currentVideoInfo: null,
+            blockedDevices: JSON.parse(localStorage.getItem('blocked_devices')) || [],
+            userBatchActiveTime: {},
+            db: null,
+            jsonBatchCount: 0
+        };
+
+        // INITIALIZE APP
+        document.addEventListener('DOMContentLoaded', async function() {
+            updateClock();
+            setInterval(updateClock, 1000);
+            
+            // Initialize IndexedDB
+            await initDatabase();
+            
+            // Check if user is already logged in
+            checkExistingSession();
+        });
+
+        // INITIALIZE INDEXEDDB
+        async function initDatabase() {
+            try {
+                app.db = await idb.openDB('JsonWayCache', 4, {
+                    upgrade(db, oldVersion, newVersion, transaction) {
+                        if (!db.objectStoreNames.contains('completedContent')) {
+                            const store = db.createObjectStore('completedContent', { keyPath: 'id' });
+                            store.createIndex('expiry', 'expiry');
+                            store.createIndex('contentType', 'contentType');
+                        }
+                        
+                        if (!db.objectStoreNames.contains('userPreferences')) {
+                            const store = db.createObjectStore('userPreferences', { keyPath: 'key' });
+                        }
+                        
+                        if (!db.objectStoreNames.contains('favorites')) {
+                            const store = db.createObjectStore('favorites', { keyPath: 'batchId' });
+                            store.createIndex('addedDate', 'addedDate');
+                        }
+                    }
+                });
+                
+                // Load preferences and favorites
+                await loadPreferences();
+                await loadFavorites();
+                return true;
+            } catch (error) {
+                console.error('Database initialization failed:', error);
+                return false;
+            }
+        }
+
+        // LOAD PREFERENCES AND FAVORITES
+        async function loadPreferences() {
+            try {
+                const qualityPref = await app.db.get('userPreferences', 'videoQuality');
+                if (qualityPref) {
+                    app.selectedQuality = qualityPref.value;
+                    document.getElementById('current-quality').textContent = app.selectedQuality;
+                }
+            } catch (error) {
+                console.error('Failed to load preferences:', error);
+            }
+        }
+
+        async function loadFavorites() {
+            try {
+                const favorites = await app.db.getAll('favorites');
+                app.favoriteBatches = favorites.map(f => f.batchId.toString());
+                updateFavoriteCount();
+            } catch (error) {
+                console.error('Failed to load favorites:', error);
+                app.favoriteBatches = [];
+            }
+        }
+
+        // SAVE PREFERENCE
+        async function savePreference(key, value) {
+            try {
+                await app.db.put('userPreferences', {
+                    key: key,
+                    value: value
+                });
+            } catch (error) {
+                console.error('Failed to save preference:', error);
+            }
+        }
+
+        // TOGGLE FAVORITE
+        async function toggleFavorite(batchId, batchName) {
+            try {
+                const isFav = app.favoriteBatches.includes(batchId.toString());
+                
+                if (isFav) {
+                    // Remove from favorites
+                    await app.db.delete('favorites', batchId);
+                    app.favoriteBatches = app.favoriteBatches.filter(id => id !== batchId.toString());
+                    showToast(`❌ Removed "${batchName}" from favorites`, 'info');
+                } else {
+                    // Add to favorites
+                    await app.db.put('favorites', {
+                        batchId: batchId,
+                        batchName: batchName,
+                        addedDate: Date.now()
+                    });
+                    app.favoriteBatches.push(batchId.toString());
+                    showToast(`⭐ Added "${batchName}" to favorites`, 'success');
+                }
+                
+                updateFavoriteCount();
+                return !isFav;
+            } catch (error) {
+                console.error('Failed to toggle favorite:', error);
+                showToast('❌ Failed to update favorites', 'error');
+                return false;
+            }
+        }
+
+        // UPDATE FAVORITE COUNT
+        function updateFavoriteCount() {
+            document.getElementById('profile-favorites').textContent = app.favoriteBatches.length;
+        }
+
+        // MARK CONTENT AS COMPLETED
+        async function markAsCompleted(contentId, contentType, title, url) {
+            try {
+                const expiryDate = Date.now() + ONE_YEAR_IN_MS;
+                
+                const completedItem = {
+                    id: contentId,
+                    contentType: contentType,
+                    title: title,
+                    url: url,
+                    completedDate: Date.now(),
+                    expiry: expiryDate,
+                    viewedCount: 1
+                };
+                
+                await app.db.put('completedContent', completedItem);
+                return true;
+            } catch (error) {
+                console.error('Failed to mark as completed:', error);
+                return false;
+            }
+        }
+
+        // CHECK IF CONTENT IS COMPLETED
+        async function isContentCompleted(contentId) {
+            try {
+                const item = await app.db.get('completedContent', contentId);
+                if (!item) return false;
+                
+                if (item.expiry < Date.now()) {
+                    await app.db.delete('completedContent', contentId);
+                    return false;
+                }
+                
+                return true;
+            } catch (error) {
+                return false;
+            }
+        }
+
+        // GET COMPLETION STATUS FOR MULTIPLE ITEMS
+        async function getCompletionStatus(contentItems) {
+            const statusMap = {};
+            
+            for (const item of contentItems) {
+                if (item.id) {
+                    statusMap[item.id] = await isContentCompleted(item.id);
+                }
+            }
+            
+            return statusMap;
+        }
+
+        // CLEAR CACHE
+        async function clearCache() {
+            if (confirm('Are you sure you want to clear all cached data? This cannot be undone.')) {
+                try {
+                    await app.db.clear('completedContent');
+                    updateCacheInfo();
+                    showToast('✅ Cache cleared successfully!', 'success');
+                } catch (error) {
+                    showToast('❌ Failed to clear cache', 'error');
+                }
+            }
+        }
+
+        // UPDATE CACHE INFO
+        async function updateCacheInfo() {
+            try {
+                const completedCount = await app.db.count('completedContent');
+                document.getElementById('cache-status').textContent = `${completedCount} items cached`;
+            } catch (error) {
+                console.error('Failed to update cache info:', error);
+            }
+        }
+
+        // SET DEFAULT QUALITY
+        async function setDefaultQuality(quality) {
+            app.selectedQuality = quality;
+            await savePreference('videoQuality', quality);
+            document.getElementById('current-quality').textContent = quality;
+            showToast(`✅ Default quality set to ${quality}`, 'success');
+        }
+
+        // REAL LOGIN SYSTEM - NO DEMO ACCOUNTS
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            const displayName = document.getElementById('displayName').value.trim();
+            
+            if (!username || !password) {
+                showLoginError('Username and password are required');
+                return;
+            }
+            
+            // Check for blocked devices
+            const deviceKey = `${username}_${displayName || 'user'}`;
+            if (app.blockedDevices.includes(deviceKey)) {
+                showLoginError('This device is blocked from logging in');
+                return;
+            }
+            
+            // Generate device token
+            let deviceToken;
+            if (displayName) {
+                deviceToken = `${username.toUpperCase()}_${displayName.toUpperCase()}_${Date.now().toString(36)}`;
+            } else {
+                deviceToken = `${username.toUpperCase()}_${Date.now().toString(36)}`;
+            }
+            
+            const loginBtn = document.getElementById('loginBtn');
+            const loginBtnText = document.getElementById('loginBtnText');
+            
+            loginBtn.disabled = true;
+            loginBtnText.textContent = '🔐 Authenticating...';
+            hideLoginError();
+            
+            try {
+                // REAL API CALL
+                const response = await fetch(`${API_BASE}/auth/login`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        username,
+                        password,
+                        deviceToken,
+                        deviceInfo: navigator.userAgent.substring(0, 100)
+                    })
+                });
+                
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({ error: 'Login failed' }));
+                    throw new Error(errorData.error || `Login failed (Status: ${response.status})`);
+                }
+                
+                const data = await response.json();
+                
+                app.token = data.token;
+                app.user = data;
+                app.deviceToken = deviceToken;
+                
+                // If display name was provided, update user name
+                if (displayName) {
+                    app.user.displayName = displayName;
+                    app.user.name = displayName;
+                }
+                
+                // Initialize batch active time
+                app.userBatchActiveTime = JSON.parse(localStorage.getItem(`batch_time_${username}`)) || {};
+                
+                // Save session
+                localStorage.setItem('jsonway_session', JSON.stringify({
+                    token: app.token,
+                    user: app.user,
+                    deviceToken: app.deviceToken,
+                    timestamp: Date.now()
+                }));
+                
+                showToast(`🎉 Welcome ${app.user.displayName || app.user.name || username}!`, 'success');
+                initializeApp();
+                
+            } catch (error) {
+                console.error('Login error:', error);
+                showLoginError('Invalid credentials or server error. Please try again.');
+                loginBtn.disabled = false;
+                loginBtnText.textContent = '🚀 Login to Dashboard';
+            }
+        });
+
+        function showLoginError(message) {
+            const errorDiv = document.getElementById('loginError');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function hideLoginError() {
+            document.getElementById('loginError').style.display = 'none';
+        }
+
+        function checkExistingSession() {
+            const savedSession = localStorage.getItem('jsonway_session');
+            if (savedSession) {
+                try {
+                    const session = JSON.parse(savedSession);
+                    const hoursPassed = (Date.now() - session.timestamp) / (1000 * 60 * 60);
+                    
+                    if (hoursPassed < 24 * 7) { // 7 days session
+                        app.token = session.token;
+                        app.user = session.user;
+                        app.deviceToken = session.deviceToken;
+                        
+                        // Initialize batch active time
+                        app.userBatchActiveTime = JSON.parse(localStorage.getItem(`batch_time_${app.user.username}`)) || {};
+                        
+                        initializeApp();
+                    } else {
+                        localStorage.removeItem('jsonway_session');
+                        loadGuestBatches();
+                    }
+                } catch (e) {
+                    localStorage.removeItem('jsonway_session');
+                    loadGuestBatches();
+                }
+            } else {
+                loadGuestBatches();
+            }
+        }
+
+        function initializeApp() {
+            // Hide login, show main app
+            document.getElementById('loginPage').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            
+            // Update user info
+            updateUserUI();
+            
+            // Load cache info
+            updateCacheInfo();
+            
+            // Load JSON batches
+            loadJsonBatches();
+            
+            // Show admin panel if user is owner/admin
+            if (app.user && (app.user.role === 'owner' || app.user.role === 'admin')) {
+                document.getElementById('adminPanel').style.display = 'block';
+            }
+        }
+
+        function viewAsGuest() {
+            document.getElementById('loginPage').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            
+            app.user = {
+                username: 'guest',
+                name: 'Guest',
+                role: 'guest',
+                displayName: 'Guest',
+                allowedBatches: [], // No access for guest
+                expiresAt: null,
+                totalDevices: 1
+            };
+            
+            updateUserUI();
+            loadJsonBatches();
+        }
+
+        // LOAD JSON BATCHES
+        async function loadJsonBatches() {
+            try {
+                showLoader('batchList');
+                
+                const response = await fetch(JSON_BATCHES_URL);
+                const data = await response.json();
+                
+                if (data && data.data && Array.isArray(data.data)) {
+                    app.allBatches = data.data;
+                    app.jsonBatchCount = data.data.length;
+                    
+                    // Determine accessible batches for user
+                    if (app.user && (app.user.role === 'owner' || app.user.role === 'admin' || 
+                        (app.user.allowedBatches && app.user.allowedBatches.includes('all')))) {
+                        app.accessibleBatches = app.allBatches;
+                        document.getElementById('access-info').textContent = '🎉 You have access to ALL JSON batches';
+                    } else if (app.user && app.user.allowedBatches && app.user.allowedBatches.length > 0) {
+                        app.accessibleBatches = app.allBatches.filter(batch => 
+                            app.user.allowedBatches.includes(batch.id.toString())
+                        );
+                        const accessibleCount = app.accessibleBatches.length;
+                        document.getElementById('access-info').textContent = `📊 You have access to ${accessibleCount} of ${app.jsonBatchCount} JSON batches`;
+                    } else {
+                        app.accessibleBatches = [];
+                        document.getElementById('access-info').textContent = app.user && app.user.role !== 'guest' 
+                            ? '⚠️ You have no batch access yet' 
+                            : '👤 Viewing as Guest - Login to purchase';
+                    }
+                    
+                    renderAllBatches(app.allBatches);
+                    
+                    // Load My Batches if logged in
+                    if (app.user && app.user.role !== 'guest') {
+                        loadMyBatches();
+                        loadFavoriteBatches();
+                    }
+                    
+                } else {
+                    showEmptyState('batchList', 'No JSON batches found', 'The JSON source might be empty');
+                }
+            } catch (error) {
+                console.error('Error loading JSON batches:', error);
+                showEmptyState('batchList', 'Failed to load JSON batches', 'Check your connection');
+                showToast('❌ Network error', 'error');
+            }
+        }
+
+        // REFRESH BATCHES
+        function refreshBatches() {
+            showToast('🔄 Refreshing JSON batches...', 'success');
+            loadJsonBatches();
+        }
+
+        // RENDER ALL BATCHES
+        async function renderAllBatches(batches) {
+            const container = document.getElementById('batchList');
+            if (!batches || batches.length === 0) {
+                container.innerHTML = `
+                    <div class="glass-card p-6 text-center">
+                        <i class="fas fa-exclamation-circle text-4xl text-gray-500 mb-4"></i>
+                        <h3 class="text-lg font-bold mb-2">No Batches Found</h3>
+                        <p class="text-gray-400">No JSON batches available at the moment.</p>
+                    </div>`;
+                return;
+            }
+
+            // Get completion status for batches
+            const completionStatus = await getCompletionStatus(batches.map(b => ({ id: b.id })));
+            
+            container.innerHTML = batches.map((batch, index) => {
+                const delay = index * 50;
+                const batchName = batch.course_name || 'Untitled Batch';
+                const batchId = batch.id;
+                const originalPrice = batch.price || 999;
+                const discountedPrice = Math.floor(originalPrice * 0.3);
+                const thumbnail = batch.course_thumbnail || 
+                    `https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=${encodeURIComponent(batchName.substring(0, 20))}`;
+                
+                // Check if user has access to this batch
+                const hasAccess = app.user && (app.user.role === 'owner' || app.user.role === 'admin' || 
+                                 (app.user.allowedBatches && (app.user.allowedBatches.includes('all') || 
+                                  app.user.allowedBatches.includes(batch.id.toString()))));
+                
+                // Check if favorite
+                const isFav = app.favoriteBatches.includes(batchId.toString());
+                
+                // Check if completed
+                const isCompleted = completionStatus[batch.id] || false;
+                
+                if (app.user && hasAccess) {
+                    // User has access
+                    const batchActiveTime = app.userBatchActiveTime[batchId] || 0;
+                    const hoursActive = Math.floor(batchActiveTime / 3600000);
+                    const minutesActive = Math.floor((batchActiveTime % 3600000) / 60000);
+                    
+                    return `
+                        <div class="glass-card cursor-pointer fade-in-up hover:border-green-500/50" 
+                             style="animation-delay: ${delay}ms"
+                             onclick="accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')">
+                            <div class="relative">
+                                <img src="${thumbnail}" 
+                                     class="batch-image"
+                                     onerror="this.src='https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=JSON+BATCH'">
+                                <div class="json-badge">
+                                    <i class="fas fa-code mr-1"></i>JSON
+                                </div>
+                                ${isCompleted ? '<div class="completed-badge"><i class="fas fa-check mr-1"></i>COMPLETED</div>' : ''}
+                                <div class="access-badge">
+                                    <i class="fas fa-check-circle mr-1"></i>ACCESS
+                                </div>
+                                <div class="fav-heart" onclick="event.stopPropagation();toggleFavorite('${batchId}', '${batchName.replace(/'/g, "\\'")}')">
+                                    <i class="${isFav ? 'fas text-yellow-500' : 'far text-white'} fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-white text-lg mb-2 line-clamp-2">${batchName}</h3>
+                                <div class="flex justify-between items-center mb-2">
+                                    <div class="text-left">
+                                        <span class="text-gray-400 text-sm">ID: ${batchId}</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="text-green-400 text-sm font-bold">✅ Access Granted</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between text-xs text-gray-400 mb-3">
+                                    <span>Active Time:</span>
+                                    <span class="time-display">${hoursActive}h ${minutesActive}m</span>
+                                </div>
+                                <button class="w-full bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white font-bold py-3 rounded-xl" 
+                                        onclick="event.stopPropagation();accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')">
+                                    <i class="fas fa-play-circle mr-2"></i>ACCESS CONTENT
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    // User doesn't have access or is guest
+                    return `
+                        <div class="glass-card cursor-pointer fade-in-up hover:border-purple-500/50" 
+                             style="animation-delay: ${delay}ms"
+                             onclick="showPurchaseModal('${batchId}', '${batchName.replace(/'/g, "\\'")}', ${originalPrice}, '${thumbnail}')">
+                            <div class="relative">
+                                <img src="${thumbnail}" 
+                                     class="batch-image"
+                                     onerror="this.src='https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=JSON+BATCH'">
+                                <div class="json-badge">
+                                    <i class="fas fa-code mr-1"></i>JSON
+                                </div>
+                                ${isCompleted ? '<div class="completed-badge"><i class="fas fa-check mr-1"></i>COMPLETED</div>' : ''}
+                                <div class="purchase-badge">
+                                    <i class="fas fa-tag mr-1"></i>PURCHASE
+                                </div>
+                                <div class="fav-heart" onclick="event.stopPropagation();toggleFavorite('${batchId}', '${batchName.replace(/'/g, "\\'")}')">
+                                    <i class="${isFav ? 'fas text-yellow-500' : 'far text-white'} fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-white text-lg mb-2 line-clamp-2">${batchName}</h3>
+                                <div class="flex justify-between items-center">
+                                    <div class="text-left">
+                                        <span class="text-gray-400 text-sm">ID: ${batchId}</span>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="original-price">₹${originalPrice}</div>
+                                        <div class="price-tag">
+                                            <i class="fas fa-bolt"></i> ₹${discountedPrice}
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="purchase-btn mt-4" 
+                                        onclick="event.stopPropagation();showPurchaseModal('${batchId}', '${batchName.replace(/'/g, "\\'")}', ${originalPrice}, '${thumbnail}')">
+                                    <i class="fas fa-shopping-cart mr-2"></i>PURCHASE
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }
+            }).join('');
+            
+            document.getElementById('batch-count').textContent = `${batches.length} JSON BATCHES`;
+        }
+
+        // LOAD MY BATCHES
+        function loadMyBatches() {
+            const container = document.getElementById('myBatchList');
+            
+            if (!app.user || app.user.role === 'guest') {
+                container.innerHTML = '<p class="text-center text-gray-500 py-10">Please login to view your batches</p>';
+                return;
+            }
+            
+            if (!app.accessibleBatches || app.accessibleBatches.length === 0) {
+                container.innerHTML = `
+                    <div class="glass-card p-6 text-center">
+                        <i class="fas fa-box-open text-4xl text-gray-500 mb-4"></i>
+                        <h3 class="text-lg font-bold mb-2">No Batches Yet</h3>
+                        <p class="text-gray-400 mb-4">You don't have access to any JSON batches yet.</p>
+                        <button onclick="switchTab('home')" class="bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-bold py-3 px-6 rounded-xl">
+                            Browse Batches
+                        </button>
+                    </div>`;
+                return;
+            }
+
+            container.innerHTML = app.accessibleBatches.map((batch, index) => {
+                const delay = index * 50;
+                const batchName = batch.course_name || 'Untitled Batch';
+                const batchId = batch.id;
+                const thumbnail = batch.course_thumbnail || 
+                    `https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=${encodeURIComponent(batchName.substring(0, 20))}`;
+                const batchActiveTime = app.userBatchActiveTime[batchId] || 0;
+                const hoursActive = Math.floor(batchActiveTime / 3600000);
+                const minutesActive = Math.floor((batchActiveTime % 3600000) / 60000);
+                const isFav = app.favoriteBatches.includes(batchId.toString());
+                
+                return `
+                    <div class="glass-card cursor-pointer fade-in-up hover:border-green-500/50" 
+                         style="animation-delay: ${delay}ms"
+                         onclick="accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')">
+                        <div class="relative">
+                            <img src="${thumbnail}" 
+                                 class="batch-image"
+                                 onerror="this.src='https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=JSON'">
+                            <div class="json-badge">
+                                <i class="fas fa-code mr-1"></i>JSON
+                            </div>
+                            <div class="access-badge">
+                                <i class="fas fa-check-circle mr-1"></i>ACCESS
+                            </div>
+                            <div class="fav-heart" onclick="event.stopPropagation();toggleFavorite('${batchId}', '${batchName.replace(/'/g, "\\'")}')">
+                                <i class="${isFav ? 'fas text-yellow-500' : 'far text-white'} fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-white text-lg mb-2">${batchName}</h3>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="text-left">
+                                    <span class="text-gray-400 text-sm">ID: ${batchId}</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-green-400 text-xs font-bold">✅ Purchased</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between text-xs text-gray-400 mb-3">
+                                <span>Active Time:</span>
+                                <span class="time-display">${hoursActive}h ${minutesActive}m</span>
+                            </div>
+                            <button class="w-full bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white font-bold py-3 rounded-xl" 
+                                    onclick="event.stopPropagation();accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')">
+                                <i class="fas fa-play-circle mr-2"></i>ACCESS CONTENT
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // LOAD FAVORITE BATCHES
+        async function loadFavoriteBatches() {
+            const container = document.getElementById('favoriteList');
+            
+            if (app.favoriteBatches.length === 0) {
+                container.innerHTML = `
+                    <div class="glass-card p-8 text-center">
+                        <i class="fas fa-star text-4xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-lg font-bold mb-2">No Favorites Yet</h3>
+                        <p class="text-gray-400">Click the heart icon on any batch to add it here</p>
+                    </div>`;
+                return;
+            }
+            
+            // Filter batches that are in favorites
+            const favoriteBatches = app.allBatches.filter(batch => 
+                app.favoriteBatches.includes(batch.id.toString())
+            );
+            
+            if (favoriteBatches.length === 0) {
+                container.innerHTML = `
+                    <div class="glass-card p-8 text-center">
+                        <i class="fas fa-star text-4xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-lg font-bold mb-2">Favorite Batches</h3>
+                        <p class="text-gray-400">Your favorite batches will appear here</p>
+                    </div>`;
+                return;
+            }
+            
+            // Get completion status for favorite batches
+            const completionStatus = await getCompletionStatus(favoriteBatches.map(b => ({ id: b.id })));
+            
+            container.innerHTML = favoriteBatches.map((batch, index) => {
+                const delay = index * 50;
+                const batchName = batch.course_name || 'Untitled Batch';
+                const batchId = batch.id;
+                const thumbnail = batch.course_thumbnail || 
+                    `https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=${encodeURIComponent(batchName.substring(0, 20))}`;
+                
+                // Check if user has access to this batch
+                const hasAccess = app.user && (app.user.role === 'owner' || app.user.role === 'admin' || 
+                                 (app.user.allowedBatches && (app.user.allowedBatches.includes('all') || 
+                                  app.user.allowedBatches.includes(batch.id.toString()))));
+                
+                // Check if completed
+                const isCompleted = completionStatus[batch.id] || false;
+                
+                return `
+                    <div class="glass-card cursor-pointer fade-in-up hover:border-yellow-500/50" 
+                         style="animation-delay: ${delay}ms"
+                         onclick="${hasAccess ? `accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')` : `showPurchaseModal('${batchId}', '${batchName.replace(/'/g, "\\'")}', ${batch.price || 999}, '${thumbnail}')`}">
+                        <div class="relative">
+                            <img src="${thumbnail}" 
+                                 class="batch-image"
+                                 onerror="this.src='https://via.placeholder.com/400x200/1a1a2e/00b4d8?text=FAVORITE'">
+                            <div class="json-badge">
+                                <i class="fas fa-code mr-1"></i>JSON
+                            </div>
+                            ${isCompleted ? '<div class="completed-badge"><i class="fas fa-check mr-1"></i>COMPLETED</div>' : ''}
+                            <div class="favorite-star">
+                                <i class="fas fa-star text-yellow-500"></i>
+                            </div>
+                            ${hasAccess ? 
+                                '<div class="access-badge"><i class="fas fa-check-circle mr-1"></i>ACCESS</div>' : 
+                                '<div class="purchase-badge"><i class="fas fa-tag mr-1"></i>PURCHASE</div>'
+                            }
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-white text-lg mb-2 line-clamp-2">${batchName}</h3>
+                            <div class="flex justify-between items-center mb-2">
+                                <div class="text-left">
+                                    <span class="text-gray-400 text-sm">ID: ${batchId}</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-yellow-400 text-xs font-bold">⭐ Favorite</span>
+                                </div>
+                            </div>
+                            <button class="w-full ${hasAccess ? 'bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700' : 'purchase-btn'} text-white font-bold py-3 rounded-xl" 
+                                    onclick="event.stopPropagation();${hasAccess ? `accessJsonBatch('${batchId}', '${batchName.replace(/'/g, "\\'")}', '${thumbnail}')` : `showPurchaseModal('${batchId}', '${batchName.replace(/'/g, "\\'")}', ${batch.price || 999}, '${thumbnail}')`}">
+                                <i class="fas ${hasAccess ? 'fa-play-circle' : 'fa-shopping-cart'} mr-2"></i>
+                                ${hasAccess ? 'ACCESS CONTENT' : 'PURCHASE'}
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // ACCESS JSON BATCH
+        async function accessJsonBatch(batchId, batchName, thumbnail) {
+            // Check if user has access to this batch
+            if (app.user && app.user.role !== 'guest') {
+                const hasAccess = app.user.role === 'owner' || app.user.role === 'admin' || 
+                                 (app.user.allowedBatches && (app.user.allowedBatches.includes('all') || 
+                                  app.user.allowedBatches.includes(batchId)));
+                
+                if (!hasAccess) {
+                    showToast('❌ You need to purchase this JSON batch first', 'error');
+                    return;
+                }
+            } else {
+                showToast('❌ Please login to access JSON batch content', 'error');
+                return;
+            }
+            
+            app.currentBatch = {
+                id: batchId,
+                name: batchName
+            };
+            
+            // Start tracking active time
+            if (!app.userBatchActiveTime[batchId]) {
+                app.userBatchActiveTime[batchId] = 0;
+            }
+            
+            // Save batch active time
+            if (app.user) {
+                localStorage.setItem(`batch_time_${app.user.username}`, JSON.stringify(app.userBatchActiveTime));
+            }
+            
+            // Load subjects using RWA API
+            showPage('page-subjects');
+            document.getElementById('title-batch').textContent = batchName;
+            
+            showLoader('subjectList');
+            
+            try {
+                // Load subjects from RWA API
+                const data = await apiCall(`/get/allsubjectfrmlivecourseclass?courseid=${batchId}&start=-1`);
+                
+                if (data && data.data && data.data.length > 0) {
+                    renderSubjects(data.data);
+                } else {
+                    // If no subjects from API, show direct topics
+                    showToast('⚠️ No subjects found, loading topics directly', 'warning');
+                    await loadTopicsDirectly(batchId, batchName);
+                }
+            } catch (error) {
+                console.error('Error loading subjects:', error);
+                // Try direct topics loading
+                await loadTopicsDirectly(batchId, batchName);
+            }
+        }
+
+        // LOAD TOPICS DIRECTLY
+        async function loadTopicsDirectly(batchId, batchName) {
+            try {
+                const data = await apiCall(`/get/alltopicfrmlivecourseclass?courseid=${batchId}&subjectid=1&start=-1`);
+                
+                if (data && data.data) {
+                    app.currentSubject = { id: 1 };
+                    showPage('page-topics');
+                    document.getElementById('title-subject').textContent = `${batchName} - Topics`;
+                    renderTopics(data.data);
+                } else {
+                    showEmptyState('subjectList', 'No Content Available', 'This JSON batch has no content yet');
+                }
+            } catch (error) {
+                showEmptyState('subjectList', 'Failed to Load Content', 'Please try again later');
+            }
+        }
+
+        // RENDER SUBJECTS
+        async function renderSubjects(subjects) {
+            const container = document.getElementById('subjectList');
+            
+            // Check completion status
+            const completionStatus = await getCompletionStatus(subjects.map(s => ({ id: s.subjectid })));
+            
+            container.innerHTML = subjects.map(subject => {
+                const isCompleted = completionStatus[subject.subjectid] || false;
+                const safeName = (subject.subject_name || 'Unnamed').replace(/'/g, "\\'");
+                
+                return `
+                <div class="glass-card p-4 cursor-pointer relative hover:border-cyan-500/50" 
+                     onclick="openTopics('${subject.subjectid}','${safeName}')">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-purple-900/20 flex items-center justify-center text-purple-400">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-white text-sm">${subject.subject_name || 'Unnamed'}</h4>
+                            <p class="text-xs text-gray-400 mt-1">Click to view topics</p>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-600"></i>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        // OPEN TOPICS
+        async function openTopics(subjectId, name) {
+            app.currentSubject = { id: subjectId };
+            showPage('page-topics');
+            document.getElementById('title-subject').textContent = name;
+            
+            showLoader('topicList');
+            
+            try {
+                const data = await apiCall(`/get/alltopicfrmlivecourseclass?courseid=${app.currentBatch.id}&subjectid=${subjectId}&start=-1`);
+                
+                if (data && data.data) {
+                    renderTopics(data.data);
+                } else {
+                    showEmptyState('topicList', 'No Topics Found', 'This subject has no topics');
+                }
+            } catch (error) {
+                showEmptyState('topicList', 'Failed to Load Topics', 'Please try again');
+            }
+        }
+
+        // RENDER TOPICS
+        async function renderTopics(topics) {
+            const container = document.getElementById('topicList');
+            
+            if (!topics || topics.length === 0) {
+                showEmptyState('topicList', 'No Topics Found', 'Try another subject');
+                return;
+            }
+            
+            container.innerHTML = topics.map(topic => {
+                const safeName = (topic.topic_name || 'Unnamed').replace(/'/g, "\\'");
+                
+                return `
+                <div class="glass-card p-4 cursor-pointer relative hover:border-cyan-500/50" 
+                     onclick="openContent('${topic.topicid}','${safeName}')">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-900/20 flex items-center justify-center text-cyan-400">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-white text-sm">${topic.topic_name || 'Unnamed'}</h4>
+                            <p class="text-xs text-gray-400 mt-1">Click to view content</p>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-600"></i>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        // OPEN CONTENT
+        async function openContent(topicId, name) {
+            app.currentTopic = { id: topicId };
+            showPage('page-content');
+            document.getElementById('title-topic').textContent = name;
+            
+            showLoader('contentList');
+            
+            try {
+                const data = await apiCall(`/get/livecourseclassbycoursesubtopconceptapiv3?courseid=${app.currentBatch.id}&subjectid=${app.currentSubject.id}&topicid=${topicId}&conceptid=&start=-1`);
+                
+                if (data && data.data && data.data.length > 0) {
+                    app.currentContent = data.data;
+                    filterContentByTab();
+                } else {
+                    showEmptyState('contentList', 'No Content Available', 'This topic has no content');
+                }
+            } catch (error) {
+                showEmptyState('contentList', 'Failed to Load Content', 'Please try again');
+            }
+        }
+
+        // SWITCH CONTENT TAB
+        function switchContentTab(tab) {
+            app.currentContentTab = tab;
+            
+            // Update tab buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            if (tab === 'video') {
+                document.querySelectorAll('.tab-btn')[0].classList.add('active');
+            } else {
+                document.querySelectorAll('.tab-btn')[1].classList.add('active');
+            }
+            
+            filterContentByTab();
+        }
+
+        // FILTER CONTENT BY TAB
+        async function filterContentByTab() {
+            const list = document.getElementById("contentList");
+            
+            let items = [];
+            
+            if (app.currentContentTab === 'video') {
+                // Show only videos
+                items = app.currentContent.filter(item => {
+                    const hasVideoId = item.video_id && item.video_id.toString().trim() !== '';
+                    const hasId = item.id && item.id.toString().trim() !== '';
+                    const hasVideoUrl = item.video_url && item.video_url.toString().trim() !== '';
+                    const hasDownloadLink = item.download_link && item.download_link.toString().trim() !== '';
+                    
+                    return hasVideoId || hasId || hasVideoUrl || hasDownloadLink;
+                });
+                
+                if (items.length === 0) {
+                    showEmptyState('contentList', 'No Videos Available', 'Try switching to Notes');
+                    return;
+                }
+                
+                // Check completion status - VIDEO (WATCHED)
+                const completionStatus = await getCompletionStatus(items);
+                
+                list.innerHTML = items.map(item => {
+                    const isCompleted = completionStatus[item.id] || false;
+                    const safeTitle = (item.Title || 'Untitled Video').replace(/'/g, "\\'");
+                    const videoId = item.id || item.video_id;
+                    
+                    return `
+                    <div class="glass-card p-4 cursor-pointer relative hover:border-green-500/50" 
+                         onclick="showQualitySelector('${videoId}', '${safeTitle}')">
+                        ${isCompleted ? '<div class="watched-badge"><i class="fas fa-eye mr-1"></i>WATCHED</div>' : ''}
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-green-900/20 flex items-center justify-center text-green-400">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-white text-sm line-clamp-2">${item.Title || 'Untitled Video'}</h4>
+                                <div class="text-xs text-gray-400 mt-1">Click to play video</div>
+                            </div>
+                        </div>
+                    </div>`;
+                }).join("");
+                
+            } else {
+                // Show only notes/PDFs
+                items = app.currentContent.filter(item => {
+                    const hasPdfLink = item.pdf_link && item.pdf_link.toString().trim() !== '';
+                    const hasPdfLink2 = item.pdf_link2 && item.pdf_link2.toString().trim() !== '';
+                    const hasNoteUrl = item.note_url && item.note_url.toString().trim() !== '';
+                    
+                    return hasPdfLink || hasPdfLink2 || hasNoteUrl;
+                });
+                
+                if (items.length === 0) {
+                    showEmptyState('contentList', 'No Notes Available', 'Try switching to Videos');
+                    return;
+                }
+                
+                // Check completion status - PDF (VIEWED)
+                const completionStatus = await getCompletionStatus(items);
+                
+                list.innerHTML = items.map(item => {
+                    const isCompleted = completionStatus[item.id] || false;
+                    let link = item.pdf_link || item.pdf_link2 || item.note_url;
+                    const safeLink = encodeURIComponent(link || '');
+                    const title = item.Title || 'Untitled PDF';
+                    const safeTitle = encodeURIComponent(title);
+                    const contentId = item.id || btoa(link).substring(0, 50);
+                    
+                    return `
+                    <div class="glass-card p-4 cursor-pointer relative hover:border-red-500/50" 
+                         onclick="openPdfInNewTab('${safeLink}', '${safeTitle}', '${contentId}')">
+                        ${isCompleted ? '<div class="viewed-badge"><i class="fas fa-file-pdf mr-1"></i>VIEWED</div>' : ''}
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-red-900/20 flex items-center justify-center text-red-400">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-bold text-white text-sm line-clamp-2">${title}</h4>
+                                <div class="text-xs text-gray-400 mt-1">Click to view PDF</div>
+                            </div>
+                        </div>
+                    </div>`;
+                }).join("");
+            }
+        }
+
+        // SHOW QUALITY SELECTOR
+        async function showQualitySelector(videoId, title = "") {
+            showLoader('contentList');
+            
+            try {
+                const data = await apiCall(`/get/fetchVideoDetailsById?course_id=${app.currentBatch.id}&video_id=${videoId}&ytflag=0&folder_wise_course=0`);
+                
+                if (data && data.data) {
+                    app.currentVideoInfo = {
+                        videoId: videoId,
+                        title: title,
+                        data: data.data
+                    };
+                    
+                    // Show quality selector
+                    showQualityModal();
+                    filterContentByTab();
+                    
+                } else {
+                    showToast("❌ Video details not available", 'error');
+                    filterContentByTab();
+                }
+            } catch (error) {
+                console.error("Error loading video details:", error);
+                showToast("❌ Error loading video", 'error');
+                filterContentByTab();
+            }
+        }
+
+        // SHOW QUALITY MODAL
+        function showQualityModal() {
+            const modal = document.getElementById('qualityModal');
+            const qualityBtns = modal.querySelectorAll('.quality-btn');
+            
+            // Reset all buttons
+            qualityBtns.forEach(btn => {
+                const icon = btn.querySelector('.fa-check-circle');
+                icon.classList.add('hidden');
+                btn.classList.remove('active');
+                
+                // Set active for current quality
+                if (btn.dataset.quality === app.selectedQuality) {
+                    icon.classList.remove('hidden');
+                    btn.classList.add('active');
+                }
+            });
+            
+            modal.classList.add('active');
+        }
+
+        // CLOSE QUALITY MODAL
+        function closeQualityModal() {
+            document.getElementById('qualityModal').classList.remove('active');
+        }
+
+        // SELECT QUALITY
+        function selectQuality(quality) {
+            app.selectedQuality = quality;
+            
+            // Update UI
+            const qualityBtns = document.querySelectorAll('.quality-btn');
+            qualityBtns.forEach(btn => {
+                const icon = btn.querySelector('.fa-check-circle');
+                if (btn.dataset.quality === quality) {
+                    icon.classList.remove('hidden');
+                    btn.classList.add('active');
+                } else {
+                    icon.classList.add('hidden');
+                    btn.classList.remove('active');
+                }
+            });
+            
+            // Save preference
+            savePreference('videoQuality', quality);
+        }
+
+        // PLAY WITH SELECTED QUALITY
+        async function playWithSelectedQuality() {
+            closeQualityModal();
+            
+            if (!app.currentVideoInfo) {
+                showToast("❌ No video information available", 'error');
+                filterContentByTab();
+                return;
+            }
+            
+            const { videoId, title, data } = app.currentVideoInfo;
+            
+            let videoUrl = "";
+            
+            if (data.video_id && !data.download_link) {
+                // YouTube video
+                let vid = data.video_id;
+                if (vid.length > 20) {
+                    try {
+                        vid = decrypt(vid);
+                    } catch(e) {
+                        console.log("Decryption failed, using original ID");
+                    }
+                }
+                videoUrl = `https://www.youtube.com/embed/${vid}?autoplay=1`;
+                
+            } else if (data.download_link) {
+                // M3U8 video
+                let m3u8Url = decrypt(data.download_link);
+                
+                // Check if URL already has quality segment
+                if (m3u8Url.includes('/720p/') || m3u8Url.includes('/480p/') || 
+                    m3u8Url.includes('/360p/') || m3u8Url.includes('/240p/')) {
+                    
+                    // Replace quality in the URL
+                    const qualityRegex = /\/(720p|480p|360p|240p)\//;
+                    videoUrl = m3u8Url.replace(qualityRegex, `/${app.selectedQuality}/`);
+                    
+                } else {
+                    // Try to construct URL with quality
+                    const baseUrl = m3u8Url.split('/hls-')[0];
+                    const rest = m3u8Url.split('/hls-')[1];
+                    
+                    if (baseUrl && rest) {
+                        // Insert quality before master.m3u8
+                        const parts = rest.split('/');
+                        parts.splice(1, 0, app.selectedQuality);
+                        videoUrl = `${baseUrl}/hls-${parts.join('/')}`;
+                    } else {
+                        videoUrl = m3u8Url;
+                    }
+                }
+                
+                // Encode URL for player
+                const encodedUrl = encodeURIComponent(videoUrl);
+                const encodedTitle = encodeURIComponent(title);
+                
+                videoUrl = `https://selection-way-livid.vercel.app/player.html?video=https%3A%2F%2Flennisterrwa.vercel.app%2Fproxy%3Furl%3D${encodedUrl}&VIDEOTITLE=${encodedTitle}`;
+                
+            } else if (data.video_url) {
+                // Direct video URL
+                videoUrl = data.video_url;
+            }
+            
+            if (videoUrl) {
+                // Mark as completed - VIDEO (WATCHED)
+                await markAsCompleted(videoId, 'video', title, videoUrl);
+                
+                // Open in new tab
+                window.open(videoUrl, '_blank');
+                
+                // Refresh the content list
+                setTimeout(() => {
+                    filterContentByTab();
+                }, 500);
+                
+                return;
+            }
+            
+            showToast("❌ Video not available", 'error');
+            filterContentByTab();
+        }
+
+        // OPEN PDF IN NEW TAB
+        async function openPdfInNewTab(url, title = "", contentId = "") {
+            const decodedUrl = decodeURIComponent(url);
+            let finalUrl = decodedUrl;
+            
+            // Try to decrypt if needed
+            if (decodedUrl && decodedUrl.length > 50) {
+                try {
+                    finalUrl = decrypt(decodedUrl);
+                } catch(e) {
+                    console.log("PDF decryption failed, using original URL");
+                }
+            }
+            
+            // Decode title
+            const decodedTitle = decodeURIComponent(title) || 'PDF Document';
+            
+            const pdfUrl = `https://pdfweb.classx.co.in/pdfjs/web/viewer-new.html?file=${encodeURIComponent(finalUrl)}&save_flag=1&is_encrypted=0&encryption_version=1&encryption_key=abcdefg&title=${encodeURIComponent(decodedTitle)}&phone=NjM4dWRoMzgyOTE2MjAxOHhsc3JkMDM4Y3l5Z3Rramg5NzIxOTIyMzgx&client_url=rozgarapinew.teachx.in`;
+            
+            // Mark as completed if contentId is provided - PDF (VIEWED)
+            if (contentId) {
+                await markAsCompleted(contentId, 'pdf', decodedTitle, finalUrl);
+            }
+            
+            window.open(pdfUrl, "_blank");
+            
+            // Refresh the content list
+            setTimeout(() => {
+                filterContentByTab();
+            }, 500);
+        }
+
+        // PURCHASE SYSTEM
+        function showPurchaseModal(batchId, batchName, originalPrice, banner) {
+            const discountedPrice = Math.floor(originalPrice * 0.3);
+            
+            document.getElementById('purchaseBatchName').textContent = batchName;
+            document.getElementById('purchaseBatchId').textContent = batchId;
+            document.getElementById('originalPrice').textContent = `₹${originalPrice}`;
+            document.getElementById('purchasePrice').textContent = `₹${discountedPrice}`;
+            
+            document.getElementById('purchaseModal').classList.add('active');
+        }
+
+        function closePurchaseModal() {
+            document.getElementById('purchaseModal').classList.remove('active');
+        }
+
+        async function sendPurchaseRequest() {
+            const batchName = document.getElementById('purchaseBatchName').textContent;
+            const batchId = document.getElementById('purchaseBatchId').textContent;
+            const price = document.getElementById('purchasePrice').textContent;
+            const originalPrice = document.getElementById('originalPrice').textContent;
+            
+            const message = `🚀 *JSON BATCH PURCHASE REQUEST* 🚀\n\n` +
+                          `📚 *Batch Name:* ${batchName}\n` +
+                          `🆔 *Batch ID:* ${batchId}\n` +
+                          `🏷️ *Source:* JSON Batch\n` +
+                          `💰 *Original Price:* ${originalPrice}\n` +
+                          `🔥 *70% Discount Applied*\n` +
+                          `🎯 *Final Price:* ${price}\n\n` +
+                          `👤 *User:* ${app.user ? app.user.displayName || app.user.name || app.user.username : 'Guest'}\n` +
+                          `📱 *Device:* ${navigator.userAgent.substring(0, 50)}...\n\n` +
+                          `⏰ *Timestamp:* ${new Date().toLocaleString()}\n\n` +
+                          `_Please process this JSON batch purchase request_`;
+            
+            const telegramUsername = 'Chamar00_bot';
+            const encodedMessage = encodeURIComponent(message);
+            const telegramUrl = `https://t.me/${telegramUsername}?text=${encodedMessage}`;
+            
+            showToast('🔄 Opening Telegram...', 'success');
+            
+            setTimeout(() => {
+                window.open(telegramUrl, '_blank');
+                closePurchaseModal();
+                showToast('✅ JSON batch purchase info sent to Telegram!', 'success');
+            }, 500);
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(message).catch(() => {});
+        }
+
+        // UPDATE USER UI
+        function updateUserUI() {
+            const user = app.user;
+            const displayName = user.displayName || user.name || user.username;
+            const avatarSeed = displayName || 'User';
+            const avatarUrl = `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(avatarSeed)}`;
+            
+            // Update avatar
+            document.getElementById('header-avatar').src = avatarUrl;
+            document.getElementById('profile-page-avatar').src = avatarUrl;
+            
+            // Update names
+            document.getElementById('welcome-name').textContent = displayName;
+            document.getElementById('profile-name').textContent = displayName;
+            
+            // Update role badges
+            const roleBadge = document.getElementById('userRoleBadge');
+            const roleBadgeHeader = document.getElementById('roleBadge');
+            const profileRole = document.getElementById('profile-role');
+            
+            roleBadge.textContent = user.role;
+            roleBadge.className = 'role-badge ' + user.role + '-badge';
+            roleBadgeHeader.textContent = user.role;
+            roleBadgeHeader.className = 'role-badge ' + user.role + '-badge';
+            profileRole.textContent = user.role.charAt(0).toUpperCase() + user.role.slice(1);
+            
+            // Update profile info
+            document.getElementById('profile-username').textContent = user.username;
+            document.getElementById('profile-batches').textContent = user.allowedBatches?.includes('all') ? 'All' : (user.allowedBatches?.length || 0);
+            document.getElementById('profile-expiry').textContent = user.expiresAt ? new Date(user.expiresAt).toLocaleDateString() : 'Never';
+            updateFavoriteCount();
+        }
+
+        // API CALL FUNCTION
+        async function apiCall(endpoint) {
+            try {
+                const res = await fetch(`${RWA_API_URL}?endpoint=${encodeURIComponent(endpoint)}`, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json',
+                    }
+                });
+                
+                if (res.ok) {
+                    const data = await res.json();
+                    return data;
+                }
+                throw new Error("API Error");
+            } catch(e) {
+                console.error("API Error:", e);
+                return { data: [] };
+            }
+        }
+
+        // DECRYPTION FUNCTION
+        function decrypt(e) {
+            try {
+                const t = CryptoJS.enc.Utf8.parse("638udh3829162018");
+                const a = CryptoJS.enc.Utf8.parse("fedcba9876543210");
+                const decrypted = CryptoJS.AES.decrypt(
+                    {ciphertext: CryptoJS.enc.Base64.parse(e.split(':')[0])},
+                    t,
+                    {iv: a, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7}
+                );
+                return decrypted.toString(CryptoJS.enc.Utf8);
+            } catch(e) {
+                console.error("Decryption error:", e);
+                return e;
+            }
+        }
+
+        // UTILITY FUNCTIONS
+        function updateClock() {
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            document.getElementById('system-clock').textContent = timeStr;
+        }
+
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            const page = document.getElementById(pageId);
+            if (page) {
+                page.classList.add('active');
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function switchTab(tab) {
+            document.querySelectorAll('.nav-icon').forEach(icon => {
+                icon.classList.remove('active');
+            });
+            
+            const navIcon = document.getElementById(`nav-${tab}`);
+            if (navIcon) {
+                navIcon.classList.add('active');
+            }
+            
+            if (tab === 'home') {
+                showPage('page-batches');
+            } else if (tab === 'my-batches') {
+                showPage('page-my-batches');
+                loadMyBatches();
+            } else if (tab === 'favorites') {
+                showPage('page-favorites');
+                loadFavoriteBatches();
+            } else if (tab === 'profile') {
+                showPage('page-profile');
+                updateCacheInfo();
+            }
+        }
+
+        function filterBatches() {
+            const searchTerm = document.getElementById('batchSearch').value.toLowerCase();
+            const filtered = app.allBatches.filter(batch => {
+                const title = (batch.course_name || '').toLowerCase();
+                return title.includes(searchTerm);
+            });
+            
+            renderAllBatches(filtered);
+            document.getElementById('batch-count').textContent = `${filtered.length} BATCHES`;
+        }
+
+        function showLoader(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.innerHTML = '<div class="loader"></div>';
+            }
+        }
+
+        function showEmptyState(containerId, title, message) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = `
+                <div class="glass-card p-6 text-center">
+                    <i class="fas fa-exclamation-circle text-4xl text-gray-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">${title}</h3>
+                    <p class="text-gray-400">${message}</p>
+                </div>`;
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            
+            toastMsg.textContent = message;
+            toast.style.opacity = '1';
+            toast.style.transform = 'translate(-50%, 0)';
+            
+            if (type === 'error') {
+                toast.style.borderColor = '#ef4444';
+            } else if (type === 'warning') {
+                toast.style.borderColor = '#f59e0b';
+            } else if (type === 'info') {
+                toast.style.borderColor = '#3b82f6';
+            } else {
+                toast.style.borderColor = '#06b6d4';
+            }
+            
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translate(-50%, -20px)';
+            }, 3000);
+        }
+
+        function logout() {
+            localStorage.removeItem('jsonway_session');
+            location.reload();
+        }
+
+        // Initialize app
+        console.log("JSON△WAY - Real User Learning Platform");
+        console.log("Features: JSON Batches + RWA API + Favorites + Real Authentication");
+        console.log("Source: " + JSON_BATCHES_URL);
+        console.log("API: " + API_BASE);
+    </script>
+</body>
+</html>
