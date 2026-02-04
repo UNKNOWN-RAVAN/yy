@@ -2,11 +2,11 @@
   "app": {
     "version": "2.4.0",
     "force_update": true,
-    "update_link": "https://play.google.com/store/apps/details?id=com.example.app",
+    "update_link": "RAVAN ALL EXTRACTOR https://t.me/Chamar00_bot",
     "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
     "title": "App Update Available",
     "message": "Please update the app to enjoy new features and improvements.",
-    "social_link": "https://instagram.com/yourapp"
+    "social_link": "https://instagram.com/pulystar09"
   },
   "websites": [
     {
@@ -16,14 +16,14 @@
       "priority": 2
     },
     {
-      "name": "SELECTION-WAY",
+      "name": "SW",
       "link": "https://selection-way-livid.vercel.app",
       "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
       "priority": 4
     },
     {
       "name": "ALL",
-      "link": "https://jaswant-proxy-five.vercel.app/token/verify/723732934C392EAC",
+      "link": "https://jaswant-proxy-five.vercel.app",
       "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
       "priority": 1
     },
