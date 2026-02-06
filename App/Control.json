@@ -21,12 +21,7 @@
       "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
       "priority": 4
     },
-    {
-      "name": "ALL",
-      "link": "https://jaswant-proxy-five.vercel.app",
-      "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
-      "priority": 1
-    },
+ 
     {
       "name": "RWA",
       "link": "https://rwa-09.vercel.app",
