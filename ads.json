@@ -1,0 +1,17 @@
+[
+  {
+    "available": true,
+    "time": "0%",
+    "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+    "link": "https://t.me/@ravan09",
+    "duration": 20,
+    "size": "13mb",
+    "app": "All",
+    "download+autocopyvideotitle": true,
+    "Watermark": "YOUR_BRAND_NAME",
+    "WatermarkLogo": "https://i.ibb.co/992hqrvw/file-0000000083c072069007687f4f4c6769.png",
+    "youtube": true,
+    "downloader": "https://qooly.com/d/?query=simpleURL",
+    "date": "24-05-2026"
+  }
+]
