@@ -6,27 +6,15 @@
     "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
     "title": "App Update Available",
     "message": "Please update the app to enjoy new features and improvements.",
-    "social_link": "https://instagram.com/pulystar09"
+    "social_link": "https://instagram.com/r"
   },
   "websites": [
     {
       "name": "CAREERWILL",
-      "link": "https://vishal-80.vercel.app",
-      "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
+      "link": "https://sohagiya.vercel.app/",
+      "image": "https://i.ibb.co/PGCMyG9x/Screenshot-20260215-133523.jpg",
       "priority": 2
-    },
-    {
-      "name": "SW",
-      "link": "https://selection-way-livid.vercel.app",
-      "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
-      "priority": 4
-    },
- 
-    {
-      "name": "RWA",
-      "link": "https://rwa-09.vercel.app",
-      "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
-      "priority": 3
+    }
     }
   ]
 }
