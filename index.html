@@ -1,1313 +1,458 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAVAN Dashboard - Token Login</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background: #0f172a;
-            min-height: 100vh;
-            padding: 20px;
-            overflow-x: hidden;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Telegram Popup */
-        .telegram-popup {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            padding: 20px;
-        }
-
-        .telegram-box {
-            background: linear-gradient(135deg, #0088cc 0%, #006699 100%);
-            border-radius: 20px;
-            padding: 40px;
-            text-align: center;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 20px 50px rgba(0, 136, 204, 0.4);
-            border: 3px solid white;
-            animation: popupScale 0.5s ease-out;
-        }
-
-        @keyframes popupScale {
-            from { transform: scale(0.8); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-
-        .telegram-icon {
-            font-size: 80px;
-            margin-bottom: 20px;
-            animation: bounce 2s infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        .telegram-box h2 {
-            color: white;
-            font-size: 28px;
-            margin-bottom: 15px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .telegram-box p {
-            color: rgba(255, 255, 255, 0.9);
-            margin-bottom: 30px;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .channel-link {
-            display: inline-block;
-            background: white;
-            color: #0088cc;
-            padding: 15px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 20px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        .channel-link:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
-        }
-
-        .proceed-btn {
-            background: transparent;
-            border: 2px solid white;
-            color: white;
-            padding: 12px 40px;
-            border-radius: 50px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
-        }
-
-        .proceed-btn:hover {
-            background: white;
-            color: #0088cc;
-        }
-
-        /* Update Screen - FIXED LOGIC */
-        .update-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 999;
-            padding: 20px;
-        }
-
-        .update-box {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            text-align: center;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-            border: 3px solid #7c3aed;
-        }
-
-        .app-logo {
-            width: 120px;
-            height: 120px;
-            border-radius: 25px;
-            object-fit: cover;
-            margin-bottom: 20px;
-            border: 5px solid #e2e8f0;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .update-box h2 {
-            color: #1e293b;
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
-
-        .update-box p {
-            color: #64748b;
-            margin-bottom: 25px;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .version-info {
-            background: #f8fafc;
-            padding: 15px;
-            border-radius: 12px;
-            margin: 20px 0;
-            border: 2px solid #e2e8f0;
-        }
-
-        .version-info span {
-            font-weight: bold;
-            color: #7c3aed;
-        }
-
-        .update-btn {
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            color: white;
-            border: none;
-            padding: 18px 40px;
-            border-radius: 50px;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            width: 100%;
-            margin-bottom: 15px;
-            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        .update-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(124, 58, 237, 0.4);
-        }
-
-        .force-update-btn {
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            color: white;
-            border: none;
-            padding: 18px 40px;
-            border-radius: 50px;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            width: 100%;
-            margin-bottom: 15px;
-            box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        .force-update-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 25px rgba(239, 68, 68, 0.4);
-        }
-
-        .force-message {
-            color: #ef4444;
-            font-weight: bold;
-            margin-top: 15px;
-            padding: 10px;
-            background: rgba(239, 68, 68, 0.1);
-            border-radius: 10px;
-            border: 1px solid rgba(239, 68, 68, 0.3);
-        }
-
-        .optional-message {
-            color: #10b981;
-            font-weight: bold;
-            margin-top: 15px;
-            padding: 10px;
-            background: rgba(16, 185, 129, 0.1);
-            border-radius: 10px;
-            border: 1px solid rgba(16, 185, 129, 0.3);
-        }
-
-        .social-link {
-            display: inline-block;
-            margin-top: 15px;
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 15px;
-        }
-
-        .continue-btn {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
-            border: none;
-            padding: 14px 30px;
-            border-radius: 50px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            margin-top: 10px;
-            box-shadow: 0 6px 15px rgba(16, 185, 129, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        .continue-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.4);
-        }
-
-        /* Header Styles */
-        .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
-            padding: 30px;
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .user-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 25px;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .user-details {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 32px;
-            font-weight: bold;
-            color: white;
-            border: 4px solid white;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .role-badge {
-            padding: 8px 25px;
-            border-radius: 25px;
-            font-weight: bold;
-            font-size: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .role-owner {
-            background: linear-gradient(45deg, #ef4444, #dc2626);
-            color: white;
-            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
-        }
-
-        .role-admin {
-            background: linear-gradient(45deg, #10b981, #059669);
-            color: white;
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-        }
-
-        .role-user {
-            background: linear-gradient(45deg, #3b82f6, #2563eb);
-            color: white;
-            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
-        }
-
-        /* Grid Styles */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 1200px) {
-            .grid-container {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 900px) {
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 600px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-        }
-
-        /* Batch Card Styles */
-        .batch-card {
-            background: white;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .batch-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .batch-logo-container {
-            width: 100%;
-            height: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-            padding: 30px;
-        }
-
-        .batch-logo {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 6px solid white;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .batch-content {
-            padding: 25px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        .batch-name {
-            font-size: 22px;
-            font-weight: 700;
-            color: #1e293b;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-
-        .batch-link {
-            display: inline-block;
-            margin-top: auto;
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 15px;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            text-align: center;
-        }
-
-        .batch-link:hover {
-            background: linear-gradient(135deg, #6d28d9 0%, #2563eb 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
-        }
-
-        /* Login Section */
-        .login-section {
-            background: white;
-            border-radius: 20px;
-            padding: 50px;
-            max-width: 500px;
-            margin: 50px auto;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-        }
-
-        .login-section h2 {
-            text-align: center;
-            color: #1e293b;
-            margin-bottom: 10px;
-            font-size: 28px;
-        }
-
-        .login-subtitle {
-            text-align: center;
-            color: #64748b;
-            margin-bottom: 40px;
-            font-size: 16px;
-        }
-
-        .login-tabs {
-            display: flex;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #e2e8f0;
-        }
-
-        .tab-btn {
-            flex: 1;
-            padding: 15px;
-            background: none;
-            border: none;
-            font-size: 16px;
-            font-weight: 600;
-            color: #64748b;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .tab-btn.active {
-            color: #7c3aed;
-        }
-
-        .tab-btn.active::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            border-radius: 2px;
-        }
-
-        .form-group {
-            margin-bottom: 25px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 10px;
-            color: #334155;
-            font-weight: 600;
-            font-size: 15px;
-        }
-
-        .form-group input {
-            width: 100%;
-            padding: 15px 20px;
-            border: 2px solid #e2e8f0;
-            border-radius: 12px;
-            font-size: 16px;
-            transition: all 0.3s ease;
-            background: #f8fafc;
-        }
-
-        .form-group input:focus {
-            outline: none;
-            border-color: #7c3aed;
-            background: white;
-            box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
-        }
-
-        .login-btn {
-            width: 100%;
-            padding: 18px;
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 17px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
-        }
-
-        .login-btn:hover {
-            background: linear-gradient(135deg, #6d28d9 0%, #2563eb 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
-        }
-
-        .login-btn:disabled {
-            opacity: 0.7;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Error/Success Messages */
-        .error-message {
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            color: white;
-            padding: 15px 20px;
-            border-radius: 12px;
-            margin-bottom: 25px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(239, 68, 68, 0.3);
-        }
-
-        .success-message {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
-            padding: 15px 20px;
-            border-radius: 12px;
-            margin-bottom: 25px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
-        }
-
-        /* Controls */
-        .logout-btn {
-            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 15px;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(239, 68, 68, 0.3);
-        }
-
-        .logout-btn:hover {
-            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4);
-        }
-
-        .refresh-btn {
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 15px;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
-        }
-
-        .refresh-btn:hover {
-            background: linear-gradient(135deg, #059669 0%, #047857 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4);
-        }
-
-        .button-group {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        /* Admin Panel */
-        .admin-panel {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .admin-panel h3 {
-            color: #1e293b;
-            margin-bottom: 25px;
-            font-size: 22px;
-            text-align: center;
-        }
-
-        .admin-form {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-        }
-
-        @media (max-width: 900px) {
-            .admin-form {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .form-row {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .form-row label {
-            margin-bottom: 10px;
-            color: #334155;
-            font-weight: 600;
-            font-size: 15px;
-        }
-
-        .form-row input {
-            padding: 15px;
-            border: 2px solid #e2e8f0;
-            border-radius: 12px;
-            font-size: 15px;
-            background: #f8fafc;
-            transition: all 0.3s ease;
-        }
-
-        .form-row input:focus {
-            outline: none;
-            border-color: #7c3aed;
-            background: white;
-            box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
-        }
-
-        .submit-btn {
-            grid-column: 1 / -1;
-            padding: 18px;
-            background: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 17px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
-        }
-
-        .submit-btn:hover {
-            background: linear-gradient(135deg, #6d28d9 0%, #2563eb 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
-        }
-
-        /* Empty State */
-        .no-batches {
-            text-align: center;
-            padding: 60px;
-            background: white;
-            border-radius: 20px;
-            grid-column: 1 / -1;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .no-batches h3 {
-            color: #1e293b;
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
-
-        .no-batches p {
-            color: #64748b;
-            font-size: 16px;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 60px;
-            color: white;
-            font-size: 20px;
-            grid-column: 1 / -1;
-        }
-
-        /* Utility Classes */
-        .hidden {
-            display: none !important;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-
-        .mt-20 {
-            margin-top: 20px;
-        }
-
-        /* Footer */
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            color: #94a3b8;
-            font-size: 14px;
-            border-top: 1px solid #334155;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <title>Study Portal — Complete</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    :root{
+      --bg:#f8f9fa;
+      --card:#ffffff;
+      --text:#212529;
+      --muted:#6c757d;
+      --nav:#343a40;
+    }
+    body { background:var(--bg); color:var(--text); transition: background 0.25s, color 0.25s; }
+    .dark-mode { --bg:#121416; --card:#1e1f22; --text:#e9ecef; --muted:#adb5bd; --nav:#0b0c0d; }
+    .card { margin:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); border:0; background:var(--card); }
+    .navbar { background:var(--nav); }
+    .navbar-brand { color:#fff; font-weight:600; }
+    .btn-video { background:#0d6efd; color:#fff; border:0; }
+    .btn-video:hover { background:#0b5ed7; color:#fff; }
+    .btn-pdf { margin-right:6px; }
+    #topicList li { cursor:pointer; user-select:none; }
+    .completed { text-decoration:line-through; color:green; opacity:0.9; }
+    .topic-has-pdf::after { content:" 📄"; margin-left:6px; }
+    .small-muted { color:var(--muted); font-size:0.9rem; }
+    .controls { gap:8px; display:flex; align-items:center; }
+    .badge-completed { background:green; color:#fff; }
+    .badge-total { background:#6; }
+    .no-data { padding:40px; text-align:center; color:var(--muted); }
+    @media (max-width:767px){
+      .navbar .form-control.w-25 { width:40% !important; }
+    }
+  </style>
 </head>
 <body>
-    <!-- Telegram Channel Popup -->
-    <div id="telegramPopup" class="telegram-popup">
-        <div class="telegram-box">
-            <div class="telegram-icon">📢</div>
-            <h2>Join Our Channel First!</h2>
-            <p>Join our official Telegram channel for latest updates, announcements and support. It's mandatory to join before using the dashboard.</p>
-            
-            <a href="https://t.me/unk" target="_blank" class="channel-link">
-                🔗 Join @ALL BATCH Channel
-            </a>
-            
-            <p style="margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.8);">
-                After joining, click below to proceed
-            </p>
-            
-            <button class="proceed-btn" onclick="proceedToApp()">
-                ✅ I've Joined, Proceed
-            </button>
-        </div>
+  <nav class="navbar py-2">
+    <div class="container-fluid d-flex align-items-center">
+      <span class="navbar-brand">📚 Study Portal</span>
+
+      <div class="ms-auto d-flex align-items-center controls">
+        <label class="mb-0 small-muted me-2">Load JSON</label>
+        <input type="file" id="jsonFile" accept=".json" class="form-control w-25" />
+        <button id="toggleMode" class="btn btn-light ms-2">🌙</button>
+        <button id="exportCache" class="btn btn-success ms-2">⬇ Export Cache</button>
+        <label class="mb-0 small-muted ms-2 me-1">Import Cache</label>
+        <input type="file" id="importCache" class="form-control w-25" />
+      </div>
     </div>
+  </nav>
 
-    <!-- Update Screen - SHOW ONLY WHEN VERSION MISMATCH -->
-    <div id="updateScreen" class="update-screen hidden">
-        <div class="update-box">
-            <img id="updateImage" class="app-logo" src="" alt="App Logo">
-            <h2 id="updateTitle">App Update Available</h2>
-            
-            <div class="version-info">
-                Your version: <span id="currentVersion">2.4.0</span><br>
-                Latest version: <span id="latestVersion">2.5.0</span>
-            </div>
-            
-            <p id="updateMessage">Please update the app to enjoy new features and improvements.</p>
-            
-            <button id="updateButton" class="update-btn" onclick="openUpdateLink()">
-                🔄 Update Now
-            </button>
-            
-            <!-- Show UPDATE Button only when force_update is true -->
-            <button id="forceUpdateButton" class="force-update-btn hidden" onclick="openUpdateLink()">
-                ⚠️ UPDATE Required
-            </button>
-            
-            <!-- Show Continue button only when force_update is false -->
-            <button id="continueButton" class="continue-btn hidden" onclick="continueWithoutUpdate()">
-                🚀 Continue Anyway
-            </button>
-            
-            <div id="forceUpdateMessage" class="force-message hidden">
-                ⚠️ UPDATE Required! You must update to continue.
-            </div>
-            
-            <div id="optionalUpdateMessage" class="optional-message hidden">
-                💡 Optional Update Available - You can continue without updating
-            </div>
-            
-            <a id="socialLink" href="#" target="_blank" class="social-link">
-                📱 Follow for more updates
-            </a>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <!-- Sidebar -->
+      <aside class="col-md-2 bg-light p-3" id="sidebar">
+        <div class="d-flex align-items-center mb-2">
+          <h6 class="mb-0">Topics</h6>
+          <div class="ms-auto small-muted" id="topicCounts"></div>
         </div>
-    </div>
 
-    <!-- Main App Container -->
-    <div id="appContainer" class="hidden">
-        <div class="container">
-            <!-- Login Section -->
-            <div id="loginSection" class="login-section">
-                <h2>🔐 RAVAN Dashboard</h2>
-                <p class="login-subtitle">Login with credentials or token</p>
-                
-                <div class="login-tabs">
-                    <button class="tab-btn active" onclick="switchTab('credential')">Credentials</button>
-                    <button class="tab-btn" onclick="switchTab('token')">Token Login</button>
-                </div>
-                
-                <!-- Credential Login -->
-                <div id="credentialTab" class="login-form">
-                    <div id="errorMessage" class="error-message hidden"></div>
-                    <div id="successMessage" class="success-message hidden"></div>
-                    
-                    <div class="form-group">
-                        <label for="username">Username:</label>
-                        <input type="text" id="username" placeholder="Enter username" value="RAVI">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" placeholder="Enter password" value="KUMAR">
-                    </div>
-                    <button class="login-btn" onclick="loginWithCredentials()" id="credentialBtn">
-                        Login with Credentials
-                    </button>
-                </div>
-                
-                <!-- Token Login -->
-                <div id="tokenTab" class="login-form hidden">
-                    <div id="tokenErrorMessage" class="error-message hidden"></div>
-                    <div class="form-group">
-                        <label for="tokenInput">JWT Token:</label>
-                        <textarea id="tokenInput" placeholder="Paste your JWT token here..." rows="5"></textarea>
-                    </div>
-                    <button class="login-btn" onclick="loginWithToken()" id="tokenBtn">
-                        Login with Token
-                    </button>
-                </div>
-            </div>
-
-            <!-- Dashboard Section -->
-            <div id="dashboardSection" class="hidden">
-                <div class="header">
-                    <h1>🚀 RAVAN Dashboard</h1>
-                    <p class="login-subtitle" style="color: rgba(255,255,255,0.9); margin-bottom: 0;">
-                        Welcome to your dashboard
-                    </p>
-                    <div class="user-info">
-                        <div class="user-details">
-                            <div class="avatar" id="userAvatar">R</div>
-                            <div>
-                                <h2 id="userName">RAVI BHAI</h2>
-                                <div id="userRole" class="role-badge role-user">user</div>
-                            </div>
-                        </div>
-                        <div class="button-group">
-                            <button class="refresh-btn" onclick="loadUserData()">
-                                🔄 Refresh
-                            </button>
-                            <button class="logout-btn" onclick="logout()">
-                                🚪 Logout
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Admin Panel -->
-                <div id="adminPanel" class="admin-panel hidden">
-                    <h3>🛠️ Admin Controls</h3>
-                    <div class="admin-form">
-                        <div class="form-row">
-                            <label for="batchName">Batch Name:</label>
-                            <input type="text" id="batchName" placeholder="CAREERWILL">
-                        </div>
-                        <div class="form-row">
-                            <label for="batchLink">Website Domain:</label>
-                            <input type="text" id="batchLink" placeholder="ravan-80.vercel.app">
-                        </div>
-                        <div class="form-row">
-                            <label for="batchImage">Image URL:</label>
-                            <input type="text" id="batchImage" placeholder="example.com/my.png">
-                        </div>
-                        <button class="submit-btn" onclick="addNewBatch()">
-                            ➕ Add New Batch
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Batches Grid -->
-                <div class="grid-container" id="batchesGrid">
-                    <div class="loading">
-                        <p>Loading your batches...</p>
-                    </div>
-                </div>
-            </div>
+        <input type="text" id="searchTopic" class="form-control mb-2" placeholder="Search topic or id..." />
+        <div class="mb-2 d-flex gap-2">
+          <button id="showAll" class="btn btn-sm btn-outline-primary">All</button>
+          <button id="showCompleted" class="btn btn-sm btn-outline-success">Completed</button>
+          <button id="showPending" class="btn btn-sm btn-outline-secondary">Pending</button>
         </div>
+
+        <ul id="topicList" class="list-group" style="max-height:65vh; overflow:auto;"></ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="col-md-10">
+        <div id="videoGrid" class="row"></div>
+        <div id="noData" class="no-data d-none">Load a JSON file to see topics, videos and PDFs.</div>
+      </main>
     </div>
+  </div>
 
-    <script>
-        // App Configuration
-        const APP_VERSION = '2.4.0';
-        const JSON_CONFIG_URL = 'https://yy-pi-three.vercel.app/App/Control.json';
-        const TELEGRAM_CHANNEL = 'https://t.me/unk';
-        
-        let jsonData = null;
-        let currentUser = null;
-        let userToken = null;
-        let telegramJoined = false;
-        let updateLink = '';
+<script>
+/* -------------------------
+   Data & Cache (IDs only)
+   ------------------------- */
+let jsonData = null;
+let cache = Array.isArray(JSON.parse(localStorage.getItem("studyCache") || "[]"))
+  ? JSON.parse(localStorage.getItem("studyCache") || "[]")
+  : []; // store only completed video IDs as array
 
-        // Proceed after Telegram join
-        function proceedToApp() {
-            telegramJoined = true;
-            document.getElementById('telegramPopup').classList.add('hidden');
-            checkAppVersion();
-        }
+/* -------------------------
+   UI Elements
+   ------------------------- */
+const jsonFileEl = document.getElementById("jsonFile");
+const importCacheEl = document.getElementById("importCache");
+const exportCacheBtn = document.getElementById("exportCache");
+const toggleModeBtn = document.getElementById("toggleMode");
+const topicListEl = document.getElementById("topicList");
+const videoGridEl = document.getElementById("videoGrid");
+const searchTopicEl = document.getElementById("searchTopic");
+const noDataEl = document.getElementById("noData");
+const topicCountsEl = document.getElementById("topicCounts");
+const showAllBtn = document.getElementById("showAll");
+const showCompletedBtn = document.getElementById("showCompleted");
+const showPendingBtn = document.getElementById("showPending");
 
-        // Check app version from JSON - FIXED LOGIC
-        async function checkAppVersion() {
-            try {
-                const response = await fetch(JSON_CONFIG_URL);
-                jsonData = await response.json();
-                
-                const appConfig = jsonData.app;
-                const latestVersion = appConfig.version;
-                const forceUpdate = appConfig.force_update;
-                updateLink = appConfig.update_link;
-                
-                // Update UI with JSON data
-                document.getElementById('updateImage').src = appConfig.image;
-                document.getElementById('updateTitle').textContent = appConfig.title;
-                document.getElementById('updateMessage').textContent = appConfig.message;
-                document.getElementById('latestVersion').textContent = latestVersion;
-                document.getElementById('currentVersion').textContent = APP_VERSION;
-                document.getElementById('socialLink').href = appConfig.social_link;
-                
-                // CRITICAL FIX: Only show update screen when versions DON'T match
-                if (APP_VERSION !== latestVersion) {
-                    console.log('Version mismatch detected:', APP_VERSION, '!=', latestVersion);
-                    document.getElementById('updateScreen').classList.remove('hidden');
-                    
-                    if (forceUpdate) {
-                        // UPDATE - User MUST update
-                        document.getElementById('forceUpdateMessage').classList.remove('hidden');
-                        document.getElementById('forceUpdateButton').classList.remove('hidden');
-                        document.getElementById('updateButton').classList.add('hidden');
-                        document.getElementById('continueButton').classList.add('hidden');
-                        document.getElementById('optionalUpdateMessage').classList.add('hidden');
-                        document.getElementById('appContainer').classList.add('hidden'); // Hide app
-                    } else {
-                        // Optional Update - User can skip
-                        document.getElementById('optionalUpdateMessage').classList.remove('hidden');
-                        document.getElementById('updateButton').classList.remove('hidden');
-                        document.getElementById('continueButton').classList.remove('hidden');
-                        document.getElementById('forceUpdateButton').classList.add('hidden');
-                        document.getElementById('forceUpdateMessage').classList.add('hidden');
-                        document.getElementById('appContainer').classList.add('hidden'); // Hide app initially
-                    }
-                } else {
-                    console.log('Version matches:', APP_VERSION, '==', latestVersion);
-                    // Versions match - show app directly, no update screen
-                    document.getElementById('updateScreen').classList.add('hidden');
-                    document.getElementById('appContainer').classList.remove('hidden');
-                    checkLoginStatus();
-                }
-            } catch (error) {
-                console.error('Error fetching JSON:', error);
-                // If JSON fails, show app anyway
-                document.getElementById('updateScreen').classList.add('hidden');
-                document.getElementById('appContainer').classList.remove('hidden');
-                checkLoginStatus();
-            }
-        }
+/* -------------------------
+   Dark Mode Toggle
+   ------------------------- */
+toggleModeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
 
-        // Open update link
-        function openUpdateLink() {
-            if (updateLink) {
-                window.open(updateLink, '_blank');
-            }
-        }
+/* -------------------------
+   Load JSON file (content list)
+   ------------------------- */
+jsonFileEl.addEventListener("change", function(e){
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(evt){
+    try {
+      const parsed = JSON.parse(evt.target.result);
+      // Basic validation
+      if(!parsed.batches || !Array.isArray(parsed.batches) || parsed.batches.length === 0){
+        alert("Invalid JSON structure: 'batches' array missing.");
+        return;
+      }
+      jsonData = parsed;
+      const topics = getAllTopics();
+      renderTopicList(topics);
+      noDataEl.classList.add("d-none");
+      // auto-open first topic if exists
+      if(topics.length) loadContent(topics[0]);
+    } catch (err) {
+      alert("Failed to parse JSON: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
 
-        // Continue without updating
-        function continueWithoutUpdate() {
-            document.getElementById('updateScreen').classList.add('hidden');
-            document.getElementById('appContainer').classList.remove('hidden');
-            checkLoginStatus();
-        }
+/* -------------------------
+   Helpers: topics aggregation
+   ------------------------- */
+function getAllTopics(){
+  if(!jsonData) return [];
+  const topics = [];
+  jsonData.batches.forEach(batch => {
+    if(Array.isArray(batch.topics)){
+      batch.topics.forEach(t => topics.push(t));
+    }
+  });
+  return topics;
+}
 
-        // Parse batch data from JSON
-        function parseBatchDataFromJson() {
-            if (!jsonData || !jsonData.websites) return [];
-            
-            return jsonData.websites.sort((a, b) => a.priority - b.priority).map(website => ({
-                link: website.link,
-                name: website.name,
-                image: website.image
-            }));
-        }
+/* -------------------------
+   Render Sidebar Topics
+   - show topic index, topic_id
+   - mark if PDFs exist
+   - show completed count / total videos
+   ------------------------- */
+function renderTopicList(topics){
+  topicListEl.innerHTML = "";
+  topics.forEach((topic, idx) => {
+    const li = document.createElement("li");
+    li.className = "list-group-item d-flex justify-content-between align-items-start";
+    const left = document.createElement("div");
+    left.className = "ms-1 me-auto";
+    const title = document.createElement("div");
+    title.className = "fw-bold";
+    // show topic label: if topic has a name property use it, else show index + id
+    const topicLabel = topic.title || topic.name || `Topic ${idx+1} — ${topic.topic_id || ''}`;
+    title.textContent = topicLabel;
+    if(Array.isArray(topic.pdfs) && topic.pdfs.length) title.classList.add("topic-has-pdf");
 
-        // Display batches from JSON
-        function displayBatchesFromJson() {
-            const gridContainer = document.getElementById('batchesGrid');
-            const batches = parseBatchDataFromJson();
-            
-            if (!batches || batches.length === 0) {
-                gridContainer.innerHTML = `
-                    <div class="no-batches">
-                        <h3>📭 No Batches Available</h3>
-                        <p>You don't have access to any batches yet.</p>
-                        <p>Contact your admin for access.</p>
-                    </div>
-                `;
-                return;
-            }
+    const sub = document.createElement("div");
+    sub.className = "small-muted";
+    const totalVideos = Array.isArray(topic.videos) ? topic.videos.length : 0;
+    const completedCount = Array.isArray(topic.videos)
+      ? topic.videos.filter(v => cache.includes(v.id)).length
+      : 0;
+    sub.textContent = `${completedCount}/${totalVideos} videos done`;
 
-            let html = '';
-            batches.forEach((batch, index) => {
-                html += `
-                    <div class="batch-card" onclick="openLink('${batch.link}')">
-                        <div class="batch-logo-container">
-                            <img src="${batch.image}" 
-                                 alt="${batch.name}" 
-                                 class="batch-logo"
-                                 onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(batch.name)}&background=7c3aed&color=fff&size=200&bold=true'">
-                        </div>
-                        <div class="batch-content">
-                            <h3 class="batch-name">${batch.name}</h3>
-                            <button class="batch-link" onclick="event.stopPropagation(); openLink('${batch.link}')">
-                                🌐 Visit Website
-                            </button>
-                        </div>
-                    </div>
-                `;
-            });
+    left.appendChild(title);
+    left.appendChild(sub);
 
-            gridContainer.innerHTML = html;
-        }
+    const right = document.createElement("div");
+    right.className = "d-flex flex-column align-items-end";
+    const openBtn = document.createElement("button");
+    openBtn.className = "btn btn-sm btn-outline-primary";
+    openBtn.textContent = "Open";
+    openBtn.onclick = () => loadContent(topic);
 
-        // Original functions from your code
-        function switchTab(tab) {
-            const credentialTab = document.getElementById('credentialTab');
-            const tokenTab = document.getElementById('tokenTab');
-            const tabs = document.querySelectorAll('.tab-btn');
-            
-            tabs.forEach(t => t.classList.remove('active'));
-            
-            if (tab === 'credential') {
-                credentialTab.classList.remove('hidden');
-                tokenTab.classList.add('hidden');
-                document.querySelector('.tab-btn:first-child').classList.add('active');
-            } else {
-                credentialTab.classList.add('hidden');
-                tokenTab.classList.remove('hidden');
-                document.querySelector('.tab-btn:last-child').classList.add('active');
-            }
-        }
+    right.appendChild(openBtn);
 
-        async function loginWithCredentials() {
-            const username = document.getElementById('username').value.trim();
-            const password = document.getElementById('password').value.trim();
-            const errorDiv = document.getElementById('errorMessage');
-            const successDiv = document.getElementById('successMessage');
-            const btn = document.getElementById('credentialBtn');
+    li.appendChild(left);
+    li.appendChild(right);
 
-            if (!username || !password) {
-                errorDiv.textContent = 'Please enter username and password';
-                errorDiv.classList.remove('hidden');
-                successDiv.classList.add('hidden');
-                return;
-            }
+    // click anywhere on li opens topic
+    li.addEventListener("click", (ev) => {
+      // avoid double-trigger when clicking the Open button
+      if(ev.target === openBtn) return;
+      loadContent(topic);
+    });
 
-            try {
-                btn.disabled = true;
-                btn.innerHTML = 'Logging in...';
-                errorDiv.classList.add('hidden');
-                
-                const response = await fetch('https://ravan-system.vercel.app/auth/login', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ username, password })
-                });
+    topicListEl.appendChild(li);
+  });
 
-                const data = await response.json();
+  // update counts
+  const totalTopics = topics.length;
+  const totalVideos = topics.reduce((s,t) => s + (Array.isArray(t.videos) ? t.videos.length : 0), 0);
+  const totalCompleted = topics.reduce((s,t) => s + (Array.isArray(t.videos) ? t.videos.filter(v => cache.includes(v.id)).length : 0), 0);
+  topicCountsEl.textContent = `${totalCompleted}/${totalVideos}`;
+}
 
-                if (!response.ok) {
-                    throw new Error(data.error || 'Login failed');
-                }
+/* -------------------------
+   Search & Filters
+   ------------------------- */
+searchTopicEl.addEventListener("input", function(){
+  const q = this.value.trim().toLowerCase();
+  [...topicListEl.children].forEach(li => {
+    const txt = li.textContent.toLowerCase();
+    li.style.display = txt.includes(q) ? "" : "none";
+  });
+});
 
-                if (!data.token.endsWith('@unk')) {
-                    throw new Error('Invalid token ');
-                }
+showAllBtn.addEventListener("click", () => {
+  [...topicListEl.children].forEach(li => li.style.display = "");
+});
+showCompletedBtn.addEventListener("click", () => {
+  [...topicListEl.children].forEach(li => {
+    const txt = li.textContent;
+    // parse completed/total from subtext
+    const match = txt.match(/(\d+)\/(\d+)\s+videos/);
+    if(match){
+      const done = parseInt(match[1],10), total = parseInt(match[2],10);
+      li.style.display = (total>0 && done === total) ? "" : "none";
+    } else {
+      li.style.display = "none";
+    }
+  });
+});
+showPendingBtn.addEventListener("click", () => {
+  [...topicListEl.children].forEach(li => {
+    const txt = li.textContent;
+    const match = txt.match(/(\d+)\/(\d+)\s+videos/);
+    if(match){
+      const done = parseInt(match[1],10), total = parseInt(match[2],10);
+      li.style.display = (total>0 && done < total) ? "" : "none";
+    } else {
+      li.style.display = "none";
+    }
+  });
+});
 
-                userToken = data.token;
-                currentUser = {
-                    username: data.username,
-                    name: data.name,
-                    role: data.role,
-                    allowedBatches: data.allowedBatches || []
-                };
+/* -------------------------
+   Load Content (videos + pdfs together)
+   - videos first, then pdfs
+   - each item is a card in grid
+   ------------------------- */
+function loadContent(topic){
+  videoGridEl.innerHTML = "";
+  if(!topic) return;
 
-                localStorage.setItem('RAVAN_token', userToken);
-                localStorage.setItem('RAVAN_user', JSON.stringify(currentUser));
+  // Title row
+  const headerCol = document.createElement("div");
+  headerCol.className = "col-12 mb-2";
+  headerCol.innerHTML = `
+    <div class="d-flex align-items-center justify-content-between">
+      <div>
+        <h5 class="mb-0">${topic.title || topic.name || `Topic — ${topic.topic_id || ''}`}</h5>
+        <div class="small-muted">Topic ID: ${topic.topic_id || '—'}</div>
+      </div>
+      <div class="d-flex gap-2">
+        <button id="markAll" class="btn btn-sm btn-outline-success">Mark all videos done</button>
+        <button id="unmarkAll" class="btn btn-sm btn-outline-secondary">Unmark all</button>
+      </div>
+    </div>
+  `;
+  videoGridEl.appendChild(headerCol);
 
-                successDiv.textContent = `Welcome ${data.name}!`;
-                successDiv.classList.remove('hidden');
+  // Videos
+  if(Array.isArray(topic.videos) && topic.videos.length){
+    topic.videos.forEach(v => {
+      const isCompleted = cache.includes(v.id);
+      const col = document.createElement("div");
+      col.className = "col-md-4 col-sm-6";
+      col.innerHTML = `
+        <div class="card h-100">
+          <div class="card-body ${isCompleted ? 'completed' : ''}">
+            <h6 class="card-title">${escapeHtml(v.name || 'Untitled Video')}</h6>
+            <div class="mb-2 small-muted">Video ID: ${escapeHtml(v.id || '')}</div>
+            <div class="d-flex gap-2 flex-wrap">
+              <a target="_blank" rel="noopener noreferrer" class="btn btn-video btn-sm"
+                href="${buildPlayerUrl(v)}">▶ Play Video</a>
+              <button class="btn btn-sm btn-outline-secondary" data-id="${escapeHtml(v.id || '')}">${isCompleted ? 'Unmark' : 'Mark Completed'}</button>
+            </div>
+            ${v.description ? `<p class="mt-2 small-muted">${escapeHtml(v.description)}</p>` : ''}
+          </div>
+        </div>
+      `;
+      // attach toggle handler
+      const temp = document.createElement('div');
+      temp.appendChild(col);
+      const toggleBtn = temp.querySelector('button[data-id]');
+      toggleBtn.addEventListener('click', () => toggleCompleted(v.id, topic));
+      videoGridEl.appendChild(col);
+    });
+  }
 
-                setTimeout(() => {
-                    document.getElementById('loginSection').classList.add('hidden');
-                    document.getElementById('dashboardSection').classList.remove('hidden');
-                    loadUserData();
-                }, 1000);
+  // PDFs
+  if(Array.isArray(topic.pdfs) && topic.pdfs.length){
+    topic.pdfs.forEach(p => {
+      const col = document.createElement("div");
+      col.className = "col-md-4 col-sm-6";
+      col.innerHTML = `
+        <div class="card h-100">
+          <div class="card-body">
+            <h6 class="card-title">${escapeHtml(p.name || 'PDF')}</h6>
+            <div class="mb-2 small-muted">PDF</div>
+            <div class="d-flex gap-2">
+              <a class="btn btn-sm btn-success btn-pdf" href="${escapeAttr(p.link)}" target="_blank" rel="noopener noreferrer">Download PDF</a>
+              <a class="btn btn-sm btn-warning btn-pdf" href="https://www.selectionway.com/js/pdfjs/web/viewer.html?file=${encodeURIComponent(p.link)}" target="_blank" rel="noopener noreferrer">View PDF</a>
+            </div>
+          </div>
+        </div>
+      `;
+      videoGridEl.appendChild(col);
+    });
+  }
 
-            } catch (error) {
-                errorDiv.textContent = error.message;
-                errorDiv.classList.remove('hidden');
-                successDiv.classList.add('hidden');
-            } finally {
-                btn.disabled = false;
-                btn.innerHTML = 'Login with Credentials';
-            }
-        }
+  // If no items
+  if((!Array.isArray(topic.videos) || topic.videos.length === 0) && (!Array.isArray(topic.pdfs) || topic.pdfs.length === 0)){
+    const col = document.createElement("div");
+    col.className = "col-12";
+    col.innerHTML = `<div class="card"><div class="card-body"><div class="no-data">No videos or PDFs in this topic.</div></div></div>`;
+    videoGridEl.appendChild(col);
+  }
 
-        function loginWithToken() {
-            const token = document.getElementById('tokenInput').value.trim();
-            const errorDiv = document.getElementById('tokenErrorMessage');
-            const btn = document.getElementById('tokenBtn');
+  // Mark all / Unmark all handlers
+  document.getElementById("markAll").onclick = () => {
+    if(Array.isArray(topic.videos)){
+      topic.videos.forEach(v => {
+        if(!cache.includes(v.id)) cache.push(v.id);
+      });
+      saveCache();
+      loadContent(topic);
+      renderTopicList(getAllTopics());
+    }
+  };
+  document.getElementById("unmarkAll").onclick = () => {
+    if(Array.isArray(topic.videos)){
+      const ids = topic.videos.map(v => v.id);
+      cache = cache.filter(id => !ids.includes(id));
+      saveCache();
+      loadContent(topic);
+      renderTopicList(getAllTopics());
+    }
+  };
+}
 
-            if (!token) {
-                errorDiv.textContent = 'Please paste your JWT token';
-                errorDiv.classList.remove('hidden');
-                return;
-            }
+/* -------------------------
+   Build player URL (include token if present)
+   - safe encoding
+   ------------------------- */
+function buildPlayerUrl(v){
+  // default player base (user had used ssc-cgl-paid.vercel.app/player.html)
+  const base = "https://ssc-cgl-paid.vercel.app/player.html";
+  const params = new URLSearchParams();
+  if(v.link) params.set("url", v.link);
+  if(v.token) params.set("token", v.token);
+  // include name for display in player
+  const name = (v.name ? v.name + " VISHAL RAVAN" : "Video VISHAL RAVAN");
+  params.set("name", name);
+  return base + "?" + params.toString();
+}
 
-            try {
-                if (!token.endsWith('@unk')) {
-                    throw new Error('Invalid token format. Token must end with @unk');
-                }
+/* -------------------------
+   Toggle Completed (IDs only)
+   ------------------------- */
+function toggleCompleted(id, topicForReload){
+  if(!id) return;
+  if(cache.includes(id)){
+    cache = cache.filter(x => x !== id);
+  } else {
+    cache.push(id);
+  }
+  saveCache();
+  // reload current topic if provided, else refresh sidebar
+  if(topicForReload) loadContent(topicForReload);
+  renderTopicList(getAllTopics());
+}
 
-                const parts = token.split('.');
-                if (parts.length !== 3) {
-                    throw new Error('Invalid JWT token format');
-                }
+/* -------------------------
+   Save cache to localStorage
+   ------------------------- */
+function saveCache(){
+  localStorage.setItem("studyCache", JSON.stringify(cache));
+}
 
-                const payload = JSON.parse(atob(parts[1]));
-                
-                currentUser = {
-                    username: payload.username || '',
-                    name: payload.name || 'User',
-                    role: payload.role || 'user',
-                    allowedBatches: payload.allowedBatches || []
-                };
+/* -------------------------
+   Export / Import cache (IDs array)
+   ------------------------- */
+exportCacheBtn.addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify(cache)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "cache.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
 
-                userToken = token;
+importCacheEl.addEventListener("change", function(e){
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(evt){
+    try {
+      const parsed = JSON.parse(evt.target.result);
+      if(!Array.isArray(parsed)) throw new Error("Cache file must be a JSON array of IDs.");
+      cache = parsed;
+      saveCache();
+      alert("Cache imported successfully.");
+      // refresh UI if JSON loaded
+      if(jsonData) renderTopicList(getAllTopics());
+    } catch(err){
+      alert("Failed to import cache: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
 
-                localStorage.setItem('RAVAN_token', userToken);
-                localStorage.setItem('RAVAN_user', JSON.stringify(currentUser));
+/* -------------------------
+   Utilities: escape HTML/attributes
+   ------------------------- */
+function escapeHtml(str){
+  if(!str && str !== 0) return "";
+  return String(str)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'", "&#39;");
+}
+function escapeAttr(s){ return escapeHtml(s); }
 
-                document.getElementById('loginSection').classList.add('hidden');
-                document.getElementById('dashboardSection').classList.remove('hidden');
-                loadUserData();
-
-            } catch (error) {
-                errorDiv.textContent = error.message;
-                errorDiv.classList.remove('hidden');
-            }
-        }
-
-        function loadUserData() {
-            try {
-                const userData = JSON.parse(localStorage.getItem('RAVAN_user'));
-                if (!userData) {
-                    logout();
-                    return;
-                }
-
-                document.getElementById('userName').textContent = userData.name;
-                document.getElementById('userAvatar').textContent = userData.name.charAt(0);
-                
-                const roleBadge = document.getElementById('userRole');
-                roleBadge.textContent = userData.role;
-                roleBadge.className = `role-badge role-${userData.role}`;
-
-                if (userData.role === 'admin' || userData.role === 'owner') {
-                    document.getElementById('adminPanel').classList.remove('hidden');
-                } else {
-                    document.getElementById('adminPanel').classList.add('hidden');
-                }
-
-                displayBatchesFromJson();
-
-            } catch (error) {
-                console.error('Error loading user data:', error);
-                logout();
-            }
-        }
-
-        function openLink(url) {
-            if (url && url !== '#') {
-                window.open(url, '_blank');
-            }
-        }
-
-        function logout() {
-            localStorage.removeItem('RAVAN_token');
-            localStorage.removeItem('RAVAN_user');
-            currentUser = null;
-            userToken = null;
-            
-            document.getElementById('dashboardSection').classList.add('hidden');
-            document.getElementById('loginSection').classList.remove('hidden');
-            document.getElementById('errorMessage').classList.add('hidden');
-            document.getElementById('successMessage').classList.add('hidden');
-            document.getElementById('tokenErrorMessage').classList.add('hidden');
-            
-            switchTab('credential');
-        }
-
-        function addNewBatch() {
-            const name = document.getElementById('batchName').value.trim();
-            const link = document.getElementById('batchLink').value.trim();
-            const image = document.getElementById('batchImage').value.trim();
-
-            if (!name || !link) {
-                alert('Please enter Batch Name and Website Domain');
-                return;
-            }
-
-            const batchString = `${link}=${name}=${image}`;
-            
-            const userData = JSON.parse(localStorage.getItem('RAVAN_user'));
-            if (userData) {
-                userData.allowedBatches = userData.allowedBatches || [];
-                userData.allowedBatches.push(batchString);
-                localStorage.setItem('RAVAN_user', JSON.stringify(userData));
-                
-                loadUserData();
-                
-                document.getElementById('batchName').value = '';
-                document.getElementById('batchLink').value = '';
-                document.getElementById('batchImage').value = '';
-                
-                alert(`Batch "${name}" added successfully!\n\nFormat: ${link}=${name}=${image}`);
-            }
-        }
-
-        // Check if already logged in
-        function checkLoginStatus() {
-            const token = localStorage.getItem('RAVAN_token');
-            const user = localStorage.getItem('RAVAN_user');
-            
-            if (token && user) {
-                if (!token.endsWith('@unk')) {
-                    localStorage.removeItem('RAVAN_token');
-                    localStorage.removeItem('RAVAN_user');
-                    return;
-                }
-                
-                currentUser = JSON.parse(user);
-                userToken = token;
-                document.getElementById('loginSection').classList.add('hidden');
-                document.getElementById('dashboardSection').classList.remove('hidden');
-                loadUserData();
-            }
-        }
-
-        // Initialize
-        window.onload = function() {
-            // Show Telegram popup first
-            document.getElementById('telegramPopup').classList.remove('hidden');
-            
-            // Check login status after Telegram join
-            setTimeout(() => {
-                if (telegramJoined) {
-                    checkLoginStatus();
-                }
-            }, 100);
-            
-            // Enter key support
-            document.getElementById('password').addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    loginWithCredentials();
-                }
-            });
-            
-            document.getElementById('tokenInput').addEventListener('keypress', function(e) {
-                if (e.key === 'Enter' && e.ctrlKey) {
-                    loginWithToken();
-                }
-            });
-        };
-    </script>
+/* -------------------------
+   Initial UI state
+   ------------------------- */
+(function init(){
+  // show counts if any
+  if(jsonData) renderTopicList(getAllTopics());
+  else {
+    topicListEl.innerHTML = `<li class="list-group-item small-muted">No JSON loaded</li>`;
+    noDataEl.classList.remove("d-none");
+  }
+})();
+</script>
 </body>
 </html>
