@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>VISHAL Study Portal — Complete</title>
+  <title>Study Portal — Complete</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <style>
@@ -12,30 +12,23 @@
       --text:#212529;
       --muted:#6c757d;
       --nav:#343a40;
-      --primary:#667eea;
-      --secondary:#764ba2;
     }
     body { background:var(--bg); color:var(--text); transition: background 0.25s, color 0.25s; }
     .dark-mode { --bg:#121416; --card:#1e1f22; --text:#e9ecef; --muted:#adb5bd; --nav:#0b0c0d; }
     .card { margin:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); border:0; background:var(--card); }
-    .navbar { background:linear-gradient(135deg, var(--primary), var(--secondary)); }
+    .navbar { background:var(--nav); }
     .navbar-brand { color:#fff; font-weight:600; }
-    .btn-video { background:var(--primary); color:#fff; border:0; }
-    .btn-video:hover { background:var(--secondary); color:#fff; }
-    .btn-download { background:#28a745; color:#fff; border:0; }
-    .btn-download:hover { background:#218838; }
+    .btn-video { background:#0d6efd; color:#fff; border:0; }
+    .btn-video:hover { background:#0b5ed7; color:#fff; }
     .btn-pdf { margin-right:6px; }
     #topicList li { cursor:pointer; user-select:none; }
     .completed { text-decoration:line-through; color:green; opacity:0.9; }
     .topic-has-pdf::after { content:" 📄"; margin-left:6px; }
-    .topic-has-video::after { content:" 🎬"; margin-left:6px; }
     .small-muted { color:var(--muted); font-size:0.9rem; }
     .controls { gap:8px; display:flex; align-items:center; }
     .badge-completed { background:green; color:#fff; }
     .badge-total { background:#6; }
     .no-data { padding:40px; text-align:center; color:var(--muted); }
-    .video-badge { background:#ffc107; color:#000; padding:2px 8px; border-radius:12px; font-size:0.8rem; margin-left:8px; }
-    .pdf-badge { background:#17a2b8; color:#fff; padding:2px 8px; border-radius:12px; font-size:0.8rem; margin-left:8px; }
     @media (max-width:767px){
       .navbar .form-control.w-25 { width:40% !important; }
     }
@@ -44,14 +37,14 @@
 <body>
   <nav class="navbar py-2">
     <div class="container-fluid d-flex align-items-center">
-      <span class="navbar-brand">📚 VISHAL Study Portal</span>
+      <span class="navbar-brand">📚 Study Portal</span>
 
       <div class="ms-auto d-flex align-items-center controls">
-        <label class="mb-0 small-muted me-2 text-white">Load JSON</label>
+        <label class="mb-0 small-muted me-2">Load JSON</label>
         <input type="file" id="jsonFile" accept=".json" class="form-control w-25" />
         <button id="toggleMode" class="btn btn-light ms-2">🌙</button>
-        <button id="exportCache" class="btn btn-light ms-2">⬇ Export Cache</button>
-        <label class="mb-0 small-muted ms-2 me-1 text-white">Import Cache</label>
+        <button id="exportCache" class="btn btn-success ms-2">⬇ Export Cache</button>
+        <label class="mb-0 small-muted ms-2 me-1">Import Cache</label>
         <input type="file" id="importCache" class="form-control w-25" />
       </div>
     </div>
@@ -92,11 +85,6 @@ let jsonData = null;
 let cache = Array.isArray(JSON.parse(localStorage.getItem("studyCache") || "[]"))
   ? JSON.parse(localStorage.getItem("studyCache") || "[]")
   : []; // store only completed video IDs as array
-
-/* -------------------------
-   VISHAL Tools Base URL (Change this to your deployed URL)
-   ------------------------- */
-const VISHAL_TOOLS = "https://vishal-tools.vercel.app";
 
 /* -------------------------
    UI Elements
@@ -181,14 +169,7 @@ function renderTopicList(topics){
     // show topic label: if topic has a name property use it, else show index + id
     const topicLabel = topic.title || topic.name || `Topic ${idx+1} — ${topic.topic_id || ''}`;
     title.textContent = topicLabel;
-    
-    // Add badges for content types
-    if(Array.isArray(topic.pdfs) && topic.pdfs.length) {
-      title.classList.add("topic-has-pdf");
-    }
-    if(Array.isArray(topic.videos) && topic.videos.length) {
-      title.classList.add("topic-has-video");
-    }
+    if(Array.isArray(topic.pdfs) && topic.pdfs.length) title.classList.add("topic-has-pdf");
 
     const sub = document.createElement("div");
     sub.className = "small-muted";
@@ -285,12 +266,12 @@ function loadContent(topic){
   headerCol.innerHTML = `
     <div class="d-flex align-items-center justify-content-between">
       <div>
-        <h5 class="mb-0">${escapeHtml(topic.title || topic.name || `Topic — ${topic.topic_id || ''}`)}</h5>
-        <div class="small-muted">Topic ID: ${escapeHtml(topic.topic_id || '—')}</div>
+        <h5 class="mb-0">${topic.title || topic.name || `Topic — ${topic.topic_id || ''}`}</h5>
+        <div class="small-muted">Topic ID: ${topic.topic_id || '—'}</div>
       </div>
       <div class="d-flex gap-2">
-        <button id="markAll" class="btn btn-sm btn-outline-success">✅ Mark all videos done</button>
-        <button id="unmarkAll" class="btn btn-sm btn-outline-secondary">↩️ Unmark all</button>
+        <button id="markAll" class="btn btn-sm btn-outline-success">Mark all videos done</button>
+        <button id="unmarkAll" class="btn btn-sm btn-outline-secondary">Unmark all</button>
       </div>
     </div>
   `;
@@ -302,31 +283,15 @@ function loadContent(topic){
       const isCompleted = cache.includes(v.id);
       const col = document.createElement("div");
       col.className = "col-md-4 col-sm-6";
-      
-      // Check if it's M3U8 or MP4
-      const isM3U8 = v.link && v.link.includes('.m3u8');
-      
       col.innerHTML = `
         <div class="card h-100">
           <div class="card-body ${isCompleted ? 'completed' : ''}">
-            <div class="d-flex justify-content-between align-items-start">
-              <h6 class="card-title">${escapeHtml(v.name || 'Untitled Video')}</h6>
-              ${isM3U8 ? '<span class="video-badge">M3U8</span>' : '<span class="video-badge">MP4</span>'}
-            </div>
-            <div class="mb-2 small-muted">ID: ${escapeHtml(v.id || '')}</div>
+            <h6 class="card-title">${escapeHtml(v.name || 'Untitled Video')}</h6>
+            <div class="mb-2 small-muted">Video ID: ${escapeHtml(v.id || '')}</div>
             <div class="d-flex gap-2 flex-wrap">
-              ${isM3U8 ? 
-                // M3U8 - Use VISHAL Player
-                `<a target="_blank" rel="noopener noreferrer" class="btn btn-video btn-sm"
-                  href="${buildVISHALPlayerUrl(v)}">▶ Play (VISHAL Player)</a>
-                <a target="_blank" rel="noopener noreferrer" class="btn btn-download btn-sm"
-                  href="${buildVISHALDownloaderUrl(v)}">⬇ Download</a>`
-                :
-                // MP4 - Direct play
-                `<a target="_blank" rel="noopener noreferrer" class="btn btn-video btn-sm"
-                  href="${escapeAttr(v.link)}">▶ Play Video</a>`
-              }
-              <button class="btn btn-sm btn-outline-secondary" data-id="${escapeHtml(v.id || '')}">${isCompleted ? '↩️ Unmark' : '✅ Mark'}</button>
+              <a target="_blank" rel="noopener noreferrer" class="btn btn-video btn-sm"
+                href="${buildPlayerUrl(v)}">▶ Play Video</a>
+              <button class="btn btn-sm btn-outline-secondary" data-id="${escapeHtml(v.id || '')}">${isCompleted ? 'Unmark' : 'Mark Completed'}</button>
             </div>
             ${v.description ? `<p class="mt-2 small-muted">${escapeHtml(v.description)}</p>` : ''}
           </div>
@@ -349,14 +314,11 @@ function loadContent(topic){
       col.innerHTML = `
         <div class="card h-100">
           <div class="card-body">
-            <div class="d-flex justify-content-between align-items-start">
-              <h6 class="card-title">${escapeHtml(p.name || 'PDF Document')}</h6>
-              <span class="pdf-badge">PDF</span>
-            </div>
-            <div class="mb-2 small-muted">${escapeHtml(p.description || 'PDF File')}</div>
-            <div class="d-flex gap-2 flex-wrap">
-              <a class="btn btn-sm btn-success btn-pdf" href="${buildPDFDownloaderUrl(p)}" target="_blank" rel="noopener noreferrer">📥 Download PDF</a>
-              <a class="btn btn-sm btn-warning btn-pdf" href="https://www.selectionway.com/js/pdfjs/web/viewer.html?file=${encodeURIComponent(p.link)}" target="_blank" rel="noopener noreferrer">👁️ View PDF</a>
+            <h6 class="card-title">${escapeHtml(p.name || 'PDF')}</h6>
+            <div class="mb-2 small-muted">PDF</div>
+            <div class="d-flex gap-2">
+              <a class="btn btn-sm btn-success btn-pdf" href="${escapeAttr(p.link)}" target="_blank" rel="noopener noreferrer">Download PDF</a>
+              <a class="btn btn-sm btn-warning btn-pdf" href="https://www.selectionway.com/js/pdfjs/web/viewer.html?file=${encodeURIComponent(p.link)}" target="_blank" rel="noopener noreferrer">View PDF</a>
             </div>
           </div>
         </div>
@@ -396,35 +358,19 @@ function loadContent(topic){
 }
 
 /* -------------------------
-   Build VISHAL Player URL (for M3U8)
+   Build player URL (include token if present)
+   - safe encoding
    ------------------------- */
-function buildVISHALPlayerUrl(video){
-  const base = `${VISHAL_TOOLS}/VISHAL-video-player`;
-  const videoUrl = encodeURIComponent(video.link);
-  const title = encodeURIComponent(video.name || 'video');
-  return `${base}?${videoUrl}&${title}`;
-}
-
-/* -------------------------
-   Build VISHAL Downloader URL (for M3U8)
-   ------------------------- */
-function buildVISHALDownloaderUrl(video){
-  const base = `${VISHAL_TOOLS}/VISHAL-video-Download`;
-  const videoUrl = encodeURIComponent(video.link);
-  const title = encodeURIComponent(video.name || 'video');
-  // Optional: Add quality parameter if available
-  const quality = video.quality ? `&${encodeURIComponent(video.quality)}` : '';
-  return `${base}?${videoUrl}&${title}${quality}`;
-}
-
-/* -------------------------
-   Build PDF Downloader URL (with custom filename)
-   ------------------------- */
-function buildPDFDownloaderUrl(pdf){
-  const base = `${VISHAL_TOOLS}/VISHAL-pdf-downloader`;
-  const pdfUrl = encodeURIComponent(pdf.link);
-  const title = encodeURIComponent(pdf.name || 'document');
-  return `${base}?${pdfUrl}&${title}`;
+function buildPlayerUrl(v){
+  // default player base (user had used ssc-cgl-paid.vercel.app/player.html)
+  const base = "https://ssc-cgl-paid.vercel.app/player.html";
+  const params = new URLSearchParams();
+  if(v.link) params.set("url", v.link);
+  if(v.token) params.set("token", v.token);
+  // include name for display in player
+  const name = (v.name ? v.name + " VISHAL RAVAN" : "Video VISHAL RAVAN");
+  params.set("name", name);
+  return base + "?" + params.toString();
 }
 
 /* -------------------------
@@ -457,7 +403,7 @@ exportCacheBtn.addEventListener("click", () => {
   const blob = new Blob([JSON.stringify(cache)], {type:"application/json"});
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "vishal-study-cache.json";
+  a.download = "cache.json";
   a.click();
   URL.revokeObjectURL(a.href);
 });
@@ -472,16 +418,11 @@ importCacheEl.addEventListener("change", function(e){
       if(!Array.isArray(parsed)) throw new Error("Cache file must be a JSON array of IDs.");
       cache = parsed;
       saveCache();
-      alert("✅ Cache imported successfully!");
+      alert("Cache imported successfully.");
       // refresh UI if JSON loaded
-      if(jsonData) {
-        renderTopicList(getAllTopics());
-        // reload current topic if any
-        const firstTopic = getAllTopics()[0];
-        if(firstTopic) loadContent(firstTopic);
-      }
+      if(jsonData) renderTopicList(getAllTopics());
     } catch(err){
-      alert("❌ Failed to import cache: " + err.message);
+      alert("Failed to import cache: " + err.message);
     }
   };
   reader.readAsText(file);
@@ -508,7 +449,7 @@ function escapeAttr(s){ return escapeHtml(s); }
   // show counts if any
   if(jsonData) renderTopicList(getAllTopics());
   else {
-    topicListEl.innerHTML = `<li class="list-group-item small-muted">📁 Load a JSON file to start</li>`;
+    topicListEl.innerHTML = `<li class="list-group-item small-muted">No JSON loaded</li>`;
     noDataEl.classList.remove("d-none");
   }
 })();
