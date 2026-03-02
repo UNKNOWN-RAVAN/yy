@@ -1,0 +1,104 @@
+{
+  "batch_id": 2310,
+  "batch_name": "Maths Spl-27 (Pre+Mains)",
+  "topics": [
+    {
+      "id": 22576,
+      "topicName": "Syllabus",
+      "cls_count": 0,
+      "notes_count": 9,
+      "chapter_count": 0
+    },
+    {
+      "id": 22577,
+      "topicName": "Demo",
+      "cls_count": 18,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22579,
+      "topicName": "Advance",
+      "cls_count": 127,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22578,
+      "topicName": "Arithmetic",
+      "cls_count": 82,
+      "notes_count": 2,
+      "chapter_count": 0
+    },
+    {
+      "id": 22636,
+      "topicName": "Arith Class Sheet",
+      "cls_count": 0,
+      "notes_count": 113,
+      "chapter_count": 0
+    },
+    {
+      "id": 22637,
+      "topicName": "Arith Class Notes",
+      "cls_count": 0,
+      "notes_count": 82,
+      "chapter_count": 0
+    },
+    {
+      "id": 22638,
+      "topicName": "CDS Previous Year Question",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22639,
+      "topicName": "TCS/SSC Previous Year Question",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22640,
+      "topicName": "Doubts",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22635,
+      "topicName": "Arith Class Png",
+      "cls_count": 0,
+      "notes_count": 81,
+      "chapter_count": 0
+    },
+    {
+      "id": 22633,
+      "topicName": "Adv Class Notes",
+      "cls_count": 0,
+      "notes_count": 127,
+      "chapter_count": 0
+    },
+    {
+      "id": 22632,
+      "topicName": "Adv Class Sheet",
+      "cls_count": 0,
+      "notes_count": 154,
+      "chapter_count": 0
+    },
+    {
+      "id": 22631,
+      "topicName": "Adv Class Png",
+      "cls_count": 0,
+      "notes_count": 125,
+      "chapter_count": 0
+    },
+    {
+      "id": 22629,
+      "topicName": "Advance Level Question",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    }
+  ]
+}
