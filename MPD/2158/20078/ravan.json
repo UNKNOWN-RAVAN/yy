@@ -1,0 +1,1229 @@
+{
+  "batchid": 2158,
+  "topicid": 20078,
+  "classes_total": 202,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class -1 || Percentage",
+      "id": 684400,
+      "video_url": "4430495_0_1773062587846208"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 || Percentage",
+      "id": 685381,
+      "video_url": "4430497_0_9892923978837799"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-03 || Percentage",
+      "id": 686367,
+      "video_url": "4430498_0_7816764104925498"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-04 || Percentage",
+      "id": 686700,
+      "video_url": "4430499_0_2292880054344590"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-05 || Percentage",
+      "id": 687116,
+      "video_url": "4430500_0_8894670106260102"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-06 || Percentage",
+      "id": 688115,
+      "video_url": "4430501_0_1803927734527775"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-07 || Percentage",
+      "id": 688714,
+      "video_url": "4430502_0_5169192290993558"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-08 || Percentage",
+      "id": 689292,
+      "video_url": "4430503_0_8863550103164654"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-09 || Percentage",
+      "id": 690245,
+      "video_url": "4430504_0_6827387435288512"
+    },
+    {
+      "class_no": 10,
+      "title": "Class-10 || Percentage",
+      "id": 690537,
+      "video_url": "4430505_0_6262615156277881"
+    },
+    {
+      "class_no": 11,
+      "title": "Class-11 || Percentage",
+      "id": 690776,
+      "video_url": "4430506_0_6112227286080671"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-12 || Percentage",
+      "id": 691112,
+      "video_url": "4430508_0_4294855747419866"
+    },
+    {
+      "class_no": 13,
+      "title": "Class-13 || Percentage",
+      "id": 692373,
+      "video_url": "4430510_0_8452219997626706"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-15 || Percentage",
+      "id": 696373,
+      "video_url": "4430514_0_4213253029818685"
+    },
+    {
+      "class_no": 16,
+      "title": "Class-16 || Percentage",
+      "id": 697894,
+      "video_url": "4430516_0_2179315996224651"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-17 || Percentage",
+      "id": 698698,
+      "video_url": "4430518_0_7152541020945707"
+    },
+    {
+      "class_no": 19,
+      "title": "Class-19 || Percentage",
+      "id": 700086,
+      "video_url": "4430520_0_4940069808181257"
+    },
+    {
+      "class_no": 20,
+      "title": "Class-20 || Percentage",
+      "id": 700526,
+      "video_url": "4430521_0_2595205616796260"
+    },
+    {
+      "class_no": 21,
+      "title": "Class-21 || Percentage",
+      "id": 700841,
+      "video_url": "4430523_0_8747865338834083"
+    },
+    {
+      "class_no": 22,
+      "title": "Class-22 || Percentage",
+      "id": 701455,
+      "video_url": "4430526_0_7702863643604505"
+    },
+    {
+      "class_no": 23,
+      "title": "Class-23 || Percentage",
+      "id": 701697,
+      "video_url": "4430528_0_5612888997493029"
+    },
+    {
+      "class_no": 24,
+      "title": "Class-24 || Percentage",
+      "id": 702432,
+      "video_url": "4430529_0_9332646147577909"
+    },
+    {
+      "class_no": 25,
+      "title": "Class-25 || Percentage",
+      "id": 703506,
+      "video_url": "4430531_0_2861604224472002"
+    },
+    {
+      "class_no": 26,
+      "title": "Class-26 || Percentage",
+      "id": 705545,
+      "video_url": "4430533_0_7103964638038849"
+    },
+    {
+      "class_no": 28,
+      "title": "Class-28 || Percentage",
+      "id": 706319,
+      "video_url": "4430536_0_9874385188196387"
+    },
+    {
+      "class_no": 29,
+      "title": "Class-29 || Percentage",
+      "id": 710100,
+      "video_url": "4430538_0_7946290991655130"
+    },
+    {
+      "class_no": 30,
+      "title": "Class-30 || Percentage",
+      "id": 710407,
+      "video_url": "4430540_0_7346691526171506"
+    },
+    {
+      "class_no": 31,
+      "title": "Class-31 || Percentage",
+      "id": 710702,
+      "video_url": "4430541_0_4972174796129994"
+    },
+    {
+      "class_no": 32,
+      "title": "Class-1 || Ratio",
+      "id": 712683,
+      "video_url": "4430543_0_2156939650330329"
+    },
+    {
+      "class_no": 33,
+      "title": "Class-02 || Ratio",
+      "id": 712801,
+      "video_url": "4430545_0_5595478831501984"
+    },
+    {
+      "class_no": 34,
+      "title": "Class-03 || Ratio",
+      "id": 713629,
+      "video_url": "4430547_0_9119565088680972"
+    },
+    {
+      "class_no": 35,
+      "title": "Class-04 || Ratio",
+      "id": 714057,
+      "video_url": "4430549_0_6990155182156161"
+    },
+    {
+      "class_no": 36,
+      "title": "Class-05 || Ratio",
+      "id": 714586,
+      "video_url": "4430551_0_5693743347141217"
+    },
+    {
+      "class_no": 38,
+      "title": "Class-07 || Ratio",
+      "id": 716322,
+      "video_url": "4430554_0_8702337246087982"
+    },
+    {
+      "class_no": 39,
+      "title": "Class-08 || Ratio",
+      "id": 716807,
+      "video_url": "4430557_0_7363497349686365"
+    },
+    {
+      "class_no": 40,
+      "title": "Class-09 || Ratio",
+      "id": 717216,
+      "video_url": "4430560_0_9695135763533893"
+    },
+    {
+      "class_no": 41,
+      "title": "Class-10 || Ratio",
+      "id": 717948,
+      "video_url": "4430562_0_5196605549432778"
+    },
+    {
+      "class_no": 42,
+      "title": "Class-11 || Ratio",
+      "id": 718216,
+      "video_url": "4430564_0_5109934153535199"
+    },
+    {
+      "class_no": 43,
+      "title": "Class-12 || Ratio",
+      "id": 718328,
+      "video_url": "4430567_0_1132622856332025"
+    },
+    {
+      "class_no": 44,
+      "title": "Class-13 || Ratio",
+      "id": 718824,
+      "video_url": "4430570_0_1556595171205340"
+    },
+    {
+      "class_no": 45,
+      "title": "Class-14 || Ratio",
+      "id": 718983,
+      "video_url": "4430571_0_2305924286499092"
+    },
+    {
+      "class_no": 46,
+      "title": "Class-15 || Ratio",
+      "id": 719657,
+      "video_url": "4430574_0_9590792969164946"
+    },
+    {
+      "class_no": 47,
+      "title": "Class-16 || Ratio",
+      "id": 720243,
+      "video_url": "4430578_0_5499020176917365"
+    },
+    {
+      "class_no": 48,
+      "title": "Class-17 || Ratio",
+      "id": 722253,
+      "video_url": "4430581_0_1809276603677057"
+    },
+    {
+      "class_no": 49,
+      "title": "Class-18 || Ratio",
+      "id": 723342,
+      "video_url": "4430584_0_6027276437841412"
+    },
+    {
+      "class_no": 50,
+      "title": "Class-01 || Time and Work",
+      "id": 724496,
+      "video_url": "4430589_0_7130171009338053"
+    },
+    {
+      "class_no": 51,
+      "title": "Class-02 || Time and Work",
+      "id": 724952,
+      "video_url": "4430592_0_3264705330670061"
+    },
+    {
+      "class_no": 52,
+      "title": "Class-03 || Time and Work",
+      "id": 725111,
+      "video_url": "4430594_0_7281273627372561"
+    },
+    {
+      "class_no": 53,
+      "title": "Class-04 || Time and Work",
+      "id": 725466,
+      "video_url": "4430595_0_5548408023067900"
+    },
+    {
+      "class_no": 54,
+      "title": "Class-05 || Time and Work",
+      "id": 726829,
+      "video_url": "4430598_0_6665033306814970"
+    },
+    {
+      "class_no": 55,
+      "title": "Class-06 || Time and Work",
+      "id": 727329,
+      "video_url": "4430601_0_9402814975789926"
+    },
+    {
+      "class_no": 56,
+      "title": "Class-07 || Time and Work",
+      "id": 728550,
+      "video_url": "4430603_0_1889819568745252"
+    },
+    {
+      "class_no": 57,
+      "title": "Class-08 || Time and Work",
+      "id": 729071,
+      "video_url": "4430605_0_3357857857760214"
+    },
+    {
+      "class_no": 60,
+      "title": "Class-11 || Time and Work",
+      "id": 730717,
+      "video_url": "4430609_0_8921706386461359"
+    },
+    {
+      "class_no": 61,
+      "title": "Class-12 || Time and Work",
+      "id": 731089,
+      "video_url": "4430611_0_5054965275841582"
+    },
+    {
+      "class_no": 62,
+      "title": "Class-13 || Time and Work",
+      "id": 731424,
+      "video_url": "4430613_0_5799926298928266"
+    },
+    {
+      "class_no": 63,
+      "title": "Class-14 || Time and Work",
+      "id": 732340,
+      "video_url": "4430615_0_5788462079916589"
+    },
+    {
+      "class_no": 64,
+      "title": "Class-15 || Time and Work",
+      "id": 732565,
+      "video_url": "4430617_0_4166376073972974"
+    },
+    {
+      "class_no": 65,
+      "title": "Class-16 || Time and Work",
+      "id": 732934,
+      "video_url": "4430619_0_9408236194463263"
+    },
+    {
+      "class_no": 66,
+      "title": "Class-17 || Time and Work",
+      "id": 733278,
+      "video_url": "4430621_0_8778449141719825"
+    },
+    {
+      "class_no": 67,
+      "title": "Class-18 || Time and Work",
+      "id": 736156,
+      "video_url": "4430623_0_6994151419999263"
+    },
+    {
+      "class_no": 68,
+      "title": "Class-19 || Time and Work",
+      "id": 736887,
+      "video_url": "4430625_0_1103869363715327"
+    },
+    {
+      "class_no": 69,
+      "title": "Class-20 || Time and Work",
+      "id": 737239,
+      "video_url": "4430627_0_1091901118297124"
+    },
+    {
+      "class_no": 70,
+      "title": "Class-21 || Time and Work",
+      "id": 741046,
+      "video_url": "4430629_0_6468263244413448"
+    },
+    {
+      "class_no": 71,
+      "title": "Class-22 || Time and Work",
+      "id": 742893,
+      "video_url": "4430632_0_3769975575377715"
+    },
+    {
+      "class_no": 72,
+      "title": "Class-1 || Pipe and Cistern",
+      "id": 743192,
+      "video_url": "4430634_0_7314261178819053"
+    },
+    {
+      "class_no": 73,
+      "title": "Class-02 || Pipe and Cistern",
+      "id": 743440,
+      "video_url": "4430636_0_7218659153968933"
+    },
+    {
+      "class_no": 74,
+      "title": "Class-03 || Pipe and Cistern",
+      "id": 745414,
+      "video_url": "4430639_0_4856167582491149"
+    },
+    {
+      "class_no": 75,
+      "title": "Class-04 || Pipe and Cistern",
+      "id": 745564,
+      "video_url": "4430640_0_4051833257499609"
+    },
+    {
+      "class_no": 76,
+      "title": "Class-05 || Pipe and Cistern",
+      "id": 746401,
+      "video_url": "4430641_0_1247391137487245"
+    },
+    {
+      "class_no": 77,
+      "title": "Class-06 || Pipe and Cistern",
+      "id": 746837,
+      "video_url": "4430643_0_8037705067980490"
+    },
+    {
+      "class_no": 78,
+      "title": "Class-07 || Pipe and Cistern",
+      "id": 747696,
+      "video_url": "4430645_0_9912035223854240"
+    },
+    {
+      "class_no": 79,
+      "title": "Class-08 || Pipe and Cistern",
+      "id": 748066,
+      "video_url": "4430647_0_4771936755541003"
+    },
+    {
+      "class_no": 80,
+      "title": "Class-1 || Time, Speed and Distance",
+      "id": 748546,
+      "video_url": "4430649_0_5292014886051342"
+    },
+    {
+      "class_no": 81,
+      "title": "Class-02 || Time, Speed and Distance",
+      "id": 748885,
+      "video_url": "4430651_0_5738636662194623"
+    },
+    {
+      "class_no": 82,
+      "title": "Class-03 || Time, Speed and Distance",
+      "id": 749952,
+      "video_url": "4430653_0_3977949638211652"
+    },
+    {
+      "class_no": 83,
+      "title": "Class-04 || Time, Speed and Distance",
+      "id": 750234,
+      "video_url": "4430655_0_6911065520049816"
+    },
+    {
+      "class_no": 84,
+      "title": "Class-05 || Time, Speed and Distance",
+      "id": 751161,
+      "video_url": "4430657_0_1740577053233910"
+    },
+    {
+      "class_no": 85,
+      "title": "Class-06 || Time, Speed and Distance",
+      "id": 751946,
+      "video_url": "4430659_0_3739620281146552"
+    },
+    {
+      "class_no": 86,
+      "title": "Class-07 || Time, Speed and Distance",
+      "id": 752162,
+      "video_url": "4430661_0_4306739769073858"
+    },
+    {
+      "class_no": 87,
+      "title": "Class-08 || Time, Speed and Distance",
+      "id": 753462,
+      "video_url": "4430663_0_9053895370362736"
+    },
+    {
+      "class_no": 88,
+      "title": "Class-09 || Time, Speed and Distance",
+      "id": 754589,
+      "video_url": "4430665_0_7455448669021659"
+    },
+    {
+      "class_no": 89,
+      "title": "Class-10 || Time, Speed and Distance",
+      "id": 755243,
+      "video_url": "4430667_0_1489529259732787"
+    },
+    {
+      "class_no": 90,
+      "title": "Class-11 || Time, Speed and Distance",
+      "id": 756638,
+      "video_url": "4430670_0_6460564388190927"
+    },
+    {
+      "class_no": 92,
+      "title": "Class-13 || Time, Speed and Distance",
+      "id": 758709,
+      "video_url": "4430673_0_3468920047670509"
+    },
+    {
+      "class_no": 93,
+      "title": "Class-14 || Time, Speed and Distance",
+      "id": 760552,
+      "video_url": "4430675_0_1489829961240190"
+    },
+    {
+      "class_no": 94,
+      "title": "Class-15 || Time, Speed and Distance",
+      "id": 761150,
+      "video_url": "4430677_0_8374627397169963"
+    },
+    {
+      "class_no": 95,
+      "title": "Class-16 || Time, Speed and Distance",
+      "id": 762890,
+      "video_url": "4430679_0_9426501318184134"
+    },
+    {
+      "class_no": 96,
+      "title": "Class-17 || Time, Speed and Distance",
+      "id": 763215,
+      "video_url": "4430681_0_9888431347426674"
+    },
+    {
+      "class_no": 97,
+      "title": "Class-18 || Time, Speed and Distance",
+      "id": 763974,
+      "video_url": "4430684_0_1731802771851322"
+    },
+    {
+      "class_no": 98,
+      "title": "Class-19 || Time, Speed and Distance",
+      "id": 764559,
+      "video_url": "4430686_0_4585045400165831"
+    },
+    {
+      "class_no": 99,
+      "title": "Class-20 || Time, Speed and Distance",
+      "id": 765055,
+      "video_url": "4430689_0_9664897288063483"
+    },
+    {
+      "class_no": 100,
+      "title": "Class-21 || Time, Speed and Distance",
+      "id": 765666,
+      "video_url": "4449431_0_9613850680219044"
+    },
+    {
+      "class_no": 101,
+      "title": "Class-22 || Time, Speed and Distance",
+      "id": 767259,
+      "video_url": "4430693_0_3319504173759058"
+    },
+    {
+      "class_no": 102,
+      "title": "Class-23 || Time, Speed and Distance",
+      "id": 770090,
+      "video_url": "4430695_0_6509093820569314"
+    },
+    {
+      "class_no": 103,
+      "title": "Class-24 || Time, Speed and Distance",
+      "id": 770741,
+      "video_url": "4430698_0_6171164416166305"
+    },
+    {
+      "class_no": 104,
+      "title": "Class-25 || Time, Speed and Distance",
+      "id": 771500,
+      "video_url": "4430700_0_1405998295805564"
+    },
+    {
+      "class_no": 105,
+      "title": "Class -1 || Boat and Stream",
+      "id": 774141,
+      "video_url": "4430702_0_7005864177261163"
+    },
+    {
+      "class_no": 106,
+      "title": "Class -2 || Boat and Stream",
+      "id": 774803,
+      "video_url": "4430704_0_9784234680527422"
+    },
+    {
+      "class_no": 107,
+      "title": "Class -3 || Boat and Stream",
+      "id": 775279,
+      "video_url": "4430705_0_2839247256592096"
+    },
+    {
+      "class_no": 108,
+      "title": "Class -04 || Boat and Stream",
+      "id": 776023,
+      "video_url": "4430707_0_8022110007554820"
+    },
+    {
+      "class_no": 109,
+      "title": "Class-1 || Problem on Ages",
+      "id": 776646,
+      "video_url": "4449432_0_9611735152695889"
+    },
+    {
+      "class_no": 110,
+      "title": "Class -05 || Boat and Stream",
+      "id": 776421,
+      "video_url": "4430709_0_9763817817017114"
+    },
+    {
+      "class_no": 111,
+      "title": "Class-02 || Problem on Ages",
+      "id": 777174,
+      "video_url": "4430713_0_8565125370107567"
+    },
+    {
+      "class_no": 112,
+      "title": "Class -06 || Boat and Stream",
+      "id": 776936,
+      "video_url": "4430711_0_1511930040721761"
+    },
+    {
+      "class_no": 113,
+      "title": "Class-1 || Profit and Loss",
+      "id": 777531,
+      "video_url": "4430714_0_7115681143692589"
+    },
+    {
+      "class_no": 114,
+      "title": "Class-1 || Train",
+      "id": 778103,
+      "video_url": "4430715_0_8812400038565226"
+    },
+    {
+      "class_no": 115,
+      "title": "Class-02 || Profit and Loss",
+      "id": 778718,
+      "video_url": "4430717_0_3899443114258593"
+    },
+    {
+      "class_no": 116,
+      "title": "Class-2 || Train",
+      "id": 778813,
+      "video_url": "4430718_0_8142806804217120"
+    },
+    {
+      "class_no": 117,
+      "title": "Class-03 || Profit and Loss",
+      "id": 779216,
+      "video_url": "4430721_0_9271853897740206"
+    },
+    {
+      "class_no": 118,
+      "title": "Class-03 || Train",
+      "id": 779056,
+      "video_url": "4430719_0_3585679541208007"
+    },
+    {
+      "class_no": 119,
+      "title": "Class-1 || Race",
+      "id": 786723,
+      "video_url": "4429027_0_7911964594851068"
+    },
+    {
+      "class_no": 120,
+      "title": "Class-02 || Race",
+      "id": 786724,
+      "video_url": "4429029_0_2243788192411863"
+    },
+    {
+      "class_no": 121,
+      "title": "Class-03 || Race",
+      "id": 786725,
+      "video_url": "4429031_0_2587133097398775"
+    },
+    {
+      "class_no": 122,
+      "title": "Class-04 || Profit and Loss",
+      "id": 780660,
+      "video_url": "4430723_0_5254918277640035"
+    },
+    {
+      "class_no": 123,
+      "title": "Class-05 || Profit and Loss",
+      "id": 781542,
+      "video_url": "4430725_0_6558781195328283"
+    },
+    {
+      "class_no": 124,
+      "title": "Class-06 || Profit and Loss",
+      "id": 787043,
+      "video_url": "4430726_0_4582344368322561"
+    },
+    {
+      "class_no": 125,
+      "title": "Class-07 || Profit and Loss",
+      "id": 789285,
+      "video_url": "4430728_0_3055049722028856"
+    },
+    {
+      "class_no": 126,
+      "title": "Class-08 || Profit and Loss",
+      "id": 789645,
+      "video_url": "4430729_0_3029934208377583"
+    },
+    {
+      "class_no": 127,
+      "title": "Class-09 || Profit and Loss",
+      "id": 789897,
+      "video_url": "4430730_0_3067752706188510"
+    },
+    {
+      "class_no": 128,
+      "title": "Class-10 || Profit and Loss",
+      "id": 790206,
+      "video_url": "4430732_0_4666861772631203"
+    },
+    {
+      "class_no": 129,
+      "title": "Class-11 || Profit and Loss",
+      "id": 790592,
+      "video_url": "4430734_0_3052984968801831"
+    },
+    {
+      "class_no": 130,
+      "title": "Class-12 || Profit and Loss",
+      "id": 790922,
+      "video_url": "4430736_0_1349982304693644"
+    },
+    {
+      "class_no": 131,
+      "title": "Class-13 || Profit and Loss",
+      "id": 793183,
+      "video_url": "4430738_0_7796732226399304"
+    },
+    {
+      "class_no": 132,
+      "title": "Class-14 || Profit and Loss",
+      "id": 795366,
+      "video_url": "4430739_0_2853775590605560"
+    },
+    {
+      "class_no": 134,
+      "title": "Well wishes for Happy Teachers day by Gagan Pratap Sir",
+      "id": 796118,
+      "video_url": "4430742_0_1695485654636085"
+    },
+    {
+      "class_no": 135,
+      "title": "Class-16 || Profit and Loss",
+      "id": 796507,
+      "video_url": "4430744_0_8334126663468116"
+    },
+    {
+      "class_no": 136,
+      "title": "Class-1 || Discount",
+      "id": 796793,
+      "video_url": "4430746_0_9166478315397520"
+    },
+    {
+      "class_no": 137,
+      "title": "Class-02 || Discount",
+      "id": 797097,
+      "video_url": "4430747_0_7122916972622420"
+    },
+    {
+      "class_no": 138,
+      "title": "Class-03 || Discount",
+      "id": 799920,
+      "video_url": "4430749_0_2760261593678072"
+    },
+    {
+      "class_no": 139,
+      "title": "Class-04 | Maths | Discount",
+      "id": 800246,
+      "video_url": "4430751_0_9944589573416860"
+    },
+    {
+      "class_no": 140,
+      "title": "Class-05 | Maths | Discount",
+      "id": 800583,
+      "video_url": "4430753_0_7853957956557066"
+    },
+    {
+      "class_no": 141,
+      "title": "Class-06 | Maths | Discount",
+      "id": 801188,
+      "video_url": "4430754_0_5284917139635853"
+    },
+    {
+      "class_no": 142,
+      "title": "Class-07 | Maths | Discount",
+      "id": 801984,
+      "video_url": "4430756_0_4132187223283181"
+    },
+    {
+      "class_no": 143,
+      "title": "Class-08 | Maths | Discount",
+      "id": 802423,
+      "video_url": "4430757_0_1106438946720931"
+    },
+    {
+      "class_no": 144,
+      "title": "Class-09 | Maths | Discount",
+      "id": 803260,
+      "video_url": "4430759_0_4397992829138676"
+    },
+    {
+      "class_no": 145,
+      "title": "Class-10 | Maths | Discount",
+      "id": 804046,
+      "video_url": "4430761_0_1405229614860327"
+    },
+    {
+      "class_no": 146,
+      "title": "Class-11 | Maths | Discount",
+      "id": 806305,
+      "video_url": "4430764_0_4113659978212969"
+    },
+    {
+      "class_no": 147,
+      "title": "Class-12 | Maths | Discount",
+      "id": 806638,
+      "video_url": "4430766_0_4621222541305484"
+    },
+    {
+      "class_no": 148,
+      "title": "Class-13 | Maths | Discount",
+      "id": 807114,
+      "video_url": "4430768_0_8186626327725515"
+    },
+    {
+      "class_no": 149,
+      "title": "Class-14 | Maths | Discount",
+      "id": 807829,
+      "video_url": "4430770_0_5112774958079094"
+    },
+    {
+      "class_no": 150,
+      "title": "Class -1  | Maths || Partnership",
+      "id": 807967,
+      "video_url": "4430772_0_3553902847962689"
+    },
+    {
+      "class_no": 151,
+      "title": "Arith | Class -01 | Miscellaneous (Dishonest Shopkeeper)",
+      "id": 808153,
+      "video_url": "4429128_0_3699233539911958"
+    },
+    {
+      "class_no": 152,
+      "title": "Arith | Class -02| Miscellaneous (Dishonest Shopkeeper)",
+      "id": 808165,
+      "video_url": "4429129_0_2550917836812390"
+    },
+    {
+      "class_no": 153,
+      "title": "Arith | Class -03 | Miscellaneous (Dishonest Shopkeeper)",
+      "id": 808173,
+      "video_url": "4429130_0_5072899429743885"
+    },
+    {
+      "class_no": 154,
+      "title": "Class -02 | Maths || Partnership",
+      "id": 809398,
+      "video_url": "4430774_0_8877595148876517"
+    },
+    {
+      "class_no": 155,
+      "title": "Class -03 | Maths || Partnership",
+      "id": 812675,
+      "video_url": "4430776_0_1244354500756070"
+    },
+    {
+      "class_no": 156,
+      "title": "Class -04 | Maths || Partnership",
+      "id": 812931,
+      "video_url": "4430777_0_6304877061643873"
+    },
+    {
+      "class_no": 157,
+      "title": "Class -01 | Maths || Average",
+      "id": 813066,
+      "video_url": "4430778_0_8980463249741882"
+    },
+    {
+      "class_no": 158,
+      "title": "Class -02 | Maths || Average",
+      "id": 813608,
+      "video_url": "4430780_0_3008160766371167"
+    },
+    {
+      "class_no": 159,
+      "title": "Class -03 | Maths || Average",
+      "id": 814250,
+      "video_url": "4430782_0_8587391526229936"
+    },
+    {
+      "class_no": 160,
+      "title": "Class -04 | Maths || Average",
+      "id": 814525,
+      "video_url": "4430784_0_3261916515828516"
+    },
+    {
+      "class_no": 161,
+      "title": "Class -05 | Maths || Average",
+      "id": 814847,
+      "video_url": "4430786_0_1620112880640581"
+    },
+    {
+      "class_no": 162,
+      "title": "Class -06 | Maths || Average",
+      "id": 816031,
+      "video_url": "4430788_0_4433013014935648"
+    },
+    {
+      "class_no": 164,
+      "title": "Class -08 | Maths || Average",
+      "id": 817296,
+      "video_url": "4430791_0_3677246486333010"
+    },
+    {
+      "class_no": 165,
+      "title": "Class -09 | Maths || Average",
+      "id": 817795,
+      "video_url": "4430793_0_7429858074113981"
+    },
+    {
+      "class_no": 166,
+      "title": "Class -10 | Maths || Average",
+      "id": 820503,
+      "video_url": "4430795_0_3103979799602080"
+    },
+    {
+      "class_no": 167,
+      "title": "Class -11 | Maths || Average",
+      "id": 820805,
+      "video_url": "4430797_0_9809951258093644"
+    },
+    {
+      "class_no": 168,
+      "title": "Class-1 | Maths || Mixture and Alligation",
+      "id": 821109,
+      "video_url": "4430799_0_5103119477619962"
+    },
+    {
+      "class_no": 169,
+      "title": "Class-02 | Maths || Mixture and Alligation",
+      "id": 821523,
+      "video_url": "4430801_0_8102942983695973"
+    },
+    {
+      "class_no": 170,
+      "title": "Class-03 | Maths || Mixture and Alligation",
+      "id": 821750,
+      "video_url": "4430803_0_2708873961306659"
+    },
+    {
+      "class_no": 171,
+      "title": "Class-04 | Maths || Mixture and Alligation",
+      "id": 822065,
+      "video_url": "4430804_0_6623236089723356"
+    },
+    {
+      "class_no": 172,
+      "title": "Class -05 || Mixture and Alligation",
+      "id": 824049,
+      "video_url": "4430806_0_6543570653368440"
+    },
+    {
+      "class_no": 173,
+      "title": "Class -06 || Mixture and Alligation",
+      "id": 824376,
+      "video_url": "4430808_0_1197989682343173"
+    },
+    {
+      "class_no": 174,
+      "title": "Class -07 || Mixture and Alligation",
+      "id": 825153,
+      "video_url": "4430809_0_7948822520204712"
+    },
+    {
+      "class_no": 175,
+      "title": "Class -08 || Mixture and Alligation",
+      "id": 825672,
+      "video_url": "4430810_0_5349924529896572"
+    },
+    {
+      "class_no": 176,
+      "title": "Class -09 || Mixture and Alligation",
+      "id": 825902,
+      "video_url": "4430811_0_5343116493642427"
+    },
+    {
+      "class_no": 177,
+      "title": "Class -10 || Mixture and Alligation",
+      "id": 826228,
+      "video_url": "4430812_0_6900904867256051"
+    },
+    {
+      "class_no": 178,
+      "title": "Class -11 || Mixture and Alligation",
+      "id": 827099,
+      "video_url": "4430813_0_2402729081266393"
+    },
+    {
+      "class_no": 179,
+      "title": "Class -12 || Mixture and Alligation",
+      "id": 828638,
+      "video_url": "4430814_0_2745307384095371"
+    },
+    {
+      "class_no": 180,
+      "title": "Class -13 || Mixture and Alligation",
+      "id": 829036,
+      "video_url": "4430815_0_6379488820200359"
+    },
+    {
+      "class_no": 181,
+      "title": "Class -14 || Mixture and Alligation",
+      "id": 830713,
+      "video_url": "4430816_0_3538949918227128"
+    },
+    {
+      "class_no": 182,
+      "title": "Class -15 || Mixture and Alligation",
+      "id": 833072,
+      "video_url": "4430817_0_2234186966025681"
+    },
+    {
+      "class_no": 183,
+      "title": "Class -16 || Mixture and Alligation",
+      "id": 834758,
+      "video_url": "4430818_0_3483828621945855"
+    },
+    {
+      "class_no": 184,
+      "title": "Class-1 || Simple Intrest",
+      "id": 835180,
+      "video_url": "4430819_0_8208857508616806"
+    },
+    {
+      "class_no": 185,
+      "title": "Class-02 || Simple Intrest",
+      "id": 835770,
+      "video_url": "4430820_0_3297486312618483"
+    },
+    {
+      "class_no": 186,
+      "title": "Class-03 || Simple Intrest",
+      "id": 836774,
+      "video_url": "4430821_0_1479734098051315"
+    },
+    {
+      "class_no": 187,
+      "title": "Class-04 || Simple Intrest",
+      "id": 836975,
+      "video_url": "4430822_0_5054707454765599"
+    },
+    {
+      "class_no": 188,
+      "title": "Class-05 || Simple Intrest",
+      "id": 837407,
+      "video_url": "4430823_0_2136301550878180"
+    },
+    {
+      "class_no": 189,
+      "title": "Class-06 || Simple Intrest",
+      "id": 837835,
+      "video_url": "4430824_0_8278804523163178"
+    },
+    {
+      "class_no": 190,
+      "title": "Class-07 || Simple Intrest",
+      "id": 838083,
+      "video_url": "4430825_0_7616249003840070"
+    },
+    {
+      "class_no": 191,
+      "title": "Class-08 || Simple Intrest",
+      "id": 839296,
+      "video_url": "4430826_0_6085519999945876"
+    },
+    {
+      "class_no": 192,
+      "title": "Class-09 || Simple Intrest",
+      "id": 839970,
+      "video_url": "4430827_0_4832806018647155"
+    },
+    {
+      "class_no": 193,
+      "title": "Class-10 || Simple Intrest",
+      "id": 841469,
+      "video_url": "4430828_0_2127316367639972"
+    },
+    {
+      "class_no": 194,
+      "title": "Class-11 || Simple Intrest",
+      "id": 841690,
+      "video_url": "4430829_0_3938417481914860"
+    },
+    {
+      "class_no": 195,
+      "title": "Class-12 || Simple Intrest",
+      "id": 841989,
+      "video_url": "4430830_0_7597687923105251"
+    },
+    {
+      "class_no": 196,
+      "title": "Class-1 || Compound Interest",
+      "id": 842443,
+      "video_url": "4430831_0_4965979690889703"
+    },
+    {
+      "class_no": 197,
+      "title": "Class-02 || Compound Interest",
+      "id": 844249,
+      "video_url": "4430832_0_7153253567644663"
+    },
+    {
+      "class_no": 198,
+      "title": "Class-03 || Compound Interest",
+      "id": 844612,
+      "video_url": "4430833_0_1742376577179734"
+    },
+    {
+      "class_no": 199,
+      "title": "Class-04 || Compound Interest",
+      "id": 845460,
+      "video_url": "4507446_0_9395375650393293"
+    },
+    {
+      "class_no": 200,
+      "title": "Class-05 || Compound Interest",
+      "id": 845883,
+      "video_url": "4430834_0_3520694382547269"
+    },
+    {
+      "class_no": 201,
+      "title": "Class-06 || Compound Interest",
+      "id": 848530,
+      "video_url": "4430835_0_4652763020151777"
+    },
+    {
+      "class_no": 202,
+      "title": "Class-07 || Compound Interest",
+      "id": 848795,
+      "video_url": "4430836_0_5819262404317625"
+    },
+    {
+      "class_no": 203,
+      "title": "Class-08 || Compound Interest",
+      "id": 849375,
+      "video_url": "4430837_0_9564933205524532"
+    },
+    {
+      "class_no": 204,
+      "title": "Class-09 || Compound Interest",
+      "id": 849803,
+      "video_url": "4430838_0_5162085063040477"
+    },
+    {
+      "class_no": 205,
+      "title": "Class-10 || Compound Interest",
+      "id": 850053,
+      "video_url": "4430839_0_4753275203375001"
+    },
+    {
+      "class_no": 206,
+      "title": "Class-11 || Compound Interest",
+      "id": 851943,
+      "video_url": "4430840_0_5224703355683710"
+    },
+    {
+      "class_no": 207,
+      "title": "Class-12 || Compound Interest",
+      "id": 853718,
+      "video_url": "4430841_0_9976639253018713"
+    },
+    {
+      "class_no": 208,
+      "title": "Class-13 || Compound Interest",
+      "id": 854280,
+      "video_url": "4430842_0_4423610015298603"
+    },
+    {
+      "class_no": 209,
+      "title": "Class-14 || Compound Interest",
+      "id": 854657,
+      "video_url": "4430843_0_7510258974425099"
+    },
+    {
+      "class_no": 210,
+      "title": "Class-15 || Compound Interest",
+      "id": 855074,
+      "video_url": "4430844_0_4931518610406571"
+    },
+    {
+      "class_no": 211,
+      "title": "Class-16 || Complete Installment of SI and CI (किस्तों वाले सवाल) || By Gagan Pratap Sir",
+      "id": 855374,
+      "video_url": "4430845_0_8477604445553753"
+    }
+  ],
+  "notes_total": 1,
+  "notes": [
+    {
+      "id": 440343,
+      "title": "Problem on Ages",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/67161c40caa03_problem_on_ages_1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/67161c40caa03_problem_on_ages_1.pdf&key=scammer09876",
+      "date": "21-Oct-2024"
+    }
+  ]
+}
