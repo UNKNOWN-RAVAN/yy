@@ -1,0 +1,21 @@
+{
+  "batchid": 1963,
+  "topicid": 17218,
+  "classes_total": 2,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-01 | Introduction to DI",
+      "id": 573600,
+      "video_url": "https://www.youtube.com/watch?v=EHLiXgr55OY"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 | Percentage Calculation Techniques",
+      "id": 574575,
+      "video_url": "https://www.youtube.com/watch?v=PnVTD8NF9Bo"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
