@@ -1,0 +1,57 @@
+{
+  "batchid": 2308,
+  "topicid": 22538,
+  "classes_total": 8,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Demo Biology",
+      "id": 705137,
+      "video_url": "4463414_0_8481949027933227"
+    },
+    {
+      "class_no": 2,
+      "title": "L - 01 | Life Process",
+      "id": 705138,
+      "video_url": "4463413_0_9773313787643005"
+    },
+    {
+      "class_no": 3,
+      "title": "L - 02 | Life Process",
+      "id": 705139,
+      "video_url": "4463412_0_4691870345206892"
+    },
+    {
+      "class_no": 4,
+      "title": "L - 03 | Life Process",
+      "id": 705140,
+      "video_url": "4463410_0_3109637898361264"
+    },
+    {
+      "class_no": 25,
+      "title": "L - 24 | Cardiac Muscles Tissue",
+      "id": 705161,
+      "video_url": "4463400_0_8265543650534586"
+    },
+    {
+      "class_no": 30,
+      "title": "L - 29 | Tissue Question And Answer",
+      "id": 705166,
+      "video_url": "4463393_0_4876297255289886"
+    },
+    {
+      "class_no": 37,
+      "title": "L -35 | Disease Caused By Virus",
+      "id": 705173,
+      "video_url": "4464345_0_6633545683531517"
+    },
+    {
+      "class_no": 47,
+      "title": "L -45 | Biology Ch 7 - Diversity in living organisms | जीवों में विविधता",
+      "id": 705183,
+      "video_url": "4463383_0_2126671114938534"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
