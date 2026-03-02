@@ -1,0 +1,104 @@
+{
+  "batch_id": 1917,
+  "batch_name": "9th Class VOD (Hindi Med.)",
+  "topics": [
+    {
+      "id": 16493,
+      "topicName": "Maths (NCERT)",
+      "cls_count": 159,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 16494,
+      "topicName": "Eng",
+      "cls_count": 221,
+      "notes_count": 42,
+      "chapter_count": 0
+    },
+    {
+      "id": 16495,
+      "topicName": "Phy",
+      "cls_count": 128,
+      "notes_count": 37,
+      "chapter_count": 0
+    },
+    {
+      "id": 16496,
+      "topicName": "Chem",
+      "cls_count": 84,
+      "notes_count": 44,
+      "chapter_count": 0
+    },
+    {
+      "id": 16497,
+      "topicName": "Bio",
+      "cls_count": 181,
+      "notes_count": 86,
+      "chapter_count": 0
+    },
+    {
+      "id": 16498,
+      "topicName": "Computer",
+      "cls_count": 31,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 16499,
+      "topicName": "Hindi",
+      "cls_count": 45,
+      "notes_count": 21,
+      "chapter_count": 0
+    },
+    {
+      "id": 16500,
+      "topicName": "His",
+      "cls_count": 66,
+      "notes_count": 5,
+      "chapter_count": 0
+    },
+    {
+      "id": 16501,
+      "topicName": "Geo",
+      "cls_count": 40,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 16502,
+      "topicName": "Eco",
+      "cls_count": 43,
+      "notes_count": 4,
+      "chapter_count": 0
+    },
+    {
+      "id": 16503,
+      "topicName": "Pol",
+      "cls_count": 55,
+      "notes_count": 3,
+      "chapter_count": 0
+    },
+    {
+      "id": 16504,
+      "topicName": "Mental Ability",
+      "cls_count": 24,
+      "notes_count": 3,
+      "chapter_count": 0
+    },
+    {
+      "id": 16505,
+      "topicName": "Sanskrit",
+      "cls_count": 18,
+      "notes_count": 15,
+      "chapter_count": 0
+    },
+    {
+      "id": 16516,
+      "topicName": "Test",
+      "cls_count": 0,
+      "notes_count": 12,
+      "chapter_count": 0
+    }
+  ]
+}
