@@ -1,0 +1,21 @@
+{
+  "batchid": 2309,
+  "topicid": 22542,
+  "classes_total": 2,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Demo Biology",
+      "id": 705257,
+      "video_url": "https://www.youtube.com/watch?v=_2KhXB4gKz0"
+    },
+    {
+      "class_no": 2,
+      "title": "L - 01 | Nutrition",
+      "id": 705258,
+      "video_url": "https://www.youtube.com/watch?v=FkpBR990gms"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
