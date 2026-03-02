@@ -1,0 +1,983 @@
+{
+  "batchid": 3307,
+  "topicid": 34087,
+  "classes_total": 49,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-1 | Introduction",
+      "id": 1164578,
+      "video_url": "4595413_0_7862816988456892"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-2 | Coding Decoding",
+      "id": 1168386,
+      "video_url": "4597763_0_9316618272369046"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-3 | Coding Decoding",
+      "id": 1169437,
+      "video_url": "4598974_0_2059527177192806"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-4 | Coding Decoding",
+      "id": 1170760,
+      "video_url": "4600112_0_6674133860777374"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-5 | Coding Decoding",
+      "id": 1172733,
+      "video_url": "4601140_0_9299470412455312"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-6 | Coding Decoding",
+      "id": 1173591,
+      "video_url": "https://www.youtube.com/watch?v=Oxdsjrv-XNg"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-7 | Coding Decoding",
+      "id": 1176652,
+      "video_url": "4605129_0_7455822253771785"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-8 | Coding Decoding",
+      "id": 1177658,
+      "video_url": "4606192_0_6875333205369852"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-9 | Coding Decoding",
+      "id": 1180237,
+      "video_url": "4607193_0_4844342712698542"
+    },
+    {
+      "class_no": 10,
+      "title": "Class-10 | Letter Series",
+      "id": 1181285,
+      "video_url": "4608267_0_6235730972922059"
+    },
+    {
+      "class_no": 11,
+      "title": "Class-11 | Letter Series",
+      "id": 1186338,
+      "video_url": "4610131_0_1230658834839071"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-12 | Pair Formation",
+      "id": 1189103,
+      "video_url": "4611234_0_9959869050194802"
+    },
+    {
+      "class_no": 13,
+      "title": "Class-13 | Pair Formation",
+      "id": 1190626,
+      "video_url": "4612328_0_5997715062139163"
+    },
+    {
+      "class_no": 14,
+      "title": "Class-14 | Dictionary, Word Formation, Jumbling",
+      "id": 1192281,
+      "video_url": "4613426_0_6325057043505370"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-15 | Alphabetical Series",
+      "id": 1194784,
+      "video_url": "4614610_0_1400141651711698"
+    },
+    {
+      "class_no": 16,
+      "title": "Class-16 | Alphabetical Series",
+      "id": 1200896,
+      "video_url": "4617459_0_2875870145287309"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-17 | Reas | Alphabetical Series",
+      "id": 1202186,
+      "video_url": "4618446_0_7871405569756751"
+    },
+    {
+      "class_no": 18,
+      "title": "Class-18 | Reas | Alphabetical Series",
+      "id": 1202975,
+      "video_url": "4619159_0_5168416152075573"
+    },
+    {
+      "class_no": 19,
+      "title": "Class-19 | Reas | Number Series",
+      "id": 1205580,
+      "video_url": "4622359_0_7819100530352786"
+    },
+    {
+      "class_no": 20,
+      "title": "Class-20 | Reas | Number Series",
+      "id": 1208542,
+      "video_url": "4623497_0_9081552996688504"
+    },
+    {
+      "class_no": 21,
+      "title": "Class-21 | Reas | Number Series",
+      "id": 1209719,
+      "video_url": "4624558_0_1540805696584568"
+    },
+    {
+      "class_no": 22,
+      "title": "Class-22 | Reas | Missing Number",
+      "id": 1211042,
+      "video_url": "4673504_0_8609281177351087"
+    },
+    {
+      "class_no": 23,
+      "title": "Class-23 | Reas | Missing Number",
+      "id": 1213328,
+      "video_url": "4629032_0_4248272109769447"
+    },
+    {
+      "class_no": 24,
+      "title": "Class-24 | Reas | Analogy",
+      "id": 1223604,
+      "video_url": "4632834_0_8927889986483629"
+    },
+    {
+      "class_no": 25,
+      "title": "Class-25 | Reas | Analogy",
+      "id": 1225663,
+      "video_url": "4633932_0_7983852590934644"
+    },
+    {
+      "class_no": 26,
+      "title": "Class-26 | Reas | Classification - Odd One Out",
+      "id": 1232668,
+      "video_url": "4635888_0_4286236598297149"
+    },
+    {
+      "class_no": 27,
+      "title": "Class-27 | Reas | Classification - Odd One Out",
+      "id": 1234485,
+      "video_url": "4636998_0_7867775278499548"
+    },
+    {
+      "class_no": 28,
+      "title": "Class-28 | Reas | Coded Equations",
+      "id": 1235730,
+      "video_url": "4638303_0_5474330690718105"
+    },
+    {
+      "class_no": 29,
+      "title": "Class-29 | Reas | Coded Equations",
+      "id": 1237083,
+      "video_url": "4639281_0_6929782371961059"
+    },
+    {
+      "class_no": 30,
+      "title": "Class-30 | Reas | Calendar",
+      "id": 1239378,
+      "video_url": "4640113_0_2368327514878676"
+    },
+    {
+      "class_no": 31,
+      "title": "Class-31 | Reas | Calendar",
+      "id": 1246117,
+      "video_url": "4643258_0_4204123046304747"
+    },
+    {
+      "class_no": 32,
+      "title": "Class-32 | Reas | Calendar",
+      "id": 1246711,
+      "video_url": "4643967_0_3564947726471990"
+    },
+    {
+      "class_no": 33,
+      "title": "Class-33 | Reas | Calendar",
+      "id": 1251086,
+      "video_url": "4645843_0_5516132696917481"
+    },
+    {
+      "class_no": 34,
+      "title": "Class-34 | Reas | Calendar",
+      "id": 1253637,
+      "video_url": "4647699_0_3299518214954390"
+    },
+    {
+      "class_no": 37,
+      "title": "Class-37 | Reas | Calendar",
+      "id": 1259283,
+      "video_url": "4653540_0_9398328268055994"
+    },
+    {
+      "class_no": 38,
+      "title": "Class-38 | Reas | Analytical Reasoning",
+      "id": 1261569,
+      "video_url": "4655699_0_1717231765918097"
+    },
+    {
+      "class_no": 39,
+      "title": "Class-39 | Reas | Analytical Reasoning",
+      "id": 1262599,
+      "video_url": "4656877_0_7292085254492901"
+    },
+    {
+      "class_no": 40,
+      "title": "Class-40 | Reas | Analytical Reasoning",
+      "id": 1266774,
+      "video_url": "4659027_0_2558868715886729"
+    },
+    {
+      "class_no": 46,
+      "title": "Class-46 | Reas | Analytical Reasoning",
+      "id": 1276426,
+      "video_url": "4669052_0_1579513527318306"
+    },
+    {
+      "class_no": 47,
+      "title": "Class-47 | Reas | Analytical Reasoning",
+      "id": 1284930,
+      "video_url": "4669877_0_2487863682250829"
+    },
+    {
+      "class_no": 48,
+      "title": "Class-48 | Reas | Analytical Reasoning",
+      "id": 1287012,
+      "video_url": "4670887_0_2661088663274336"
+    },
+    {
+      "class_no": 49,
+      "title": "Class-49 | Reas | Clock",
+      "id": 1288121,
+      "video_url": "4671855_0_7388816259800356"
+    },
+    {
+      "class_no": 50,
+      "title": "Class-50 | Reas | Clock",
+      "id": 1290361,
+      "video_url": "4674979_0_1496995091396860"
+    },
+    {
+      "class_no": 51,
+      "title": "Class-51 | Reas | Clock",
+      "id": 1291778,
+      "video_url": "4674721_0_3359734044802280"
+    },
+    {
+      "class_no": 52,
+      "title": "Class-51 | Reas | Clock",
+      "id": 1293735,
+      "video_url": "4676429_0_3989841663586379"
+    },
+    {
+      "class_no": 53,
+      "title": "Class-52 | Reas | Clock",
+      "id": 1294544,
+      "video_url": "4678236_0_4995434957629367"
+    },
+    {
+      "class_no": 54,
+      "title": "Class-53 | Reas | Clock",
+      "id": 1297015,
+      "video_url": "4681460_0_4376191938232233"
+    },
+    {
+      "class_no": 55,
+      "title": "Class-54 | Reas | Clock PYQs Practice",
+      "id": 1296900,
+      "video_url": "4681485_0_4699451427852645"
+    },
+    {
+      "class_no": 56,
+      "title": "Class-55 | Reas | Ranking",
+      "id": 1297973,
+      "video_url": "4682580_0_4052407618991129"
+    }
+  ],
+  "notes_total": 97,
+  "notes": [
+    {
+      "id": 726183,
+      "title": "Reas | 7 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/690de9137a227_Piyush_Sir_CGL_Mains_7_Nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/690de9137a227_Piyush_Sir_CGL_Mains_7_Nov_compressed.pdf&key=scammer09876",
+      "date": "07-Nov-2025"
+    },
+    {
+      "id": 730362,
+      "title": "Reas | 11 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691329a4a5cd7_11nov_Coding_Decoding_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691329a4a5cd7_11nov_Coding_Decoding_compressed.pdf&key=scammer09876",
+      "date": "11-Nov-2025"
+    },
+    {
+      "id": 732739,
+      "title": "Reas | 13 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6916d4a9ad30d_Piyush_Sir_4_PM_Nov_13th_AppYT_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6916d4a9ad30d_Piyush_Sir_4_PM_Nov_13th_AppYT_compressed.pdf&key=scammer09876",
+      "date": "14-Nov-2025"
+    },
+    {
+      "id": 733387,
+      "title": "Reas | 14 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69184bbc8889c_Piyush_Sir_14th_Nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69184bbc8889c_Piyush_Sir_14th_Nov_compressed.pdf&key=scammer09876",
+      "date": "15-Nov-2025"
+    },
+    {
+      "id": 734685,
+      "title": "Reas | 18 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691d537b9a521_18_Nov_Coding_Decoding_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691d537b9a521_18_Nov_Coding_Decoding_compressed.pdf&key=scammer09876",
+      "date": "19-Nov-2025"
+    },
+    {
+      "id": 736244,
+      "title": "Reas | 19 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691ee4b84ad41_Reas_19th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/691ee4b84ad41_Reas_19th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf&key=scammer09876",
+      "date": "20-Nov-2025"
+    },
+    {
+      "id": 736701,
+      "title": "Reas | 20 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6920116d8cf52_Reas_20th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6920116d8cf52_Reas_20th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf&key=scammer09876",
+      "date": "21-Nov-2025"
+    },
+    {
+      "id": 739184,
+      "title": "Coding Decoding Practice Set-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923dd8097075_4._Coding_Decoding_Practice_Set_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923dd8097075_4._Coding_Decoding_Practice_Set_compressed.pdf&key=scammer09876",
+      "date": "24-Nov-2025"
+    },
+    {
+      "id": 739186,
+      "title": "Coding Decoding Test-6",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923ddcfc3f59_6._Coding_Decoding_Test_Pdf_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923ddcfc3f59_6._Coding_Decoding_Test_Pdf_compressed.pdf&key=scammer09876",
+      "date": "24-Nov-2025"
+    },
+    {
+      "id": 739187,
+      "title": "Coding-Decoding (Class Question)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923de4eabc6e_2._CodingDecoding_Class_Question_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923de4eabc6e_2._CodingDecoding_Class_Question_compressed.pdf&key=scammer09876",
+      "date": "24-Nov-2025"
+    },
+    {
+      "id": 739190,
+      "title": "Coding Decoding PYQ Practice Set-5",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923deadbb900_5._Coding_Decoding_PYQ_Practice_Set_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6923deadbb900_5._Coding_Decoding_PYQ_Practice_Set_compressed.pdf&key=scammer09876",
+      "date": "24-Nov-2025"
+    },
+    {
+      "id": 742217,
+      "title": "Letter Series Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d6568f2bc_2._Letter_Series_Class_Question_50Q_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d6568f2bc_2._Letter_Series_Class_Question_50Q_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 742225,
+      "title": "Letter Series Test-5",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d6dca016f_5._Letter_Series_Test_pdf_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d6dca016f_5._Letter_Series_Test_pdf_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 742227,
+      "title": "Letter Series Practice Set-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d72b96445_4._Letter_Series_Practice_Set_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d72b96445_4._Letter_Series_Practice_Set_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 742244,
+      "title": "Reas | 25 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d78ae790d_4_pm_class_25_nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926d78ae790d_4_pm_class_25_nov_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 742477,
+      "title": "Reas | 24 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926e15b52f71_Reas_24th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926e15b52f71_Reas_24th_Nov_class_PNGSSC_Pratham13_Reasoning_Spl63_New_Batch400pm_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 743211,
+      "title": "Reas | 26 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926f39269dec_4_pm_class_26_nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6926f39269dec_4_pm_class_26_nov_compressed.pdf&key=scammer09876",
+      "date": "26-Nov-2025"
+    },
+    {
+      "id": 743915,
+      "title": "Pair Formatoon Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69283a863c497_PAIR_FORMATION_Class_Questions_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69283a863c497_PAIR_FORMATION_Class_Questions_compressed.pdf&key=scammer09876",
+      "date": "27-Nov-2025"
+    },
+    {
+      "id": 744385,
+      "title": "Dictionary, Word Formation, Jumbling Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6929443e926fb_DICTIONARY_WORD_FORMATION_JUMBLING_Class_Questions_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6929443e926fb_DICTIONARY_WORD_FORMATION_JUMBLING_Class_Questions_compressed.pdf&key=scammer09876",
+      "date": "28-Nov-2025"
+    },
+    {
+      "id": 744375,
+      "title": "Dictionary, Word Formation, Jumbling | 27 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69293eb06755d_4_pm_class_27_nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69293eb06755d_4_pm_class_27_nov_compressed.pdf&key=scammer09876",
+      "date": "28-Nov-2025"
+    },
+    {
+      "id": 746620,
+      "title": "Alphabetical Series | 28 Nov | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/692a9fe31a27d_4_pm_class_28_nov_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/692a9fe31a27d_4_pm_class_28_nov_compressed.pdf&key=scammer09876",
+      "date": "29-Nov-2025"
+    },
+    {
+      "id": 756567,
+      "title": "Alphabetical Series | 02 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693003aa5caf4_4_pm_class_2_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693003aa5caf4_4_pm_class_2_Dec_compressed.pdf&key=scammer09876",
+      "date": "03-Dec-2025"
+    },
+    {
+      "id": 757399,
+      "title": "Alphabetical Series | 04 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69317d5f33da0_4_pm_class_4_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/69317d5f33da0_4_pm_class_4_Dec_compressed.pdf&key=scammer09876",
+      "date": "04-Dec-2025"
+    },
+    {
+      "id": 759058,
+      "title": "Matrix Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a86d0a166_Matrix_Class_Question_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a86d0a166_Matrix_Class_Question_compressed.pdf&key=scammer09876",
+      "date": "08-Dec-2025"
+    },
+    {
+      "id": 759072,
+      "title": "Alphabetical Series Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a91eed853_Alphabetical_Series_Class_Questions_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a91eed853_Alphabetical_Series_Class_Questions_compressed.pdf&key=scammer09876",
+      "date": "08-Dec-2025"
+    },
+    {
+      "id": 759086,
+      "title": "Dictionary, Word formation, Jumbling WBP Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a9f317e79_Dictionary_Word_formation_Jumbling_WBP_Class_Questions_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936a9f317e79_Dictionary_Word_formation_Jumbling_WBP_Class_Questions_compressed.pdf&key=scammer09876",
+      "date": "08-Dec-2025"
+    },
+    {
+      "id": 759100,
+      "title": "Pair Formation Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936ab73cd50b_Pair_Formation_Class_Questions_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936ab73cd50b_Pair_Formation_Class_Questions_compressed.pdf&key=scammer09876",
+      "date": "08-Dec-2025"
+    },
+    {
+      "id": 759135,
+      "title": "Number Series | 08 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936b347f254d_230pm_class_by_Piyush_Sir_8_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6936b347f254d_230pm_class_by_Piyush_Sir_8_Dec_compressed.pdf&key=scammer09876",
+      "date": "08-Dec-2025"
+    },
+    {
+      "id": 761339,
+      "title": "Reas | 09 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6937f6c395210_230pm_Class_by_PIyush_SIr_9_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6937f6c395210_230pm_Class_by_PIyush_SIr_9_Dec_compressed.pdf&key=scammer09876",
+      "date": "09-Dec-2025"
+    },
+    {
+      "id": 762414,
+      "title": "Number Series Test",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693961a13c233_Number_Series_Test_Pdf_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693961a13c233_Number_Series_Test_Pdf_compressed.pdf&key=scammer09876",
+      "date": "10-Dec-2025"
+    },
+    {
+      "id": 762428,
+      "title": "Number Series Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939624f8b683_NUMBER_SERIES_CLASS_QUESTIONS_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939624f8b683_NUMBER_SERIES_CLASS_QUESTIONS_compressed.pdf&key=scammer09876",
+      "date": "10-Dec-2025"
+    },
+    {
+      "id": 762442,
+      "title": "Number Series Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939635e8d928_NUMBER_SERIES_Practice_Set_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939635e8d928_NUMBER_SERIES_Practice_Set_compressed.pdf&key=scammer09876",
+      "date": "10-Dec-2025"
+    },
+    {
+      "id": 762342,
+      "title": "Reas | 10Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939474e915c5_230pm_Class_by_PIyush_SIr_10_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6939474e915c5_230pm_Class_by_PIyush_SIr_10_Dec_compressed.pdf&key=scammer09876",
+      "date": "10-Dec-2025"
+    },
+    {
+      "id": 762673,
+      "title": "Series PYQ Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693a5409a00a5_SERIES_PYQ_Practice_Set_1_compressed_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693a5409a00a5_SERIES_PYQ_Practice_Set_1_compressed_compressed.pdf&key=scammer09876",
+      "date": "11-Dec-2025"
+    },
+    {
+      "id": 763488,
+      "title": "Missing Number Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693abb4e9a220_2._MISSING_NUMBER_CLASS_QUESTIONS_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693abb4e9a220_2._MISSING_NUMBER_CLASS_QUESTIONS_compressed.pdf&key=scammer09876",
+      "date": "11-Dec-2025"
+    },
+    {
+      "id": 763354,
+      "title": "Reas | 11 dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693a9bb77c80c_230pm_Class_by_PIyush_SIr_11_Dec_1212_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693a9bb77c80c_230pm_Class_by_PIyush_SIr_11_Dec_1212_compressed.pdf&key=scammer09876",
+      "date": "11-Dec-2025"
+    },
+    {
+      "id": 763502,
+      "title": "Missing Number",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693abbd784011_Missing_Number_Test_Pdf_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693abbd784011_Missing_Number_Test_Pdf_compressed.pdf&key=scammer09876",
+      "date": "11-Dec-2025"
+    },
+    {
+      "id": 767180,
+      "title": "Reas| 15 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693fe346d9583_230_pm_15_dec_reas_class226_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/693fe346d9583_230_pm_15_dec_reas_class226_compressed.pdf&key=scammer09876",
+      "date": "15-Dec-2025"
+    },
+    {
+      "id": 772981,
+      "title": "Reas | 18 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6943d39cc3492_18dec_230pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6943d39cc3492_18dec_230pm_compressed.pdf&key=scammer09876",
+      "date": "18-Dec-2025"
+    },
+    {
+      "id": 774322,
+      "title": "Reas | 19 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694521c11cbaf_230_pm_19_dec_analogs_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694521c11cbaf_230_pm_19_dec_analogs_compressed.pdf&key=scammer09876",
+      "date": "19-Dec-2025"
+    },
+    {
+      "id": 779426,
+      "title": "Reas | 22 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694928259e65e_Piyush_Sir_2.30_PM_22_Dec_classification_compressed_1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694928259e65e_Piyush_Sir_2.30_PM_22_Dec_classification_compressed_1.pdf&key=scammer09876",
+      "date": "22-Dec-2025"
+    },
+    {
+      "id": 779442,
+      "title": "Reas | 22 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6949289998e01_Piyush_Sir_2.30_PM_22_Dec_PDF_1_compressed_2.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6949289998e01_Piyush_Sir_2.30_PM_22_Dec_PDF_1_compressed_2.pdf&key=scammer09876",
+      "date": "22-Dec-2025"
+    },
+    {
+      "id": 780972,
+      "title": "Reas | 23 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694a6787a853f_Piyush_Sir_2.30_PM_23_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694a6787a853f_Piyush_Sir_2.30_PM_23_Dec_compressed.pdf&key=scammer09876",
+      "date": "23-Dec-2025"
+    },
+    {
+      "id": 783178,
+      "title": "Reas | 24 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694bc367d7cc0_Piyush_Sir_2.30_PM_24_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694bc367d7cc0_Piyush_Sir_2.30_PM_24_Dec_compressed.pdf&key=scammer09876",
+      "date": "24-Dec-2025"
+    },
+    {
+      "id": 784953,
+      "title": "Reas | 25 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694d2c2e3bba2_25_dec_230_pm_class_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694d2c2e3bba2_25_dec_230_pm_class_compressed.pdf&key=scammer09876",
+      "date": "25-Dec-2025"
+    },
+    {
+      "id": 787124,
+      "title": "Reas | 26 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694e814376b69_26_dec_2.30_pm_calendar.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/694e814376b69_26_dec_2.30_pm_calendar.pdf&key=scammer09876",
+      "date": "26-Dec-2025"
+    },
+    {
+      "id": 790108,
+      "title": "Reas | 30 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6953aee07aa83_230_pm_Class_Piyush_Sir_30_Dec_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6953aee07aa83_230_pm_Class_Piyush_Sir_30_Dec_compressed.pdf&key=scammer09876",
+      "date": "30-Dec-2025"
+    },
+    {
+      "id": 790811,
+      "title": "Reas | 31 Dec | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6954c2f5e6be7_230_pm_Class_Piyush_Sir_31_Dec_compressed_2.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6954c2f5e6be7_230_pm_Class_Piyush_Sir_31_Dec_compressed_2.pdf&key=scammer09876",
+      "date": "31-Dec-2025"
+    },
+    {
+      "id": 794949,
+      "title": "Reas | 2 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6957bc36c96dd_2_jan_calendar_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6957bc36c96dd_2_jan_calendar_compressed.pdf&key=scammer09876",
+      "date": "02-Jan-2026"
+    },
+    {
+      "id": 797709,
+      "title": "Reas | 5 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/695bbf0798831_5_jan_calendar_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/695bbf0798831_5_jan_calendar_compressed.pdf&key=scammer09876",
+      "date": "05-Jan-2026"
+    },
+    {
+      "id": 798241,
+      "title": "Reas | 6 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767637800/695ce7288dc45_6_jan_calendar_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767637800/695ce7288dc45_6_jan_calendar_compressed.pdf&key=scammer09876",
+      "date": "06-Jan-2026"
+    },
+    {
+      "id": 799704,
+      "title": "Reas  | 7 Jan | | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767724200/695e5d4704c91_7_jan_calendar_compressed163.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767724200/695e5d4704c91_7_jan_calendar_compressed163.pdf&key=scammer09876",
+      "date": "07-Jan-2026"
+    },
+    {
+      "id": 799719,
+      "title": "Reas | 7 Jan | | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767724200/695e5d6a500ed_7_jan_calendar_compressed63126.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767724200/695e5d6a500ed_7_jan_calendar_compressed63126.pdf&key=scammer09876",
+      "date": "07-Jan-2026"
+    },
+    {
+      "id": 801318,
+      "title": "Reas  | 9 jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767897000/6960eb0ce8814_9_JAN_CALENDAR_162124_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1767897000/6960eb0ce8814_9_JAN_CALENDAR_162124_compressed.pdf&key=scammer09876",
+      "date": "09-Jan-2026"
+    },
+    {
+      "id": 803440,
+      "title": "Calendar PYQ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b4dfa84f6_Calendar_CSAT_PYQ_.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b4dfa84f6_Calendar_CSAT_PYQ_.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803464,
+      "title": "Calendar Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b59d5949e_Calendar_Practice_Set.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b59d5949e_Calendar_Practice_Set.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803485,
+      "title": "Calendar PYQs Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b70b8ff60_Calendar_PYQs_Practice_Set.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b70b8ff60_Calendar_PYQs_Practice_Set.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803501,
+      "title": "Calendar Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b7932a5be_Calendar_Class_Questions.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b7932a5be_Calendar_Class_Questions.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803516,
+      "title": "Calendar Test Pdf",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b8327acd3_Calendar_Test_Pdf.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b8327acd3_Calendar_Test_Pdf.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803529,
+      "title": "Analogy Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b99cc7d7a_Analogy_Class_Questions.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b99cc7d7a_Analogy_Class_Questions.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803543,
+      "title": "Analogy Test",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b9ce8eef6_Analogy_Test_Pdf.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964b9ce8eef6_Analogy_Test_Pdf.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803611,
+      "title": "Coded Equation Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964c78c76851_4._Coded_Equation_Practice_Set.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964c78c76851_4._Coded_Equation_Practice_Set.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803630,
+      "title": "Coded Equation Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cc6e8108d_2._Coded_Equation_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cc6e8108d_2._Coded_Equation_Class_Question.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803645,
+      "title": "Coded Equation Test",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964ccd28cbdb_5._Coded_Equation_Test_Pdf.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964ccd28cbdb_5._Coded_Equation_Test_Pdf.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803660,
+      "title": "Classification Test",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cd4817bdb_Classification_Test_pdf.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cd4817bdb_Classification_Test_pdf.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803674,
+      "title": "Classification Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cda514aca_CLASSIFICATION_Class_Questions.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964cda514aca_CLASSIFICATION_Class_Questions.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 803722,
+      "title": "Reas | 12 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964d10d66ed1_12_jan_2.30_pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768156200/6964d10d66ed1_12_jan_2.30_pm_compressed.pdf&key=scammer09876",
+      "date": "12-Jan-2026"
+    },
+    {
+      "id": 804730,
+      "title": "Reas | 13 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768242600/69661bbff0a2f_13_jan._2.30_pm_cause_and_effect_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768242600/69661bbff0a2f_13_jan._2.30_pm_cause_and_effect_compressed.pdf&key=scammer09876",
+      "date": "13-Jan-2026"
+    },
+    {
+      "id": 808869,
+      "title": "Reas | 15 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768415400/6968d2f87aaaf_15_jan_2.30_pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768415400/6968d2f87aaaf_15_jan_2.30_pm_compressed.pdf&key=scammer09876",
+      "date": "15-Jan-2026"
+    },
+    {
+      "id": 809764,
+      "title": "Reas | 16 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768501800/696a10625a0c7_16_jan._2.30_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768501800/696a10625a0c7_16_jan._2.30_compressed.pdf&key=scammer09876",
+      "date": "16-Jan-2026"
+    },
+    {
+      "id": 812136,
+      "title": "Reas | 19 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768761000/696e0350533fd_Piyush_Sir_2.30_PM_19_Jan_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768761000/696e0350533fd_Piyush_Sir_2.30_PM_19_Jan_compressed.pdf&key=scammer09876",
+      "date": "19-Jan-2026"
+    },
+    {
+      "id": 813254,
+      "title": "Reas | 20 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768847400/696f5288555bf_Piyush_Sir_2.30_PM_20_Jan_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768847400/696f5288555bf_Piyush_Sir_2.30_PM_20_Jan_compressed.pdf&key=scammer09876",
+      "date": "20-Jan-2026"
+    },
+    {
+      "id": 814389,
+      "title": "Reasoning | 21 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768933800/6970a053a1255_Piyush_Sir_2.30_PM_21_Jan_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768933800/6970a053a1255_Piyush_Sir_2.30_PM_21_Jan_compressed.pdf&key=scammer09876",
+      "date": "21-Jan-2026"
+    },
+    {
+      "id": 815885,
+      "title": "Reasoning | 22 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769020200/697219cf47ecd_22_jan._2.30pm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769020200/697219cf47ecd_22_jan._2.30pm_compressed.pdf&key=scammer09876",
+      "date": "22-Jan-2026"
+    },
+    {
+      "id": 820792,
+      "title": "Reas  | 27 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769452200/69788d9e61ef0_27_Jan_230_pm_Piyush_Sir_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769452200/69788d9e61ef0_27_Jan_230_pm_Piyush_Sir_compressed.pdf&key=scammer09876",
+      "date": "27-Jan-2026"
+    },
+    {
+      "id": 823749,
+      "title": "Reas | 28 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769538600/6979db1294c0e_230pm_Class_Piyush_Sir_28_Jan_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769538600/6979db1294c0e_230pm_Class_Piyush_Sir_28_Jan_compressed.pdf&key=scammer09876",
+      "date": "28-Jan-2026"
+    },
+    {
+      "id": 825056,
+      "title": "Assertion And Reason Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b3271f1cde_Assertion_And_Reason_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b3271f1cde_Assertion_And_Reason_Class_Question.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825071,
+      "title": "Cause And Effect Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b338adb2dc_Cause_And_Effect_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b338adb2dc_Cause_And_Effect_Class_Question.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825086,
+      "title": "Course of Action Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b33d35df49_Course_of_Action_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b33d35df49_Course_of_Action_Class_Question.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825117,
+      "title": "Statement Assumption And Conclusion Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b362b1097d_Statement_Assumption_And_Conclusion_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b362b1097d_Statement_Assumption_And_Conclusion_Class_Question.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825132,
+      "title": "Analytical Reasoning CGL MAINS PYQs",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b37015a380_Analytical_Reasoning_CGL_MAINS_PYQs.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b37015a380_Analytical_Reasoning_CGL_MAINS_PYQs.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825102,
+      "title": "Statement Argument Class Question",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b34683fb8b_Statement_Argument_Class_Question.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b34683fb8b_Statement_Argument_Class_Question.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 825201,
+      "title": "Reas  | 29 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b3cd50a907_29_jan_230_pm_reas_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769625000/697b3cd50a907_29_jan_230_pm_reas_compressed.pdf&key=scammer09876",
+      "date": "29-Jan-2026"
+    },
+    {
+      "id": 826232,
+      "title": "Reas | 30 Jan | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769711400/697ca27e4015e_30_jan._2.30pm_clock.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769711400/697ca27e4015e_30_jan._2.30pm_clock.pdf&key=scammer09876",
+      "date": "30-Jan-2026"
+    },
+    {
+      "id": 828429,
+      "title": "Reasoning | 02 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769970600/698086394c769_Piyush_Sir_2.30_PM_2_feb_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1769970600/698086394c769_Piyush_Sir_2.30_PM_2_feb_compressed.pdf&key=scammer09876",
+      "date": "02-Feb-2026"
+    },
+    {
+      "id": 829824,
+      "title": "Reas | 3 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770143400/698311e2bd4ed_Piyush_Sir_2.30_PM_3_feb_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770143400/698311e2bd4ed_Piyush_Sir_2.30_PM_3_feb_compressed.pdf&key=scammer09876",
+      "date": "04-Feb-2026"
+    },
+    {
+      "id": 830601,
+      "title": "Reas | 5 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770229800/698474e343f2c_Piyush_Sir_2.30_PM_5_feb_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770229800/698474e343f2c_Piyush_Sir_2.30_PM_5_feb_compressed.pdf&key=scammer09876",
+      "date": "05-Feb-2026"
+    },
+    {
+      "id": 832428,
+      "title": "Clock Class Questions",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bbb6cf3b0_Clock_Class_Questions.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bbb6cf3b0_Clock_Class_Questions.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832443,
+      "title": "Clock PYQs Practice Set",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bbe11c586_Clock_PYQs_Practice_Set.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bbe11c586_Clock_PYQs_Practice_Set.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832458,
+      "title": "Clock Practice Set English",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc0649df9_Clock_Practice_Set_English.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc0649df9_Clock_Practice_Set_English.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832473,
+      "title": "Clock Practice Set Hindi",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc2aa6f96_Clock_Practice_Set_Hindi.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc2aa6f96_Clock_Practice_Set_Hindi.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832488,
+      "title": "Clock Practice Set Hindi",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc648496d_Clock_Practice_Set_Hindi.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bc648496d_Clock_Practice_Set_Hindi.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832503,
+      "title": "Clock Test PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bca52de6c_Clock_Test_Pdf.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989bca52de6c_Clock_Test_Pdf.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832361,
+      "title": "Reas | 6 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989ad9527063_6_Feb_Class_PNG_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989ad9527063_6_Feb_Class_PNG_compressed.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 832378,
+      "title": "Reas | 9 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989b0e2e352f_09_feb._2.30pm_clock_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770575400/6989b0e2e352f_09_feb._2.30pm_clock_compressed.pdf&key=scammer09876",
+      "date": "09-Feb-2026"
+    },
+    {
+      "id": 833732,
+      "title": "Reas | 10 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770661800/698b2c01a9715_10_feb_2.30_Ranking_._compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770661800/698b2c01a9715_10_feb_2.30_Ranking_._compressed.pdf&key=scammer09876",
+      "date": "10-Feb-2026"
+    },
+    {
+      "id": 836896,
+      "title": "Reas  | 11 Feb | Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770748200/698c62b0b2dd8_11_feb_2.30_Ranking_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1770748200/698c62b0b2dd8_11_feb_2.30_Ranking_compressed.pdf&key=scammer09876",
+      "date": "11-Feb-2026"
+    }
+  ]
+}
