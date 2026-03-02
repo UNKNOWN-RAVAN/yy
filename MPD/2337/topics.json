@@ -1,0 +1,34 @@
+{
+  "batch_id": 2337,
+  "batch_name": "Maths Spl-01&03 (Offline) 2024",
+  "topics": [
+    {
+      "id": 23031,
+      "topicName": "Arith B-1",
+      "cls_count": 60,
+      "notes_count": 7,
+      "chapter_count": 0
+    },
+    {
+      "id": 23032,
+      "topicName": "Adv B-1",
+      "cls_count": 107,
+      "notes_count": 7,
+      "chapter_count": 0
+    },
+    {
+      "id": 24138,
+      "topicName": "Arith B-3",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 24139,
+      "topicName": "Adv B-3",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    }
+  ]
+}
