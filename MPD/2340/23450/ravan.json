@@ -1,0 +1,938 @@
+{
+  "batchid": 2340,
+  "topicid": 23450,
+  "classes_total": 52,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-01 | Maths | Practice session (Aayush Sir)",
+      "id": 727568,
+      "video_url": "4431760_0_2764111549208094"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 | Profit And Loss(Jeetu sir)",
+      "id": 727566,
+      "video_url": "4437296_0_6827635506016375"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-01 | Practice session (Gaurav Aazad sir)",
+      "id": 727564,
+      "video_url": "4439775_0_2445816910399886"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-02 | Maths | Practice session (Aayush Sir)",
+      "id": 728509,
+      "video_url": "4431761_0_6441524882858801"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-05 | Profit And Loss(Jeetu sir)",
+      "id": 728497,
+      "video_url": "4437298_0_8802599537186842"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-02 | Practice session (Gaurav Aazad sir)",
+      "id": 728494,
+      "video_url": "4439776_0_1661130903330651"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-03 | Maths | Practice session (Aayush Sir)",
+      "id": 729034,
+      "video_url": "4431764_0_3099745287781166"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-08 | Discount (Jeetu sir)",
+      "id": 729020,
+      "video_url": "4441032_0_2147073321579231"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-03 | Practice session (Gaurav Aazad sir)",
+      "id": 729017,
+      "video_url": "4439779_0_6868602214502729"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-05 | Practice session (Gaurav Aazad sir)",
+      "id": 729562,
+      "video_url": "4439782_0_2771149055682114"
+    },
+    {
+      "class_no": 14,
+      "title": "Class-05 | Maths | Practice session (Aayush Sir)",
+      "id": 729628,
+      "video_url": "4431765_0_5579557143738670"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-07 | Practice session (Gaurav Aazad sir)",
+      "id": 729613,
+      "video_url": "4439783_0_4217874093973138"
+    },
+    {
+      "class_no": 16,
+      "title": "Class-08 | Discount (Gaurav Aazad Sir)",
+      "id": 729951,
+      "video_url": "4437303_0_3764194803133066"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-06 | Maths | Practice session (Aayush Sir)",
+      "id": 729967,
+      "video_url": "4431767_0_7619732472071395"
+    },
+    {
+      "class_no": 18,
+      "title": "Class-09 | Practice session (Gaurav Aazad sir)",
+      "id": 729955,
+      "video_url": "4439785_0_9473886731260626"
+    },
+    {
+      "class_no": 19,
+      "title": "Class-10 | Discount (Gaurav Aazad Sir",
+      "id": 730670,
+      "video_url": "4437305_0_1190422085383671"
+    },
+    {
+      "class_no": 20,
+      "title": "Class-07 | Maths | Practice session (Aayush Sir)",
+      "id": 730686,
+      "video_url": "4431769_0_4148631523710403"
+    },
+    {
+      "class_no": 21,
+      "title": "Class-11 | Practice session (Gaurav Aazad sir)",
+      "id": 730674,
+      "video_url": "4439787_0_3931880677408280"
+    },
+    {
+      "class_no": 22,
+      "title": "Class-12 | Discount (Gaurav Aazad Sir",
+      "id": 731039,
+      "video_url": "4437307_0_2112946952841392"
+    },
+    {
+      "class_no": 23,
+      "title": "Class-08 | Maths | Practice session (Aayush Sir)",
+      "id": 731055,
+      "video_url": "4431771_0_8064476343432901"
+    },
+    {
+      "class_no": 24,
+      "title": "Class-13 | Practice session (Gaurav Aazad sir)",
+      "id": 731043,
+      "video_url": "4439789_0_1477895896143678"
+    },
+    {
+      "class_no": 25,
+      "title": "Class-14 | Discount (Gaurav Aazad Sir",
+      "id": 731380,
+      "video_url": "4437309_0_6758233009487684"
+    },
+    {
+      "class_no": 26,
+      "title": "Class-09 | Maths | Practice session (Aayush Sir)",
+      "id": 731396,
+      "video_url": "4431773_0_4226062249933698"
+    },
+    {
+      "class_no": 27,
+      "title": "Class-15 | Discount (Gaurav Aazad Sir",
+      "id": 732042,
+      "video_url": "4437311_0_2414521323779818"
+    },
+    {
+      "class_no": 28,
+      "title": "Class-10 | Maths | Practice session (Aayush Sir)",
+      "id": 732054,
+      "video_url": "4431776_0_7071812143027121"
+    },
+    {
+      "class_no": 29,
+      "title": "Class-16 | Discount (Gaurav Aazad Sir",
+      "id": 732512,
+      "video_url": "4437313_0_5310029165493836"
+    },
+    {
+      "class_no": 30,
+      "title": "Class-11 | Maths | Practice session (Aayush Sir)",
+      "id": 732528,
+      "video_url": "4431777_0_1841366391763117"
+    },
+    {
+      "class_no": 32,
+      "title": "Class-18 | Discount (Gaurav Aazad Sir",
+      "id": 732883,
+      "video_url": "4437315_0_4961510102374130"
+    },
+    {
+      "class_no": 33,
+      "title": "Class-12 | Maths | Practice session (Aayush Sir)",
+      "id": 737896,
+      "video_url": "4431782_0_8529785539440648"
+    },
+    {
+      "class_no": 34,
+      "title": "Class-13 | Maths | Practice session (Aayush Sir)",
+      "id": 738775,
+      "video_url": "4431784_0_3036848025117296"
+    },
+    {
+      "class_no": 35,
+      "title": "Class-14 | Maths | Practice session (Aayush Sir)",
+      "id": 739023,
+      "video_url": "4431786_0_9862473931129645"
+    },
+    {
+      "class_no": 36,
+      "title": "Class-15 | Maths | Practice session (Aayush Sir)",
+      "id": 739686,
+      "video_url": "4431787_0_5067952436733474"
+    },
+    {
+      "class_no": 37,
+      "title": "Class-16 | Maths | Practice session (Aayush Sir)",
+      "id": 741007,
+      "video_url": "4431789_0_7165644063886164"
+    },
+    {
+      "class_no": 38,
+      "title": "Class-17 | Maths | Practice session (Aayush Sir)",
+      "id": 741533,
+      "video_url": "4431790_0_6271800914916585"
+    },
+    {
+      "class_no": 39,
+      "title": "Class-18 | Maths | Practice session (Aayush Sir)",
+      "id": 746525,
+      "video_url": "4431803_0_8097896086398161"
+    },
+    {
+      "class_no": 40,
+      "title": "Class-19 | Maths | Practice session (Aayush Sir)",
+      "id": 746917,
+      "video_url": "4431805_0_8137016292204903"
+    },
+    {
+      "class_no": 41,
+      "title": "Class-20 | Maths | Practice session (Aayush Sir)",
+      "id": 749033,
+      "video_url": "4431812_0_4728145901987766"
+    },
+    {
+      "class_no": 42,
+      "title": "Class-19 | Practice session (Gaurav Aazad sir)",
+      "id": 750069,
+      "video_url": "4439821_0_2265131892322908"
+    },
+    {
+      "class_no": 43,
+      "title": "Class-21 | Maths | Practice session (Aayush Sir)",
+      "id": 750063,
+      "video_url": "4431813_0_9180971034545974"
+    },
+    {
+      "class_no": 44,
+      "title": "Class-22 | Maths | Practice session (Aayush Sir)",
+      "id": 750161,
+      "video_url": "4431814_0_6267532126005081"
+    },
+    {
+      "class_no": 45,
+      "title": "Class-20 | Practice session (Gaurav Aazad sir)",
+      "id": 743945,
+      "video_url": "4439810_0_9481679639773753"
+    },
+    {
+      "class_no": 46,
+      "title": "Class-23 | Maths | Practice session (Aayush Sir)",
+      "id": 751060,
+      "video_url": "4431815_0_7347389932255390"
+    },
+    {
+      "class_no": 47,
+      "title": "Class-22 | Practice session (Gaurav Aazad sir)",
+      "id": 751714,
+      "video_url": "4439824_0_1565182013371414"
+    },
+    {
+      "class_no": 48,
+      "title": "Class-24 | Maths | Practice session (Aayush Sir)",
+      "id": 751700,
+      "video_url": "4431816_0_3185327298027265"
+    },
+    {
+      "class_no": 49,
+      "title": "Class-25 | Maths | Practice session (Aayush Sir)",
+      "id": 751992,
+      "video_url": "4431818_0_4557449981855975"
+    },
+    {
+      "class_no": 50,
+      "title": "Class-22 | Practice session (Gaurav Aazad sir)",
+      "id": 752037,
+      "video_url": "4439826_0_7080007171560974"
+    },
+    {
+      "class_no": 52,
+      "title": "Class-23 | Practice session (Gaurav Aazad sir)",
+      "id": 752407,
+      "video_url": "4439828_0_4477399195746517"
+    },
+    {
+      "class_no": 53,
+      "title": "Class-27 | Maths | Practice session (Aayush Sir)",
+      "id": 753563,
+      "video_url": "4431822_0_5033738902897065"
+    },
+    {
+      "class_no": 54,
+      "title": "Class-24 | Practice session (Gaurav Aazad sir)",
+      "id": 753567,
+      "video_url": "4439830_0_2175161577714063"
+    },
+    {
+      "class_no": 55,
+      "title": "Class-34 | Maths | Practice session (Aayush Sir)",
+      "id": 753820,
+      "video_url": "4431825_0_5352289031270278"
+    },
+    {
+      "class_no": 56,
+      "title": "Class-25 | Practice session (Gaurav Aazad sir)",
+      "id": 753831,
+      "video_url": "4439831_0_8036542043098023"
+    },
+    {
+      "class_no": 57,
+      "title": "Best Ever Book Sale | Independence Day Big Discount | Rakesh Yadav Sir",
+      "id": 771346,
+      "video_url": "https://www.youtube.com/watch?v=VWMnxi4LCHU"
+    }
+  ],
+  "notes_total": 88,
+  "notes": [
+    {
+      "id": 365897,
+      "title": "Digital Sum Class -01 Notes",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e96d30ae9f1_1. Number system.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e96d30ae9f1_1.%20Number%20system.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365898,
+      "title": "Digital Sum Class -02 Notes",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e96e8d8c97b_2. Number system_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e96e8d8c97b_2.%20Number%20system_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367147,
+      "title": "Classification of Numbers Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66336aeec90ec_classification.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66336aeec90ec_classification.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 366076,
+      "title": "Classification of Numbers Notes Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661bf88f44fc8_343341Classification of Numbers Notes 22-02_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661bf88f44fc8_343341Classification%20of%20Numbers%20Notes%2022-02_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 366075,
+      "title": "Classification of Numbers Notes Class-3",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661cf2f37cc1c_343631Classification of Numbers Notes 23-02_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661cf2f37cc1c_343631Classification%20of%20Numbers%20Notes%2023-02_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 366074,
+      "title": "Classification of Numbers Notes Class-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661fbede84e99_DocScanner Apr 16, 2024 3-53 PM.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661fbede84e99_DocScanner%20Apr%2016,%202024%203-53%20PM.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 366073,
+      "title": "Classification of Numbers Complete class notes",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661fc047f1743_ilovepdf_merged (7).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661fc047f1743_ilovepdf_merged%20(7).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365894,
+      "title": "Computer Number System Class -01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e56c293690a_CNS NOTES.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e56c293690a_CNS%20NOTES.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365950,
+      "title": "Divisibility Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65c98293c60c7_Divisiblity Class 1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65c98293c60c7_Divisiblity%20Class%201.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365949,
+      "title": "Divisibility Notes Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65c98304ac428_Divisiblity Class 2_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65c98304ac428_Divisiblity%20Class%202_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365948,
+      "title": "Divisibility Notes Class-3",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ca096249334_321887Number System Notes 13-12_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ca096249334_321887Number%20System%20Notes%2013-12_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365947,
+      "title": "Divisibility Notes Class-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65cceb1408c2a_Number system 13 feb_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65cceb1408c2a_Number%20system%2013%20feb_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365946,
+      "title": "Divisibility Notes Class-5",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ccece406676_Number system class Notes 14 Feb 2024 _compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ccece406676_Number%20system%20class%20Notes%2014%20Feb%202024%20_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365943,
+      "title": "Divisibility Notes Class-6",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ddda699fc17_DocScanner 27-Feb-2024 17-24.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ddda699fc17_DocScanner%2027-Feb-2024%2017-24.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365945,
+      "title": "AP Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65d47937bd4ee_Number System (1)_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65d47937bd4ee_Number%20System%20(1)_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365944,
+      "title": "AP & GP Notes Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65d47968aea4e_Number system 20 feb (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65d47968aea4e_Number%20system%2020%20feb%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365942,
+      "title": "Remainder Theorem Notes  Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65df2360be5bd_329142Number System Notes 08-01_crwill (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65df2360be5bd_329142Number%20System%20Notes%2008-01_crwill%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365931,
+      "title": "Remainder Theorem Notes  Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273baa45015_Remainder theorm_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273baa45015_Remainder%20theorm_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365932,
+      "title": "Remainder Theorem Notes  Class-3",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273bd6b14c8_329595Number System 10-01_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273bd6b14c8_329595Number%20System%2010-01_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365933,
+      "title": "Remainder Theorem Notes  Class-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273c0f4d41f_330020Number System 11-01_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273c0f4d41f_330020Number%20System%2011-01_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365895,
+      "title": "Unit Digit Notes Class -01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e70e1a107c3_323722Number System Notes 21-12_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e70e1a107c3_323722Number%20System%20Notes%2021-12_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365896,
+      "title": "Unit Digit & No of Trailing Zeroes Notes Class -02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e8567b676e7_325127Number System Notes 26-12_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e8567b676e7_325127Number%20System%20Notes%2026-12_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365899,
+      "title": "Factors Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e9abdcda5c7_factor 1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65e9abdcda5c7_factor%201.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365900,
+      "title": "Factors Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ee72dd80793_factor 2.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65ee72dd80793_factor%202.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365901,
+      "title": "Factors Notes Class-03",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65eede832a99f_658eb55aba5fc_DocScanner 29-Dec-2023 4-41 pm.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65eede832a99f_658eb55aba5fc_DocScanner%2029-Dec-2023%204-41%20pm.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365902,
+      "title": "Factors Notes Class-04",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65eef93ac2c65_658eb55aba5fc_DocScanner 29-Dec-2023 4-41 pm (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65eef93ac2c65_658eb55aba5fc_DocScanner%2029-Dec-2023%204-41%20pm%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365903,
+      "title": "Power Surds & Indices Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f04299d7c36_surd 1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f04299d7c36_surd%201.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365904,
+      "title": "Power Surds & Indices Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f2f32780cf3_power surds indices_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f2f32780cf3_power%20surds%20indices_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365905,
+      "title": "Power Surds & Indices Notes Class-03",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f2f41682552_Power_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f2f41682552_Power_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365906,
+      "title": "Power Surds & Indices Notes Class-04",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f53e38d5545_Type - 06_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f53e38d5545_Type%20-%2006_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365907,
+      "title": "Power Surds & Indices Notes Class-05",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f819b80f455_Power Surds & Indices Notes 5.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f819b80f455_Power%20Surds%20&%20Indices%20Notes%205.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365908,
+      "title": "Fraction Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f972e240875_fraction 1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65f972e240875_fraction%201.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365909,
+      "title": "Fraction Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fad01472e5a_fraction .pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fad01472e5a_fraction%20.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365910,
+      "title": "Bodmas Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fc0e19768a0_bodmas_removed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fc0e19768a0_bodmas_removed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365911,
+      "title": "Series Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fd5001c0e0b_series .pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/65fd5001c0e0b_series%20.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365912,
+      "title": "Series Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66039987b6793_series  (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66039987b6793_series%20%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365913,
+      "title": "C & D Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66039aa19c005_c&d notes .pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66039aa19c005_c&d%20notes%20.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365914,
+      "title": "C & D Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66052bfe2cb95_338801Componendo & Dividendo Notes 02-02_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66052bfe2cb95_338801Componendo%20&%20Dividendo%20Notes%2002-02_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365915,
+      "title": "Algebra Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66065b12c3f0f_algebra .pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66065b12c3f0f_algebra%20.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365916,
+      "title": "Algebra Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660a704ddaca2_2  Algebra-compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660a704ddaca2_2%20%20Algebra-compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365917,
+      "title": "Algebra Notes Class-03",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660bd154b79cd_3  Algebra-compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660bd154b79cd_3%20%20Algebra-compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365918,
+      "title": "Algebra Notes Class-04",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660d0984c1fe6_4  Algebra-compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660d0984c1fe6_4%20%20Algebra-compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365919,
+      "title": "Algebra Notes Class-05",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660e3446b33b0_Algebera-compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660e3446b33b0_Algebera-compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365920,
+      "title": "Algebra Notes Class-06",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660fb9e03d0e8_Algebra 18 pages.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/660fb9e03d0e8_Algebra%2018%20pages.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365921,
+      "title": "Algebra Notes Class-07",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6616c127688ef_Algebra 22 pages_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6616c127688ef_Algebra%2022%20pages_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365922,
+      "title": "Algebra Notes Class-08",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6617ef0980c6b_Alebra  class 8_compressed (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6617ef0980c6b_Alebra%20%20class%208_compressed%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365923,
+      "title": "Algebra Notes Class-09",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661c1d213b301_Algebra(1)-Compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661c1d213b301_Algebra(1)-Compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365924,
+      "title": "Algebra Notes Class-10",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661de015c5544_Algebra class 10.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661de015c5544_Algebra%20class%2010.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365925,
+      "title": "Algebra Notes Class-11",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661e2f93d5f1d_Algebra 16 April_compressed (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/661e2f93d5f1d_Algebra%2016%20April_compressed%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365926,
+      "title": "Algebra Notes Class-12",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66200fdaea5b9_347172Algebra Notes 04-03_crwill_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66200fdaea5b9_347172Algebra%20Notes%2004-03_crwill_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365927,
+      "title": "Algebra Notes Class-13",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6620de0d8ca13_Algebra Class 13-compressed (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6620de0d8ca13_Algebra%20Class%2013-compressed%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365928,
+      "title": "Polynomial Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662217fb917b5_348852Polynomial Notes 11-03_crwill-1-compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662217fb917b5_348852Polynomial%20Notes%2011-03_crwill-1-compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365929,
+      "title": "Polynomial Notes Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6625fcf7cd044_349728Polynomial (Quad. Eq.) Notes 13-03_crwill_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6625fcf7cd044_349728Polynomial%20(Quad.%20Eq.)%20Notes%2013-03_crwill_compressed.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365930,
+      "title": "Trigonometry Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6626008da55f8_360906Trigonometry Class Notes -01_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6626008da55f8_360906Trigonometry%20Class%20Notes%20-01_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365934,
+      "title": "Trigonometry Notes Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273f3f9161f_360910Trigonometry Class Notes -02_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66273f3f9161f_360910Trigonometry%20Class%20Notes%20-02_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365935,
+      "title": "Trigonometry Notes Class-3",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6628ef0cd3167_360918Trigonometry Class Notes -03_crwill (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6628ef0cd3167_360918Trigonometry%20Class%20Notes%20-03_crwill%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365936,
+      "title": "Trigonometry Notes Class-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662a1b0e99df6_360930Trigonometry Class Notes -04_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662a1b0e99df6_360930Trigonometry%20Class%20Notes%20-04_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365937,
+      "title": "Trigonometry Notes Class-5",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662b6669b7c1f_362612Trigonometry Class Notes -05_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662b6669b7c1f_362612Trigonometry%20Class%20Notes%20-05_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365938,
+      "title": "Trigonometry Notes Class-6",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662cc2a491835_363649Trigonometry Class Notes -06_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662cc2a491835_363649Trigonometry%20Class%20Notes%20-06_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365939,
+      "title": "Trigonometry Notes Class-7",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662f5f14edce1_363655Trigonometry Class Notes -07_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/662f5f14edce1_363655Trigonometry%20Class%20Notes%20-07_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365940,
+      "title": "Trigonometry Notes Class-8",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6630bfe046d36_364252Trigonometry Class Notes -08_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6630bfe046d36_364252Trigonometry%20Class%20Notes%20-08_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 365941,
+      "title": "Trigonometry Notes Class-9",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663203686f67d_364259Trigonometry Class Notes -09_crwill.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663203686f67d_364259Trigonometry%20Class%20Notes%20-09_crwill.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367237,
+      "title": "Geometry Notes  Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc1920e8577_Geometry Notes 7 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc1920e8577_Geometry%20Notes%207%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367236,
+      "title": "Geometry Notes  Class-2",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc194d45d75_Geometry Notes 8 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc194d45d75_Geometry%20Notes%208%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367235,
+      "title": "Geometry Notes  Class-3",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc19725626a_Geometry Notes 9 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc19725626a_Geometry%20Notes%209%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367234,
+      "title": "Geometry Notes  Class-4",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc199af127d_Geometry 10 Aug Notes.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc199af127d_Geometry%2010%20Aug%20Notes.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367233,
+      "title": "Geometry Notes  Class-5",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc1a2596e6d_Geometry Notes 11 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc1a2596e6d_Geometry%20Notes%2011%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367232,
+      "title": "Geometry Notes  Class-6",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc281f1e971_Geometry Notes 14 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64dc281f1e971_Geometry%20Notes%2014%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367231,
+      "title": "Geometry Notes  Class-7",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64de0bb388a1e_Geometry Notes Aug 17 (1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64de0bb388a1e_Geometry%20Notes%20Aug%2017%20(1).pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367230,
+      "title": "Geometry Notes  Class-8",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e23e0167e32_Geometry Notes 17 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e23e0167e32_Geometry%20Notes%2017%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367229,
+      "title": "Geometry Notes  Class-9",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e23e26c73ec_Geometry Notes 18 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e23e26c73ec_Geometry%20Notes%2018%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367228,
+      "title": "Geometry Notes  Class-10",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e4a7eb36275_geometry Notes.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e4a7eb36275_geometry%20Notes.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367227,
+      "title": "Geometry Notes  Class-11",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e5e3a3bbaac_Geometry Notes 22 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e5e3a3bbaac_Geometry%20Notes%2022%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367226,
+      "title": "Geometry Notes  Class-12",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e761906ab5d_Geometry Notes 23 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64e761906ab5d_Geometry%20Notes%2023%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367225,
+      "title": "Geometry Notes  Class-13",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c25b66842_geometry Notes 24 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c25b66842_geometry%20Notes%2024%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367224,
+      "title": "Geometry Notes  Class-14",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c27ced619_geometry class 25 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c27ced619_geometry%20class%2025%20Aug.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 367223,
+      "title": "Geometry Notes  Class-15",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c2a8cfd81_Note Polygon 28 August.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f4c2a8cfd81_Note%20Polygon%2028%20August.pdf&key=scammer09876",
+      "date": "02-May-2024"
+    },
+    {
+      "id": 368540,
+      "title": "Decimal Notes",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6634ac0d97d22_Decimal Notes.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6634ac0d97d22_Decimal%20Notes.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 368538,
+      "title": "Number Of Digit Notes Class-1",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6634ab5128026_Number of digit Notes 25-01 notes.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6634ab5128026_Number%20of%20digit%20Notes%2025-01%20notes.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 367972,
+      "title": "Geometry Notes Class-16",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f68c55a1e6c_Mensuration 2D Notes 29 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f68c55a1e6c_Mensuration%202D%20Notes%2029%20Aug.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 367971,
+      "title": "Geometry Notes Class-17",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f68c76a9830_Mensuration 2D Notes 30 Aug.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/64f68c76a9830_Mensuration%202D%20Notes%2030%20Aug.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 368632,
+      "title": "2D-Mensuration class notes(Eng)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1634123781.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1634123781.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 368631,
+      "title": "2D-Mensuration class notes(Hindi)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1634123840.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1634123840.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 368626,
+      "title": "Mensuration 3D Notes (Eng)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636544425.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636544425.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 368627,
+      "title": "Mensuration 3D Notes (Hindi)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636544821.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636544821.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 370521,
+      "title": "Height & Distance Notes Class-01",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6639f821e255c_Height & Distance Notes Class-01.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6639f821e255c_Height%20&%20Distance%20Notes%20Class-01.pdf&key=scammer09876",
+      "date": "07-May-2024"
+    },
+    {
+      "id": 370523,
+      "title": "Height & Distance Notes Class-02",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6639f837e1fba_Height & Distance Notes Class-02.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6639f837e1fba_Height%20&%20Distance%20Notes%20Class-02.pdf&key=scammer09876",
+      "date": "07-May-2024"
+    },
+    {
+      "id": 444700,
+      "title": "Di Class Notes",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/673302bfe70be_DI_Notes_CLASS1_TO_6_PDFcompressed_1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/673302bfe70be_DI_Notes_CLASS1_TO_6_PDFcompressed_1.pdf&key=scammer09876",
+      "date": "12-Nov-2024"
+    }
+  ]
+}
