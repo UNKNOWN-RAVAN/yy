@@ -1,0 +1,104 @@
+{
+  "batch_id": 2340,
+  "batch_name": "Maths VOD (Arith+Adv) B-01",
+  "topics": [
+    {
+      "id": 23093,
+      "topicName": "Syllabus",
+      "cls_count": 0,
+      "notes_count": 7,
+      "chapter_count": 0
+    },
+    {
+      "id": 23190,
+      "topicName": "Calculation Capsule",
+      "cls_count": 31,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23050,
+      "topicName": "Arithmetic",
+      "cls_count": 108,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23052,
+      "topicName": "Arith.Class Png",
+      "cls_count": 0,
+      "notes_count": 100,
+      "chapter_count": 0
+    },
+    {
+      "id": 23053,
+      "topicName": "Arith.Class Sheet",
+      "cls_count": 0,
+      "notes_count": 106,
+      "chapter_count": 0
+    },
+    {
+      "id": 23054,
+      "topicName": "Arith.Class Notes",
+      "cls_count": 0,
+      "notes_count": 103,
+      "chapter_count": 0
+    },
+    {
+      "id": 23119,
+      "topicName": "Apply Mathematics",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23106,
+      "topicName": "Adv Class Png",
+      "cls_count": 0,
+      "notes_count": 108,
+      "chapter_count": 0
+    },
+    {
+      "id": 23128,
+      "topicName": "Arith.",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23136,
+      "topicName": "Adv Class Notes",
+      "cls_count": 0,
+      "notes_count": 88,
+      "chapter_count": 0
+    },
+    {
+      "id": 23171,
+      "topicName": "Advance",
+      "cls_count": 110,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23172,
+      "topicName": "Advance Maths",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23174,
+      "topicName": "Adv Class Sheet",
+      "cls_count": 0,
+      "notes_count": 100,
+      "chapter_count": 0
+    },
+    {
+      "id": 23450,
+      "topicName": "Practice Session",
+      "cls_count": 58,
+      "notes_count": 6,
+      "chapter_count": 0
+    }
+  ]
+}
