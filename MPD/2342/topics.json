@@ -1,0 +1,55 @@
+{
+  "batch_id": 2342,
+  "batch_name": "Arithmetic Spl (VOD)-01",
+  "topics": [
+    {
+      "id": 23121,
+      "topicName": "Syllabus",
+      "cls_count": 0,
+      "notes_count": 7,
+      "chapter_count": 0
+    },
+    {
+      "id": 23176,
+      "topicName": "Arithmetic",
+      "cls_count": 108,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23177,
+      "topicName": "Arith.Class Png",
+      "cls_count": 0,
+      "notes_count": 104,
+      "chapter_count": 0
+    },
+    {
+      "id": 23178,
+      "topicName": "Arith.Class Sheet",
+      "cls_count": 0,
+      "notes_count": 109,
+      "chapter_count": 0
+    },
+    {
+      "id": 23179,
+      "topicName": "Arith.Class Notes",
+      "cls_count": 0,
+      "notes_count": 106,
+      "chapter_count": 0
+    },
+    {
+      "id": 23143,
+      "topicName": "Apply Mathematics",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 23449,
+      "topicName": "Practice Session",
+      "cls_count": 33,
+      "notes_count": 0,
+      "chapter_count": 0
+    }
+  ]
+}
