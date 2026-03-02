@@ -1,0 +1,510 @@
+{
+  "batchid": 2310,
+  "topicid": 22578,
+  "classes_total": 81,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-01 | Percentage",
+      "id": 724268,
+      "video_url": "4439767_0_5215361245185042"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 | Percentage",
+      "id": 724692,
+      "video_url": "4439768_0_4545427262764130"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-03 | Percentage",
+      "id": 725185,
+      "video_url": "4439771_0_2278476782399794"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-05 | Percentage",
+      "id": 726892,
+      "video_url": "4439774_0_2483181844195783"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-06 | Percentage",
+      "id": 728609,
+      "video_url": "4439777_0_8140765241418075"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-07 | Percentage",
+      "id": 728831,
+      "video_url": "4439778_0_8793648896901913"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-08 | Percentage",
+      "id": 729725,
+      "video_url": "4439784_0_9726820289704980"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-09 | Percentage",
+      "id": 730065,
+      "video_url": "4439786_0_7266429590517155"
+    },
+    {
+      "class_no": 10,
+      "title": "Class-10 | Percentage",
+      "id": 730805,
+      "video_url": "4439788_0_5649761808334968"
+    },
+    {
+      "class_no": 11,
+      "title": "Class-11 | Percentage",
+      "id": 731181,
+      "video_url": "4439790_0_2791015274836505"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-12 | Percentage",
+      "id": 731525,
+      "video_url": "4439791_0_7964608358344216"
+    },
+    {
+      "class_no": 13,
+      "title": "Class-13 | Percentage",
+      "id": 732030,
+      "video_url": "4439792_0_5085354985061794"
+    },
+    {
+      "class_no": 14,
+      "title": "Class-01 | CI (Successive)",
+      "id": 732108,
+      "video_url": "4439793_0_4508341493061040"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-02 | CI",
+      "id": 732648,
+      "video_url": "4439794_0_2431099927602761"
+    },
+    {
+      "class_no": 16,
+      "title": "Class-03 | CI",
+      "id": 733034,
+      "video_url": "4439795_0_6586880272647760"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-04 | CI",
+      "id": 733363,
+      "video_url": "4439796_0_5865531290509076"
+    },
+    {
+      "class_no": 18,
+      "title": "Class-05 | CI",
+      "id": 733590,
+      "video_url": "4439797_0_2041475150741847"
+    },
+    {
+      "class_no": 19,
+      "title": "Class-06 | CI",
+      "id": 736253,
+      "video_url": "4439798_0_5606357445661916"
+    },
+    {
+      "class_no": 20,
+      "title": "Class -01 | SI",
+      "id": 737333,
+      "video_url": "4439799_0_3577750081113633"
+    },
+    {
+      "class_no": 21,
+      "title": "Class -02 | SI",
+      "id": 737934,
+      "video_url": "4439800_0_7552132830121010"
+    },
+    {
+      "class_no": 22,
+      "title": "Class -03 | SI",
+      "id": 738820,
+      "video_url": "4439801_0_3853426483601397"
+    },
+    {
+      "class_no": 23,
+      "title": "Class -04 | SI",
+      "id": 739419,
+      "video_url": "4439802_0_8291310193715811"
+    },
+    {
+      "class_no": 24,
+      "title": "Class -05 | SI",
+      "id": 739892,
+      "video_url": "4439803_0_5681643823531249"
+    },
+    {
+      "class_no": 25,
+      "title": "Class -01 | Profit & Loss",
+      "id": 743007,
+      "video_url": "4439807_0_1479778325188529"
+    },
+    {
+      "class_no": 26,
+      "title": "Class -02 | Profit & Loss",
+      "id": 743309,
+      "video_url": "4439808_0_9599263759945127"
+    },
+    {
+      "class_no": 27,
+      "title": "Class -03 | Profit & Loss",
+      "id": 743764,
+      "video_url": "4439809_0_8888125505360884"
+    },
+    {
+      "class_no": 28,
+      "title": "Class -04 | Profit & Loss",
+      "id": 744008,
+      "video_url": "4439811_0_3211378409468567"
+    },
+    {
+      "class_no": 29,
+      "title": "Class -05 | Profit & Loss",
+      "id": 745239,
+      "video_url": "4439812_0_1309841876013793"
+    },
+    {
+      "class_no": 30,
+      "title": "Class -06 | Profit & Loss",
+      "id": 745653,
+      "video_url": "4439813_0_7527033408741025"
+    },
+    {
+      "class_no": 31,
+      "title": "Class -07 | Profit & Loss",
+      "id": 746194,
+      "video_url": "4439814_0_9487486758770302"
+    },
+    {
+      "class_no": 32,
+      "title": "Class -01 | Ratio & Proportion",
+      "id": 746596,
+      "video_url": "4439815_0_6146882455802104"
+    },
+    {
+      "class_no": 33,
+      "title": "Class -02 | Ratio & Proportion",
+      "id": 746953,
+      "video_url": "4439816_0_6678641029252292"
+    },
+    {
+      "class_no": 34,
+      "title": "Class -03 | Ratio & Proportion",
+      "id": 747132,
+      "video_url": "4439817_0_8557177600353987"
+    },
+    {
+      "class_no": 35,
+      "title": "Class -04 | Ratio & Proportion",
+      "id": 747816,
+      "video_url": "4439818_0_4027475136053766"
+    },
+    {
+      "class_no": 36,
+      "title": "Class -05 | Ratio & Proportion",
+      "id": 748154,
+      "video_url": "4439819_0_9380748584057002"
+    },
+    {
+      "class_no": 37,
+      "title": "Class -06 | Ratio & Proportion",
+      "id": 748781,
+      "video_url": "4437308_0_1094586969191516"
+    },
+    {
+      "class_no": 38,
+      "title": "Class -07 | Ratio & Proportion",
+      "id": 749763,
+      "video_url": "4439820_0_7642265497348502"
+    },
+    {
+      "class_no": 39,
+      "title": "Class -01  | Mixture & Alligation",
+      "id": 750358,
+      "video_url": "4439822_0_5695215408446451"
+    },
+    {
+      "class_no": 40,
+      "title": "Class -02 | Mixture & Alligation",
+      "id": 751119,
+      "video_url": "4439823_0_8040083319324031"
+    },
+    {
+      "class_no": 41,
+      "title": "Class -03 | Mixture & Alligation",
+      "id": 751738,
+      "video_url": "4439825_0_6082380412739595"
+    },
+    {
+      "class_no": 42,
+      "title": "Class -04 | Mixture & Alligation",
+      "id": 752115,
+      "video_url": "4439827_0_8905985648342093"
+    },
+    {
+      "class_no": 43,
+      "title": "Class -05 | Mixture & Alligation",
+      "id": 752950,
+      "video_url": "4439829_0_1551078825805152"
+    },
+    {
+      "class_no": 44,
+      "title": "Class -01 | Average",
+      "id": 754548,
+      "video_url": "4439832_0_2839178376515557"
+    },
+    {
+      "class_no": 45,
+      "title": "Class -02 | Average",
+      "id": 755026,
+      "video_url": "4439833_0_8942489988833392"
+    },
+    {
+      "class_no": 46,
+      "title": "Class -03 | Average",
+      "id": 755406,
+      "video_url": "4439834_0_8638318060111413"
+    },
+    {
+      "class_no": 47,
+      "title": "Class -04 | Average",
+      "id": 756708,
+      "video_url": "4439835_0_6728788247654533"
+    },
+    {
+      "class_no": 48,
+      "title": "Class -05 | Average",
+      "id": 757085,
+      "video_url": "4439836_0_8835917852094819"
+    },
+    {
+      "class_no": 49,
+      "title": "Class -06 | Average",
+      "id": 758480,
+      "video_url": "4439837_0_3471283812536183"
+    },
+    {
+      "class_no": 50,
+      "title": "Class -01 | Statistics",
+      "id": 760331,
+      "video_url": "4439838_0_8057127219859163"
+    },
+    {
+      "class_no": 51,
+      "title": "Class -02 | Statistics",
+      "id": 760991,
+      "video_url": "4439839_0_6893249900295535"
+    },
+    {
+      "class_no": 52,
+      "title": "Class -01 | Time & Work",
+      "id": 762723,
+      "video_url": "4439840_0_4128226852413321"
+    },
+    {
+      "class_no": 53,
+      "title": "Class -02 | Time & Work",
+      "id": 763121,
+      "video_url": "4439841_0_4655941492039919"
+    },
+    {
+      "class_no": 54,
+      "title": "Class -03 | Time & Work",
+      "id": 763889,
+      "video_url": "4439842_0_4051564257526756"
+    },
+    {
+      "class_no": 55,
+      "title": "Class -04 | Time & Work",
+      "id": 764322,
+      "video_url": "4439843_0_1430499592255018"
+    },
+    {
+      "class_no": 56,
+      "title": "Class -05 | Time & Work",
+      "id": 764799,
+      "video_url": "4439844_0_3614899853268569"
+    },
+    {
+      "class_no": 57,
+      "title": "Class -06 | Time & Work",
+      "id": 765485,
+      "video_url": "4439845_0_2781800912107154"
+    },
+    {
+      "class_no": 58,
+      "title": "Class -07 | Time & Work",
+      "id": 767143,
+      "video_url": "4439846_0_8806481287148564"
+    },
+    {
+      "class_no": 59,
+      "title": "Class -08 | Time & Work",
+      "id": 767664,
+      "video_url": "4439847_0_1583148833490546"
+    },
+    {
+      "class_no": 60,
+      "title": "Class -09 | Time & Work",
+      "id": 767801,
+      "video_url": "4439848_0_2542567215791002"
+    },
+    {
+      "class_no": 61,
+      "title": "Class -01 | Time Speed & Distance",
+      "id": 769979,
+      "video_url": "4439849_0_1828087116524109"
+    },
+    {
+      "class_no": 62,
+      "title": "Class -02 | Time Speed & Distance",
+      "id": 770638,
+      "video_url": "4439850_0_4743932276898703"
+    },
+    {
+      "class_no": 63,
+      "title": "Class -03 | Time Speed & Distance",
+      "id": 771404,
+      "video_url": "4439851_0_6831777218136744"
+    },
+    {
+      "class_no": 64,
+      "title": "Class -04 | Time Speed & Distance",
+      "id": 774030,
+      "video_url": "4439852_0_1711378092785036"
+    },
+    {
+      "class_no": 65,
+      "title": "Class -05 | Time Speed & Distance",
+      "id": 774662,
+      "video_url": "4439853_0_9705575030157411"
+    },
+    {
+      "class_no": 66,
+      "title": "Class -06 | Time Speed & Distance",
+      "id": 774970,
+      "video_url": "4439854_0_7875445152429874"
+    },
+    {
+      "class_no": 67,
+      "title": "Class -07 | Time Speed & Distance",
+      "id": 775763,
+      "video_url": "4439855_0_2164216466352074"
+    },
+    {
+      "class_no": 68,
+      "title": "Class -08 | Time Speed & Distance",
+      "id": 776562,
+      "video_url": "4439856_0_8661057868570200"
+    },
+    {
+      "class_no": 69,
+      "title": "Class -09 | Time Speed & Distance",
+      "id": 777078,
+      "video_url": "4439857_0_8470903287648909"
+    },
+    {
+      "class_no": 70,
+      "title": "Class -01 | Race",
+      "id": 777435,
+      "video_url": "4439858_0_1735252311303900"
+    },
+    {
+      "class_no": 71,
+      "title": "Class -02 | Circular Race",
+      "id": 778613,
+      "video_url": "4439859_0_7820404198934129"
+    },
+    {
+      "class_no": 72,
+      "title": "Class -01 | Boat & Stream",
+      "id": 779003,
+      "video_url": "4439860_0_3940542391193820"
+    },
+    {
+      "class_no": 73,
+      "title": "Class -01 | DI",
+      "id": 780565,
+      "video_url": "4439861_0_6994330740967380"
+    },
+    {
+      "class_no": 74,
+      "title": "Class -02 | DI",
+      "id": 781494,
+      "video_url": "4439862_0_1394389009973632"
+    },
+    {
+      "class_no": 75,
+      "title": "Class -03 | DI",
+      "id": 785198,
+      "video_url": "4439863_0_6480000037094851"
+    },
+    {
+      "class_no": 76,
+      "title": "Class -01 | HCF & LCM",
+      "id": 786914,
+      "video_url": "4439864_0_7573134346534624"
+    },
+    {
+      "class_no": 77,
+      "title": "Class -02 | HCF & LCM",
+      "id": 788363,
+      "video_url": "4439865_0_9961382595204862"
+    },
+    {
+      "class_no": 78,
+      "title": "Class -03 | HCF & LCM",
+      "id": 789168,
+      "video_url": "4439866_0_2099861852218271"
+    },
+    {
+      "class_no": 79,
+      "title": "Class -04 | HCF & LCM",
+      "id": 789639,
+      "video_url": "4439867_0_5980726255021875"
+    },
+    {
+      "class_no": 80,
+      "title": "Class -05 | HCF & LCM",
+      "id": 789729,
+      "video_url": "4439868_0_8406833885943658"
+    },
+    {
+      "class_no": 81,
+      "title": "Class -06 | HCF & LCM",
+      "id": 789766,
+      "video_url": "4439869_0_8542072933832503"
+    },
+    {
+      "class_no": 82,
+      "title": "Data Interpretation (DI) ONE Shot Video",
+      "id": 1098545,
+      "video_url": "4547823_0_5490700383358954"
+    }
+  ],
+  "notes_total": 2,
+  "notes": [
+    {
+      "id": 805255,
+      "title": "DI (One Shot) Video Complete PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768329000/696716808501d_DI_Complete_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768329000/696716808501d_DI_Complete_PNG.pdf&key=scammer09876",
+      "date": "14-Jan-2026"
+    },
+    {
+      "id": 805339,
+      "title": "DI (One Shot) Video Complete Sheet",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768329000/696716a648755_Data_Interpretation_Sheet.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/batch-notes/1768329000/696716a648755_Data_Interpretation_Sheet.pdf&key=scammer09876",
+      "date": "14-Jan-2026"
+    }
+  ]
+}
