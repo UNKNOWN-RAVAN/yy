@@ -1,0 +1,34 @@
+{
+  "batch_id": 1840,
+  "batch_name": "KVS 2023 (Interview Preparation)",
+  "topics": [
+    {
+      "id": 15567,
+      "topicName": "Intro",
+      "cls_count": 5,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 16375,
+      "topicName": "Mock Interview",
+      "cls_count": 47,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 15577,
+      "topicName": "Interview Skills",
+      "cls_count": 6,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 15741,
+      "topicName": "Interview Preparation",
+      "cls_count": 5,
+      "notes_count": 0,
+      "chapter_count": 0
+    }
+  ]
+}
