@@ -1,0 +1,538 @@
+{
+  "batchid": 1917,
+  "topicid": 16502,
+  "classes_total": 39,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "9TH CLASS || SST || ECONOMICS || INTRODUCTION || LECTURE -01 || SUNIL SIR",
+      "id": 554591,
+      "video_url": "https://www.youtube.com/watch?v=10ZWmsbhCFI"
+    },
+    {
+      "class_no": 2,
+      "title": "9TH CLASS || SST || ECONOMICS || THE STORY OF VILLAGE PALAMPUR || LECTURE -02 || SUNIL SIR",
+      "id": 554592,
+      "video_url": "https://www.youtube.com/watch?v=Ex4860i4mnE"
+    },
+    {
+      "class_no": 3,
+      "title": "9TH CLASS || SST || ECONOMICS || THE STORY OF VILLAGE PALAMPUR || LECTURE -03 || SUNIL SIR",
+      "id": 554593,
+      "video_url": "https://www.youtube.com/watch?v=vqOSznmM1DU"
+    },
+    {
+      "class_no": 4,
+      "title": "9TH CLASS || SST || ECONOMICS || THE STORY OF VILLAGE PALAMPUR || LECTURE -04 || SUNIL SIR",
+      "id": 554594,
+      "video_url": "https://www.youtube.com/watch?v=NkSq4aGYqT8"
+    },
+    {
+      "class_no": 7,
+      "title": "9TH CLASS || SST || ECONOMICS || THE STORY OF VILLAGE PALAMPUR || LECTURE -07 || SUNIL SIR",
+      "id": 554597,
+      "video_url": "https://www.youtube.com/watch?v=lWLNHq6Thio"
+    },
+    {
+      "class_no": 8,
+      "title": "9TH CLASS || SST || ECONOMICS || CHAPTER-01 || THE STORY OF VILLAGE PALAMPUR || LECTURE -08 || SUNIL SIR",
+      "id": 554598,
+      "video_url": "https://www.youtube.com/watch?v=f2wmy4gsdq0"
+    },
+    {
+      "class_no": 9,
+      "title": "9TH CLASS || SST || HISTORY ||  Focus on Questions and Answers Discussion in Respect of Test papers || LECTURE -09 || SUNIL SIR",
+      "id": 554599,
+      "video_url": "https://www.youtube.com/watch?v=dKhSLfb9VDU"
+    },
+    {
+      "class_no": 10,
+      "title": "9TH CLASS || SST || HISTORY || Focus on Questions and Answers Discussion in Respect of Test papers || LECTURE -10 || SUNIL SIR",
+      "id": 554600,
+      "video_url": "https://www.youtube.com/watch?v=BkdZtOPUjxE"
+    },
+    {
+      "class_no": 11,
+      "title": "L-11 || Eco | Chp-2 | People as Resource ||",
+      "id": 554601,
+      "video_url": "https://www.youtube.com/watch?v=NlAyWNISKjs"
+    },
+    {
+      "class_no": 12,
+      "title": "L-12 || Eco | Chp-2 | People as Resource ||",
+      "id": 554602,
+      "video_url": "https://www.youtube.com/watch?v=2yCqO4M9n5A"
+    },
+    {
+      "class_no": 13,
+      "title": "L-13 || Eco | Chp-2 | People as Resource ||",
+      "id": 554603,
+      "video_url": "https://www.youtube.com/watch?v=Fz9dac4jyn0"
+    },
+    {
+      "class_no": 14,
+      "title": "L-14 | Eco | Chp-2 || (Unemployment) People as Resource ||",
+      "id": 554604,
+      "video_url": "https://www.youtube.com/watch?v=NePtJyGsaNE"
+    },
+    {
+      "class_no": 15,
+      "title": "L-15 | Eco | Chp-2 || ( Unemployment) People as Resource ||",
+      "id": 554605,
+      "video_url": "https://www.youtube.com/watch?v=Au-eQsNjXHs"
+    },
+    {
+      "class_no": 16,
+      "title": "L-16 | Eco | Chp-2 || ( Types of Unemployment) People as Resource ||",
+      "id": 554606,
+      "video_url": "https://www.youtube.com/watch?v=t81Whp9rcKs"
+    },
+    {
+      "class_no": 17,
+      "title": "L-17 | Eco | Chp-2 || ( Types of Unemployment) People as Resource ||",
+      "id": 554607,
+      "video_url": "https://www.youtube.com/watch?v=Vc9SBQnUk-8"
+    },
+    {
+      "class_no": 19,
+      "title": "L-19 | Eco | Eco | Chp-2 | People as Resource ||",
+      "id": 554609,
+      "video_url": "https://www.youtube.com/watch?v=BwMM95uEu_8"
+    },
+    {
+      "class_no": 20,
+      "title": "L-20 | Eco | Eco | Chp-2 | People as Resource ||",
+      "id": 554610,
+      "video_url": "https://www.youtube.com/watch?v=yWwbMikBHG8"
+    },
+    {
+      "class_no": 21,
+      "title": "L-21 | Eco | Chp-01 || The Story of palampur ||",
+      "id": 554611,
+      "video_url": "https://www.youtube.com/watch?v=XEp7cEchWI0"
+    },
+    {
+      "class_no": 22,
+      "title": "L-22 || Eco - Chap - 1 M.C.Q ||",
+      "id": 554612,
+      "video_url": "https://www.youtube.com/watch?v=npnoKmth_lM"
+    },
+    {
+      "class_no": 23,
+      "title": "L-23 || Eco - Chap - 1 M.C.Q ||",
+      "id": 554613,
+      "video_url": "https://www.youtube.com/watch?v=B_vVSnoyGWM"
+    },
+    {
+      "class_no": 25,
+      "title": "L-25 || Economics | Chap - 2 People as Resource ||",
+      "id": 554615,
+      "video_url": "https://www.youtube.com/watch?v=CBtcFbYxFyU"
+    },
+    {
+      "class_no": 26,
+      "title": "L-26 || Economics | Chap - 2 People as Resource ||",
+      "id": 554616,
+      "video_url": "https://www.youtube.com/watch?v=KMJBtN5rZI0"
+    },
+    {
+      "class_no": 27,
+      "title": "L-27 || Economics | Chap - 2 People as Resource ||",
+      "id": 554617,
+      "video_url": "https://www.youtube.com/watch?v=IlL6zoYx8bw"
+    },
+    {
+      "class_no": 28,
+      "title": "L-28 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554618,
+      "video_url": "https://www.youtube.com/watch?v=edhOua0gcO8"
+    },
+    {
+      "class_no": 29,
+      "title": "L-29 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554619,
+      "video_url": "https://www.youtube.com/watch?v=oBoZzAhI4cE"
+    },
+    {
+      "class_no": 30,
+      "title": "L-30 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554620,
+      "video_url": "https://www.youtube.com/watch?v=o_sIGaLZ6MQ"
+    },
+    {
+      "class_no": 31,
+      "title": "L-31 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554621,
+      "video_url": "https://www.youtube.com/watch?v=XJ6BX83C6do"
+    },
+    {
+      "class_no": 32,
+      "title": "L-32 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554622,
+      "video_url": "https://www.youtube.com/watch?v=r7GqAxla6ew"
+    },
+    {
+      "class_no": 33,
+      "title": "L-33 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554623,
+      "video_url": "https://www.youtube.com/watch?v=n5VyKyiBEw0"
+    },
+    {
+      "class_no": 34,
+      "title": "L-34 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554624,
+      "video_url": "https://www.youtube.com/watch?v=KUh-8w6-upo"
+    },
+    {
+      "class_no": 35,
+      "title": "L-35 ||  ( SST ) Doubt - About Wind ||",
+      "id": 554625,
+      "video_url": "https://www.youtube.com/watch?v=mRCZfL2s64A"
+    },
+    {
+      "class_no": 36,
+      "title": "L-36 ||  Economics | Chap - 3 Poverty as a Challenge |||",
+      "id": 554626,
+      "video_url": "https://www.youtube.com/watch?v=g22lkjGOs4Q"
+    },
+    {
+      "class_no": 37,
+      "title": "L-37 ||  Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554627,
+      "video_url": "https://www.youtube.com/watch?v=7UvDLSTSwL8"
+    },
+    {
+      "class_no": 38,
+      "title": "L-38 ||  Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554628,
+      "video_url": "https://www.youtube.com/watch?v=sTKzlqbEL50"
+    },
+    {
+      "class_no": 39,
+      "title": "L-39 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554629,
+      "video_url": "https://www.youtube.com/watch?v=70iOdTANIRs"
+    },
+    {
+      "class_no": 40,
+      "title": "L-40 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554630,
+      "video_url": "https://www.youtube.com/watch?v=09iSev4mkmY"
+    },
+    {
+      "class_no": 41,
+      "title": "L-41 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554631,
+      "video_url": "https://www.youtube.com/watch?v=u_MhwAf6Q04"
+    },
+    {
+      "class_no": 42,
+      "title": "L-42 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554632,
+      "video_url": "https://www.youtube.com/watch?v=7-TCAjTEsY8"
+    },
+    {
+      "class_no": 43,
+      "title": "L-43 || Economics | Chap - 3 Poverty as a Challenge ||",
+      "id": 554633,
+      "video_url": "https://www.youtube.com/watch?v=y4U0nuMzxLg"
+    }
+  ],
+  "notes_total": 42,
+  "notes": [
+    {
+      "id": 261482,
+      "title": " Sentence and Its Parts",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1620655395.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1620655395.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261444,
+      "title": "Chapter -3 - The Little Girl PNG New",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-3_THE_LITTLE_GIRL_PNG_NEW.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-3_THE_LITTLE_GIRL_PNG_NEW.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261481,
+      "title": " Sentence and Its Practice",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859016.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859016.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261445,
+      "title": "Chapter - 4 - A Truly Beautyful Mind PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-4_A_TRULY_BEAUTIFUL_MIND_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-4_A_TRULY_BEAUTIFUL_MIND_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261480,
+      "title": " Sentence and Its Parts Practice",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859498.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859498.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261446,
+      "title": "Chapter - 5 - The Happy Prince PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-5_THE_HAPPY_PRINCE_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-5_THE_HAPPY_PRINCE_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261479,
+      "title": " Identify The Types Of Sentences",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859999.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859999.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261447,
+      "title": "Chapter - 6 The Hundred Dresses - II PNG ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-6_THE_HUNDRED_DRESSES-II_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632829819-CHAPTER-6_THE_HUNDRED_DRESSES-II_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261478,
+      "title": "The Fun They Had",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803506.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803506.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261449,
+      "title": "Letter Writing Stand Alone PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637067788-LETTER_WRITING_STAND_ALONE_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637067788-LETTER_WRITING_STAND_ALONE_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261477,
+      "title": "The Lost Child Final",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803597.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803597.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261452,
+      "title": "Case - Based PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637750286-CASE-BASED_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637750286-CASE-BASED_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261476,
+      "title": " Figure Of Speech",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627021649-FIGURE_OF_SPEECH_updated.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627021649-FIGURE_OF_SPEECH_updated.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261454,
+      "title": "Ch-4 In The Kingdom Of Fools (MCQ) PNG ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844441-Ch-4_In_The_Kingdom_Of_Fools_(MCQ)_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844441-Ch-4_In_The_Kingdom_Of_Fools_(MCQ)_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261475,
+      "title": "The Adventures Of Toto Final PDF (Book Eng Moments)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-2_The_Adventures_of_Toto_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-2_The_Adventures_of_Toto_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261457,
+      "title": "Packing Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CH-7_PACKING_PNG_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CH-7_PACKING_PNG_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261474,
+      "title": "The Little Girl  Final PDF (Book Beehive)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-3_THE_LITTLE_GIRL_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-3_THE_LITTLE_GIRL_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261458,
+      "title": "Weathering the Strom in Ersama Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CH-6_(WEATHERING_THE_STORM_IN_ERSAMA)_PNG_NEW_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CH-6_(WEATHERING_THE_STORM_IN_ERSAMA)_PNG_NEW_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261473,
+      "title": "The Sound Of Music Final PDF (Book Beehive)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-2_THE_SOUND_OF_MUSIC_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-2_THE_SOUND_OF_MUSIC_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261459,
+      "title": "The Last Leaf Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CHAPTER-7_The_Last_Leaf_PNG_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CHAPTER-7_The_Last_Leaf_PNG_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261472,
+      "title": "The Fun They Had Final PDF  (Book Beehive)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-1_The_Fun_They_Had.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-1_The_Fun_They_Had.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261460,
+      "title": "A House Is Not a Home Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CHAPTER-8_A_House_Is_Not_a_Home_png_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-CHAPTER-8_A_House_Is_Not_a_Home_png_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261471,
+      "title": "The Lost Child Final PDF (Book Eng Moments)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-1_THE_LOST_CHILD_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627283912-CHAPTER-1_THE_LOST_CHILD_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261441,
+      "title": "Tense ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1630478675-Tense_(PDF).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1630478675-Tense_(PDF).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261442,
+      "title": "Subject and Verb Agreement Exercise - 1 Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539070-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-1_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539070-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-1_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261443,
+      "title": "Subject and Verb Agreement Exercise - 2 Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539070-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-2_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539070-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-2_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261448,
+      "title": "Determiners Practice Questions Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636524624-DETERMINERS_PRACTICE_QUESTIONS_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1636524624-DETERMINERS_PRACTICE_QUESTIONS_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261450,
+      "title": "GAP Filling Or Cloze Passage Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637307251-GAP_FILLING_OR_CLOZE_PASSAGE_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637307251-GAP_FILLING_OR_CLOZE_PASSAGE_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261451,
+      "title": "Dialogue Reporting (Passage Based MCQS) Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637320985-DIALOGUE_REPORTING_(PASSAGE_BASED_MCQS)_FINAL_PDF_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637320985-DIALOGUE_REPORTING_(PASSAGE_BASED_MCQS)_FINAL_PDF_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261453,
+      "title": "Ch-2 The Adventures Of Toto (MCQ) ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844441-Ch-2_The_Adventures_Of_Toto_(MCQ).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844441-Ch-2_The_Adventures_Of_Toto_(MCQ).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261455,
+      "title": "Chapter - 4 A Truly Beautiful Mind MCQ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1638623837-CHAPTER-4_A_TRULY_BEAUTIFUL_MIND_MCQ.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1638623837-CHAPTER-4_A_TRULY_BEAUTIFUL_MIND_MCQ.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261456,
+      "title": "Chapter - 6 My Childhood",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1638623837-CHAPTER-6_MY_CHILDHOOD_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1638623837-CHAPTER-6_MY_CHILDHOOD_PNG.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261461,
+      "title": "No Men are Foreign",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-POEM-5_(NO_MEN_ARE_FOREIGN)_FINAL_PDF_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643436713-POEM-5_(NO_MEN_ARE_FOREIGN)_FINAL_PDF_(1).pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261462,
+      "title": "GS Study Material ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1645091924-jpg2pdf-1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1645091924-jpg2pdf-1.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261463,
+      "title": "Reporting Dialogue",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-Reporting_Dialogue.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-Reporting_Dialogue.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261464,
+      "title": "Reported Speech Digital",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-REPORTED_SPEECH_DIGITAL.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-REPORTED_SPEECH_DIGITAL.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261465,
+      "title": "Passage Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-PASSAGE_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-PASSAGE_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261466,
+      "title": "Reported Speech Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-REPORTED_SPEECH_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-REPORTED_SPEECH_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261467,
+      "title": "Narration Practice Questions PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-NARRATION_PRACTICE_QUESTIONS_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227612-NARRATION_PRACTICE_QUESTIONS_FINAL_PDF.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261468,
+      "title": "SSC 25 Sample Paper and 66 Set Link",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646902233-ssc_25_sample_paper_and_66_set_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646902233-ssc_25_sample_paper_and_66_set_compressed.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261469,
+      "title": "Letter",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973823-LETTER_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973823-LETTER_compressed.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    },
+    {
+      "id": 261470,
+      "title": "Letter of Enquiry ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973823-LETTER_OF_ENQUARY_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973823-LETTER_OF_ENQUARY_compressed.pdf&key=scammer09876",
+      "date": "15-May-2023"
+    }
+  ]
+}
