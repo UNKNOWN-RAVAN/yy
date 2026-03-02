@@ -1,0 +1,167 @@
+{
+  "batch_id": 2332,
+  "batch_name": "Offline SSC Spl-01 (2024)",
+  "topics": [
+    {
+      "id": 22960,
+      "topicName": "Arith (S Sir)",
+      "cls_count": 58,
+      "notes_count": 8,
+      "chapter_count": 0
+    },
+    {
+      "id": 22977,
+      "topicName": "Adv (A Sir)",
+      "cls_count": 66,
+      "notes_count": 8,
+      "chapter_count": 0
+    },
+    {
+      "id": 22969,
+      "topicName": "English",
+      "cls_count": 161,
+      "notes_count": 21,
+      "chapter_count": 0
+    },
+    {
+      "id": 22968,
+      "topicName": "Reasoning",
+      "cls_count": 119,
+      "notes_count": 10,
+      "chapter_count": 0
+    },
+    {
+      "id": 22967,
+      "topicName": "History",
+      "cls_count": 47,
+      "notes_count": 5,
+      "chapter_count": 0
+    },
+    {
+      "id": 22966,
+      "topicName": "Geography",
+      "cls_count": 59,
+      "notes_count": 10,
+      "chapter_count": 0
+    },
+    {
+      "id": 22965,
+      "topicName": "Polity",
+      "cls_count": 48,
+      "notes_count": 4,
+      "chapter_count": 0
+    },
+    {
+      "id": 22964,
+      "topicName": "Economy",
+      "cls_count": 28,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22963,
+      "topicName": "Physics",
+      "cls_count": 23,
+      "notes_count": 2,
+      "chapter_count": 0
+    },
+    {
+      "id": 26831,
+      "topicName": "Chemistry",
+      "cls_count": 20,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22961,
+      "topicName": "Biology",
+      "cls_count": 32,
+      "notes_count": 8,
+      "chapter_count": 0
+    },
+    {
+      "id": 22970,
+      "topicName": "Comp. (VOD)",
+      "cls_count": 52,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22974,
+      "topicName": "Comp",
+      "cls_count": 0,
+      "notes_count": 22,
+      "chapter_count": 0
+    },
+    {
+      "id": 25195,
+      "topicName": "Grammar Study Material",
+      "cls_count": 0,
+      "notes_count": 115,
+      "chapter_count": 0
+    },
+    {
+      "id": 25194,
+      "topicName": "Vocab Batch on App",
+      "cls_count": 0,
+      "notes_count": 17,
+      "chapter_count": 0
+    },
+    {
+      "id": 25193,
+      "topicName": "Comprehension Study Material",
+      "cls_count": 0,
+      "notes_count": 24,
+      "chapter_count": 0
+    },
+    {
+      "id": 25192,
+      "topicName": "Mixed & Previous Year Study Material",
+      "cls_count": 0,
+      "notes_count": 13,
+      "chapter_count": 0
+    },
+    {
+      "id": 25141,
+      "topicName": "Vocab Class",
+      "cls_count": 16,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 25140,
+      "topicName": "Eng VOD Class",
+      "cls_count": 162,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 28683,
+      "topicName": "Vocab",
+      "cls_count": 12,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 24692,
+      "topicName": "Vocab Batch on YouTube",
+      "cls_count": 0,
+      "notes_count": 120,
+      "chapter_count": 0
+    },
+    {
+      "id": 29481,
+      "topicName": "Static GK",
+      "cls_count": 11,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 29895,
+      "topicName": "Bhagwati Sir Maths",
+      "cls_count": 3,
+      "notes_count": 0,
+      "chapter_count": 0
+    }
+  ]
+}
