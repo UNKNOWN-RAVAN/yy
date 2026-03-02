@@ -1,0 +1,1775 @@
+{
+  "batchid": 2158,
+  "topicid": 20079,
+  "classes_total": 293,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-01 | Algebra",
+      "id": 638190,
+      "video_url": "https://www.youtube.com/watch?v=DzyP7Nz9wsQ"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 | Algebra",
+      "id": 638510,
+      "video_url": "4429086_0_3696334785242110"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-03 | Algebra",
+      "id": 638612,
+      "video_url": "https://www.youtube.com/watch?v=JsqCjN5fNaE"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-04 | Algebra",
+      "id": 639377,
+      "video_url": "4429090_0_6850916005579980"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-06 | Algebra",
+      "id": 641443,
+      "video_url": "4429093_0_9522108788985389"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-07 | Algebra",
+      "id": 643035,
+      "video_url": "4429095_0_6238787913227591"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-08 | Algebra",
+      "id": 643231,
+      "video_url": "4429096_0_6364636542534578"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-09 | Algebra",
+      "id": 643862,
+      "video_url": "4429098_0_9745273387475697"
+    },
+    {
+      "class_no": 10,
+      "title": "Class-10 | Algebra",
+      "id": 643976,
+      "video_url": "4429100_0_3909147860782195"
+    },
+    {
+      "class_no": 11,
+      "title": "Class-11 | Algebra",
+      "id": 644527,
+      "video_url": "4429102_0_3433339072164185"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-12 | Algebra",
+      "id": 644891,
+      "video_url": "4429104_0_6538124198881710"
+    },
+    {
+      "class_no": 13,
+      "title": "Class-13 | Algebra",
+      "id": 645295,
+      "video_url": "4429106_0_5866464009714311"
+    },
+    {
+      "class_no": 14,
+      "title": "Class-14 | Algebra",
+      "id": 646346,
+      "video_url": "4429107_0_6214059167134288"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-15 | Algebra",
+      "id": 647461,
+      "video_url": "4429108_0_3259749193810163"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-17 | Algebra",
+      "id": 648061,
+      "video_url": "4429110_0_9196541243584089"
+    },
+    {
+      "class_no": 18,
+      "title": "Class-18 | Algebra",
+      "id": 648589,
+      "video_url": "4429112_0_1528796111979462"
+    },
+    {
+      "class_no": 20,
+      "title": "Class-20 | Algebra",
+      "id": 650396,
+      "video_url": "4429115_0_1213695254299027"
+    },
+    {
+      "class_no": 21,
+      "title": "Class-21 | Algebra",
+      "id": 650937,
+      "video_url": "4429116_0_1313310581475457"
+    },
+    {
+      "class_no": 22,
+      "title": "Class-01 | Number system",
+      "id": 651256,
+      "video_url": "4429119_0_4008817065794326"
+    },
+    {
+      "class_no": 23,
+      "title": "Class-22 | Algebra",
+      "id": 651261,
+      "video_url": "4429120_0_3823963415513730"
+    },
+    {
+      "class_no": 24,
+      "title": "Class-02 | Number system",
+      "id": 652011,
+      "video_url": "4429122_0_9431972078564036"
+    },
+    {
+      "class_no": 25,
+      "title": "Class-23 | Algebra",
+      "id": 652017,
+      "video_url": "4429123_0_1766788929813046"
+    },
+    {
+      "class_no": 26,
+      "title": "Class-03 | Number system",
+      "id": 653205,
+      "video_url": "4429124_0_5947197247640960"
+    },
+    {
+      "class_no": 27,
+      "title": "Class-24 | Algebra",
+      "id": 653211,
+      "video_url": "4429125_0_7604972616049509"
+    },
+    {
+      "class_no": 28,
+      "title": "Class-04 | Number system",
+      "id": 653597,
+      "video_url": "4429126_0_3724103678212392"
+    },
+    {
+      "class_no": 29,
+      "title": "Class-25 | Algebra",
+      "id": 653603,
+      "video_url": "4429127_0_9335814640371044"
+    },
+    {
+      "class_no": 30,
+      "title": "Class-05 | Number system",
+      "id": 654498,
+      "video_url": "4429131_0_8141292473063935"
+    },
+    {
+      "class_no": 31,
+      "title": "Class-26 | Algebra",
+      "id": 654503,
+      "video_url": "4429132_0_9378212242921589"
+    },
+    {
+      "class_no": 32,
+      "title": "Class-27 | Algebra",
+      "id": 655348,
+      "video_url": "4429133_0_1205574784595284"
+    },
+    {
+      "class_no": 33,
+      "title": "Class-06 | Number system",
+      "id": 656137,
+      "video_url": "4429134_0_2383699773343737"
+    },
+    {
+      "class_no": 34,
+      "title": "Class-28 | Algebra",
+      "id": 656142,
+      "video_url": "4429135_0_7359603655585701"
+    },
+    {
+      "class_no": 35,
+      "title": "Class-07 | Number system",
+      "id": 657189,
+      "video_url": "4429136_0_5827027875877564"
+    },
+    {
+      "class_no": 36,
+      "title": "Class-29 | Algebra",
+      "id": 657195,
+      "video_url": "4429137_0_5562014408411945"
+    },
+    {
+      "class_no": 37,
+      "title": "Class-08 | Number system",
+      "id": 657772,
+      "video_url": "4429139_0_1301116498253888"
+    },
+    {
+      "class_no": 38,
+      "title": "Class-30 | Algebra",
+      "id": 657777,
+      "video_url": "4429140_0_6097977801424085"
+    },
+    {
+      "class_no": 39,
+      "title": "Class-09 | Number system",
+      "id": 658116,
+      "video_url": "4429142_0_7232497951686296"
+    },
+    {
+      "class_no": 40,
+      "title": "Class-31 | Algebra",
+      "id": 658124,
+      "video_url": "4429143_0_9303061983560530"
+    },
+    {
+      "class_no": 41,
+      "title": "Class-10 | Number system",
+      "id": 658790,
+      "video_url": "4429145_0_5063042883932428"
+    },
+    {
+      "class_no": 42,
+      "title": "Class-32 | Algebra",
+      "id": 658795,
+      "video_url": "4429146_0_9301698071053144"
+    },
+    {
+      "class_no": 43,
+      "title": "Class-11 | Number system",
+      "id": 660224,
+      "video_url": "4429148_0_4774799109083934"
+    },
+    {
+      "class_no": 45,
+      "title": "Class-12 | Number system",
+      "id": 660844,
+      "video_url": "4429150_0_6958322715505779"
+    },
+    {
+      "class_no": 47,
+      "title": "Class-13 | Number system",
+      "id": 662194,
+      "video_url": "4429152_0_8777275975915493"
+    },
+    {
+      "class_no": 48,
+      "title": "Class-35 | Algebra",
+      "id": 662199,
+      "video_url": "4429153_0_6578094946151894"
+    },
+    {
+      "class_no": 49,
+      "title": "Class-14 | Number system",
+      "id": 662951,
+      "video_url": "4429155_0_1215902408600965"
+    },
+    {
+      "class_no": 50,
+      "title": "Class-36 | Algebra",
+      "id": 662956,
+      "video_url": "4429156_0_3749206083371384"
+    },
+    {
+      "class_no": 51,
+      "title": "Class-15 | Number system",
+      "id": 663674,
+      "video_url": "4429158_0_5214113713378877"
+    },
+    {
+      "class_no": 53,
+      "title": "Class-38 | Algebra",
+      "id": 664318,
+      "video_url": "4429160_0_6462560814882306"
+    },
+    {
+      "class_no": 54,
+      "title": "Class-16 | Number system",
+      "id": 664512,
+      "video_url": "4429162_0_3299337152837525"
+    },
+    {
+      "class_no": 55,
+      "title": "Class-39 | Algebra",
+      "id": 664531,
+      "video_url": "4429163_0_8485367651352656"
+    },
+    {
+      "class_no": 56,
+      "title": "Class-17 | Number system",
+      "id": 666334,
+      "video_url": "4429165_0_1350264845244576"
+    },
+    {
+      "class_no": 57,
+      "title": "Class -1 || Quadratic Equation",
+      "id": 666344,
+      "video_url": "4429166_0_9407150894710351"
+    },
+    {
+      "class_no": 58,
+      "title": "Class-18 | Number system",
+      "id": 666617,
+      "video_url": "4429168_0_4382847210080055"
+    },
+    {
+      "class_no": 59,
+      "title": "Class-02 || Quadratic Equation",
+      "id": 667026,
+      "video_url": "4429169_0_5895890279596164"
+    },
+    {
+      "class_no": 61,
+      "title": "Class-20 | Number System",
+      "id": 746016,
+      "video_url": "4429268_0_9886569862692186"
+    },
+    {
+      "class_no": 62,
+      "title": "Class-21 | Number System",
+      "id": 746017,
+      "video_url": "4429269_0_2188391182341499"
+    },
+    {
+      "class_no": 63,
+      "title": "Class-22 | Number System",
+      "id": 746018,
+      "video_url": "4429270_0_2568778191754740"
+    },
+    {
+      "class_no": 64,
+      "title": "Class-23 | Number System",
+      "id": 746019,
+      "video_url": "4429271_0_4483275974157584"
+    },
+    {
+      "class_no": 65,
+      "title": "Class-24 | Number System",
+      "id": 746020,
+      "video_url": "4429272_0_9568443216662360"
+    },
+    {
+      "class_no": 66,
+      "title": "Class-25 | Number System",
+      "id": 746021,
+      "video_url": "4429273_0_2551640642022082"
+    },
+    {
+      "class_no": 67,
+      "title": "Class-26 | Number System",
+      "id": 746022,
+      "video_url": "4429274_0_4456493086155427"
+    },
+    {
+      "class_no": 68,
+      "title": "Class-27 | Number System",
+      "id": 746023,
+      "video_url": "4429275_0_2681792691834375"
+    },
+    {
+      "class_no": 69,
+      "title": "Class-28 | Number System",
+      "id": 746024,
+      "video_url": "4429276_0_6690261510433718"
+    },
+    {
+      "class_no": 70,
+      "title": "Class-29 | Number System",
+      "id": 746025,
+      "video_url": "4429277_0_3516185791172716"
+    },
+    {
+      "class_no": 71,
+      "title": "Class-30 | Number System",
+      "id": 746026,
+      "video_url": "4429278_0_2210623610631562"
+    },
+    {
+      "class_no": 72,
+      "title": "Class-31 | Number of Factors",
+      "id": 746027,
+      "video_url": "4429279_0_7955724586717650"
+    },
+    {
+      "class_no": 73,
+      "title": "Class-32 | Number of Factors",
+      "id": 746028,
+      "video_url": "4429280_0_8870663614946588"
+    },
+    {
+      "class_no": 74,
+      "title": "Class-33 | Number System",
+      "id": 746029,
+      "video_url": "4429281_0_4045667205186442"
+    },
+    {
+      "class_no": 75,
+      "title": "Class-34 | Number System",
+      "id": 746030,
+      "video_url": "4429282_0_9077334128434773"
+    },
+    {
+      "class_no": 76,
+      "title": "Class-1 || Calculation and Simplification",
+      "id": 667772,
+      "video_url": "4429171_0_2289748587216787"
+    },
+    {
+      "class_no": 77,
+      "title": "Class-03 || Quadratic Equation",
+      "id": 667785,
+      "video_url": "4429172_0_2132594640531047"
+    },
+    {
+      "class_no": 78,
+      "title": "Class-02 || Calculation and Simplification",
+      "id": 667876,
+      "video_url": "4429174_0_5020841410999372"
+    },
+    {
+      "class_no": 80,
+      "title": "Class-03 || Calculation and Simplification",
+      "id": 668457,
+      "video_url": "4429175_0_7573898560796642"
+    },
+    {
+      "class_no": 82,
+      "title": "Class-05 || Calculation and Simplification",
+      "id": 670236,
+      "video_url": "4429180_0_6146182683312686"
+    },
+    {
+      "class_no": 83,
+      "title": "Class-06 || Calculation and Simplification",
+      "id": 672109,
+      "video_url": "4429183_0_3845964554234664"
+    },
+    {
+      "class_no": 84,
+      "title": "Class-07 || Calculation and Simplification",
+      "id": 673864,
+      "video_url": "4429186_0_7810313345923576"
+    },
+    {
+      "class_no": 85,
+      "title": "Class-08 || Calculation and Simplification",
+      "id": 674004,
+      "video_url": "4429189_0_9607229708039663"
+    },
+    {
+      "class_no": 86,
+      "title": "Class-09 || Calculation and Simplification",
+      "id": 676055,
+      "video_url": "4429192_0_1404893128634709"
+    },
+    {
+      "class_no": 87,
+      "title": "Class-10 || Calculation and Simplification",
+      "id": 677740,
+      "video_url": "4429196_0_2916500634576310"
+    },
+    {
+      "class_no": 88,
+      "title": "Class-11 || Calculation and Simplification",
+      "id": 678848,
+      "video_url": "4429199_0_3699519173590414"
+    },
+    {
+      "class_no": 89,
+      "title": "Class-12 || Calculation and Simplification",
+      "id": 679231,
+      "video_url": "4429202_0_8964371835301277"
+    },
+    {
+      "class_no": 90,
+      "title": "Class-13 || Calculation and Simplification",
+      "id": 679474,
+      "video_url": "4429205_0_5469343226587592"
+    },
+    {
+      "class_no": 91,
+      "title": "Class-14 || Calculation and Simplification",
+      "id": 680523,
+      "video_url": "4429207_0_5309678133879752"
+    },
+    {
+      "class_no": 92,
+      "title": "Class-15 || Calculation and Simplification",
+      "id": 681218,
+      "video_url": "4429210_0_9630130110190139"
+    },
+    {
+      "class_no": 93,
+      "title": "Class-1 || Surds and Indices",
+      "id": 682009,
+      "video_url": "4429213_0_1706154482829593"
+    },
+    {
+      "class_no": 94,
+      "title": "Class-2 || Surds and Indices",
+      "id": 682160,
+      "video_url": "4429215_0_7874681863949668"
+    },
+    {
+      "class_no": 95,
+      "title": "Class-03 || Surds and Indices",
+      "id": 683420,
+      "video_url": "4429218_0_6936153641991456"
+    },
+    {
+      "class_no": 96,
+      "title": "Class-04 || Surds and Indices",
+      "id": 683803,
+      "video_url": "4429220_0_4959273728146461"
+    },
+    {
+      "class_no": 97,
+      "title": "Class-05 || Surds and Indices",
+      "id": 683900,
+      "video_url": "4429223_0_1104166847418407"
+    },
+    {
+      "class_no": 98,
+      "title": "Class-06 || Surds and Indices",
+      "id": 684043,
+      "video_url": "4429224_0_4639545331891656"
+    },
+    {
+      "class_no": 99,
+      "title": "Class-07 || Surds and Indices",
+      "id": 684136,
+      "video_url": "4429225_0_5752237240859977"
+    },
+    {
+      "class_no": 100,
+      "title": "Class-08 || Surds and Indices",
+      "id": 685489,
+      "video_url": "4429231_0_9296967075719320"
+    },
+    {
+      "class_no": 102,
+      "title": "Class-10 || Surds and Indices",
+      "id": 686552,
+      "video_url": "4429234_0_9916925950704912"
+    },
+    {
+      "class_no": 104,
+      "title": "Class-12 || Surds and Indices",
+      "id": 687265,
+      "video_url": "4429238_0_4508687119330599"
+    },
+    {
+      "class_no": 105,
+      "title": "Class-01 || Co-ordinate Geometry",
+      "id": 690955,
+      "video_url": "4430507_0_9804834110268735"
+    },
+    {
+      "class_no": 106,
+      "title": "Class-02 || Co-ordinate Geometry",
+      "id": 691240,
+      "video_url": "4430509_0_1612881700910702"
+    },
+    {
+      "class_no": 107,
+      "title": "Class-03 || Co-ordinate Geometry",
+      "id": 692381,
+      "video_url": "4430511_0_5265400078746333"
+    },
+    {
+      "class_no": 108,
+      "title": "Class-04 || Co-ordinate Geometry",
+      "id": 692693,
+      "video_url": "4430512_0_9589367009748495"
+    },
+    {
+      "class_no": 109,
+      "title": "Class-05 || Co-ordinate Geometry",
+      "id": 694958,
+      "video_url": "4430513_0_7022025497554619"
+    },
+    {
+      "class_no": 110,
+      "title": "Class-06 || Co-ordinate Geometry",
+      "id": 696381,
+      "video_url": "4430515_0_6726560044092001"
+    },
+    {
+      "class_no": 111,
+      "title": "Class-07 || Co-ordinate Geometry",
+      "id": 697902,
+      "video_url": "4430517_0_3229694705830842"
+    },
+    {
+      "class_no": 112,
+      "title": "Class-08 || Co-ordinate Geometry",
+      "id": 698707,
+      "video_url": "4430519_0_7756956896218842"
+    },
+    {
+      "class_no": 113,
+      "title": "Class-1 || Trigonometry",
+      "id": 700534,
+      "video_url": "4430522_0_6101532755298565"
+    },
+    {
+      "class_no": 114,
+      "title": "Class-02 || Trigonometry",
+      "id": 700849,
+      "video_url": "4430524_0_9762119867363634"
+    },
+    {
+      "class_no": 115,
+      "title": "Class-03 || Trigonometry",
+      "id": 701280,
+      "video_url": "4430525_0_3428921385606872"
+    },
+    {
+      "class_no": 116,
+      "title": "Class-04 || Trigonometry",
+      "id": 701462,
+      "video_url": "4430527_0_9163774997556378"
+    },
+    {
+      "class_no": 118,
+      "title": "Class-06 || Trigonometry",
+      "id": 702440,
+      "video_url": "4430530_0_4790626411034544"
+    },
+    {
+      "class_no": 119,
+      "title": "Class-07 || Trigonometry",
+      "id": 703515,
+      "video_url": "4430532_0_5359898741104821"
+    },
+    {
+      "class_no": 120,
+      "title": "Class-08 || Trigonometry",
+      "id": 705555,
+      "video_url": "4430534_0_6080415718836160"
+    },
+    {
+      "class_no": 121,
+      "title": "Class-09 || Trigonometry",
+      "id": 706073,
+      "video_url": "4430535_0_4837451263913373"
+    },
+    {
+      "class_no": 122,
+      "title": "Class-10 || Trigonometry",
+      "id": 706329,
+      "video_url": "4430537_0_1849860274990504"
+    },
+    {
+      "class_no": 123,
+      "title": "Class-11 || Trigonometry",
+      "id": 710107,
+      "video_url": "4430539_0_1455474786205799"
+    },
+    {
+      "class_no": 125,
+      "title": "Class-13 || Trigonometry",
+      "id": 710712,
+      "video_url": "4430542_0_4884046768639876"
+    },
+    {
+      "class_no": 126,
+      "title": "Class-14 || Trigonometry",
+      "id": 712693,
+      "video_url": "4430544_0_1117331554286264"
+    },
+    {
+      "class_no": 127,
+      "title": "Class-15 || Trigonometry",
+      "id": 712811,
+      "video_url": "4430546_0_4903967104680766"
+    },
+    {
+      "class_no": 128,
+      "title": "Class-16 || Trigonometry",
+      "id": 713640,
+      "video_url": "4430548_0_8765202118541159"
+    },
+    {
+      "class_no": 129,
+      "title": "Class-17 || Trigonometry",
+      "id": 714071,
+      "video_url": "4430550_0_9608185034228760"
+    },
+    {
+      "class_no": 130,
+      "title": "Class-18 || Trigonometry",
+      "id": 714599,
+      "video_url": "4430552_0_6045463326433849"
+    },
+    {
+      "class_no": 131,
+      "title": "Class-19 || Trigonometry",
+      "id": 716048,
+      "video_url": "4430553_0_2088297470634361"
+    },
+    {
+      "class_no": 132,
+      "title": "Class-20 || Trigonometry",
+      "id": 716335,
+      "video_url": "4430555_0_3375408020707163"
+    },
+    {
+      "class_no": 133,
+      "title": "Class-01 || HCF&LCM",
+      "id": 716566,
+      "video_url": "4498522_0_8881036000993033"
+    },
+    {
+      "class_no": 134,
+      "title": "Class-21 || Trigonometry",
+      "id": 716703,
+      "video_url": "4430556_0_7497101392707039"
+    },
+    {
+      "class_no": 135,
+      "title": "Class-02 || HCF & LCM",
+      "id": 716821,
+      "video_url": "4430558_0_3426175708345044"
+    },
+    {
+      "class_no": 136,
+      "title": "Class-22 || Trigonometry",
+      "id": 717053,
+      "video_url": "4430559_0_8505018132656368"
+    },
+    {
+      "class_no": 137,
+      "title": "Class-03 || HCF & LCM",
+      "id": 717229,
+      "video_url": "4430561_0_3373692727047636"
+    },
+    {
+      "class_no": 139,
+      "title": "Class-04 || HCF & LCM",
+      "id": 717995,
+      "video_url": "4430563_0_9489768257072650"
+    },
+    {
+      "class_no": 140,
+      "title": "Class-05 || HCF & LCM",
+      "id": 718229,
+      "video_url": "4430565_0_9971699694964557"
+    },
+    {
+      "class_no": 141,
+      "title": "Class-24 || Trigonometry",
+      "id": 718319,
+      "video_url": "4430566_0_3147076084836544"
+    },
+    {
+      "class_no": 142,
+      "title": "Class-06 || HCF & LCM",
+      "id": 718339,
+      "video_url": "4430568_0_4330815674393551"
+    },
+    {
+      "class_no": 143,
+      "title": "Class-25 || Trigonometry",
+      "id": 718688,
+      "video_url": "4430569_0_7445316379255328"
+    },
+    {
+      "class_no": 144,
+      "title": "Class-07 || HCF & LCM",
+      "id": 718869,
+      "video_url": "4498537_0_1480753427037422"
+    },
+    {
+      "class_no": 145,
+      "title": "Class-26 || Trigonometry",
+      "id": 719172,
+      "video_url": "4430573_0_7984382822923030"
+    },
+    {
+      "class_no": 146,
+      "title": "Class-08 || HCF & LCM",
+      "id": 719004,
+      "video_url": "4430572_0_5171973884613890"
+    },
+    {
+      "class_no": 147,
+      "title": "Class-27 || Trigonometry",
+      "id": 719806,
+      "video_url": "4430576_0_8223080536436493"
+    },
+    {
+      "class_no": 148,
+      "title": "Class-09 || HCF & LCM",
+      "id": 719677,
+      "video_url": "4430575_0_9561816581003296"
+    },
+    {
+      "class_no": 149,
+      "title": "Class-28 || Trigonometry",
+      "id": 719987,
+      "video_url": "4430577_0_9679262383527186"
+    },
+    {
+      "class_no": 150,
+      "title": "Class-10 || HCF & LCM",
+      "id": 720263,
+      "video_url": "4430579_0_1063865238356997"
+    },
+    {
+      "class_no": 151,
+      "title": "Class-1 || Height and Distance",
+      "id": 721256,
+      "video_url": "4430580_0_5447423439625059"
+    },
+    {
+      "class_no": 152,
+      "title": "Class-11 || HCF & LCM",
+      "id": 722275,
+      "video_url": "4430582_0_2831650263383874"
+    },
+    {
+      "class_no": 153,
+      "title": "Class-02 || Height and Distance",
+      "id": 722631,
+      "video_url": "4430583_0_6100339378466060"
+    },
+    {
+      "class_no": 154,
+      "title": "Class-03 || Height and Distance",
+      "id": 723374,
+      "video_url": "4430586_0_1820956303701043"
+    },
+    {
+      "class_no": 155,
+      "title": "Class-12 || HCF & LCM",
+      "id": 723441,
+      "video_url": "4430587_0_5686458284386438"
+    },
+    {
+      "class_no": 156,
+      "title": "Class-04 || Height and Distance",
+      "id": 724323,
+      "video_url": "4430588_0_5201814138225899"
+    },
+    {
+      "class_no": 157,
+      "title": "Class-13 || HCF & LCM",
+      "id": 724602,
+      "video_url": "4430590_0_5541684274582112"
+    },
+    {
+      "class_no": 158,
+      "title": "Class-14 || HCF & LCM",
+      "id": 724980,
+      "video_url": "4430593_0_7421490120642649"
+    },
+    {
+      "class_no": 159,
+      "title": "Class-05 || Height and Distance",
+      "id": 724771,
+      "video_url": "4430591_0_6818025631642944"
+    },
+    {
+      "class_no": 160,
+      "title": "Class-06 || Height and Distance",
+      "id": 725577,
+      "video_url": "4430597_0_8399526668194040"
+    },
+    {
+      "class_no": 161,
+      "title": "Class-01 || 2D Mensuration",
+      "id": 725489,
+      "video_url": "4430596_0_5823063766953652"
+    },
+    {
+      "class_no": 162,
+      "title": "Class-02 || 2D Mensuration",
+      "id": 726852,
+      "video_url": "4430599_0_9352009921101717"
+    },
+    {
+      "class_no": 163,
+      "title": "Class-03 || 2D Mensuration",
+      "id": 727352,
+      "video_url": "4430602_0_1051389000201999"
+    },
+    {
+      "class_no": 164,
+      "title": "Class-04 || 2D Mensuration",
+      "id": 728573,
+      "video_url": "4430604_0_9388096145087542"
+    },
+    {
+      "class_no": 165,
+      "title": "Final Class || Maxima and Minima",
+      "id": 726915,
+      "video_url": "4430600_0_1851375817400406"
+    },
+    {
+      "class_no": 166,
+      "title": "Class-05 || 2D Mensuration",
+      "id": 729100,
+      "video_url": "4430606_0_6119804019708230"
+    },
+    {
+      "class_no": 168,
+      "title": "Class-07 || 2D Mensuration",
+      "id": 729682,
+      "video_url": "4430607_0_4986656489715997"
+    },
+    {
+      "class_no": 169,
+      "title": "Class-08 || 2D Mensuration",
+      "id": 730015,
+      "video_url": "4430608_0_6977335706447443"
+    },
+    {
+      "class_no": 170,
+      "title": "Class-09 || 2D Mensuration",
+      "id": 730739,
+      "video_url": "4430610_0_3516541487374095"
+    },
+    {
+      "class_no": 171,
+      "title": "Class-10 || 2D Mensuration",
+      "id": 731110,
+      "video_url": "4430612_0_3689122228626888"
+    },
+    {
+      "class_no": 172,
+      "title": "Class-11 || 2D Mensuration",
+      "id": 731446,
+      "video_url": "4430614_0_8874470200833386"
+    },
+    {
+      "class_no": 173,
+      "title": "Class-12 || 2D Mensuration",
+      "id": 732398,
+      "video_url": "4430616_0_3476655002366276"
+    },
+    {
+      "class_no": 174,
+      "title": "Class-13 || 2D Mensuration",
+      "id": 732588,
+      "video_url": "4430618_0_9795343363727619"
+    },
+    {
+      "class_no": 175,
+      "title": "Class-14 || 2D Mensuration",
+      "id": 732957,
+      "video_url": "4430620_0_6976412613329521"
+    },
+    {
+      "class_no": 176,
+      "title": "Class-15 || 2D Mensuration",
+      "id": 733307,
+      "video_url": "4430622_0_2606229797312536"
+    },
+    {
+      "class_no": 177,
+      "title": "Class-16 || 2D Mensuration",
+      "id": 736204,
+      "video_url": "4430624_0_1396135566211883"
+    },
+    {
+      "class_no": 178,
+      "title": "Class-17 || 2D Mensuration",
+      "id": 737166,
+      "video_url": "4430626_0_7138150764071407"
+    },
+    {
+      "class_no": 179,
+      "title": "Class-18 || 2D Mensuration",
+      "id": 737268,
+      "video_url": "4430628_0_7415615029001534"
+    },
+    {
+      "class_no": 180,
+      "title": "Class-1 || Statistics ||  CGL MAINS 2023",
+      "id": 737557,
+      "video_url": "4429055_0_2782913582202085"
+    },
+    {
+      "class_no": 181,
+      "title": "Class-2 || Statistics || CGL MAINS 2023",
+      "id": 737568,
+      "video_url": "4429056_0_8783908337340859"
+    },
+    {
+      "class_no": 182,
+      "title": "Class-3 || Statistics || CGL MAINS 2023",
+      "id": 737579,
+      "video_url": "4429057_0_6478262114001414"
+    },
+    {
+      "class_no": 183,
+      "title": "Class-19 || 2D Mensuration",
+      "id": 741075,
+      "video_url": "4430630_0_8739250509110057"
+    },
+    {
+      "class_no": 184,
+      "title": "Class-20 || 2D Mensuration",
+      "id": 741624,
+      "video_url": "4430631_0_1778777920461747"
+    },
+    {
+      "class_no": 185,
+      "title": "Class-21 || 2D Mensuration",
+      "id": 742913,
+      "video_url": "4430633_0_9294256991302831"
+    },
+    {
+      "class_no": 186,
+      "title": "Class-22 || 2D Mensuration",
+      "id": 743230,
+      "video_url": "4430635_0_6277615471167036"
+    },
+    {
+      "class_no": 187,
+      "title": "Class-23 || 2D Mensuration",
+      "id": 743486,
+      "video_url": "4430637_0_8025728322741371"
+    },
+    {
+      "class_no": 188,
+      "title": "Class-24 || 2D Mensuration",
+      "id": 743871,
+      "video_url": "4430638_0_2743414589354319"
+    },
+    {
+      "class_no": 189,
+      "title": "CLASS-01 || 3D Mensuration",
+      "id": 746447,
+      "video_url": "4430642_0_7465339472775168"
+    },
+    {
+      "class_no": 190,
+      "title": "Class-02 || 3D Menstruation",
+      "id": 746851,
+      "video_url": "4430644_0_4378694034025133"
+    },
+    {
+      "class_no": 191,
+      "title": "Class-03 || 3D Menstruation",
+      "id": 747762,
+      "video_url": "4430646_0_3370889234303997"
+    },
+    {
+      "class_no": 192,
+      "title": "Class-04 || 3D Menstruation",
+      "id": 748083,
+      "video_url": "4430648_0_4136389247860323"
+    },
+    {
+      "class_no": 193,
+      "title": "Class-05 || 3D Menstruation",
+      "id": 748625,
+      "video_url": "4430650_0_3766915330527555"
+    },
+    {
+      "class_no": 194,
+      "title": "Class-06 || 3D Menstruation",
+      "id": 748900,
+      "video_url": "4430652_0_4113121346011831"
+    },
+    {
+      "class_no": 195,
+      "title": "Class-07 || 3D Menstruation",
+      "id": 749972,
+      "video_url": "4430654_0_9478284347045978"
+    },
+    {
+      "class_no": 196,
+      "title": "Class-08 || 3D Menstruation",
+      "id": 750253,
+      "video_url": "4430656_0_8884612293733083"
+    },
+    {
+      "class_no": 197,
+      "title": "Class-09 || 3D Menstruation",
+      "id": 751610,
+      "video_url": "4430658_0_2848527306979712"
+    },
+    {
+      "class_no": 198,
+      "title": "Class-10 || 3D Menstruation",
+      "id": 752044,
+      "video_url": "4430660_0_2462036778211369"
+    },
+    {
+      "class_no": 199,
+      "title": "Class-11 || 3D Menstruation",
+      "id": 752336,
+      "video_url": "4430662_0_8729477210355616"
+    },
+    {
+      "class_no": 200,
+      "title": "Class-12 || 3D Menstruation",
+      "id": 753474,
+      "video_url": "4430664_0_2002046035990099"
+    },
+    {
+      "class_no": 201,
+      "title": "Class-13 || 3D Menstruation",
+      "id": 754600,
+      "video_url": "4430666_0_9032614841159228"
+    },
+    {
+      "class_no": 202,
+      "title": "Class-14 || 3D Mensuration",
+      "id": 755256,
+      "video_url": "4430668_0_1815116007027847"
+    },
+    {
+      "class_no": 203,
+      "title": "Class-15 || 3D Mensuration",
+      "id": 755571,
+      "video_url": "4430669_0_3954184731303222"
+    },
+    {
+      "class_no": 204,
+      "title": "Class-16 || 3D Mensuration",
+      "id": 756650,
+      "video_url": "4430671_0_9681202727321340"
+    },
+    {
+      "class_no": 205,
+      "title": "Class-17 || 3D Mensuration",
+      "id": 757015,
+      "video_url": "4430672_0_4197089730445349"
+    },
+    {
+      "class_no": 206,
+      "title": "Class-18 || 3D Mensuration",
+      "id": 760275,
+      "video_url": "4430674_0_8071968519441944"
+    },
+    {
+      "class_no": 207,
+      "title": "Class-19 || 3D Mensuration",
+      "id": 760803,
+      "video_url": "4430676_0_2818754379304512"
+    },
+    {
+      "class_no": 208,
+      "title": "Class-20 || 3D Mensuration",
+      "id": 761181,
+      "video_url": "4430678_0_4585582454394376"
+    },
+    {
+      "class_no": 209,
+      "title": "Class-21 || 3D Mensuration",
+      "id": 763079,
+      "video_url": "4430680_0_5240889568420927"
+    },
+    {
+      "class_no": 210,
+      "title": "Class-22 || 3D Mensuration",
+      "id": 763327,
+      "video_url": "4430682_0_5551328008707706"
+    },
+    {
+      "class_no": 211,
+      "title": "Class-23 || 3D Mensuration",
+      "id": 763854,
+      "video_url": "4430683_0_8864652336839421"
+    },
+    {
+      "class_no": 212,
+      "title": "Class-01 || Geometry",
+      "id": 764022,
+      "video_url": "4430685_0_5184708980266943"
+    },
+    {
+      "class_no": 213,
+      "title": "Class-02 || Geometry",
+      "id": 764602,
+      "video_url": "4430687_0_4870467131268111"
+    },
+    {
+      "class_no": 214,
+      "title": "Class-24 || 3D Mensuration",
+      "id": 764875,
+      "video_url": "4430688_0_8223866813095027"
+    },
+    {
+      "class_no": 215,
+      "title": "Class-03 || Geometry",
+      "id": 765126,
+      "video_url": "4430690_0_3476812514237897"
+    },
+    {
+      "class_no": 216,
+      "title": "Class-25 || 3D Mensuration",
+      "id": 765577,
+      "video_url": "4430691_0_1776644969312024"
+    },
+    {
+      "class_no": 217,
+      "title": "Class-04 || Geometry",
+      "id": 765804,
+      "video_url": "4430692_0_8279458199321010"
+    },
+    {
+      "class_no": 218,
+      "title": "Class-05 || Geometry",
+      "id": 767383,
+      "video_url": "4430694_0_6103699331334538"
+    },
+    {
+      "class_no": 219,
+      "title": "Class-26 || 3D Mensuration",
+      "id": 770111,
+      "video_url": "4430696_0_5126214339046820"
+    },
+    {
+      "class_no": 220,
+      "title": "Class-06 || Geometry",
+      "id": 770182,
+      "video_url": "4430697_0_2410471519208524"
+    },
+    {
+      "class_no": 221,
+      "title": "Class-07 || Geometry",
+      "id": 771131,
+      "video_url": "4430699_0_4438644721607140"
+    },
+    {
+      "class_no": 222,
+      "title": "Class-27 || 3D Mensuration",
+      "id": 771520,
+      "video_url": "4428998_0_8455779901553953"
+    },
+    {
+      "class_no": 223,
+      "title": "Class-08 || Geometry",
+      "id": 771617,
+      "video_url": "4430701_0_5122419836132250"
+    },
+    {
+      "class_no": 224,
+      "title": "Class-09 || Geometry",
+      "id": 774187,
+      "video_url": "4430703_0_6849192589263580"
+    },
+    {
+      "class_no": 225,
+      "title": "Class-10 || Geometry",
+      "id": 775329,
+      "video_url": "4430706_0_2456331927701133"
+    },
+    {
+      "class_no": 226,
+      "title": "Class-11 || Geometry",
+      "id": 776163,
+      "video_url": "4430708_0_3533378847792072"
+    },
+    {
+      "class_no": 227,
+      "title": "Class-12 || Geometry",
+      "id": 776498,
+      "video_url": "4430710_0_8419815757699730"
+    },
+    {
+      "class_no": 228,
+      "title": "Class-13 || Geometry",
+      "id": 777011,
+      "video_url": "4430712_0_3738784800301980"
+    },
+    {
+      "class_no": 229,
+      "title": "Class-14 || Geometry",
+      "id": 778506,
+      "video_url": "4430716_0_8703720918481259"
+    },
+    {
+      "class_no": 230,
+      "title": "Class-15 || Geometry",
+      "id": 779130,
+      "video_url": "4430720_0_5163830968427212"
+    },
+    {
+      "class_no": 231,
+      "title": "Class-16 || Geometry",
+      "id": 780511,
+      "video_url": "4430722_0_5313552828196632"
+    },
+    {
+      "class_no": 232,
+      "title": "Class-17 || Geometry",
+      "id": 781449,
+      "video_url": "4430724_0_1706007979333937"
+    },
+    {
+      "class_no": 233,
+      "title": "Class-18 || Geometry",
+      "id": 789066,
+      "video_url": "4430727_0_9770050661257093"
+    },
+    {
+      "class_no": 234,
+      "title": "Class-19 || Geometry",
+      "id": 790099,
+      "video_url": "4430731_0_3354982840417824"
+    },
+    {
+      "class_no": 235,
+      "title": "Class-20 || Geometry",
+      "id": 790432,
+      "video_url": "4430733_0_7456357941792555"
+    },
+    {
+      "class_no": 236,
+      "title": "Class-21 || Geometry",
+      "id": 790721,
+      "video_url": "4430735_0_6353819441810050"
+    },
+    {
+      "class_no": 237,
+      "title": "Class-22 || Geometry",
+      "id": 791000,
+      "video_url": "4430737_0_2018689213166964"
+    },
+    {
+      "class_no": 238,
+      "title": "Class-23 || Geometry",
+      "id": 795458,
+      "video_url": "4430740_0_2431490627567417"
+    },
+    {
+      "class_no": 239,
+      "title": "Class-24 || Geometry",
+      "id": 795946,
+      "video_url": "4430741_0_4460801099687967"
+    },
+    {
+      "class_no": 240,
+      "title": "Class-25 || Geometry",
+      "id": 796376,
+      "video_url": "4430743_0_2875072960571340"
+    },
+    {
+      "class_no": 241,
+      "title": "Class-26 || Geometry",
+      "id": 796640,
+      "video_url": "4430745_0_5823671287033685"
+    },
+    {
+      "class_no": 242,
+      "title": "Class-27 || Geometry",
+      "id": 799332,
+      "video_url": "4430748_0_8048269952658095"
+    },
+    {
+      "class_no": 243,
+      "title": "Class-28 || Geometry",
+      "id": 800098,
+      "video_url": "4430750_0_5876900837527072"
+    },
+    {
+      "class_no": 244,
+      "title": "Class-29 || Geometry",
+      "id": 800422,
+      "video_url": "4430752_0_5402496695560543"
+    },
+    {
+      "class_no": 245,
+      "title": "Class-30 || Geometry",
+      "id": 801845,
+      "video_url": "4430755_0_3054357733582473"
+    },
+    {
+      "class_no": 246,
+      "title": "Class-31 || Geometry",
+      "id": 802903,
+      "video_url": "4430758_0_5616592993162633"
+    },
+    {
+      "class_no": 247,
+      "title": "Class-32 || Geometry",
+      "id": 803420,
+      "video_url": "4430760_0_7152629513330309"
+    },
+    {
+      "class_no": 248,
+      "title": "Class-33 || Geometry",
+      "id": 805843,
+      "video_url": "4430762_0_8870584233528990"
+    },
+    {
+      "class_no": 249,
+      "title": "Class-34 || Geometry",
+      "id": 806158,
+      "video_url": "4430763_0_9310281761099609"
+    },
+    {
+      "class_no": 250,
+      "title": "Class-35 || Geometry",
+      "id": 806481,
+      "video_url": "4430765_0_2275986013908505"
+    },
+    {
+      "class_no": 251,
+      "title": "Class-36 || Geometry",
+      "id": 806897,
+      "video_url": "4430767_0_1512719454218929"
+    },
+    {
+      "class_no": 252,
+      "title": "Class-37 || Geometry",
+      "id": 807647,
+      "video_url": "4430769_0_1200404581764500"
+    },
+    {
+      "class_no": 253,
+      "title": "Class-38 || Geometry",
+      "id": 807838,
+      "video_url": "4430771_0_9090784994879854"
+    },
+    {
+      "class_no": 254,
+      "title": "Class-39 || Geometry",
+      "id": 808106,
+      "video_url": "4430773_0_2542800236189478"
+    },
+    {
+      "class_no": 255,
+      "title": "Class-40 || Geometry",
+      "id": 810060,
+      "video_url": "4430775_0_8055150218119697"
+    },
+    {
+      "class_no": 256,
+      "title": "Class-41 || Geometry",
+      "id": 813374,
+      "video_url": "4430779_0_8542485380056922"
+    },
+    {
+      "class_no": 257,
+      "title": "Class-1 || Probability || CGL MAINS 2023",
+      "id": 813957,
+      "video_url": "4429063_0_2334572326586932"
+    },
+    {
+      "class_no": 258,
+      "title": "Class-2 || Probability || CGL MAINS 2023",
+      "id": 813958,
+      "video_url": "4429064_0_8640200728566179"
+    },
+    {
+      "class_no": 259,
+      "title": "Class-3 || Probability || CGL MAINS 2023",
+      "id": 814013,
+      "video_url": "4429065_0_1873341660837606"
+    },
+    {
+      "class_no": 260,
+      "title": "Class-42 || Geometry",
+      "id": 814088,
+      "video_url": "4430781_0_9892321992297222"
+    },
+    {
+      "class_no": 261,
+      "title": "Class-43 || Geometry",
+      "id": 814484,
+      "video_url": "4430783_0_4659025255050180"
+    },
+    {
+      "class_no": 262,
+      "title": "Class-44 || Geometry",
+      "id": 814769,
+      "video_url": "4430785_0_6109449439390826"
+    },
+    {
+      "class_no": 263,
+      "title": "Class-45 || Geometry",
+      "id": 815073,
+      "video_url": "4430787_0_3213416229049503"
+    },
+    {
+      "class_no": 264,
+      "title": "Class-46 || Geometry",
+      "id": 816388,
+      "video_url": "4430789_0_6845856437002593"
+    },
+    {
+      "class_no": 265,
+      "title": "Class-47 || Geometry",
+      "id": 817197,
+      "video_url": "4430790_0_2625549455835280"
+    },
+    {
+      "class_no": 266,
+      "title": "Class-48 || Geometry",
+      "id": 817639,
+      "video_url": "4430792_0_7103003715767308"
+    },
+    {
+      "class_no": 267,
+      "title": "Class-49 || Geometry",
+      "id": 820114,
+      "video_url": "4430794_0_5544930754417625"
+    },
+    {
+      "class_no": 268,
+      "title": "Class-50 || Geometry",
+      "id": 820646,
+      "video_url": "4430796_0_1830261290346712"
+    },
+    {
+      "class_no": 269,
+      "title": "Class-51 || Geometry",
+      "id": 820969,
+      "video_url": "4430798_0_4058061528421250"
+    },
+    {
+      "class_no": 270,
+      "title": "Class-52 || Geometry",
+      "id": 821389,
+      "video_url": "4430800_0_9632967751899310"
+    },
+    {
+      "class_no": 271,
+      "title": "Class-53 || Geometry",
+      "id": 821675,
+      "video_url": "4430802_0_3117114627269652"
+    },
+    {
+      "class_no": 272,
+      "title": "Class-1 || Permutation and Combination",
+      "id": 822190,
+      "video_url": "4429060_0_8036136874954732"
+    },
+    {
+      "class_no": 273,
+      "title": "Class-2 || Permutation and Combination",
+      "id": 822202,
+      "video_url": "4429061_0_4924502995658906"
+    },
+    {
+      "class_no": 274,
+      "title": "Class-3 || Permutation and Combination",
+      "id": 822214,
+      "video_url": "4429062_0_5474284239273873"
+    },
+    {
+      "class_no": 275,
+      "title": "Class-54 || Geometry",
+      "id": 822153,
+      "video_url": "4430805_0_7603418189899574"
+    },
+    {
+      "class_no": 276,
+      "title": "Class-55 || Geometry",
+      "id": 822714,
+      "video_url": "4429181_0_1132454259918432"
+    },
+    {
+      "class_no": 277,
+      "title": "Class-56 || Geometry",
+      "id": 822715,
+      "video_url": "4429184_0_3140111905233298"
+    },
+    {
+      "class_no": 278,
+      "title": "Class-57 || Geometry",
+      "id": 822716,
+      "video_url": "4429187_0_9017645310161942"
+    },
+    {
+      "class_no": 279,
+      "title": "Class-58 || Geometry",
+      "id": 822717,
+      "video_url": "4429190_0_5630319878341780"
+    },
+    {
+      "class_no": 280,
+      "title": "Class-59 || Geometry",
+      "id": 822718,
+      "video_url": "4453772_0_5967886958189040"
+    },
+    {
+      "class_no": 281,
+      "title": "Class-60 || Geometry",
+      "id": 822719,
+      "video_url": "4429194_0_4620520577367240"
+    },
+    {
+      "class_no": 282,
+      "title": "Class-61 || Geometry",
+      "id": 822720,
+      "video_url": "4429197_0_4376757140639040"
+    },
+    {
+      "class_no": 283,
+      "title": "Class-62 || Geometry",
+      "id": 822721,
+      "video_url": "4429200_0_8767263277115298"
+    },
+    {
+      "class_no": 284,
+      "title": "Class-63 || Geometry",
+      "id": 822722,
+      "video_url": "4429203_0_5693647329420864"
+    },
+    {
+      "class_no": 285,
+      "title": "Class-64 || Geometry",
+      "id": 822723,
+      "video_url": "4429208_0_9798951389444538"
+    },
+    {
+      "class_no": 286,
+      "title": "Class-65 || Geometry",
+      "id": 822724,
+      "video_url": "4429211_0_9031577343236874"
+    },
+    {
+      "class_no": 287,
+      "title": "Class-66 || Geometry",
+      "id": 822725,
+      "video_url": "4429214_0_9306727595537851"
+    },
+    {
+      "class_no": 288,
+      "title": "Class-67 || Geometry",
+      "id": 822726,
+      "video_url": "4429216_0_4169355395138078"
+    },
+    {
+      "class_no": 289,
+      "title": "Class-68 || Geometry",
+      "id": 822727,
+      "video_url": "4429219_0_2574679088283120"
+    },
+    {
+      "class_no": 290,
+      "title": "Class-69 || Geometry",
+      "id": 822728,
+      "video_url": "4429221_0_9845870442446286"
+    },
+    {
+      "class_no": 291,
+      "title": "Class-70 || Geometry",
+      "id": 822729,
+      "video_url": "4429226_0_2738049653985361"
+    },
+    {
+      "class_no": 292,
+      "title": "Class-71 || Geometry",
+      "id": 822730,
+      "video_url": "4429228_0_8852384408615967"
+    },
+    {
+      "class_no": 293,
+      "title": "Class-72 || Geometry",
+      "id": 822731,
+      "video_url": "4429229_0_5855607115758081"
+    },
+    {
+      "class_no": 294,
+      "title": "Class-73 || Geometry",
+      "id": 822732,
+      "video_url": "4429232_0_1521660017889587"
+    },
+    {
+      "class_no": 295,
+      "title": "Class-74 || Geometry",
+      "id": 822733,
+      "video_url": "4429235_0_3365307927330533"
+    },
+    {
+      "class_no": 296,
+      "title": "Class-75 || Geometry",
+      "id": 822734,
+      "video_url": "4429237_0_1561936289722248"
+    },
+    {
+      "class_no": 297,
+      "title": "Class-76 || Geometry",
+      "id": 822735,
+      "video_url": "4429239_0_3380024109981684"
+    },
+    {
+      "class_no": 298,
+      "title": "Class-77 || Geometry",
+      "id": 822736,
+      "video_url": "4429241_0_9012049073592886"
+    },
+    {
+      "class_no": 299,
+      "title": "Class-78 || Geometry",
+      "id": 822737,
+      "video_url": "4429243_0_3971149038675819"
+    },
+    {
+      "class_no": 300,
+      "title": "Class-79 || Geometry",
+      "id": 822738,
+      "video_url": "4429244_0_4301309195115645"
+    },
+    {
+      "class_no": 301,
+      "title": "Class-80 || Geometry",
+      "id": 822739,
+      "video_url": "4429246_0_6643371812085152"
+    },
+    {
+      "class_no": 302,
+      "title": "CLASS-1 || D.I || BY GAGAN SIR",
+      "id": 855111,
+      "video_url": "4429248_0_5832568299617061"
+    },
+    {
+      "class_no": 303,
+      "title": "CLASS-2 || D.I || BY GAGAN SIR",
+      "id": 855112,
+      "video_url": "4429249_0_7139552813765461"
+    },
+    {
+      "class_no": 304,
+      "title": "CLASS-3 || D.I || BY GAGAN SIR",
+      "id": 855113,
+      "video_url": "4429250_0_1337900566284183"
+    },
+    {
+      "class_no": 305,
+      "title": "CLASS-4 || D.I || BY GAGAN SIR",
+      "id": 855114,
+      "video_url": "4429251_0_9208923631328722"
+    },
+    {
+      "class_no": 306,
+      "title": "CLASS-5 || D.I || BY GAGAN SIR",
+      "id": 855115,
+      "video_url": "4429252_0_2270319911744710"
+    },
+    {
+      "class_no": 307,
+      "title": "Class-1 || DI",
+      "id": 874788,
+      "video_url": "4430846_0_9240268818445178"
+    },
+    {
+      "class_no": 308,
+      "title": "Class-2 || DI",
+      "id": 875065,
+      "video_url": "4430847_0_2353240056703123"
+    }
+  ],
+  "notes_total": 1,
+  "notes": [
+    {
+      "id": 440343,
+      "title": "Problem on Ages",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/67161c40caa03_problem_on_ages_1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/67161c40caa03_problem_on_ages_1.pdf&key=scammer09876",
+      "date": "21-Oct-2024"
+    }
+  ]
+}
