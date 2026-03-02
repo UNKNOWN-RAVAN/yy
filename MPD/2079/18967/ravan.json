@@ -1,0 +1,33 @@
+{
+  "batchid": 2079,
+  "topicid": 18967,
+  "classes_total": 4,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "New Vocabulary Batch Introduction || Satyendra Tiwari Sir",
+      "id": 612532,
+      "video_url": "https://www.youtube.com/watch?v=JJOiUiTEV6c"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-01 | Introduction",
+      "id": 612968,
+      "video_url": "https://www.youtube.com/watch?v=LJ_tsv7yWNM"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-02 | Vocab Development-Root Words",
+      "id": 613593,
+      "video_url": "https://www.youtube.com/watch?v=_CBBbl1zPX4"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-03 | Vocab Development-Group Method:Homophones and Paronyms",
+      "id": 613685,
+      "video_url": "https://www.youtube.com/watch?v=S_S3gP0e52A"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
