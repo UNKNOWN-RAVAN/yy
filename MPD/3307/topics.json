@@ -1,0 +1,27 @@
+{
+  "batch_id": 3307,
+  "batch_name": "Reasoning Spl-63",
+  "topics": [
+    {
+      "id": 34086,
+      "topicName": "Intro",
+      "cls_count": 0,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 34087,
+      "topicName": "Reasoning",
+      "cls_count": 57,
+      "notes_count": 100,
+      "chapter_count": 0
+    },
+    {
+      "id": 34088,
+      "topicName": "VOD Batch",
+      "cls_count": 130,
+      "notes_count": 0,
+      "chapter_count": 1
+    }
+  ]
+}
