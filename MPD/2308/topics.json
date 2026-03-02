@@ -1,0 +1,48 @@
+{
+  "batch_id": 2308,
+  "batch_name": "9th Class VOD (Eng Med.)",
+  "topics": [
+    {
+      "id": 22537,
+      "topicName": "Physics",
+      "cls_count": 41,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22538,
+      "topicName": "Biology",
+      "cls_count": 56,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22508,
+      "topicName": "Maths",
+      "cls_count": 185,
+      "notes_count": 514,
+      "chapter_count": 0
+    },
+    {
+      "id": 22510,
+      "topicName": "Chemistry",
+      "cls_count": 54,
+      "notes_count": 159,
+      "chapter_count": 0
+    },
+    {
+      "id": 22512,
+      "topicName": "English",
+      "cls_count": 176,
+      "notes_count": 144,
+      "chapter_count": 0
+    },
+    {
+      "id": 22513,
+      "topicName": "SST",
+      "cls_count": 151,
+      "notes_count": 423,
+      "chapter_count": 0
+    }
+  ]
+}
