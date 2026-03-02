@@ -1,0 +1,34 @@
+{
+  "batch_id": 2158,
+  "batch_name": "Maths Spl-13 (Pre+Mains)",
+  "topics": [
+    {
+      "id": 20077,
+      "topicName": "Syllabus",
+      "cls_count": 0,
+      "notes_count": 2,
+      "chapter_count": 0
+    },
+    {
+      "id": 20078,
+      "topicName": "Arithmetic",
+      "cls_count": 211,
+      "notes_count": 33,
+      "chapter_count": 0
+    },
+    {
+      "id": 20079,
+      "topicName": "Advance",
+      "cls_count": 308,
+      "notes_count": 67,
+      "chapter_count": 0
+    },
+    {
+      "id": 26494,
+      "topicName": "Hand Written Notes",
+      "cls_count": 0,
+      "notes_count": 1,
+      "chapter_count": 0
+    }
+  ]
+}
