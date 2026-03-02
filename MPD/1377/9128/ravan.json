@@ -1,0 +1,39 @@
+{
+  "batchid": 1377,
+  "topicid": 9128,
+  "classes_total": 5,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "L1 - Real Numbers | Basics Of NCERT",
+      "id": 318037,
+      "video_url": "https://www.youtube.com/watch?v=L168WsbSXbU"
+    },
+    {
+      "class_no": 2,
+      "title": "L2 - Real Numbers | Basics Of NCERT",
+      "id": 318038,
+      "video_url": "https://www.youtube.com/watch?v=LnOToCUcI0c"
+    },
+    {
+      "class_no": 3,
+      "title": "L3 - Real Numbers | Basics Of NCERT",
+      "id": 318039,
+      "video_url": "https://www.youtube.com/watch?v=sCeyjgUGC1o"
+    },
+    {
+      "class_no": 160,
+      "title": "L - 158 | Surface Areas and Volumes Ex- 13.5 ||",
+      "id": 318196,
+      "video_url": "https://www.youtube.com/watch?v=sFOZJceOF_w"
+    },
+    {
+      "class_no": 168,
+      "title": "L - 166 | Construction EX -11.2 ||",
+      "id": 318204,
+      "video_url": "https://www.youtube.com/watch?v=94njCRJl3Ec"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
