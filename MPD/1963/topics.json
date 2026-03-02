@@ -1,0 +1,20 @@
+{
+  "batch_id": 1963,
+  "batch_name": "DI Spl. (Maths)-06",
+  "topics": [
+    {
+      "id": 17218,
+      "topicName": "Live",
+      "cls_count": 33,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 17219,
+      "topicName": "Notes",
+      "cls_count": 0,
+      "notes_count": 30,
+      "chapter_count": 0
+    }
+  ]
+}
