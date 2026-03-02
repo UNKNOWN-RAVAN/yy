@@ -1,0 +1,27 @@
+{
+  "batchid": 1917,
+  "topicid": 16493,
+  "classes_total": 3,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Lecture - 01 - | Number System | Basics",
+      "id": 553636,
+      "video_url": "https://www.youtube.com/watch?v=yGct4RnGxqc"
+    },
+    {
+      "class_no": 2,
+      "title": "Lecture - 02 - | Number System | Basics",
+      "id": 553637,
+      "video_url": "https://www.youtube.com/watch?v=dH1UZYqXI7E"
+    },
+    {
+      "class_no": 129,
+      "title": "L - 129 | Chap - 12 Revision ||",
+      "id": 553764,
+      "video_url": "https://www.youtube.com/watch?v=cn3Lw271M6U"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
