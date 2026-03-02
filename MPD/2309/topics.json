@@ -1,0 +1,55 @@
+{
+  "batch_id": 2309,
+  "batch_name": "10th Class VOD (Eng Med.)",
+  "topics": [
+    {
+      "id": 22546,
+      "topicName": "Intro",
+      "cls_count": 1,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22541,
+      "topicName": "Physics",
+      "cls_count": 64,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22542,
+      "topicName": "Biology",
+      "cls_count": 51,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 22520,
+      "topicName": "Maths",
+      "cls_count": 193,
+      "notes_count": 523,
+      "chapter_count": 0
+    },
+    {
+      "id": 22522,
+      "topicName": "Chemistry",
+      "cls_count": 59,
+      "notes_count": 162,
+      "chapter_count": 0
+    },
+    {
+      "id": 22524,
+      "topicName": "English",
+      "cls_count": 177,
+      "notes_count": 150,
+      "chapter_count": 0
+    },
+    {
+      "id": 22525,
+      "topicName": "SST",
+      "cls_count": 157,
+      "notes_count": 427,
+      "chapter_count": 0
+    }
+  ]
+}
