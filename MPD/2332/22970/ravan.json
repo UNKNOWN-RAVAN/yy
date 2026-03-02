@@ -1,0 +1,378 @@
+{
+  "batchid": 2332,
+  "topicid": 22970,
+  "classes_total": 52,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "Class-01 | Introduction",
+      "id": 716900,
+      "video_url": "4430323_0_8673407612106096"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-02 | Computer Architecture",
+      "id": 716901,
+      "video_url": "4430324_0_6188558132876537"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-03 | Computer Architecture",
+      "id": 716902,
+      "video_url": "4430325_0_6366372662111756"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-04 | Computer Architecture",
+      "id": 716903,
+      "video_url": "4430326_0_9722006050069066"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-05 | Computer Architecture",
+      "id": 716904,
+      "video_url": "4430327_0_7399275190124956"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-06 | Computer Architecture",
+      "id": 716905,
+      "video_url": "4430328_0_8752848475340741"
+    },
+    {
+      "class_no": 7,
+      "title": "Class-07 | Memory Units",
+      "id": 716906,
+      "video_url": "4430329_0_1068242320531851"
+    },
+    {
+      "class_no": 8,
+      "title": "Class-08 | Memory Units",
+      "id": 716907,
+      "video_url": "4430330_0_6543234971677991"
+    },
+    {
+      "class_no": 9,
+      "title": "Class-09 | Computer Hardware",
+      "id": 716908,
+      "video_url": "4430331_0_5115684164121991"
+    },
+    {
+      "class_no": 10,
+      "title": "Class-10 | Computer Hardware",
+      "id": 716909,
+      "video_url": "4430332_0_7217326374361697"
+    },
+    {
+      "class_no": 11,
+      "title": "Class-12 | Computer Hardware",
+      "id": 716910,
+      "video_url": "4430333_0_2702762436165596"
+    },
+    {
+      "class_no": 12,
+      "title": "Class-13 | Computer Hardware",
+      "id": 716911,
+      "video_url": "4430334_0_4545510737117349"
+    },
+    {
+      "class_no": 13,
+      "title": "Class-14 | Computer Hardware",
+      "id": 716912,
+      "video_url": "4430335_0_6310759701442937"
+    },
+    {
+      "class_no": 14,
+      "title": "Class-15 | Computer Hardware",
+      "id": 716913,
+      "video_url": "4430336_0_3362013918008139"
+    },
+    {
+      "class_no": 15,
+      "title": "Class-16 | Computer Hardware",
+      "id": 716914,
+      "video_url": "4430337_0_6837043584872571"
+    },
+    {
+      "class_no": 16,
+      "title": "Class-17 | Computer Memory",
+      "id": 716915,
+      "video_url": "4430338_0_6402795100680313"
+    },
+    {
+      "class_no": 17,
+      "title": "Class-18 | Computer Memory",
+      "id": 716916,
+      "video_url": "4430339_0_6820683415913015"
+    },
+    {
+      "class_no": 18,
+      "title": "Class-19 | Computer Software",
+      "id": 716917,
+      "video_url": "4430340_0_4263088393868200"
+    },
+    {
+      "class_no": 19,
+      "title": "Class-20 | Computer Software",
+      "id": 716918,
+      "video_url": "4430341_0_9202713508723581"
+    },
+    {
+      "class_no": 20,
+      "title": "Class-21 | Computer Software",
+      "id": 716919,
+      "video_url": "4430342_0_3365264963786245"
+    },
+    {
+      "class_no": 21,
+      "title": "Class-22 | Computer Software",
+      "id": 716920,
+      "video_url": "4430343_0_6768627700584262"
+    },
+    {
+      "class_no": 22,
+      "title": "Class-23 | Computer Software",
+      "id": 716921,
+      "video_url": "4430344_0_2281511516435362"
+    },
+    {
+      "class_no": 23,
+      "title": "Class-24 | MS-WINDOWS",
+      "id": 716922,
+      "video_url": "4430345_0_8024323235417563"
+    },
+    {
+      "class_no": 24,
+      "title": "Class-25 | FILE EXT, FULL FORMS & SHORTCUT KEYS",
+      "id": 716923,
+      "video_url": "4430346_0_3064808474986211"
+    },
+    {
+      "class_no": 25,
+      "title": "Class-26 | MS-OFFICE",
+      "id": 716924,
+      "video_url": "4430347_0_9124796347452698"
+    },
+    {
+      "class_no": 26,
+      "title": "Class-27  | MS-OFFICE",
+      "id": 716925,
+      "video_url": "4430348_0_3758822794308177"
+    },
+    {
+      "class_no": 27,
+      "title": "Class-28 | MS-OFFICE",
+      "id": 716926,
+      "video_url": "4430349_0_3717731901016999"
+    },
+    {
+      "class_no": 28,
+      "title": "Class-29 | MS-OFFICE",
+      "id": 716927,
+      "video_url": "4430350_0_2062937831854102"
+    },
+    {
+      "class_no": 29,
+      "title": "Class-30 | MS-OFFICE",
+      "id": 716928,
+      "video_url": "4430351_0_3449577139188611"
+    },
+    {
+      "class_no": 30,
+      "title": "Class-31 | MS-OFFICE",
+      "id": 716929,
+      "video_url": "4430352_0_1557754325510820"
+    },
+    {
+      "class_no": 31,
+      "title": "Class-32 | MS-OFFICE",
+      "id": 716930,
+      "video_url": "4430353_0_6116409061618745"
+    },
+    {
+      "class_no": 32,
+      "title": "Class-33 | MS-OFFICE",
+      "id": 716931,
+      "video_url": "4430354_0_4644683076528760"
+    },
+    {
+      "class_no": 33,
+      "title": "Class-34 | MS-OFFICE",
+      "id": 716932,
+      "video_url": "4430355_0_7184723791850132"
+    },
+    {
+      "class_no": 34,
+      "title": "Class-35 | MS-OFFICE",
+      "id": 716933,
+      "video_url": "4430356_0_1259096998675871"
+    },
+    {
+      "class_no": 35,
+      "title": "Class-36 | MS-OFFICE",
+      "id": 716934,
+      "video_url": "4430357_0_4764593317366377"
+    },
+    {
+      "class_no": 36,
+      "title": "Class-37 | MS-OFFICE",
+      "id": 716935,
+      "video_url": "4430358_0_3601048841236392"
+    },
+    {
+      "class_no": 37,
+      "title": "Class-38 | MS-OFFICE",
+      "id": 716936,
+      "video_url": "4430359_0_2042178963953739"
+    },
+    {
+      "class_no": 38,
+      "title": "Class-39 | MS-OFFICE",
+      "id": 716937,
+      "video_url": "4430360_0_3008124069522559"
+    },
+    {
+      "class_no": 39,
+      "title": "Class-40 | MS-OFFICE",
+      "id": 716938,
+      "video_url": "4430361_0_8495701311820854"
+    },
+    {
+      "class_no": 40,
+      "title": "Class-41 | Internet",
+      "id": 716939,
+      "video_url": "4430362_0_7872161746669611"
+    },
+    {
+      "class_no": 41,
+      "title": "Class-42 | Internet",
+      "id": 716940,
+      "video_url": "4430363_0_4537468603421126"
+    },
+    {
+      "class_no": 42,
+      "title": "Class-43 | Internet",
+      "id": 716941,
+      "video_url": "4430364_0_4012403426771587"
+    },
+    {
+      "class_no": 43,
+      "title": "Class-44 | Networking",
+      "id": 716942,
+      "video_url": "4430365_0_4438651611602799"
+    },
+    {
+      "class_no": 44,
+      "title": "Class-45 | Networking",
+      "id": 716943,
+      "video_url": "4430366_0_2315739783172530"
+    },
+    {
+      "class_no": 45,
+      "title": "Class-46 | Networking",
+      "id": 716944,
+      "video_url": "4430367_0_6127603514749344"
+    },
+    {
+      "class_no": 46,
+      "title": "Class-47 | Networking",
+      "id": 716945,
+      "video_url": "4430368_0_6675975935244148"
+    },
+    {
+      "class_no": 47,
+      "title": "Class-48 | Networking",
+      "id": 716946,
+      "video_url": "4430369_0_6633973890420503"
+    },
+    {
+      "class_no": 48,
+      "title": "Class-49 | Database",
+      "id": 716947,
+      "video_url": "4430370_0_9874643465890359"
+    },
+    {
+      "class_no": 49,
+      "title": "Class-50 | Database",
+      "id": 716948,
+      "video_url": "4430371_0_2952394818885798"
+    },
+    {
+      "class_no": 50,
+      "title": "Class-51 | Database",
+      "id": 716949,
+      "video_url": "4430372_0_7786145663113615"
+    },
+    {
+      "class_no": 51,
+      "title": "Class-52 | Database",
+      "id": 716950,
+      "video_url": "4430373_0_2285213605895081"
+    },
+    {
+      "class_no": 52,
+      "title": "Class-53 | Database",
+      "id": 716951,
+      "video_url": "4430374_0_9320334467064209"
+    }
+  ],
+  "notes_total": 8,
+  "notes": [
+    {
+      "id": 363362,
+      "title": "24 April 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6628b4f84782e_20240424093347046_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6628b4f84782e_20240424093347046_compressed.pdf&key=scammer09876",
+      "date": "24-Apr-2024"
+    },
+    {
+      "id": 367914,
+      "title": "3 May 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66347381c2698_3rd may maths spl 01 &combo spl o1_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66347381c2698_3rd%20may%20maths%20spl%2001%20&combo%20spl%20o1_compressed.pdf&key=scammer09876",
+      "date": "03-May-2024"
+    },
+    {
+      "id": 370942,
+      "title": "30 April 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663c6b06bf56e_30 april maths spl 01 & ssc spl o1_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663c6b06bf56e_30%20april%20maths%20spl%2001%20&%20ssc%20spl%20o1_compressed.pdf&key=scammer09876",
+      "date": "09-May-2024"
+    },
+    {
+      "id": 370950,
+      "title": "3 May 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663c6c8b76d13_3rd may maths spl 01 &combo spl o1 (1)_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/663c6c8b76d13_3rd%20may%20maths%20spl%2001%20&combo%20spl%20o1%20(1)_compressed.pdf&key=scammer09876",
+      "date": "09-May-2024"
+    },
+    {
+      "id": 372263,
+      "title": "13 May 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6641f48a852fb_math spl 01 13may (1)_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/6641f48a852fb_math%20spl%2001%2013may%20(1)_compressed.pdf&key=scammer09876",
+      "date": "13-May-2024"
+    },
+    {
+      "id": 373229,
+      "title": "14 May 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66449f4548702_20240514093140791_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66449f4548702_20240514093140791_compressed.pdf&key=scammer09876",
+      "date": "15-May-2024"
+    },
+    {
+      "id": 373584,
+      "title": "17 May 2024 Class PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66470191eb224_math spl 01 17 may_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/66470191eb224_math%20spl%2001%2017%20may_compressed.pdf&key=scammer09876",
+      "date": "17-May-2024"
+    },
+    {
+      "id": 375879,
+      "title": "Complete Percentage (All Parts)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/665473efcf15d_Complete percentage offline final ( all parts) part 1,2,3,4,5,6,7,8,9.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/665473efcf15d_Complete%20percentage%20offline%20final%20(%20all%20parts)%20part%201,2,3,4,5,6,7,8,9.pdf&key=scammer09876",
+      "date": "27-May-2024"
+    }
+  ]
+}
