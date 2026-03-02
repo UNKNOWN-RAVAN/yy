@@ -1,0 +1,489 @@
+{
+  "batchid": 1377,
+  "topicid": 9133,
+  "classes_total": 32,
+  "classes": [
+    {
+      "class_no": 3,
+      "title": "10TH CLASS || SST || GEOGRAPHY || INTRODUCTION || LECTURE -03 || VIVEK SIR",
+      "id": 318676,
+      "video_url": "https://www.youtube.com/watch?v=IWFlJ0GRnXY"
+    },
+    {
+      "class_no": 4,
+      "title": "10TH CLASS || SST || GEOGRAPHY || INTRODUCTION || LECTURE -04 || VIVEK SIR",
+      "id": 318677,
+      "video_url": "https://www.youtube.com/watch?v=eIs1pZy9p7k"
+    },
+    {
+      "class_no": 5,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Soil || LECTURE -05 || VIVEK SIR",
+      "id": 318678,
+      "video_url": "https://www.youtube.com/watch?v=RzjGVJKufU4"
+    },
+    {
+      "class_no": 6,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Soil || LECTURE -06 || VIVEK SIR",
+      "id": 318679,
+      "video_url": "https://www.youtube.com/watch?v=B9DMMvQdSHY"
+    },
+    {
+      "class_no": 7,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Soil || LECTURE -07 || VIVEK SIR",
+      "id": 318680,
+      "video_url": "https://www.youtube.com/watch?v=H5QS72yassA"
+    },
+    {
+      "class_no": 8,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Land Utilization || LECTURE -08 || VIVEK SIR",
+      "id": 318681,
+      "video_url": "https://www.youtube.com/watch?v=uOMnCtCWD0s"
+    },
+    {
+      "class_no": 9,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Land use pattern in india || LECTURE -09 || VIVEK SIR",
+      "id": 318682,
+      "video_url": "https://www.youtube.com/watch?v=jjZg6MzICyA"
+    },
+    {
+      "class_no": 10,
+      "title": "10TH CLASS || SST || GEOGRAPHY || Land use pattern in india || LECTURE -10 || VIVEK SIR",
+      "id": 318683,
+      "video_url": "https://www.youtube.com/watch?v=lE6QXsnuCVs"
+    },
+    {
+      "class_no": 11,
+      "title": "L-11 | Resource Q-A | VIVEK SIR",
+      "id": 318684,
+      "video_url": "https://www.youtube.com/watch?v=ywm-S1IEUrk"
+    },
+    {
+      "class_no": 13,
+      "title": "L-13 | Forest & wildlife Resources |  VIVEK SIR",
+      "id": 318686,
+      "video_url": "https://www.youtube.com/watch?v=240087ddwrU"
+    },
+    {
+      "class_no": 14,
+      "title": "L-14 | Forest & wildlife Resources | VIVEK SIR",
+      "id": 318687,
+      "video_url": "https://www.youtube.com/watch?v=KXWX6eepoeA"
+    },
+    {
+      "class_no": 16,
+      "title": "L-16 | Forest & wildlife Resources Q-A | VIVEK SIR",
+      "id": 318689,
+      "video_url": "https://www.youtube.com/watch?v=Yh1JqJGxK-4"
+    },
+    {
+      "class_no": 17,
+      "title": "L-17 | Forest & wildlife Resources Q-A | VIVEK SIR",
+      "id": 318690,
+      "video_url": "https://www.youtube.com/watch?v=xxIWmDcbcO8"
+    },
+    {
+      "class_no": 18,
+      "title": "L-18 | Forest & wildlife Resources Q-A | VIVEK SIR",
+      "id": 318691,
+      "video_url": "https://www.youtube.com/watch?v=sCCd5q-QWhg"
+    },
+    {
+      "class_no": 19,
+      "title": "L-19 | Agriculture |",
+      "id": 318692,
+      "video_url": "https://www.youtube.com/watch?v=43xkVInDGAM"
+    },
+    {
+      "class_no": 20,
+      "title": "L-20 | Agriculture |",
+      "id": 318693,
+      "video_url": "https://www.youtube.com/watch?v=04iWQ6BeYIs"
+    },
+    {
+      "class_no": 21,
+      "title": "L-21 | Agriculture |",
+      "id": 318694,
+      "video_url": "https://www.youtube.com/watch?v=JXB-SKQJBg8"
+    },
+    {
+      "class_no": 22,
+      "title": "L-22 | Agriculture |",
+      "id": 318695,
+      "video_url": "https://www.youtube.com/watch?v=hRLpCudYuKo"
+    },
+    {
+      "class_no": 23,
+      "title": "L-23 | Agriculture |",
+      "id": 318696,
+      "video_url": "https://www.youtube.com/watch?v=SoZsTB6dLtc"
+    },
+    {
+      "class_no": 24,
+      "title": "L-24 | Agriculture |",
+      "id": 318697,
+      "video_url": "https://www.youtube.com/watch?v=wEkcNL1EWkg"
+    },
+    {
+      "class_no": 25,
+      "title": "L-25 |  Agriculture Q . A |",
+      "id": 318698,
+      "video_url": "https://www.youtube.com/watch?v=SbUGhBMpDdg"
+    },
+    {
+      "class_no": 26,
+      "title": "L-26 | Mineral Resource |",
+      "id": 318699,
+      "video_url": "https://www.youtube.com/watch?v=coGsdObZwbM"
+    },
+    {
+      "class_no": 27,
+      "title": "L-27 | Mineral Resource |",
+      "id": 318700,
+      "video_url": "https://www.youtube.com/watch?v=Tvtac71u50Y"
+    },
+    {
+      "class_no": 28,
+      "title": "L-28 | Mineral Resource |",
+      "id": 318701,
+      "video_url": "https://www.youtube.com/watch?v=qdEREcHOrSY"
+    },
+    {
+      "class_no": 29,
+      "title": "L-29 | Mineral Resource |",
+      "id": 318702,
+      "video_url": "https://www.youtube.com/watch?v=C_nJb-GwtIs"
+    },
+    {
+      "class_no": 30,
+      "title": "L-30 | Mineral Resource |",
+      "id": 318703,
+      "video_url": "https://www.youtube.com/watch?v=bJbzWYZp1lU"
+    },
+    {
+      "class_no": 31,
+      "title": "L-31 | Mineral Resource |",
+      "id": 318704,
+      "video_url": "https://www.youtube.com/watch?v=ipSVrRTyFrg"
+    },
+    {
+      "class_no": 32,
+      "title": "L-32 | Mineral Resource |",
+      "id": 318705,
+      "video_url": "https://www.youtube.com/watch?v=tSJTp8AGWKo"
+    },
+    {
+      "class_no": 33,
+      "title": "L-33 | Mineral Resource |",
+      "id": 318706,
+      "video_url": "https://www.youtube.com/watch?v=96fplGd1T94"
+    },
+    {
+      "class_no": 34,
+      "title": "L-34 | Mineral Resource |",
+      "id": 318707,
+      "video_url": "https://www.youtube.com/watch?v=T5jxWic_N6c"
+    },
+    {
+      "class_no": 35,
+      "title": "L-35 | Mineral Resource |",
+      "id": 318708,
+      "video_url": "https://www.youtube.com/watch?v=YMVZVuNa39Q"
+    },
+    {
+      "class_no": 36,
+      "title": "L-36 | Mineral Resource |",
+      "id": 318709,
+      "video_url": "https://www.youtube.com/watch?v=gyIzoBXLxB8"
+    }
+  ],
+  "notes_total": 41,
+  "notes": [
+    {
+      "id": 125618,
+      "title": "Sentence & Its Practice",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859016.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859016.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125633,
+      "title": "Chapter - 4 - From The Diary Of Anne Frank PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832330-CHAPTER-4_FROM_THE_DIARY_OF_ANNE_FRANK_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832330-CHAPTER-4_FROM_THE_DIARY_OF_ANNE_FRANK_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125619,
+      "title": "Sentence & Its Parts Practice",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859498.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859498.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125636,
+      "title": "Chapter - 5 - Footprints Without Feet PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832491-CHAPTER-5_Footprints_without_Feet_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832491-CHAPTER-5_Footprints_without_Feet_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125620,
+      "title": "Identify The Types Of Sentences",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859999.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1621859999.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125634,
+      "title": "Chapter - 5 - The Hundred Dresses - I PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832330-CHAPTER-5_THE_HUNDRED_DRESSES-I_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832330-CHAPTER-5_THE_HUNDRED_DRESSES-I_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125621,
+      "title": " A Letter To God Final",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803972.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622803972.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125637,
+      "title": "Letter Writing Stand Alone PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637067840-LETTER_WRITING_STAND_ALONE_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637067840-LETTER_WRITING_STAND_ALONE_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125622,
+      "title": "A Triumph Of Surgery In Hindi ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622804072.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1622804072.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125640,
+      "title": "Case - Based PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637750336-CASE-BASED_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637750336-CASE-BASED_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125623,
+      "title": "Figure Of Speech",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627038581-FIGURE_OF_SPEECH_updated.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627038581-FIGURE_OF_SPEECH_updated.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125641,
+      "title": "CH-2 Nelson Mandela Long Walk To Freedom (MCQ) & Freedom PNG",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844501-CH-2_Nelson_Mandela_Long_Walk_To_Freedom_(MCQ)_Freedom_PNG.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637844501-CH-2_Nelson_Mandela_Long_Walk_To_Freedom_(MCQ)_Freedom_PNG.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125629,
+      "title": "Two Stories About Flying Final PDF (Book First Flight)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-3_TWO_STORIES_ABOUT_FLYING_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-3_TWO_STORIES_ABOUT_FLYING_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125646,
+      "title": "The Necklace Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CH-7_THE_NECKLACE_PNG_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CH-7_THE_NECKLACE_PNG_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125628,
+      "title": "Nelson Mandela Long Walk To Freedom Final PDF (Book First Flight)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-2_NELSON_MANDELA_LONG_WALK_TO_FREEDOM_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-2_NELSON_MANDELA_LONG_WALK_TO_FREEDOM_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125647,
+      "title": "Glimpses of India Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CH-7_(GLIMPSES_OF_INDIA)_PNG_NEW_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CH-7_(GLIMPSES_OF_INDIA)_PNG_NEW_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125627,
+      "title": "A Letter To God Final PDF (Book First Flight)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-1_A_LETTER_TO_GOD_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-1_A_LETTER_TO_GOD_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125648,
+      "title": "The Sermon at Benares Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-10_THE_SERMON_AT_BENARES_PNG_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-10_THE_SERMON_AT_BENARES_PNG_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125626,
+      "title": "Herbert George Wells Final PDF (Book Footprint Without Feet)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-5_Now_(3)_Footprints_without_Feet_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-5_Now_(3)_Footprints_without_Feet_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125649,
+      "title": "Madam Rides the Bus Png",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-9_MADAM_RIDES_THE_BUS_PNG_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-9_MADAM_RIDES_THE_BUS_PNG_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125624,
+      "title": "A Triumph Of Surgery Final PDF (Book Footprint Without Feet)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-1_A_TRIUMPH_OF_SURGERY_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-1_A_TRIUMPH_OF_SURGERY_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125625,
+      "title": "The Thief's Story Final PDF  (Book Footprint Without Feet)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-2_The_Thiefs_Story_pdf_final.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1627287318-CHAPTER-2_The_Thiefs_Story_pdf_final.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125630,
+      "title": "Tense ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1630478743-Tense_(PDF).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1630478743-Tense_(PDF).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125631,
+      "title": "Subject and Verb Agreement Exercise - 1 Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539324-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-1_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539324-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-1_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125632,
+      "title": "Subject and Verb Agreement Exercise - 2 Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539324-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-2_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1631539324-SUBJECT_VERB_AGREEMENT_PRACTICE_SHEET-2_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125635,
+      "title": "Chapter - 6 -  My Childhood",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832350-CH-6_PNG_MY_CHILDHOOD.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1632832350-CH-6_PNG_MY_CHILDHOOD.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125638,
+      "title": "GAP Filling Or Cloze Passage Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637307290-GAP_FILLING_OR_CLOZE_PASSAGE_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637307290-GAP_FILLING_OR_CLOZE_PASSAGE_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125639,
+      "title": "Dialogue Reporting (Passage Based MCQS) Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637321019-DIALOGUE_REPORTING_(PASSAGE_BASED_MCQS)_FINAL_PDF_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1637321019-DIALOGUE_REPORTING_(PASSAGE_BASED_MCQS)_FINAL_PDF_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125642,
+      "title": "(SAMPLE PAPER) ENGLISH LANGUAGE & LITERATURE (STUDENT FILE)",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639140884-(SAMPLE_PAPER)_ENGLISH_LANGUAGE_LITERATURE_(STUDENT_FILE).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639140884-(SAMPLE_PAPER)_ENGLISH_LANGUAGE_LITERATURE_(STUDENT_FILE).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125643,
+      "title": "ONE DAY REVISION FINAL PDF ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639140884-ONE_DAY_REVISION_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639140884-ONE_DAY_REVISION_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125644,
+      "title": "English Paper Discussion Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639572374-ENGLISH_PAPER_DISCUSSION_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1639572374-ENGLISH_PAPER_DISCUSSION_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125645,
+      "title": "Footprints without Feet",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-6_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-6_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125650,
+      "title": "The Beggar ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-10_The_Beggar_(1).pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1643437127-CHAPTER-10_The_Beggar_(1).pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125651,
+      "title": "GS Study Material ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1645091994-jpg2pdf-1.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1645091994-jpg2pdf-1.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125652,
+      "title": "Reporting Dialogue",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-Reporting_Dialogue.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-Reporting_Dialogue.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125653,
+      "title": "Reported Speech Digital",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-REPORTED_SPEECH_DIGITAL.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-REPORTED_SPEECH_DIGITAL.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125654,
+      "title": "Passage Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-PASSAGE_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-PASSAGE_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125655,
+      "title": "Reported Speech Final PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-REPORTED_SPEECH_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-REPORTED_SPEECH_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125656,
+      "title": "Narration Practice Questions PDF",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-NARRATION_PRACTICE_QUESTIONS_FINAL_PDF.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646227827-NARRATION_PRACTICE_QUESTIONS_FINAL_PDF.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125657,
+      "title": "Letter",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973984-LETTER_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973984-LETTER_compressed.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    },
+    {
+      "id": 125658,
+      "title": "Letter of Enquiry ",
+      "view_url": "https://cwmediabkt99.crwilladmin.com/92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973984-LETTER_OF_ENQUARY_compressed.pdf",
+      "download_url": "https://yeasty-mufi-scammerbotscw1-ba766b94.koyeb.app/download-pdf?url=92013a99927c4842b0a70fbd6f064a95:crwilladmin/class-attachment/1646973984-LETTER_OF_ENQUARY_compressed.pdf&key=scammer09876",
+      "date": "21-Apr-2022"
+    }
+  ]
+}
