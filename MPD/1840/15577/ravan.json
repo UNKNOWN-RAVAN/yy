@@ -1,0 +1,45 @@
+{
+  "batchid": 1840,
+  "topicid": 15577,
+  "classes_total": 6,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "English Short Session By Satyendra Sir",
+      "id": 526368,
+      "video_url": "https://www.youtube.com/watch?v=cmGWcdzXcAY"
+    },
+    {
+      "class_no": 2,
+      "title": "Class-01 | Interview Skills",
+      "id": 532069,
+      "video_url": "4428867_0_6016903944260809"
+    },
+    {
+      "class_no": 3,
+      "title": "Class-02 | Interview Skills",
+      "id": 532628,
+      "video_url": "4428868_0_7701278672941404"
+    },
+    {
+      "class_no": 4,
+      "title": "Class-03 | Interview Skills",
+      "id": 532661,
+      "video_url": "4428869_0_1402746891333131"
+    },
+    {
+      "class_no": 5,
+      "title": "Class-04 | Interview Skills",
+      "id": 532668,
+      "video_url": "4428870_0_9986399922261005"
+    },
+    {
+      "class_no": 6,
+      "title": "Class-05 | Interview Skills",
+      "id": 532669,
+      "video_url": "4428871_0_9041313935248235"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
