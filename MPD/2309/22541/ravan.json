@@ -1,0 +1,21 @@
+{
+  "batchid": 2309,
+  "topicid": 22541,
+  "classes_total": 2,
+  "classes": [
+    {
+      "class_no": 1,
+      "title": "L - 1 | Physics | Nature of Light",
+      "id": 705193,
+      "video_url": "https://www.youtube.com/watch?v=mAyRF4K4bZ0"
+    },
+    {
+      "class_no": 2,
+      "title": "L - 02 | Physics | Reflection of Light",
+      "id": 705194,
+      "video_url": "https://www.youtube.com/watch?v=TETlktYoyB4"
+    }
+  ],
+  "notes_total": 0,
+  "notes": []
+}
