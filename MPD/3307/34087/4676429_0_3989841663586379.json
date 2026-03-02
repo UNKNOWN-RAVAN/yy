@@ -1,0 +1,16 @@
+{
+  "status": true,
+  "message": "Link view.",
+  "data": {
+    "link": {
+      "file_url": "https://d14v4v80cpjht7.cloudfront.net/file_library/videos/channel_vod_drm_dash/4676429/177019999118925607949/177019999118925607949_5607949_Dash.mpd",
+      "ad_enable": false,
+      "player_params": "",
+      "token": "5aEh15rVsUaOGUofMQ54iFkqm5q7kqXRmFxhPwjMhn2QIOGG6n5QuN4gX+BTyh+ro8wZ60J7U65W0Ci18z51jjwwe2ZGkQokfZbIr2hQrv6M+smIizkCFO5t6ReiAoU+4NH9JOlAMof5QAnOVSXgbop4gsMEbtZqbOPqhk04rPz/FM/wvy46lk9u2xbwFPhxsauhTuDQ+rtpo2FaKSwZD+oz5KVCzJ1EvRsjcqTHa8V2yJV64FQt9XWsQuZ/uxDqkk9CnhjH3Xm02a97X71d2y512VEutsrAkff4+DXR1N4=:MTIzNDU2Nzg5MDEyMzQ1Ng==",
+      "trick_play_settings": "",
+      "is_vr_video": 0,
+      "live_status": 0
+    }
+  },
+  "error": []
+}
