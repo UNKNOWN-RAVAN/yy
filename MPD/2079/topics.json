@@ -1,0 +1,20 @@
+{
+  "batch_id": 2079,
+  "batch_name": "Vocab Spl-14 (Live Batch)",
+  "topics": [
+    {
+      "id": 18967,
+      "topicName": "Live",
+      "cls_count": 51,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 19049,
+      "topicName": "Notes",
+      "cls_count": 0,
+      "notes_count": 36,
+      "chapter_count": 0
+    }
+  ]
+}
