@@ -1,0 +1,118 @@
+{
+  "batch_id": 1377,
+  "batch_name": "10th Class (VOD) Hin Med.",
+  "topics": [
+    {
+      "id": 9128,
+      "topicName": "Maths",
+      "cls_count": 184,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 9129,
+      "topicName": "Eng",
+      "cls_count": 222,
+      "notes_count": 41,
+      "chapter_count": 0
+    },
+    {
+      "id": 9138,
+      "topicName": "Phy ",
+      "cls_count": 121,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 9142,
+      "topicName": "Maths (NCERT) Hin",
+      "cls_count": 0,
+      "notes_count": 40,
+      "chapter_count": 0
+    },
+    {
+      "id": 9143,
+      "topicName": "Physics",
+      "cls_count": 0,
+      "notes_count": 59,
+      "chapter_count": 0
+    },
+    {
+      "id": 9144,
+      "topicName": "Chem",
+      "cls_count": 103,
+      "notes_count": 34,
+      "chapter_count": 0
+    },
+    {
+      "id": 9145,
+      "topicName": "Bio ",
+      "cls_count": 168,
+      "notes_count": 93,
+      "chapter_count": 0
+    },
+    {
+      "id": 9132,
+      "topicName": "His",
+      "cls_count": 70,
+      "notes_count": 5,
+      "chapter_count": 0
+    },
+    {
+      "id": 9133,
+      "topicName": "Geo",
+      "cls_count": 36,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 9135,
+      "topicName": "Pol",
+      "cls_count": 38,
+      "notes_count": 3,
+      "chapter_count": 0
+    },
+    {
+      "id": 9134,
+      "topicName": "Eco",
+      "cls_count": 47,
+      "notes_count": 2,
+      "chapter_count": 0
+    },
+    {
+      "id": 9131,
+      "topicName": "Hindi",
+      "cls_count": 46,
+      "notes_count": 42,
+      "chapter_count": 0
+    },
+    {
+      "id": 9130,
+      "topicName": "Computer",
+      "cls_count": 48,
+      "notes_count": 0,
+      "chapter_count": 0
+    },
+    {
+      "id": 9136,
+      "topicName": "Mental Ability",
+      "cls_count": 24,
+      "notes_count": 4,
+      "chapter_count": 0
+    },
+    {
+      "id": 9141,
+      "topicName": "Test",
+      "cls_count": 0,
+      "notes_count": 11,
+      "chapter_count": 0
+    },
+    {
+      "id": 9137,
+      "topicName": "Sanskrit",
+      "cls_count": 19,
+      "notes_count": 14,
+      "chapter_count": 0
+    }
+  ]
+}
