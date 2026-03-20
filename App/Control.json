@@ -1,8 +1,8 @@
 {
   "app": {
     "version": "2.4.0",
-    "force_update": true,
-    "update_link": "RAVAN ALL EXTRACTOR https://t.me/Chamar00_bot",
+    "force_update": false,
+    "update_link": "https://t.me/Chamar00_bot",
     "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
     "title": "App Update Available",
     "message": "Please update the app to enjoy new features and improvements.",
@@ -10,11 +10,16 @@
   },
   "websites": [
     {
+      "name": "RWA",
+      "link": "https://rwa-09.vercel.app",
+      "image": "https://yy-pi-three.vercel.app/RWA/my.jpg",
+      "priority": 1
+    },
+    {
       "name": "CAREERWILL",
       "link": "https://sohagiya.vercel.app/",
       "image": "https://i.ibb.co/PGCMyG9x/Screenshot-20260215-133523.jpg",
       "priority": 2
     }
-    
   ]
 }
