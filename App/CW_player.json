@@ -1,0 +1,9 @@
+{
+  "image": "https://i.ibb.co/q3yDKNm5/JASWANT-13-n0-IPKh-jpg.jpg",
+  "name": "UNKNOWN",
+  "download": {
+    "enabled": true,
+    "type": "m3u8",
+    "url": "https://vishal-tools.vercel.app/VISHAL-video-Download?{video-link}&{video-title}"
+  }
+}
