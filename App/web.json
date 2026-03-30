@@ -1,0 +1,82 @@
+{
+  "app_config": {
+    "version": {
+      "code": 5,
+      "name": "2.1.0",
+      "release_notes": "This update includes critical security patches, new UI enhancements, and performance improvements.",
+      "min_supported_version": "2.0.0"
+    },
+    "expiry": {
+      "date": "2030-12-31",
+      "time": "23:59:59",
+      "timezone": "UTC",
+      "is_expired": false,
+      "message": "Your app version has expired. Please update to the latest version to continue using the service."
+    },
+    "update": {
+      "force_update": false,
+      "store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.yourapp",
+      "alternative_url": "https://yourwebsite.com/download",
+      "skip_version": "2.1.0"
+    },
+    "ui_content": {
+      "welcome_message": "HELLO USERS how are you",
+      "admin": {
+        "name": "RAVAN",
+        "role": "Super Administrator",
+        "avatar_url": "https://i.ibb.co/FbJjkfNM/JASWANT-21-q-XJRRS-jpg.jpg"
+      },
+      "fallback_image": {
+        "url": "https://i.ibb.co/FbJjkfNM/JASWANT-21-q-XJRRS-jpg.jpg",
+        "description": "Default banner image if the main banner fails to load."
+      }
+    },
+    "social_media": {
+      "title": "Join Our Community",
+      "description": "Stay updated with the latest news, updates, and support.",
+      "links": [
+        {
+          "platform": "WhatsApp Channel",
+          "icon": "whatsapp",
+          "url": "https://whatsapp.com/channel/0029VbBxDoq8qIzk2YSTgL0j",
+          "color": "#25D366",
+          "is_active": true
+        },
+        {
+          "platform": "Telegram",
+          "icon": "telegram",
+          "url": "https://t.me/unknown",
+          "color": "#26A5E4",
+          "is_active": true
+        },
+        {
+          "platform": "Instagram",
+          "icon": "instagram",
+          "url": "https://instagram.com/pulystar09",
+          "color": "#E4405F",
+          "is_active": true
+        }
+      ]
+    },
+    "support": {
+      "contact_admin": {
+        "name": "RAVAN",
+        "email": "admin@yourapp.com",
+        "whatsapp": "+1234567890",
+        "quick_reply": "Hi Ravan, I need help with the app."
+      },
+      "faq_url": "https://yourapp.com/faq",
+      "report_issue_url": "https://forms.gle/yourformlink"
+    },
+    "screens": {
+      "splash_screen": {
+        "duration_ms": 3000,
+        "background_color": "#000000"
+      },
+      "maintenance_mode": {
+        "is_active": false,
+        "message": "We are currently performing scheduled maintenance. Please check back soon!"
+      }
+    }
+  }
+}
