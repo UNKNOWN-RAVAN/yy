@@ -3,14 +3,29 @@
     "video": {
       "watermark": {
         "title": "JASWANT",
-        "logo": "https://i.ibb.co/S4Nppj8j/IMG-20260207-104715.jpg"
+        "title_opacity": "70%",
+        "logo": "https://i.ibb.co/S4Nppj8j/IMG-20260207-104715.jpg",
+        "logo_opacity": "65%",
+        "logo_size": {
+          "width": 150,
+          "height": 150
+        }
       },
       "add_video": "https://scontent-del3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOga1jlNfC3dB2YHh3iboh_R3Boa3ilDDZkLomF-L4nIGLc_VM1HYtt0K_XINh_s24bUKB1GYlzMnn89S9ojFUEMdcT9Tbztc0NWUo.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-del3-2.cdninstagram.com&_nc_ohc=j58H-wBJ-dUQ7kNvwG1mxFA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM5NDYwNDc5MjEyMzY5MCwiYXNzZXRfYWdlX2RheXMiOjEwMSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=78f5fb89060dfb99&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wODQwNTZEOTk1Mjk4MThCRkEwQkYyQTE4QTBFQzdCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MjUyOTEwMTcxNjc3NDlfNTA1NDA0NjEyMjU0MjYxNDg0Ny5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm1MTks9eY-gQVAigCQzMsF0AyTMzMzMzNGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=oXYOoY33XE_83yADXzwmDA&_nc_zt=28&_nc_ss=7a32e&oh=00_Af2kqtt0IS8lIff7AtBggTTRGY3kEieUl3stlVfZnnNiGg&oe=69CFDE3C",
       "default_thumbnail": "https://i.ibb.co/dJrZHkXs/JASWANT-14-Nk5f2-K-jpg.jpg"
     },
     "pdf": {
       "watermark": "https://i.ibb.co/5Wt4LKFK/JASWANT-18-x-Kc-N6n-jpg.jpg",
+      "watermark_opacity": "90%",
+      "watermark_size": {
+        "width": 200,
+        "height": 200
+      },
       "link_image": "https://i.ibb.co/dJrZHkXs/JASWANT-14-Nk5f2-K-jpg.jpg",
+      "link_image_size": {
+        "width": 120,
+        "height": 120
+      },
       "link_url": "https://www.instagram.com/vishalravan09/"
     }
   }
