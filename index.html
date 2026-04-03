@@ -1,458 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Study Portal — Complete</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <style>
-    :root{
-      --bg:#f8f9fa;
-      --card:#ffffff;
-      --text:#212529;
-      --muted:#6c757d;
-      --nav:#343a40;
-    }
-    body { background:var(--bg); color:var(--text); transition: background 0.25s, color 0.25s; }
-    .dark-mode { --bg:#121416; --card:#1e1f22; --text:#e9ecef; --muted:#adb5bd; --nav:#0b0c0d; }
-    .card { margin:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); border:0; background:var(--card); }
-    .navbar { background:var(--nav); }
-    .navbar-brand { color:#fff; font-weight:600; }
-    .btn-video { background:#0d6efd; color:#fff; border:0; }
-    .btn-video:hover { background:#0b5ed7; color:#fff; }
-    .btn-pdf { margin-right:6px; }
-    #topicList li { cursor:pointer; user-select:none; }
-    .completed { text-decoration:line-through; color:green; opacity:0.9; }
-    .topic-has-pdf::after { content:" 📄"; margin-left:6px; }
-    .small-muted { color:var(--muted); font-size:0.9rem; }
-    .controls { gap:8px; display:flex; align-items:center; }
-    .badge-completed { background:green; color:#fff; }
-    .badge-total { background:#6; }
-    .no-data { padding:40px; text-align:center; color:var(--muted); }
-    @media (max-width:767px){
-      .navbar .form-control.w-25 { width:40% !important; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Universal Video Player - DRM, M3U8, YouTube Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .player-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            background: #000;
+            width: 100%;
+            aspect-ratio: 16/9;
+        }
+
+        #videoPlayer {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        #youtubePlayer {
+            width: 100%;
+            height: 100%;
+        }
+
+        .controls-overlay {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .fullscreen-btn {
+            background: rgba(0,0,0,0.7);
+            border: none;
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+        }
+
+        .fullscreen-btn:hover {
+            background: rgba(0,0,0,0.9);
+            transform: scale(1.1);
+        }
+
+        .controls-panel {
+            padding: 20px;
+            background: white;
+        }
+
+        .url-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .url-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .url-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .load-btn {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .load-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .title-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-icon {
+            font-size: 20px;
+        }
+
+        .status-text {
+            flex: 1;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .video-info {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+
+        .debug-section {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+
+        .debug-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .clear-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        #debugLog {
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .url-input-group {
+                flex-direction: column;
+            }
+            
+            .fullscreen-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+        
+        :fullscreen {
+            background: black;
+        }
+        
+        :-webkit-full-screen {
+            background: black;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar py-2">
-    <div class="container-fluid d-flex align-items-center">
-      <span class="navbar-brand">📚 Study Portal</span>
-
-      <div class="ms-auto d-flex align-items-center controls">
-        <label class="mb-0 small-muted me-2">Load JSON</label>
-        <input type="file" id="jsonFile" accept=".json" class="form-control w-25" />
-        <button id="toggleMode" class="btn btn-light ms-2">🌙</button>
-        <button id="exportCache" class="btn btn-success ms-2">⬇ Export Cache</button>
-        <label class="mb-0 small-muted ms-2 me-1">Import Cache</label>
-        <input type="file" id="importCache" class="form-control w-25" />
-      </div>
-    </div>
-  </nav>
-
-  <div class="container-fluid mt-3">
-    <div class="row">
-      <!-- Sidebar -->
-      <aside class="col-md-2 bg-light p-3" id="sidebar">
-        <div class="d-flex align-items-center mb-2">
-          <h6 class="mb-0">Topics</h6>
-          <div class="ms-auto small-muted" id="topicCounts"></div>
-        </div>
-
-        <input type="text" id="searchTopic" class="form-control mb-2" placeholder="Search topic or id..." />
-        <div class="mb-2 d-flex gap-2">
-          <button id="showAll" class="btn btn-sm btn-outline-primary">All</button>
-          <button id="showCompleted" class="btn btn-sm btn-outline-success">Completed</button>
-          <button id="showPending" class="btn btn-sm btn-outline-secondary">Pending</button>
-        </div>
-
-        <ul id="topicList" class="list-group" style="max-height:65vh; overflow:auto;"></ul>
-      </aside>
-
-      <!-- Main Content -->
-      <main class="col-md-10">
-        <div id="videoGrid" class="row"></div>
-        <div id="noData" class="no-data d-none">Load a JSON file to see topics, videos and PDFs.</div>
-      </main>
-    </div>
-  </div>
-
-<script>
-/* -------------------------
-   Data & Cache (IDs only)
-   ------------------------- */
-let jsonData = null;
-let cache = Array.isArray(JSON.parse(localStorage.getItem("studyCache") || "[]"))
-  ? JSON.parse(localStorage.getItem("studyCache") || "[]")
-  : []; // store only completed video IDs as array
-
-/* -------------------------
-   UI Elements
-   ------------------------- */
-const jsonFileEl = document.getElementById("jsonFile");
-const importCacheEl = document.getElementById("importCache");
-const exportCacheBtn = document.getElementById("exportCache");
-const toggleModeBtn = document.getElementById("toggleMode");
-const topicListEl = document.getElementById("topicList");
-const videoGridEl = document.getElementById("videoGrid");
-const searchTopicEl = document.getElementById("searchTopic");
-const noDataEl = document.getElementById("noData");
-const topicCountsEl = document.getElementById("topicCounts");
-const showAllBtn = document.getElementById("showAll");
-const showCompletedBtn = document.getElementById("showCompleted");
-const showPendingBtn = document.getElementById("showPending");
-
-/* -------------------------
-   Dark Mode Toggle
-   ------------------------- */
-toggleModeBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-});
-
-/* -------------------------
-   Load JSON file (content list)
-   ------------------------- */
-jsonFileEl.addEventListener("change", function(e){
-  const file = e.target.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = function(evt){
-    try {
-      const parsed = JSON.parse(evt.target.result);
-      // Basic validation
-      if(!parsed.batches || !Array.isArray(parsed.batches) || parsed.batches.length === 0){
-        alert("Invalid JSON structure: 'batches' array missing.");
-        return;
-      }
-      jsonData = parsed;
-      const topics = getAllTopics();
-      renderTopicList(topics);
-      noDataEl.classList.add("d-none");
-      // auto-open first topic if exists
-      if(topics.length) loadContent(topics[0]);
-    } catch (err) {
-      alert("Failed to parse JSON: " + err.message);
-    }
-  };
-  reader.readAsText(file);
-});
-
-/* -------------------------
-   Helpers: topics aggregation
-   ------------------------- */
-function getAllTopics(){
-  if(!jsonData) return [];
-  const topics = [];
-  jsonData.batches.forEach(batch => {
-    if(Array.isArray(batch.topics)){
-      batch.topics.forEach(t => topics.push(t));
-    }
-  });
-  return topics;
-}
-
-/* -------------------------
-   Render Sidebar Topics
-   - show topic index, topic_id
-   - mark if PDFs exist
-   - show completed count / total videos
-   ------------------------- */
-function renderTopicList(topics){
-  topicListEl.innerHTML = "";
-  topics.forEach((topic, idx) => {
-    const li = document.createElement("li");
-    li.className = "list-group-item d-flex justify-content-between align-items-start";
-    const left = document.createElement("div");
-    left.className = "ms-1 me-auto";
-    const title = document.createElement("div");
-    title.className = "fw-bold";
-    // show topic label: if topic has a name property use it, else show index + id
-    const topicLabel = topic.title || topic.name || `Topic ${idx+1} — ${topic.topic_id || ''}`;
-    title.textContent = topicLabel;
-    if(Array.isArray(topic.pdfs) && topic.pdfs.length) title.classList.add("topic-has-pdf");
-
-    const sub = document.createElement("div");
-    sub.className = "small-muted";
-    const totalVideos = Array.isArray(topic.videos) ? topic.videos.length : 0;
-    const completedCount = Array.isArray(topic.videos)
-      ? topic.videos.filter(v => cache.includes(v.id)).length
-      : 0;
-    sub.textContent = `${completedCount}/${totalVideos} videos done`;
-
-    left.appendChild(title);
-    left.appendChild(sub);
-
-    const right = document.createElement("div");
-    right.className = "d-flex flex-column align-items-end";
-    const openBtn = document.createElement("button");
-    openBtn.className = "btn btn-sm btn-outline-primary";
-    openBtn.textContent = "Open";
-    openBtn.onclick = () => loadContent(topic);
-
-    right.appendChild(openBtn);
-
-    li.appendChild(left);
-    li.appendChild(right);
-
-    // click anywhere on li opens topic
-    li.addEventListener("click", (ev) => {
-      // avoid double-trigger when clicking the Open button
-      if(ev.target === openBtn) return;
-      loadContent(topic);
-    });
-
-    topicListEl.appendChild(li);
-  });
-
-  // update counts
-  const totalTopics = topics.length;
-  const totalVideos = topics.reduce((s,t) => s + (Array.isArray(t.videos) ? t.videos.length : 0), 0);
-  const totalCompleted = topics.reduce((s,t) => s + (Array.isArray(t.videos) ? t.videos.filter(v => cache.includes(v.id)).length : 0), 0);
-  topicCountsEl.textContent = `${totalCompleted}/${totalVideos}`;
-}
-
-/* -------------------------
-   Search & Filters
-   ------------------------- */
-searchTopicEl.addEventListener("input", function(){
-  const q = this.value.trim().toLowerCase();
-  [...topicListEl.children].forEach(li => {
-    const txt = li.textContent.toLowerCase();
-    li.style.display = txt.includes(q) ? "" : "none";
-  });
-});
-
-showAllBtn.addEventListener("click", () => {
-  [...topicListEl.children].forEach(li => li.style.display = "");
-});
-showCompletedBtn.addEventListener("click", () => {
-  [...topicListEl.children].forEach(li => {
-    const txt = li.textContent;
-    // parse completed/total from subtext
-    const match = txt.match(/(\d+)\/(\d+)\s+videos/);
-    if(match){
-      const done = parseInt(match[1],10), total = parseInt(match[2],10);
-      li.style.display = (total>0 && done === total) ? "" : "none";
-    } else {
-      li.style.display = "none";
-    }
-  });
-});
-showPendingBtn.addEventListener("click", () => {
-  [...topicListEl.children].forEach(li => {
-    const txt = li.textContent;
-    const match = txt.match(/(\d+)\/(\d+)\s+videos/);
-    if(match){
-      const done = parseInt(match[1],10), total = parseInt(match[2],10);
-      li.style.display = (total>0 && done < total) ? "" : "none";
-    } else {
-      li.style.display = "none";
-    }
-  });
-});
-
-/* -------------------------
-   Load Content (videos + pdfs together)
-   - videos first, then pdfs
-   - each item is a card in grid
-   ------------------------- */
-function loadContent(topic){
-  videoGridEl.innerHTML = "";
-  if(!topic) return;
-
-  // Title row
-  const headerCol = document.createElement("div");
-  headerCol.className = "col-12 mb-2";
-  headerCol.innerHTML = `
-    <div class="d-flex align-items-center justify-content-between">
-      <div>
-        <h5 class="mb-0">${topic.title || topic.name || `Topic — ${topic.topic_id || ''}`}</h5>
-        <div class="small-muted">Topic ID: ${topic.topic_id || '—'}</div>
-      </div>
-      <div class="d-flex gap-2">
-        <button id="markAll" class="btn btn-sm btn-outline-success">Mark all videos done</button>
-        <button id="unmarkAll" class="btn btn-sm btn-outline-secondary">Unmark all</button>
-      </div>
-    </div>
-  `;
-  videoGridEl.appendChild(headerCol);
-
-  // Videos
-  if(Array.isArray(topic.videos) && topic.videos.length){
-    topic.videos.forEach(v => {
-      const isCompleted = cache.includes(v.id);
-      const col = document.createElement("div");
-      col.className = "col-md-4 col-sm-6";
-      col.innerHTML = `
-        <div class="card h-100">
-          <div class="card-body ${isCompleted ? 'completed' : ''}">
-            <h6 class="card-title">${escapeHtml(v.name || 'Untitled Video')}</h6>
-            <div class="mb-2 small-muted">Video ID: ${escapeHtml(v.id || '')}</div>
-            <div class="d-flex gap-2 flex-wrap">
-              <a target="_blank" rel="noopener noreferrer" class="btn btn-video btn-sm"
-                href="${buildPlayerUrl(v)}">▶ Play Video</a>
-              <button class="btn btn-sm btn-outline-secondary" data-id="${escapeHtml(v.id || '')}">${isCompleted ? 'Unmark' : 'Mark Completed'}</button>
+    <div class="container">
+        <div class="player-card">
+            <div class="video-wrapper" id="videoWrapper">
+                <video id="videoPlayer" controls></video>
+                <div id="youtubePlayer" style="display: none;"></div>
+                <div class="controls-overlay">
+                    <button class="fullscreen-btn" id="fullscreenBtn" title="Fullscreen">⛶</button>
+                </div>
             </div>
-            ${v.description ? `<p class="mt-2 small-muted">${escapeHtml(v.description)}</p>` : ''}
-          </div>
-        </div>
-      `;
-      // attach toggle handler
-      const temp = document.createElement('div');
-      temp.appendChild(col);
-      const toggleBtn = temp.querySelector('button[data-id]');
-      toggleBtn.addEventListener('click', () => toggleCompleted(v.id, topic));
-      videoGridEl.appendChild(col);
-    });
-  }
-
-  // PDFs
-  if(Array.isArray(topic.pdfs) && topic.pdfs.length){
-    topic.pdfs.forEach(p => {
-      const col = document.createElement("div");
-      col.className = "col-md-4 col-sm-6";
-      col.innerHTML = `
-        <div class="card h-100">
-          <div class="card-body">
-            <h6 class="card-title">${escapeHtml(p.name || 'PDF')}</h6>
-            <div class="mb-2 small-muted">PDF</div>
-            <div class="d-flex gap-2">
-              <a class="btn btn-sm btn-success btn-pdf" href="${escapeAttr(p.link)}" target="_blank" rel="noopener noreferrer">Download PDF</a>
-              <a class="btn btn-sm btn-warning btn-pdf" href="https://www.selectionway.com/js/pdfjs/web/viewer.html?file=${encodeURIComponent(p.link)}" target="_blank" rel="noopener noreferrer">View PDF</a>
+            
+            <div class="controls-panel">
+                <div class="url-input-group">
+                    <input type="text" id="videoUrl" class="url-input" placeholder="Enter URL (MPD, M3U8, YouTube, API endpoint, or any video URL)">
+                    <button id="loadBtn" class="load-btn">▶ LOAD</button>
+                </div>
+                <input type="text" id="videoTitle" class="title-input" placeholder="Optional: Video Title">
+                
+                <div class="status">
+                    <span class="status-icon">ℹ️</span>
+                    <span class="status-text">Ready to play</span>
+                </div>
+                
+                <div id="videoInfo" class="video-info"></div>
             </div>
-          </div>
         </div>
-      `;
-      videoGridEl.appendChild(col);
-    });
-  }
+        
+        <div class="debug-section">
+            <div class="debug-header">
+                <strong>🔍 Debug Log</strong>
+                <button class="clear-btn" id="clearLog">Clear</button>
+            </div>
+            <div id="debugLog"></div>
+        </div>
+    </div>
 
-  // If no items
-  if((!Array.isArray(topic.videos) || topic.videos.length === 0) && (!Array.isArray(topic.pdfs) || topic.pdfs.length === 0)){
-    const col = document.createElement("div");
-    col.className = "col-12";
-    col.innerHTML = `<div class="card"><div class="card-body"><div class="no-data">No videos or PDFs in this topic.</div></div></div>`;
-    videoGridEl.appendChild(col);
-  }
-
-  // Mark all / Unmark all handlers
-  document.getElementById("markAll").onclick = () => {
-    if(Array.isArray(topic.videos)){
-      topic.videos.forEach(v => {
-        if(!cache.includes(v.id)) cache.push(v.id);
-      });
-      saveCache();
-      loadContent(topic);
-      renderTopicList(getAllTopics());
-    }
-  };
-  document.getElementById("unmarkAll").onclick = () => {
-    if(Array.isArray(topic.videos)){
-      const ids = topic.videos.map(v => v.id);
-      cache = cache.filter(id => !ids.includes(id));
-      saveCache();
-      loadContent(topic);
-      renderTopicList(getAllTopics());
-    }
-  };
-}
-
-/* -------------------------
-   Build player URL (include token if present)
-   - safe encoding
-   ------------------------- */
-function buildPlayerUrl(v){
-  // default player base (user had used ssc-cgl-paid.vercel.app/player.html)
-  const base = "https://ssc-cgl-paid.vercel.app/player.html";
-  const params = new URLSearchParams();
-  if(v.link) params.set("url", v.link);
-  if(v.token) params.set("token", v.token);
-  // include name for display in player
-  const name = (v.name ? v.name + " VISHAL RAVAN" : "Video VISHAL RAVAN");
-  params.set("name", name);
-  return base + "?" + params.toString();
-}
-
-/* -------------------------
-   Toggle Completed (IDs only)
-   ------------------------- */
-function toggleCompleted(id, topicForReload){
-  if(!id) return;
-  if(cache.includes(id)){
-    cache = cache.filter(x => x !== id);
-  } else {
-    cache.push(id);
-  }
-  saveCache();
-  // reload current topic if provided, else refresh sidebar
-  if(topicForReload) loadContent(topicForReload);
-  renderTopicList(getAllTopics());
-}
-
-/* -------------------------
-   Save cache to localStorage
-   ------------------------- */
-function saveCache(){
-  localStorage.setItem("studyCache", JSON.stringify(cache));
-}
-
-/* -------------------------
-   Export / Import cache (IDs array)
-   ------------------------- */
-exportCacheBtn.addEventListener("click", () => {
-  const blob = new Blob([JSON.stringify(cache)], {type:"application/json"});
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "cache.json";
-  a.click();
-  URL.revokeObjectURL(a.href);
-});
-
-importCacheEl.addEventListener("change", function(e){
-  const file = e.target.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = function(evt){
-    try {
-      const parsed = JSON.parse(evt.target.result);
-      if(!Array.isArray(parsed)) throw new Error("Cache file must be a JSON array of IDs.");
-      cache = parsed;
-      saveCache();
-      alert("Cache imported successfully.");
-      // refresh UI if JSON loaded
-      if(jsonData) renderTopicList(getAllTopics());
-    } catch(err){
-      alert("Failed to import cache: " + err.message);
-    }
-  };
-  reader.readAsText(file);
-});
-
-/* -------------------------
-   Utilities: escape HTML/attributes
-   ------------------------- */
-function escapeHtml(str){
-  if(!str && str !== 0) return "";
-  return String(str)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'", "&#39;");
-}
-function escapeAttr(s){ return escapeHtml(s); }
-
-/* -------------------------
-   Initial UI state
-   ------------------------- */
-(function init(){
-  // show counts if any
-  if(jsonData) renderTopicList(getAllTopics());
-  else {
-    topicListEl.innerHTML = `<li class="list-group-item small-muted">No JSON loaded</li>`;
-    noDataEl.classList.remove("d-none");
-  }
-})();
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.13/shaka-player.compiled.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    
+    <script>
+        class UniversalVideoPlayer {
+            constructor() {
+                this.player = null;
+                this.hlsPlayer = null;
+                this.youtubePlayer = null;
+                this.videoElement = document.getElementById('videoPlayer');
+                this.videoUrlInput = document.getElementById('videoUrl');
+                this.videoTitleInput = document.getElementById('videoTitle');
+                this.loadBtn = document.getElementById('loadBtn');
+                this.fullscreenBtn = document.getElementById('fullscreenBtn');
+                this.videoWrapper = document.getElementById('videoWrapper');
+                this.statusDiv = document.querySelector('.status-text');
+                this.statusIcon = document.querySelector('.status-icon');
+                this.debugLog = document.getElementById('debugLog');
+                this.videoInfo = document.getElementById('videoInfo');
+                
+                // License server for DRM
+                this.licenseServerUrl = 'https://license.videocrypt.com/validateLicense';
+                
+                this.init();
+                this.parseURLParams();
+            }
+            
+            init() {
+                this.initShakaPlayer();
+                this.loadBtn.addEventListener('click', () => this.loadVideoFromInput());
+                this.fullscreenBtn.addEventListener('click', () => this.toggleFullscreen());
+                document.getElementById('clearLog').addEventListener('click', () => this.clearLog());
+                this.log('Player initialized');
+            }
+            
+            parseURLParams() {
+                const params = new URLSearchParams(window.location.search);
+                let videoUrl = null;
+                let title = null;
+                
+                // Handle different URL formats
+                for (let [key, value] of params) {
+                    if (key === 'videoUrl' || key.startsWith('http')) {
+                        videoUrl = key === 'videoUrl' ? value : key;
+                        title = value;
+                        break;
+                    }
+                }
+                
+                // If no parameter found, check if there's a single parameter
+                if (!videoUrl && params.keys().next().value) {
+                    const firstKey = params.keys().next().value;
+                    if (firstKey.startsWith('http')) {
+                        videoUrl = firstKey;
+                        title = params.get(firstKey);
+                    }
+                }
+                
+                if (videoUrl) {
+                    this.videoUrlInput.value = decodeURIComponent(videoUrl);
+                    if (title && title !== videoUrl) {
+                        this.videoTitleInput.value = decodeURIComponent(title);
+                    }
+                    setTimeout(() => this.loadVideoFromInput(), 1000);
+                }
+            }
+            
+            initShakaPlayer() {
+                if (!window.shaka) {
+                    this.log('Waiting for Shaka Player...');
+                    return;
+                }
+                
+                window.shaka.polyfill.installAll();
+                
+                if (!window.shaka.Player.isBrowserSupported()) {
+                    this.updateStatus('error', 'Browser not supported for DRM');
+                    return;
+                }
+                
+                this.player = new window.shaka.Player(this.videoElement);
+                
+                this.player.configure({
+                    drm: {
+                        servers: {
+                            'com.widevine.alpha': this.licenseServerUrl
+                        },
+                        retryParameters: {
+                            maxAttempts: 5,
+                            baseDelay: 1000,
+                            backoffFactor: 2
+                        }
+                    }
+                });
+                
+                this.player.addEventListener('error', (event) => {
+                    this.handleShakaError(event.detail);
+                });
+                
+                this.log('Shaka Player ready');
+            }
+            
+            async loadVideoFromInput() {
+                let url = this.videoUrlInput.value.trim();
+                const title = this.videoTitleInput.value.trim();
+                
+                if (!url) {
+                    this.updateStatus('error', 'Please enter a URL');
+                    return;
+                }
+                
+                // Hide YouTube container, show video element
+                this.hideYouTubePlayer();
+                this.showVideoElement();
+                
+                // Check if it's an API endpoint
+                if (url.includes('/api/proxy') || url.includes('get_video_details')) {
+                    await this.loadFromAPI(url, title);
+                    return;
+                }
+                
+                // Check if it's a direct URL
+                await this.loadDirectVideo(url, title);
+            }
+            
+            async loadFromAPI(apiUrl, title) {
+                this.updateStatus('loading', 'Fetching from API...');
+                this.log(`API URL: ${apiUrl}`);
+                
+                try {
+                    const response = await fetch(apiUrl);
+                    const data = await response.json();
+                    
+                    this.log('API Response received');
+                    
+                    if (data.status && data.data && data.data.link) {
+                        const videoData = data.data.link;
+                        const fileUrl = videoData.file_url;
+                        const token = videoData.token || '';
+                        
+                        this.log(`Video type detected: ${fileUrl.includes('.mpd') ? 'DRM MPD' : fileUrl.includes('.m3u8') ? 'M3U8' : fileUrl.includes('youtube') ? 'YouTube' : 'Unknown'}`);
+                        
+                        if (title) {
+                            this.updateVideoTitle(title);
+                        }
+                        
+                        if (fileUrl.includes('.mpd')) {
+                            await this.playDRMVideo(fileUrl, token);
+                        } else if (fileUrl.includes('.m3u8')) {
+                            await this.playM3U8Video(fileUrl);
+                        } else if (fileUrl.includes('youtube.com/embed')) {
+                            await this.playYouTubeVideo(fileUrl);
+                        } else {
+                            await this.playDirectVideo(fileUrl);
+                        }
+                        
+                        this.displayVideoInfo(fileUrl, token, title);
+                    } else {
+                        throw new Error('Invalid API response format');
+                    }
+                    
+                } catch (error) {
+                    this.handleError(error);
+                }
+            }
+            
+            async loadDirectVideo(url, title) {
+                // Check for YouTube
+                if (this.isYouTubeUrl(url)) {
+                    await this.playYouTubeVideo(url);
+                    if (title) this.updateVideoTitle(title);
+                    this.displayVideoInfo(url, '', title);
+                    return;
+                }
+                
+                // Check for M3U8
+                if (url.toLowerCase().includes('.m3u8')) {
+                    await this.playM3U8Video(url);
+                    if (title) this.updateVideoTitle(title);
+                    this.displayVideoInfo(url, '', title);
+                    return;
+                }
+                
+                // Check for MPD
+                if (url.toLowerCase().includes('.mpd')) {
+                    // Try to extract token from URL
+                    let token = '';
+                    const tokenMatch = url.match(/[?&]token=([^&]+)/);
+                    if (tokenMatch) token = tokenMatch[1];
+                    await this.playDRMVideo(url, token);
+                    if (title) this.updateVideoTitle(title);
+                    this.displayVideoInfo(url, token, title);
+                    return;
+                }
+                
+                // Default - try direct video
+                await this.playDirectVideo(url);
+                if (title) this.updateVideoTitle(title);
+                this.displayVideoInfo(url, '', title);
+            }
+            
+            isYouTubeUrl(url) {
+                const patterns = [
+                    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)/,
+                    /youtube\.com\/embed\//
+                ];
+                return patterns.some(pattern => pattern.test(url));
+            }
+            
+            async playDRMVideo(mpdUrl, token) {
+                this.updateStatus('loading', 'Loading DRM protected video...');
+                this.log(`MPD URL: ${mpdUrl}`);
+                
+                if (!this.player) {
+                    this.initShakaPlayer();
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                }
+                
+                try {
+                    const netEngine = this.player.getNetworkingEngine();
+                    netEngine.clearAllRequestFilters();
+                    
+                    if (token) {
+                        netEngine.registerRequestFilter((type, request) => {
+                            if (type === window.shaka.net.NetworkingEngine.RequestType.LICENSE) {
+                                this.log('Adding token to license request');
+                                request.headers['pallycon-customdata-v2'] = token;
+                                request.headers['Origin'] = window.location.origin;
+                            }
+                        });
+                    }
+                    
+                    const urlWithToken = token ? `${mpdUrl}${mpdUrl.includes('?') ? '&' : '?'}token=${encodeURIComponent(token)}` : mpdUrl;
+                    
+                    await this.player.load(urlWithToken);
+                    this.updateStatus('success', 'DRM video loaded!');
+                    this.videoElement.play().catch(e => this.log('Auto-play blocked:', e));
+                    
+                } catch (error) {
+                    throw new Error(`DRM playback failed: ${error.message}`);
+                }
+            }
+            
+            async playM3U8Video(url) {
+                this.updateStatus('loading', 'Loading M3U8 stream...');
+                this.log(`M3U8 URL: ${url}`);
+                
+                if (this.hlsPlayer) {
+                    this.hlsPlayer.destroy();
+                }
+                
+                return new Promise((resolve, reject) => {
+                    if (window.Hls && window.Hls.isSupported()) {
+                        this.hlsPlayer = new window.Hls({
+                            debug: false,
+                            enableWorker: true
+                        });
+                        
+                        this.hlsPlayer.loadSource(url);
+                        this.hlsPlayer.attachMedia(this.videoElement);
+                        
+                        this.hlsPlayer.on(window.Hls.Events.MANIFEST_PARSED, () => {
+                            this.updateStatus('success', 'M3U8 stream ready!');
+                            this.videoElement.play().catch(e => this.log('Auto-play:', e));
+                            resolve();
+                        });
+                        
+                        this.hlsPlayer.on(window.Hls.Events.ERROR, (event, data) => {
+                            if (data.fatal) {
+                                reject(new Error(`HLS error: ${data.type}`));
+                            }
+                        });
+                        
+                    } else if (this.videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+                        this.videoElement.src = url;
+                        this.videoElement.addEventListener('loadedmetadata', () => {
+                            this.updateStatus('success', 'M3U8 stream ready!');
+                            this.videoElement.play().catch(e => this.log('Auto-play:', e));
+                            resolve();
+                        });
+                    } else {
+                        reject(new Error('HLS not supported'));
+                    }
+                });
+            }
+            
+            async playYouTubeVideo(url) {
+                this.updateStatus('loading', 'Loading YouTube video...');
+                this.log(`YouTube URL: ${url}`);
+                
+                // Extract video ID or embed URL
+                let embedUrl = url;
+                if (!url.includes('/embed/')) {
+                    const videoId = this.extractYouTubeId(url);
+                    if (videoId) {
+                        embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1&rel=0`;
+                    }
+                }
+                
+                this.hideVideoElement();
+                this.showYouTubePlayer();
+                
+                if (!window.YT) {
+                    await this.loadYouTubeAPI();
+                }
+                
+                if (this.youtubePlayer) {
+                    this.youtubePlayer.destroy();
+                }
+                
+                return new Promise((resolve) => {
+                    this.youtubePlayer = new YT.Player('youtubePlayer', {
+                        videoId: this.extractYouTubeId(url),
+                        playerVars: {
+                            autoplay: 1,
+                            controls: 1,
+                            rel: 0,
+                            modestbranding: 1
+                        },
+                        events: {
+                            onReady: (event) => {
+                                this.updateStatus('success', 'YouTube video ready!');
+                                resolve();
+                            },
+                            onStateChange: (event) => {
+                                if (event.data === YT.PlayerState.ENDED) {
+                                    this.log('Video ended');
+                                }
+                            },
+                            onError: (event) => {
+                                this.log('YouTube error:', event.data);
+                            }
+                        }
+                    });
+                });
+            }
+            
+            async playDirectVideo(url) {
+                this.updateStatus('loading', 'Loading video...');
+                this.log(`Direct URL: ${url}`);
+                
+                this.videoElement.src = url;
+                
+                return new Promise((resolve, reject) => {
+                    this.videoElement.addEventListener('loadedmetadata', () => {
+                        this.updateStatus('success', 'Video ready!');
+                        this.videoElement.play().catch(e => this.log('Auto-play:', e));
+                        resolve();
+                    });
+                    
+                    this.videoElement.addEventListener('error', () => {
+                        reject(new Error('Failed to load video'));
+                    });
+                });
+            }
+            
+            extractYouTubeId(url) {
+                const patterns = [
+                    /(?:youtube\.com\/watch\?v=)([^&\n?#]+)/,
+                    /(?:youtu\.be\/)([^&\n?#]+)/,
+                    /(?:youtube\.com\/embed\/)([^&\n?#]+)/,
+                    /(?:youtube\.com\/shorts\/)([^&\n?#]+)/
+                ];
+                
+                for (let pattern of patterns) {
+                    const match = url.match(pattern);
+                    if (match) return match[1];
+                }
+                return null;
+            }
+            
+            loadYouTubeAPI() {
+                return new Promise((resolve) => {
+                    if (window.YT) {
+                        resolve();
+                        return;
+                    }
+                    
+                    const tag = document.createElement('script');
+                    tag.src = 'https://www.youtube.com/iframe_api';
+                    const firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                    
+                    window.onYouTubeIframeAPIReady = () => {
+                        this.log('YouTube API loaded');
+                        resolve();
+                    };
+                });
+            }
+            
+            toggleFullscreen() {
+                if (!document.fullscreenElement) {
+                    this.videoWrapper.requestFullscreen().catch(err => {
+                        this.log(`Fullscreen error: ${err.message}`);
+                    });
+                    this.fullscreenBtn.textContent = '✖';
+                } else {
+                    document.exitFullscreen();
+                    this.fullscreenBtn.textContent = '⛶';
+                }
+            }
+            
+            updateVideoTitle(title) {
+                document.title = `${title} - Universal Player`;
+            }
+            
+            displayVideoInfo(url, token, title) {
+                let html = `
+                    <div style="display: grid; gap: 8px;">
+                        ${title ? `<div><strong>📝 Title:</strong> ${title}</div>` : ''}
+                        <div><strong>🎬 URL:</strong><br>${this.truncateUrl(url, 100)}</div>
+                        ${token ? `<div><strong>🔑 Token:</strong> ${token.substring(0, 80)}${token.length > 80 ? '...' : ''}</div>` : ''}
+                    </div>
+                `;
+                this.videoInfo.innerHTML = html;
+            }
+            
+            hideVideoElement() {
+                this.videoElement.style.display = 'none';
+            }
+            
+            showVideoElement() {
+                this.videoElement.style.display = 'block';
+                const ytContainer = document.getElementById('youtubePlayer');
+                if (ytContainer) ytContainer.style.display = 'none';
+            }
+            
+            hideYouTubePlayer() {
+                const ytContainer = document.getElementById('youtubePlayer');
+                if (ytContainer) ytContainer.style.display = 'none';
+            }
+            
+            showYouTubePlayer() {
+                this.videoElement.style.display = 'none';
+                const ytContainer = document.getElementById('youtubePlayer');
+                if (ytContainer) ytContainer.style.display = 'block';
+            }
+            
+            handleShakaError(error) {
+                this.log('Shaka Error:', error);
+                let errorCode = error.code || (error.detail ? error.detail.code : 'Unknown');
+                this.updateStatus('error', `DRM Error ${errorCode}`);
+            }
+            
+            updateStatus(type, message) {
+                const icons = { loading: '⏳', success: '✅', error: '❌' };
+                this.statusIcon.textContent = icons[type] || 'ℹ️';
+                this.statusDiv.textContent = message;
+            }
+            
+            handleError(error) {
+                console.error('Error:', error);
+                this.updateStatus('error', `Error: ${error.message}`);
+                this.log('ERROR:', error.message);
+            }
+            
+            clearLog() {
+                this.debugLog.textContent = '';
+                this.log('Log cleared');
+            }
+            
+            log(...args) {
+                const timestamp = new Date().toLocaleTimeString();
+                const logMessage = `[${timestamp}] ${args.map(arg => 
+                    typeof arg === 'object' ? JSON.stringify(arg, null, 2) : arg
+                ).join(' ')}`;
+                
+                console.log(logMessage);
+                
+                const currentLog = this.debugLog.textContent;
+                this.debugLog.textContent = currentLog + '\n' + logMessage;
+                
+                const lines = this.debugLog.textContent.split('\n');
+                if (lines.length > 200) {
+                    this.debugLog.textContent = lines.slice(-200).join('\n');
+                }
+            }
+            
+            truncateUrl(url, maxLen = 60) {
+                if (!url) return 'N/A';
+                if (url.length <= maxLen) return url;
+                return url.substring(0, maxLen - 20) + '...' + url.substring(url.length - 15);
+            }
+        }
+        
+        // Initialize player
+        window.addEventListener('DOMContentLoaded', () => {
+            window.player = new UniversalVideoPlayer();
+        });
+    </script>
 </body>
 </html>
